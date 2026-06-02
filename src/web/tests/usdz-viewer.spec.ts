@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
-const fixturePath = path.resolve(currentDir, "../public/models/simple-box.usdz");
+const fixturePath = path.resolve(currentDir, "../public/models/bjj-fighter-caucasian-white-gi-80kg.usdz");
 
 test("keeps the restored review layout visible", async ({ page }) => {
   await page.goto("/");
@@ -22,7 +22,7 @@ test("loads a USDZ file into the browser viewport and enables horizontal rotatio
 
   await page.getByLabel("Load USDZ").setInputFiles(fixturePath);
 
-  await expect(page.getByText("simple-box.usdz", { exact: true })).toBeVisible();
+  await expect(page.getByText("bjj-fighter-caucasian-white-gi-80kg.usdz", { exact: true })).toBeVisible();
   await expect(page.getByTestId("viewer-status")).toContainText("USDZ loaded in the browser");
   await expect(page.getByTestId("usdz-viewport")).toHaveAttribute("data-viewer-status", "loaded");
   const canvas = page.locator("canvas");
