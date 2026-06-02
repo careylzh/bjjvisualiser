@@ -45,3 +45,24 @@ test("loads a USDZ file into the browser viewport and enables horizontal rotatio
   await page.getByRole("button", { name: "Reset View" }).click();
   await expect(page.getByTestId("usdz-viewport")).toHaveAttribute("data-rotation-ticks", "0");
 });
+
+test("keeps controls readable on mobile", async ({ page, isMobile }) => {
+  test.skip(!isMobile, "mobile-only layout coverage");
+
+  await page.goto("/");
+
+  await expect(page.getByText("Load a `.usdz` file")).toBeVisible();
+  await expect(page.locator(".desktop-help")).toBeHidden();
+  await expect(page.getByLabel("Horizontal rotation controls")).toBeVisible();
+
+  const loadButton = page.getByText("Load USDZ", { exact: true });
+  const resetButton = page.getByRole("button", { name: "Reset View" });
+  const viewportBox = await page.getByTestId("usdz-viewport").boundingBox();
+  const loadBox = await loadButton.boundingBox();
+  const resetBox = await resetButton.boundingBox();
+
+  expect(viewportBox?.width).toBeGreaterThan(300);
+  expect(viewportBox?.height).toBeGreaterThan(300);
+  expect(loadBox?.height).toBeGreaterThanOrEqual(44);
+  expect(resetBox?.height).toBeGreaterThanOrEqual(44);
+});
