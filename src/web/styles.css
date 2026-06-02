@@ -2,6 +2,20 @@
   color: #171a1f;
   background: #f4f2ed;
   color-scheme: light;
+  --space-1: clamp(0.38rem, 0.35rem + 0.15vw, 0.5rem);
+  --space-2: clamp(0.55rem, 0.48rem + 0.35vw, 0.8rem);
+  --space-3: clamp(0.8rem, 0.68rem + 0.6vw, 1.25rem);
+  --space-4: clamp(1rem, 0.82rem + 0.9vw, 1.75rem);
+  --page-pad: clamp(0.75rem, 0.45rem + 1.5vw, 2.5rem);
+  --control-height: clamp(2.55rem, 2.28rem + 0.8vw, 3rem);
+  --control-font: clamp(0.84rem, 0.78rem + 0.25vw, 1rem);
+  --body-font: clamp(0.88rem, 0.82rem + 0.25vw, 1rem);
+  --small-font: clamp(0.72rem, 0.68rem + 0.18vw, 0.82rem);
+  --status-font: clamp(0.78rem, 0.72rem + 0.25vw, 0.92rem);
+  --title-font: clamp(1.35rem, 0.95rem + 1.8vw, 2.5rem);
+  --panel-width: clamp(14rem, 24vw, 22rem);
+  --viewer-min-height: clamp(20rem, 64svh, 42rem);
+  --grid-size: clamp(1.25rem, 1rem + 1vw, 2.25rem);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
@@ -13,6 +27,7 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 button,
@@ -20,16 +35,17 @@ button,
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  min-height: 42px;
+  min-height: var(--control-height);
   border: 1px solid #b9b7ad;
   border-radius: 6px;
   background: #ffffff;
   color: #171a1f;
   cursor: pointer;
   font: inherit;
+  font-size: var(--control-font);
   font-weight: 650;
   line-height: 1.1;
-  padding: 0 14px;
+  padding: 0 clamp(0.65rem, 0.5rem + 0.6vw, 1rem);
   text-align: center;
   white-space: nowrap;
 }
@@ -54,13 +70,13 @@ button:disabled {
   align-items: center;
   border-bottom: 1px solid #d6d2c8;
   display: flex;
-  gap: 24px;
+  gap: var(--space-4);
   justify-content: space-between;
-  padding: 18px clamp(16px, 4vw, 40px);
+  padding: var(--space-3) var(--page-pad);
 }
 
 .top-bar h1 {
-  font-size: clamp(1.5rem, 2.8vw, 2.5rem);
+  font-size: var(--title-font);
   letter-spacing: 0;
   line-height: 1.05;
   margin: 0;
@@ -68,15 +84,21 @@ button:disabled {
 
 .top-bar p {
   color: #5d6269;
-  margin: 4px 0 0;
+  font-size: var(--body-font);
+  margin: var(--space-1) 0 0;
 }
 
 .actions {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: var(--space-2);
   justify-content: flex-end;
+  min-width: 0;
+}
+
+.actions > * {
+  min-width: 0;
 }
 
 .file-button {
@@ -92,31 +114,35 @@ button:disabled {
 
 .review-layout {
   display: grid;
-  grid-template-columns: minmax(220px, 320px) 1fr;
+  grid-template-columns: minmax(13.75rem, var(--panel-width)) 1fr;
   min-height: 0;
+  min-width: 0;
 }
 
 .model-meta {
   border-right: 1px solid #d6d2c8;
-  padding: 24px clamp(16px, 3vw, 32px);
+  min-width: 0;
+  padding: var(--space-4) clamp(1rem, 2.6vw, 2rem);
 }
 
 .model-meta span {
   color: #687079;
   display: block;
-  font-size: 0.8rem;
+  font-size: var(--small-font);
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: var(--space-1);
   text-transform: uppercase;
 }
 
 .model-meta strong {
   display: block;
+  font-size: var(--body-font);
   overflow-wrap: anywhere;
 }
 
 .model-meta p {
   color: #5d6269;
+  font-size: var(--body-font);
   line-height: 1.5;
 }
 
@@ -127,8 +153,8 @@ button:disabled {
 .rotate-controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin: 18px 0 0;
+  gap: var(--space-2);
+  margin: var(--space-3) 0 0;
 }
 
 .viewer-surface {
@@ -136,40 +162,47 @@ button:disabled {
     linear-gradient(90deg, rgba(23, 26, 31, 0.06) 1px, transparent 1px),
     linear-gradient(rgba(23, 26, 31, 0.06) 1px, transparent 1px),
     #fafafa;
-  background-size: 36px 36px;
-  min-height: 520px;
+  background-size: var(--grid-size) var(--grid-size);
+  min-height: var(--viewer-min-height);
+  min-width: 0;
+  overflow: hidden;
   position: relative;
 }
 
 .three-canvas {
   display: block;
   height: 100%;
-  min-height: 520px;
+  min-height: var(--viewer-min-height);
+  min-width: 0;
+  overflow: hidden;
   width: 100%;
 }
 
 .three-canvas canvas {
   display: block;
+  height: 100% !important;
+  max-width: 100%;
+  width: 100% !important;
 }
 
 .drop-hint {
   background: rgba(255, 255, 255, 0.84);
   border: 1px solid #d6d2c8;
   border-radius: 6px;
-  bottom: 18px;
+  bottom: var(--space-3);
   color: #4a5057;
-  font-size: 0.9rem;
+  font-size: var(--small-font);
   font-weight: 650;
-  padding: 8px 10px;
+  padding: var(--space-1) var(--space-2);
   position: absolute;
-  right: 18px;
+  right: var(--space-3);
 }
 
 .status-message {
   border-top: 1px solid #d6d2c8;
-  font-size: 0.92rem;
-  margin-top: 18px;
-  padding-top: 16px;
+  font-size: var(--status-font);
+  margin-top: var(--space-3);
+  padding-top: var(--space-3);
 }
 
 .status-loaded {
@@ -190,22 +223,25 @@ button:disabled {
   border: 2px dashed #4f6f7b;
   content: "Release to load USDZ";
   display: flex;
-  font-size: 1.1rem;
+  font-size: clamp(0.95rem, 0.85rem + 0.45vw, 1.15rem);
   font-weight: 800;
-  inset: 16px;
+  inset: var(--space-3);
   justify-content: center;
   position: absolute;
 }
 
-@media (max-width: 760px) {
-  body {
-    min-width: 320px;
+@media (max-width: 900px) {
+  :root {
+    --panel-width: clamp(13rem, 30vw, 18rem);
+    --viewer-min-height: clamp(18rem, 60svh, 36rem);
   }
+}
 
-  button,
-  .file-button {
-    min-height: 44px;
-    padding: 0 12px;
+@media (max-width: 760px) {
+  :root {
+    --page-pad: clamp(0.75rem, 3.5vw, 1.1rem);
+    --control-height: clamp(2.75rem, 2.55rem + 0.8vw, 3rem);
+    --viewer-min-height: clamp(19rem, 56svh, 32rem);
   }
 
   .viewer-page {
@@ -215,21 +251,12 @@ button:disabled {
   .top-bar {
     align-items: flex-start;
     flex-direction: column;
-    gap: 14px;
-    padding: 14px 16px;
-  }
-
-  .top-bar h1 {
-    font-size: 1.55rem;
-  }
-
-  .top-bar p {
-    font-size: 0.95rem;
+    gap: var(--space-2);
   }
 
   .actions {
     display: grid;
-    gap: 8px;
+    gap: var(--space-2);
     grid-template-columns: 1fr 1fr;
     width: 100%;
   }
@@ -247,21 +274,11 @@ button:disabled {
   .model-meta {
     border-bottom: 1px solid #d6d2c8;
     border-right: 0;
-    padding: 14px 16px;
-  }
-
-  .model-meta span {
-    font-size: 0.72rem;
-    margin-bottom: 6px;
-  }
-
-  .model-meta strong {
-    font-size: 0.95rem;
+    padding: var(--space-3) var(--page-pad);
   }
 
   .model-meta p {
-    font-size: 0.92rem;
-    margin: 10px 0 0;
+    margin: var(--space-2) 0 0;
   }
 
   .desktop-help {
@@ -274,9 +291,9 @@ button:disabled {
 
   .rotate-controls {
     display: grid;
-    gap: 8px;
+    gap: var(--space-2);
     grid-template-columns: 1fr 1fr;
-    margin-top: 12px;
+    margin-top: var(--space-2);
   }
 
   .rotate-controls button {
@@ -284,40 +301,29 @@ button:disabled {
   }
 
   .status-message {
-    font-size: 0.86rem;
-    margin-top: 12px;
-    padding-top: 12px;
-  }
-
-  .viewer-surface,
-  .three-canvas {
-    min-height: min(58svh, 520px);
+    margin-top: var(--space-2);
+    padding-top: var(--space-2);
   }
 
   .drop-hint {
-    bottom: 10px;
-    font-size: 0.78rem;
-    padding: 7px 9px;
-    right: 10px;
+    bottom: var(--space-2);
+    right: var(--space-2);
   }
 }
 
 @media (max-width: 420px) {
-  .top-bar {
-    padding-inline: 12px;
+  :root {
+    --viewer-min-height: clamp(17rem, 52svh, 28rem);
+    --control-font: clamp(0.78rem, 2.6vw, 0.9rem);
   }
 
-  .model-meta {
-    padding-inline: 12px;
-  }
-
-  .viewer-surface,
-  .three-canvas {
-    min-height: 54svh;
+  .actions,
+  .rotate-controls {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
 
   .drop-hint {
-    left: 10px;
+    left: var(--space-2);
     right: auto;
   }
 }

@@ -66,3 +66,21 @@ test("keeps controls readable on mobile", async ({ page, isMobile }) => {
   expect(loadBox?.height).toBeGreaterThanOrEqual(44);
   expect(resetBox?.height).toBeGreaterThanOrEqual(44);
 });
+
+test("scales layout without horizontal overflow", async ({ page }) => {
+  await page.goto("/");
+
+  const metrics = await page.evaluate(() => ({
+    innerWidth: window.innerWidth,
+    scrollWidth: document.documentElement.scrollWidth,
+    titleFontSize: parseFloat(getComputedStyle(document.querySelector("h1")!).fontSize),
+    controlHeight: document.querySelector("button")!.getBoundingClientRect().height,
+    viewport: document.querySelector('[data-testid="usdz-viewport"]')!.getBoundingClientRect()
+  }));
+
+  expect(metrics.scrollWidth).toBeLessThanOrEqual(metrics.innerWidth + 1);
+  expect(metrics.titleFontSize).toBeGreaterThan(18);
+  expect(metrics.controlHeight).toBeGreaterThan(38);
+  expect(metrics.viewport.width).toBeGreaterThan(300);
+  expect(metrics.viewport.height).toBeGreaterThan(250);
+});
