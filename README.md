@@ -25,7 +25,64 @@ cd src/web
 npm install
 npm run dev
 npm run build
+npm run prepare:pages
 npm run test:e2e
+```
+
+Manual browser check:
+
+```bash
+cd src/web
+npm run dev
+```
+
+Open `http://localhost:5173/`, click `Load USDZ`, and choose
+`src/web/public/models/bjj-fighter-caucasian-white-gi-80kg.usdz`. The model
+should render in the browser viewport, and `Rotate Left`, `Rotate Right`, and
+`Reset View` should respond.
+
+If port `5173` is already in use:
+
+```bash
+cd src/web
+python3 -m http.server 5174 --bind 0.0.0.0
+```
+
+Open `http://localhost:5174/`.
+
+Playwright browser verification:
+
+```bash
+cd src/web
+npm run test:e2e
+npx playwright test --headed
+npx playwright test --debug
+npx playwright test tests/usdz-viewer.spec.ts --project=chromium
+```
+
+If Playwright browsers are not installed:
+
+```bash
+cd src/web
+npx playwright install
+```
+
+## GitHub Pages Deployment
+
+The viewer is deployed as a static GitHub Pages site from `src/web`.
+
+```bash
+git push origin main
+```
+
+The `.github/workflows/deploy-pages.yml` workflow validates the root pipeline,
+validates the static viewer, prepares `src/web/.pages`, and deploys that
+artifact to GitHub Pages.
+
+Expected public URL:
+
+```txt
+https://careylzh.github.io/bjjvisualiser/
 ```
 
 The web viewer runtime is plain static HTML/CSS/JS:

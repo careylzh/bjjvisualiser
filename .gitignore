@@ -2,6 +2,7 @@ node_modules/
 dist/
 src/web/node_modules/
 src/web/dist/
+src/web/.pages/
 src/web/test-results/
 .DS_Store
 *.tsbuildinfo
