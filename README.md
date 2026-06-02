@@ -28,14 +28,9 @@ npm run build
 ```
 
 The web viewer is USDZ-first. It loads USDZ files from `src/web/public/models/`
-or via drag/drop and file-picker upload. For browser orbit controls, provide a
-matching `.glb` preview alongside the USDZ or upload both files together.
-Generated Blender MCP prompts target USDZ exports into the models directory.
-
-Note: `<model-viewer>` gives orbit/pan/zoom controls where the browser can render
-the supplied model format. Its inline renderer uses glTF/GLB; USDZ is handed to
-Apple Quick Look through `ios-src`/links, so the viewer keeps `.usdz` as the
-first-class source format and treats `.glb` as an optional web preview companion.
+or via drag/drop and file-picker upload, renders them in a Three.js scene, and
+provides orbit controls plus horizontal rotate buttons. Generated Blender MCP
+prompts target USDZ exports into the models directory.
 
 ## Pipeline
 

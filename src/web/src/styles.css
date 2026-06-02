@@ -157,33 +157,15 @@ button:disabled {
   position: relative;
 }
 
-model-viewer {
+.three-canvas {
   display: block;
   height: 100%;
   min-height: 520px;
   width: 100%;
 }
 
-.usdz-fallback {
-  align-content: center;
-  display: grid;
-  justify-items: center;
-  min-height: 520px;
-  padding: 28px;
-  text-align: center;
-}
-
-.usdz-fallback h2 {
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
-  letter-spacing: 0;
-  margin: 0 0 10px;
-}
-
-.usdz-fallback p {
-  color: #4a5057;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 520px;
+.three-canvas canvas {
+  display: block;
 }
 
 .drop-hint {
@@ -197,6 +179,22 @@ model-viewer {
   padding: 8px 10px;
   position: absolute;
   right: 18px;
+}
+
+.status-text {
+  text-transform: capitalize;
+}
+
+.status-loaded {
+  color: #236b47;
+}
+
+.status-loading {
+  color: #7a5a12;
+}
+
+.status-error {
+  color: #a23b3b;
 }
 
 .is-drop-active .viewer-surface::after {
@@ -233,7 +231,7 @@ model-viewer {
   }
 
   .viewer-surface,
-  model-viewer {
+  .three-canvas {
     min-height: 62vh;
   }
 }
