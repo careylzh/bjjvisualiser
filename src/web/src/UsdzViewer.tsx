@@ -13,6 +13,11 @@ import { USDLoader } from "three/addons/loaders/USDLoader.js";
 
 type LoadStatus = "idle" | "loading" | "loaded" | "error";
 
+const fallbackViewportSize = {
+  width: 960,
+  height: 540
+};
+
 function isUsdz(file: File) {
   return file.name.toLowerCase().endsWith(".usdz");
 }
@@ -146,6 +151,7 @@ export function UsdzViewer() {
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.setSize(fallbackViewportSize.width, fallbackViewportSize.height, false);
     container.appendChild(renderer.domElement);
     rendererRef.current = renderer;
 
@@ -167,10 +173,16 @@ export function UsdzViewer() {
     scene.add(grid);
 
     const resize = () => {
-      const { clientWidth, clientHeight } = container;
-      camera.aspect = clientWidth / Math.max(clientHeight, 1);
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      if (width <= 0 || height <= 0) {
+        return;
+      }
+
+      camera.aspect = width / height;
       camera.updateProjectionMatrix();
-      renderer.setSize(clientWidth, clientHeight, false);
+      renderer.setSize(width, height, false);
     };
 
     const resizeObserver = new ResizeObserver(resize);
@@ -180,7 +192,9 @@ export function UsdzViewer() {
 
     const animate = () => {
       controls.update();
-      renderer.render(scene, camera);
+      if (container.clientWidth > 0 && container.clientHeight > 0) {
+        renderer.render(scene, camera);
+      }
       frameRef.current = requestAnimationFrame(animate);
     };
     animate();

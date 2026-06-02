@@ -25,7 +25,17 @@ test("loads a USDZ file into the browser viewport and enables horizontal rotatio
   await expect(page.getByText("simple-box.usdz", { exact: true })).toBeVisible();
   await expect(page.getByTestId("viewer-status")).toContainText("USDZ loaded in the browser");
   await expect(page.getByTestId("usdz-viewport")).toHaveAttribute("data-viewer-status", "loaded");
-  await expect(page.locator("canvas")).toBeVisible();
+  const canvas = page.locator("canvas");
+  await expect(canvas).toBeVisible();
+  const drawingBufferSize = await canvas.evaluate((element) => ({
+    width: (element as HTMLCanvasElement).width,
+    height: (element as HTMLCanvasElement).height
+  }));
+  expect(drawingBufferSize.width).toBeGreaterThan(0);
+  expect(drawingBufferSize.height).toBeGreaterThan(0);
+  const canvasBox = await canvas.boundingBox();
+  expect(canvasBox?.width).toBeGreaterThan(0);
+  expect(canvasBox?.height).toBeGreaterThan(0);
 
   const rotateRight = page.getByRole("button", { name: "Rotate Right" });
   await expect(rotateRight).toBeEnabled();
