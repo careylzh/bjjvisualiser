@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "vitest run",
+    "test": "vitest run --dir tests",
     "generate:sample": "tsx src/scripts/generateSample.ts"
   },
   "devDependencies": {
@@ -15,4 +15,3 @@
     "vitest": "^2.1.3"
   }
 }
-

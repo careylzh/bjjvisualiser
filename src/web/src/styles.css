@@ -123,28 +123,11 @@ button:disabled {
   line-height: 1.5;
 }
 
-.meta-actions,
-.fallback-actions {
+.rotate-controls {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 18px;
-}
-
-.action-link {
-  align-items: center;
-  background: #171a1f;
-  border-radius: 6px;
-  color: #ffffff;
-  display: inline-flex;
-  font-weight: 750;
-  min-height: 40px;
-  padding: 0 14px;
-  text-decoration: none;
-}
-
-.action-link:hover {
-  background: #4f6f7b;
+  margin: 18px 0 0;
 }
 
 .viewer-surface {
@@ -181,8 +164,11 @@ button:disabled {
   right: 18px;
 }
 
-.status-text {
-  text-transform: capitalize;
+.status-message {
+  border-top: 1px solid #d6d2c8;
+  font-size: 0.92rem;
+  margin-top: 18px;
+  padding-top: 16px;
 }
 
 .status-loaded {

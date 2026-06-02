@@ -72,6 +72,7 @@ export function UsdzViewer() {
   const [dropActive, setDropActive] = useState(false);
   const [status, setStatus] = useState<LoadStatus>("idle");
   const [message, setMessage] = useState("Choose or drop a USDZ file to view it here.");
+  const [rotationTicks, setRotationTicks] = useState(0);
 
   const fitView = useCallback((radius = 1) => {
     const camera = cameraRef.current;
@@ -257,6 +258,7 @@ export function UsdzViewer() {
     }
 
     model.rotation.y += direction * (Math.PI / 12);
+    setRotationTicks((current) => current + direction);
   }
 
   function resetView() {
@@ -267,6 +269,7 @@ export function UsdzViewer() {
     }
 
     model.rotation.set(0, 0, 0);
+    setRotationTicks(0);
     const box = new THREE.Box3().setFromObject(model);
     const radius = Math.max(1, box.getSize(new THREE.Vector3()).length() * 0.5);
     fitView(radius);
@@ -286,18 +289,9 @@ export function UsdzViewer() {
       <header className="top-bar">
         <div>
           <h1>BJJ Visualiser</h1>
-          <p>USDZ browser review</p>
+          <p>USDZ-first scene review</p>
         </div>
         <div className="actions">
-          <button type="button" onClick={(event) => rotateModel(event, -1)} disabled={status !== "loaded"}>
-            Rotate Left
-          </button>
-          <button type="button" onClick={(event) => rotateModel(event, 1)} disabled={status !== "loaded"}>
-            Rotate Right
-          </button>
-          <button type="button" onClick={resetView}>
-            Fit
-          </button>
           <label className="file-button">
             Load USDZ
             <input
@@ -306,21 +300,43 @@ export function UsdzViewer() {
               onChange={onFileChange}
             />
           </label>
+          <button type="button" onClick={resetView}>
+            Reset View
+          </button>
         </div>
       </header>
 
       <section className="review-layout" aria-label="USDZ model review">
         <aside className="model-meta">
-          <span>File</span>
+          <span>Current file</span>
           <strong>{fileName}</strong>
-          <span className="meta-label">Status</span>
-          <strong className={`status-text status-${status}`}>{status}</strong>
-          <p>{message}</p>
+          <p>
+            Drop a `.usdz` file anywhere on this page or load one from the file
+            picker. Place generated exports in `public/models/` for GitHub Pages.
+          </p>
+          <div className="rotate-controls" aria-label="Horizontal rotation controls">
+            <button type="button" onClick={(event) => rotateModel(event, -1)} disabled={status !== "loaded"}>
+              Rotate Left
+            </button>
+            <button type="button" onClick={(event) => rotateModel(event, 1)} disabled={status !== "loaded"}>
+              Rotate Right
+            </button>
+          </div>
+          <p className={`status-message status-${status}`} data-testid="viewer-status">
+            {message}
+          </p>
         </aside>
 
         <div className="viewer-surface">
-          <div ref={containerRef} className="three-canvas" aria-label="USDZ viewport" />
-          <div className="drop-hint">Drop USDZ to load it here</div>
+          <div
+            ref={containerRef}
+            className="three-canvas"
+            aria-label="USDZ viewport"
+            data-testid="usdz-viewport"
+            data-viewer-status={status}
+            data-rotation-ticks={rotationTicks}
+          />
+          <div className="drop-hint">Drop USDZ to inspect</div>
         </div>
       </section>
     </main>
