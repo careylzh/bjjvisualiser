@@ -1,0 +1,39 @@
+Create an instructional sports-education BJJ 3D scene for: triangle choke from closed guard.
+
+Scene requirements:
+- Include exactly two grapplers with beige skin.
+- Use starting position "closed guard"; overall stance is ground.
+- Primary actor: bottom player (attacker) wearing a blue gi.
+- Secondary actor: top player (defender) wearing a black gi.
+- Ground identity rule: floor/bottom player wears blue gi and top player wears black gi when applicable.
+- Keep the framing instructional and calm, with no violent styling, blood, injury, or dramatic impact effects.
+
+Precise limb and body placement:
+{
+  "bottom_player": {
+    "legs": "one leg crosses behind top defender neck while the other clamps over the ankle to form a triangle",
+    "hips": "angled slightly off center to tighten the triangle",
+    "arms": "control the trapped arm across the centerline"
+  },
+  "top_player": {
+    "head": "inside the blue gi attacker's leg triangle",
+    "trapped_arm": "one arm pulled across the attacker's torso",
+    "free_arm": "posted near the mat for balance"
+  },
+  "labels": [
+    "Blue gi bottom attacker",
+    "Black gi top defender",
+    "Leg triangle",
+    "Trapped arm"
+  ]
+}
+
+Camera and review composition:
+- Viewpoint: third_person_side_view.
+- Camera focus: leg triangle around defender head, one trapped defender arm, attacker hip angle, closed guard transition.
+- Use a third-person side-view composition when specified, with enough space around both athletes for model review.
+- Add educational callouts as simple floating labels with leader lines for grips, trapped limbs, hip angle, leg position, and actor roles.
+
+USDZ export:
+- Export the finished visualization as .usdz to: src/web/public/models/triangle-choke-closed-guard.usdz.
+- Optimize the scene for static GitHub Pages review in a USDZ-first viewer.

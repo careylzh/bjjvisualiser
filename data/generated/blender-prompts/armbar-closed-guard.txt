@@ -1,0 +1,39 @@
+Create an instructional sports-education BJJ 3D scene for: armbar from closed guard.
+
+Scene requirements:
+- Include exactly two grapplers with beige skin.
+- Use starting position "closed guard"; overall stance is ground.
+- Primary actor: bottom player (attacker) wearing a blue gi.
+- Secondary actor: top player (defender) wearing a black gi.
+- Ground identity rule: floor/bottom player wears blue gi and top player wears black gi when applicable.
+- Keep the framing instructional and calm, with no violent styling, blood, injury, or dramatic impact effects.
+
+Precise limb and body placement:
+{
+  "bottom_player": {
+    "hips": "rotated perpendicular to the top defender",
+    "legs": "one leg clamps across the defender upper back and one leg crosses over the defender head",
+    "arms": "control and extend one defender arm with thumb oriented upward"
+  },
+  "top_player": {
+    "trapped_arm": "extended between the attacker's knees",
+    "posture": "pulled forward with shoulder line controlled",
+    "free_arm": "bent near the attacker's torso"
+  },
+  "labels": [
+    "Blue gi bottom attacker",
+    "Black gi top defender",
+    "Leg over head",
+    "Controlled arm"
+  ]
+}
+
+Camera and review composition:
+- Viewpoint: third_person_side_view.
+- Camera focus: attacker hips under defender shoulder, leg over defender head, trapped straight arm, closed guard angle.
+- Use a third-person side-view composition when specified, with enough space around both athletes for model review.
+- Add educational callouts as simple floating labels with leader lines for grips, trapped limbs, hip angle, leg position, and actor roles.
+
+USDZ export:
+- Export the finished visualization as .usdz to: src/web/public/models/armbar-closed-guard.usdz.
+- Optimize the scene for static GitHub Pages review in a USDZ-first viewer.

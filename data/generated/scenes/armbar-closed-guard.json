@@ -1,0 +1,42 @@
+{
+  "technique": "armbar from closed guard",
+  "starting_position": "closed guard",
+  "stance": "ground",
+  "primary_actor": "bottom_player",
+  "secondary_actor": "top_player",
+  "primary_actor_role": "attacker",
+  "secondary_actor_role": "defender",
+  "visual_identity": {
+    "bottom_player_gi": "blue",
+    "top_player_gi": "black",
+    "primary_actor_gi": "blue",
+    "secondary_actor_gi": "black",
+    "skin_color": "beige"
+  },
+  "intent": "submission",
+  "viewpoint": "third_person_side_view",
+  "camera_focus": [
+    "attacker hips under defender shoulder",
+    "leg over defender head",
+    "trapped straight arm",
+    "closed guard angle"
+  ],
+  "body_constraints": {
+    "bottom_player": {
+      "hips": "rotated perpendicular to the top defender",
+      "legs": "one leg clamps across the defender upper back and one leg crosses over the defender head",
+      "arms": "control and extend one defender arm with thumb oriented upward"
+    },
+    "top_player": {
+      "trapped_arm": "extended between the attacker's knees",
+      "posture": "pulled forward with shoulder line controlled",
+      "free_arm": "bent near the attacker's torso"
+    },
+    "labels": [
+      "Blue gi bottom attacker",
+      "Black gi top defender",
+      "Leg over head",
+      "Controlled arm"
+    ]
+  }
+}

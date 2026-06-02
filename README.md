@@ -13,6 +13,11 @@ npm run build
 npm run generate:sample
 ```
 
+`npm run generate:sample` reads `data/sample-notes/*.txt` and writes:
+
+- `data/generated/scenes/*.json`
+- `data/generated/blender-prompts/*.txt`
+
 Web viewer:
 
 ```bash
@@ -21,6 +26,15 @@ npm install
 npm run dev
 npm run build
 ```
+
+The web viewer is USDZ-first. It loads default assets from `src/web/public/models/`
+and also accepts drag/drop or file-picker `.usdz` uploads for local review.
+Generated Blender MCP prompts target USDZ exports into that models directory.
+
+Note: `<model-viewer>` gives orbit/pan/zoom controls where the browser can render
+the supplied model format. USDZ Quick Look behavior is strongest on Apple
+platforms; the viewer keeps `.usdz` as the first-class source format for this
+project.
 
 ## Pipeline
 
@@ -32,4 +46,3 @@ Google Keep-style text note
 -> USDZ export
 -> GitHub Pages USDZ viewer
 ```
-

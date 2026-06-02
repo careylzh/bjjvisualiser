@@ -1,0 +1,42 @@
+{
+  "technique": "triangle choke from closed guard",
+  "starting_position": "closed guard",
+  "stance": "ground",
+  "primary_actor": "bottom_player",
+  "secondary_actor": "top_player",
+  "primary_actor_role": "attacker",
+  "secondary_actor_role": "defender",
+  "visual_identity": {
+    "bottom_player_gi": "blue",
+    "top_player_gi": "black",
+    "primary_actor_gi": "blue",
+    "secondary_actor_gi": "black",
+    "skin_color": "beige"
+  },
+  "intent": "submission",
+  "viewpoint": "third_person_side_view",
+  "camera_focus": [
+    "leg triangle around defender head",
+    "one trapped defender arm",
+    "attacker hip angle",
+    "closed guard transition"
+  ],
+  "body_constraints": {
+    "bottom_player": {
+      "legs": "one leg crosses behind top defender neck while the other clamps over the ankle to form a triangle",
+      "hips": "angled slightly off center to tighten the triangle",
+      "arms": "control the trapped arm across the centerline"
+    },
+    "top_player": {
+      "head": "inside the blue gi attacker's leg triangle",
+      "trapped_arm": "one arm pulled across the attacker's torso",
+      "free_arm": "posted near the mat for balance"
+    },
+    "labels": [
+      "Blue gi bottom attacker",
+      "Black gi top defender",
+      "Leg triangle",
+      "Trapped arm"
+    ]
+  }
+}

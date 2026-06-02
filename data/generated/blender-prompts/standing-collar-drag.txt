@@ -1,0 +1,39 @@
+Create an instructional sports-education BJJ 3D scene for: standing collar drag.
+
+Scene requirements:
+- Include exactly two grapplers with beige skin.
+- Use starting position "standing grip fight"; overall stance is standing.
+- Primary actor: blue gi player (demonstrator) wearing a blue gi.
+- Secondary actor: black gi player (partner) wearing a black gi.
+- Ground identity rule: floor/bottom player wears blue gi and top player wears black gi when applicable.
+- Keep the framing instructional and calm, with no violent styling, blood, injury, or dramatic impact effects.
+
+Precise limb and body placement:
+{
+  "blue_gi_player": {
+    "stance": "standing with one foot stepped outside the partner's lead foot",
+    "grips": "one hand grips the black gi collar while the other controls the sleeve",
+    "pull": "draws the partner forward and diagonally past the shoulder line"
+  },
+  "black_gi_player": {
+    "posture": "standing but tilted forward from the collar drag",
+    "feet": "lead foot light and beginning to step to recover balance",
+    "arms": "collar and sleeve are visibly controlled"
+  },
+  "labels": [
+    "Blue gi demonstrator",
+    "Black gi partner",
+    "Collar grip",
+    "Drag direction"
+  ]
+}
+
+Camera and review composition:
+- Viewpoint: third_person_side_view.
+- Camera focus: blue gi collar grip, sleeve control, offline step, partner forward posture.
+- Use a third-person side-view composition when specified, with enough space around both athletes for model review.
+- Add educational callouts as simple floating labels with leader lines for grips, trapped limbs, hip angle, leg position, and actor roles.
+
+USDZ export:
+- Export the finished visualization as .usdz to: src/web/public/models/standing-collar-drag.usdz.
+- Optimize the scene for static GitHub Pages review in a USDZ-first viewer.

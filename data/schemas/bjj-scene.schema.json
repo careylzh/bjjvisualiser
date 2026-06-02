@@ -1,7 +1,87 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/bjj-scene.schema.json",
+  "$id": "https://careylzh.github.io/bjj-visualiser/schemas/bjj-scene.schema.json",
   "title": "BJJ Scene",
-  "type": "object"
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "technique",
+    "stance",
+    "primary_actor",
+    "secondary_actor",
+    "primary_actor_role",
+    "secondary_actor_role",
+    "visual_identity",
+    "intent",
+    "viewpoint",
+    "camera_focus",
+    "body_constraints"
+  ],
+  "properties": {
+    "technique": {
+      "type": "string"
+    },
+    "starting_position": {
+      "type": "string"
+    },
+    "stance": {
+      "enum": ["ground", "standing", "transition"]
+    },
+    "primary_actor": {
+      "enum": ["bottom_player", "top_player", "blue_gi_player", "black_gi_player"]
+    },
+    "secondary_actor": {
+      "enum": ["bottom_player", "top_player", "blue_gi_player", "black_gi_player"]
+    },
+    "primary_actor_role": {
+      "enum": ["attacker", "defender", "demonstrator", "partner"]
+    },
+    "secondary_actor_role": {
+      "enum": ["attacker", "defender", "demonstrator", "partner"]
+    },
+    "visual_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary_actor_gi", "secondary_actor_gi", "skin_color"],
+      "properties": {
+        "bottom_player_gi": {
+          "const": "blue"
+        },
+        "top_player_gi": {
+          "const": "black"
+        },
+        "primary_actor_gi": {
+          "const": "blue"
+        },
+        "secondary_actor_gi": {
+          "const": "black"
+        },
+        "skin_color": {
+          "const": "beige"
+        }
+      }
+    },
+    "intent": {
+      "enum": ["submission", "escape", "sweep", "pass", "control", "takedown", "transition"]
+    },
+    "viewpoint": {
+      "enum": ["third_person_side_view", "attacker_view", "defender_view"]
+    },
+    "camera_focus": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "body_constraints": {
+      "type": "object"
+    },
+    "ambiguity_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
 }
-
