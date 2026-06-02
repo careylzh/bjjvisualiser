@@ -17,6 +17,7 @@ describe("generateBlenderPrompt", () => {
     expect(prompt).toContain("bottom player (attacker)");
     expect(prompt).toContain("top player (defender)");
     expect(prompt).toContain(".usdz");
+    expect(prompt).toContain(".glb browser-preview companion");
     expect(prompt).toContain("leg triangle");
     expect(prompt).toContain("trapped");
   });

@@ -1,55 +1,98 @@
 import "@google/model-viewer";
 import { ChangeEvent, DragEvent, useEffect, useRef, useState } from "react";
 
-const defaultModelPath = "./models/triangle-choke-closed-guard.usdz";
+const defaultUsdzPath = "./models/triangle-choke-closed-guard.usdz";
+const defaultFileName = "triangle-choke-closed-guard.usdz";
 
 function isUsdz(file: File) {
   return file.name.toLowerCase().endsWith(".usdz");
 }
 
+function isGlb(file: File) {
+  return file.name.toLowerCase().endsWith(".glb");
+}
+
 export function UsdzViewer() {
-  const [modelUrl, setModelUrl] = useState(defaultModelPath);
-  const [fileName, setFileName] = useState("triangle-choke-closed-guard.usdz");
+  const [usdzUrl, setUsdzUrl] = useState(defaultUsdzPath);
+  const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  const [fileName, setFileName] = useState(defaultFileName);
+  const [previewFileName, setPreviewFileName] = useState<string | null>(null);
+  const [status, setStatus] = useState(
+    "Default USDZ target selected. Add a matching GLB preview for browser orbit controls."
+  );
   const [dropActive, setDropActive] = useState(false);
-  const objectUrlRef = useRef<string | null>(null);
+  const objectUrlsRef = useRef<string[]>([]);
   const viewerRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     return () => {
-      if (objectUrlRef.current) {
-        URL.revokeObjectURL(objectUrlRef.current);
-      }
+      objectUrlsRef.current.forEach((url) => URL.revokeObjectURL(url));
     };
   }, []);
 
-  function loadFile(file: File) {
-    if (!isUsdz(file)) {
+  function clearObjectUrls() {
+    objectUrlsRef.current.forEach((url) => URL.revokeObjectURL(url));
+    objectUrlsRef.current = [];
+  }
+
+  function makeObjectUrl(file: File) {
+    const url = URL.createObjectURL(file);
+    objectUrlsRef.current.push(url);
+    return url;
+  }
+
+  function loadFiles(files: FileList | File[]) {
+    const fileList = Array.from(files);
+    const usdzFile = fileList.find(isUsdz);
+    const glbFile = fileList.find(isGlb);
+
+    if (!usdzFile && !glbFile) {
+      setStatus("No supported model was selected. Load a USDZ file or a GLB browser preview.");
       return;
     }
 
-    if (objectUrlRef.current) {
-      URL.revokeObjectURL(objectUrlRef.current);
+    clearObjectUrls();
+
+    if (usdzFile) {
+      setUsdzUrl(makeObjectUrl(usdzFile));
+      setFileName(usdzFile.name);
+    } else {
+      setUsdzUrl("");
+      setFileName("No USDZ selected");
     }
 
-    const nextUrl = URL.createObjectURL(file);
-    objectUrlRef.current = nextUrl;
-    setModelUrl(nextUrl);
-    setFileName(file.name);
+    if (glbFile) {
+      setPreviewUrl(makeObjectUrl(glbFile));
+      setPreviewFileName(glbFile.name);
+    } else {
+      setPreviewUrl(null);
+      setPreviewFileName(null);
+    }
+
+    if (usdzFile && glbFile) {
+      setStatus("USDZ source loaded with a GLB browser preview for orbit controls.");
+    } else if (usdzFile) {
+      setStatus(
+        "USDZ source loaded. Inline browser orbit preview requires a matching GLB file; use Open USDZ or Download USDZ for this file."
+      );
+    } else {
+      setStatus("GLB preview loaded. Add the matching USDZ to keep the review USDZ-first.");
+    }
   }
 
   function onFileChange(event: ChangeEvent<HTMLInputElement>) {
-    const file = event.target.files?.[0];
-    if (file) {
-      loadFile(file);
+    const files = event.target.files;
+    if (files?.length) {
+      loadFiles(files);
     }
   }
 
   function onDrop(event: DragEvent<HTMLElement>) {
     event.preventDefault();
     setDropActive(false);
-    const file = event.dataTransfer.files[0];
-    if (file) {
-      loadFile(file);
+    const files = event.dataTransfer.files;
+    if (files.length) {
+      loadFiles(files);
     }
   }
 
@@ -62,7 +105,7 @@ export function UsdzViewer() {
         })
       | null;
 
-    if (!viewer) {
+    if (!viewer || !previewUrl) {
       return;
     }
 
@@ -89,10 +132,15 @@ export function UsdzViewer() {
         </div>
         <div className="actions">
           <label className="file-button">
-            Load USDZ
-            <input accept=".usdz,model/vnd.usdz+zip" type="file" onChange={onFileChange} />
+            Load Model
+            <input
+              accept=".usdz,.glb,model/vnd.usdz+zip,model/gltf-binary"
+              multiple
+              type="file"
+              onChange={onFileChange}
+            />
           </label>
-          <button type="button" onClick={resetView}>
+          <button type="button" onClick={resetView} disabled={!previewUrl}>
             Reset View
           </button>
         </div>
@@ -102,31 +150,70 @@ export function UsdzViewer() {
         <aside className="model-meta">
           <span>Current file</span>
           <strong>{fileName}</strong>
+          {previewFileName ? (
+            <>
+              <span className="meta-label">Browser preview</span>
+              <strong>{previewFileName}</strong>
+            </>
+          ) : null}
           <p>
-            Drop a `.usdz` file anywhere on this page or load one from the file
-            picker. Place generated exports in `public/models/` for GitHub Pages.
+            {status}
           </p>
+          <div className="meta-actions">
+            {usdzUrl ? (
+              <>
+                <a className="action-link" href={usdzUrl} rel="ar">
+                  Open USDZ
+                </a>
+                <a className="action-link" href={usdzUrl} download={fileName}>
+                  Download USDZ
+                </a>
+              </>
+            ) : null}
+          </div>
         </aside>
 
         <div className="viewer-surface">
-          <model-viewer
-            ref={viewerRef}
-            src={modelUrl}
-            ios-src={modelUrl}
-            alt={`BJJ USDZ model: ${fileName}`}
-            camera-controls
-            touch-action="pan-y"
-            auto-rotate
-            ar
-            ar-modes="webxr scene-viewer quick-look"
-            shadow-intensity="0.7"
-            camera-orbit="0deg 75deg auto"
-            field-of-view="35deg"
-            exposure="0.95"
-            loading="eager"
-            reveal="auto"
-          />
-          <div className="drop-hint">Drop USDZ to inspect</div>
+          {previewUrl ? (
+            <model-viewer
+              ref={viewerRef}
+              src={previewUrl}
+              ios-src={usdzUrl || undefined}
+              alt={`BJJ model preview: ${previewFileName ?? fileName}`}
+              camera-controls
+              touch-action="pan-y"
+              auto-rotate
+              ar
+              ar-modes="webxr scene-viewer quick-look"
+              shadow-intensity="0.7"
+              camera-orbit="0deg 75deg auto"
+              field-of-view="35deg"
+              exposure="0.95"
+              loading="eager"
+              reveal="auto"
+            />
+          ) : (
+            <div className="usdz-fallback" role="status">
+              <h2>USDZ loaded</h2>
+              <p>
+                This file is ready for Apple Quick Look or download. Inline orbit
+                preview in this web viewer needs a matching `.glb` companion file.
+              </p>
+              <div className="fallback-actions">
+                {usdzUrl ? (
+                  <>
+                    <a className="action-link" href={usdzUrl} rel="ar">
+                      Open USDZ
+                    </a>
+                    <a className="action-link" href={usdzUrl} download={fileName}>
+                      Download USDZ
+                    </a>
+                  </>
+                ) : null}
+              </div>
+            </div>
+          )}
+          <div className="drop-hint">Drop USDZ or GLB to inspect</div>
         </div>
       </section>
     </main>

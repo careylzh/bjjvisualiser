@@ -32,6 +32,11 @@ button:hover,
   border-color: #4f6f7b;
 }
 
+button:disabled {
+  color: #898d92;
+  cursor: not-allowed;
+}
+
 .app-shell {
   min-height: 100vh;
 }
@@ -104,6 +109,10 @@ button:hover,
   text-transform: uppercase;
 }
 
+.model-meta .meta-label {
+  margin-top: 22px;
+}
+
 .model-meta strong {
   display: block;
   overflow-wrap: anywhere;
@@ -112,6 +121,30 @@ button:hover,
 .model-meta p {
   color: #5d6269;
   line-height: 1.5;
+}
+
+.meta-actions,
+.fallback-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.action-link {
+  align-items: center;
+  background: #171a1f;
+  border-radius: 6px;
+  color: #ffffff;
+  display: inline-flex;
+  font-weight: 750;
+  min-height: 40px;
+  padding: 0 14px;
+  text-decoration: none;
+}
+
+.action-link:hover {
+  background: #4f6f7b;
 }
 
 .viewer-surface {
@@ -129,6 +162,28 @@ model-viewer {
   height: 100%;
   min-height: 520px;
   width: 100%;
+}
+
+.usdz-fallback {
+  align-content: center;
+  display: grid;
+  justify-items: center;
+  min-height: 520px;
+  padding: 28px;
+  text-align: center;
+}
+
+.usdz-fallback h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  letter-spacing: 0;
+  margin: 0 0 10px;
+}
+
+.usdz-fallback p {
+  color: #4a5057;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 520px;
 }
 
 .drop-hint {
@@ -182,4 +237,3 @@ model-viewer {
     min-height: 62vh;
   }
 }
-

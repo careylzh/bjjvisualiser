@@ -41,6 +41,7 @@ export function generateBlenderPrompt(
     "",
     "USDZ export:",
     `- Export the finished visualization as .usdz to: ${exportTarget}.`,
+    "- If practical, also export a matching .glb browser-preview companion with the same base filename for inline web orbit controls.",
     "- Optimize the scene for static GitHub Pages review in a USDZ-first viewer."
   ].join("\n");
 }

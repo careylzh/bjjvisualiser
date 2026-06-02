@@ -27,14 +27,15 @@ npm run dev
 npm run build
 ```
 
-The web viewer is USDZ-first. It loads default assets from `src/web/public/models/`
-and also accepts drag/drop or file-picker `.usdz` uploads for local review.
-Generated Blender MCP prompts target USDZ exports into that models directory.
+The web viewer is USDZ-first. It loads USDZ files from `src/web/public/models/`
+or via drag/drop and file-picker upload. For browser orbit controls, provide a
+matching `.glb` preview alongside the USDZ or upload both files together.
+Generated Blender MCP prompts target USDZ exports into the models directory.
 
 Note: `<model-viewer>` gives orbit/pan/zoom controls where the browser can render
-the supplied model format. USDZ Quick Look behavior is strongest on Apple
-platforms; the viewer keeps `.usdz` as the first-class source format for this
-project.
+the supplied model format. Its inline renderer uses glTF/GLB; USDZ is handed to
+Apple Quick Look through `ios-src`/links, so the viewer keeps `.usdz` as the
+first-class source format and treats `.glb` as an optional web preview companion.
 
 ## Pipeline
 
