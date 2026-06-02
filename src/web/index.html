@@ -4,9 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BJJ Visualiser</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three/build/three.module.js",
+          "three/addons/": "./vendor/three/examples/jsm/"
+        }
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <main id="viewerPage" class="viewer-page">
+      <header class="top-bar">
+        <div>
+          <h1>BJJ Visualiser</h1>
+          <p>USDZ-first scene review</p>
+        </div>
+        <div class="actions">
+          <label class="file-button">
+            Load USDZ
+            <input id="fileInput" accept=".usdz,model/vnd.usdz+zip" type="file" />
+          </label>
+          <button id="resetButton" type="button">Reset View</button>
+        </div>
+      </header>
+
+      <section class="review-layout" aria-label="USDZ model review">
+        <aside class="model-meta">
+          <span>Current file</span>
+          <strong id="fileName">-</strong>
+          <p>
+            Drop a `.usdz` file anywhere on this page or load one from the file
+            picker. Place generated exports in `public/models/` for GitHub Pages.
+          </p>
+          <div class="rotate-controls" aria-label="Horizontal rotation controls">
+            <button id="rotateLeftButton" type="button" disabled>Rotate Left</button>
+            <button id="rotateRightButton" type="button" disabled>Rotate Right</button>
+          </div>
+          <p id="viewerStatus" class="status-message status-idle" data-testid="viewer-status">
+            Choose or drop a USDZ file to view it here.
+          </p>
+        </aside>
+
+        <div class="viewer-surface">
+          <div
+            id="viewport"
+            class="three-canvas"
+            aria-label="USDZ viewport"
+            data-testid="usdz-viewport"
+            data-viewer-status="idle"
+            data-rotation-ticks="0"
+          ></div>
+          <div class="drop-hint">Drop USDZ to inspect</div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
   </body>
 </html>

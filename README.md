@@ -25,12 +25,22 @@ cd src/web
 npm install
 npm run dev
 npm run build
+npm run test:e2e
 ```
 
-The web viewer is USDZ-first. It loads USDZ files from `src/web/public/models/`
-or via drag/drop and file-picker upload, renders them in a Three.js scene, and
-provides orbit controls plus horizontal rotate buttons. Generated Blender MCP
-prompts target USDZ exports into the models directory.
+The web viewer runtime is plain static HTML/CSS/JS:
+
+- `src/web/index.html`
+- `src/web/styles.css`
+- `src/web/app.js`
+- vendored Three.js modules in `src/web/vendor/`
+
+It loads USDZ files from `src/web/public/models/` or via drag/drop and
+file-picker upload, renders them in a Three.js scene, and provides orbit
+controls plus horizontal rotate buttons. Generated Blender MCP prompts target
+USDZ exports into the models directory. `npm` in `src/web` is only for local
+static validation and Playwright tests; GitHub Pages can serve the files
+directly.
 
 ## Pipeline
 

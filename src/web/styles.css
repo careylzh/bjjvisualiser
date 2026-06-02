@@ -37,10 +37,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-.app-shell {
-  min-height: 100vh;
-}
-
 .viewer-page {
   display: grid;
   grid-template-rows: auto 1fr;
@@ -107,10 +103,6 @@ button:disabled {
   font-weight: 700;
   margin-bottom: 8px;
   text-transform: uppercase;
-}
-
-.model-meta .meta-label {
-  margin-top: 22px;
 }
 
 .model-meta strong {
