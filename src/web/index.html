@@ -22,6 +22,12 @@
           <p>USDZ-first scene review</p>
         </div>
         <div class="actions">
+          <label class="sample-picker">
+            <span>Sample USDZ</span>
+            <select id="sampleSelect" aria-label="Load sample USDZ">
+              <option value="">Choose sample</option>
+            </select>
+          </label>
           <label class="file-button">
             Load USDZ
             <input id="fileInput" accept=".usdz,model/vnd.usdz+zip" type="file" />
@@ -33,7 +39,7 @@
       <section class="review-layout" aria-label="USDZ model review">
         <aside class="model-meta">
           <span>Current file</span>
-          <strong id="fileName">-</strong>
+          <strong id="fileName" data-testid="current-file">-</strong>
           <p class="desktop-help">
             Drop a `.usdz` file anywhere on this page or load one from the file
             picker. Place generated exports in `public/models/` for GitHub Pages.

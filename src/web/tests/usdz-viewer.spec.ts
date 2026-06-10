@@ -12,9 +12,22 @@ test("keeps the restored review layout visible", async ({ page }) => {
   await expect(page.getByText("USDZ-first scene review")).toBeVisible();
   await expect(page.getByText("Current file")).toBeVisible();
   await expect(page.getByText("Drop USDZ to inspect")).toBeVisible();
+  await expect(page.getByLabel("Load sample USDZ")).toBeVisible();
   await expect(page.getByRole("button", { name: "Reset View" })).toBeVisible();
   await expect(page.getByRole("button", { name: "Rotate Left" })).toBeDisabled();
   await expect(page.getByRole("button", { name: "Rotate Right" })).toBeDisabled();
+});
+
+test("loads a bundled sample USDZ from the dropdown", async ({ page }) => {
+  await page.goto("/");
+
+  await page.getByLabel("Load sample USDZ").selectOption("simple-box.usdz");
+
+  await expect(page.getByTestId("current-file")).toHaveText("simple-box.usdz");
+  await expect(page.getByTestId("viewer-status")).toContainText("USDZ loaded in the browser");
+  await expect(page.getByTestId("usdz-viewport")).toHaveAttribute("data-viewer-status", "loaded");
+  await expect(page.getByRole("button", { name: "Rotate Left" })).toBeEnabled();
+  await expect(page.getByRole("button", { name: "Rotate Right" })).toBeEnabled();
 });
 
 test("loads a USDZ file into the browser viewport and enables horizontal rotation", async ({ page }) => {
@@ -22,7 +35,7 @@ test("loads a USDZ file into the browser viewport and enables horizontal rotatio
 
   await page.getByLabel("Load USDZ").setInputFiles(fixturePath);
 
-  await expect(page.getByText("bjj-fighter-caucasian-white-gi-80kg.usdz", { exact: true })).toBeVisible();
+  await expect(page.getByTestId("current-file")).toHaveText("bjj-fighter-caucasian-white-gi-80kg.usdz");
   await expect(page.getByTestId("viewer-status")).toContainText("USDZ loaded in the browser");
   await expect(page.getByTestId("usdz-viewport")).toHaveAttribute("data-viewer-status", "loaded");
   const canvas = page.locator("canvas");

@@ -7,6 +7,11 @@ const fallbackViewportSize = {
   height: 540
 };
 
+const sampleModels = [
+  "bjj-fighter-caucasian-white-gi-80kg.usdz",
+  "simple-box.usdz"
+];
+
 const elements = {
   page: document.getElementById("viewerPage"),
   fileInput: document.getElementById("fileInput"),
@@ -14,6 +19,7 @@ const elements = {
   resetButton: document.getElementById("resetButton"),
   rotateLeftButton: document.getElementById("rotateLeftButton"),
   rotateRightButton: document.getElementById("rotateRightButton"),
+  sampleSelect: document.getElementById("sampleSelect"),
   status: document.getElementById("viewerStatus"),
   viewport: document.getElementById("viewport")
 };
@@ -120,6 +126,21 @@ async function loadUsdz(url, name) {
   }
 }
 
+function loadSampleModel(fileName) {
+  if (!fileName) {
+    return;
+  }
+
+  if (objectUrl) {
+    URL.revokeObjectURL(objectUrl);
+    objectUrl = null;
+  }
+
+  elements.fileInput.value = "";
+  elements.fileName.textContent = fileName;
+  void loadUsdz(`./public/models/${encodeURIComponent(fileName)}`, fileName);
+}
+
 function loadFiles(files) {
   const usdzFile = Array.from(files).find(isUsdz);
 
@@ -133,8 +154,22 @@ function loadFiles(files) {
   }
 
   objectUrl = URL.createObjectURL(usdzFile);
+  elements.sampleSelect.value = "";
   elements.fileName.textContent = usdzFile.name;
   void loadUsdz(objectUrl, usdzFile.name);
+}
+
+function initSamplePicker() {
+  const fragment = document.createDocumentFragment();
+
+  sampleModels.forEach((fileName) => {
+    const option = document.createElement("option");
+    option.value = fileName;
+    option.textContent = fileName;
+    fragment.appendChild(option);
+  });
+
+  elements.sampleSelect.appendChild(fragment);
 }
 
 function rotateModel(direction) {
@@ -236,6 +271,10 @@ elements.fileInput.addEventListener("change", (event) => {
   }
 });
 
+elements.sampleSelect.addEventListener("change", (event) => {
+  loadSampleModel(event.target.value);
+});
+
 elements.resetButton.addEventListener("click", resetView);
 elements.rotateLeftButton.addEventListener("click", () => rotateModel(-1));
 elements.rotateRightButton.addEventListener("click", () => rotateModel(1));
@@ -262,4 +301,5 @@ elements.page.addEventListener("drop", (event) => {
   }
 });
 
+initSamplePicker();
 initScene();
