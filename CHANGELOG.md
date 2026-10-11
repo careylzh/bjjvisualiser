@@ -5,6 +5,22 @@ All notable changes to the BJJ Visualiser. Dates are `YYYY-MM-DD`. Versions foll
 
 ## [Unreleased]
 
+### 2026-10-12 — Round 4 (**v1.1.0**, build 4): plain-language anatomy + laptop/desktop layouts
+
+`minor` (schema addition + new app features; includes one fix). Commit `dd8d5c0`.
+- **Plain language (schema addition):** every body region and technique target gains a
+  `plain` gym-words explanation; the sourced mechanism/structures move under a collapsible
+  "Anatomy detail". A new jargon gate (`tools/knowledge/plain-language.mjs`) fails the build
+  on clinical terms in plain text, summaries and position notes; 11 summaries/notes reworded
+  (wording only — no position, mechanism or legality facts changed). `plain` is build-required,
+  but every existing entry was migrated in the same commit, so no entry is invalidated.
+- **Laptop/desktop layouts:** side panel widens from 1024 px; two-column cards and larger type
+  from 1440 px; mouse hover label + pointer cursor on the figure; Escape returns to the region
+  list. Joint sliders use everyday motion names. Playwright gains `laptop-chromium` (1366x768)
+  and `desktop-wide-chromium` (1920x1080).
+- **Fix:** the AR button ignored `hidden` and showed on every device; now Apple touch only.
+- Device pass (iPhone/iPad Safari) still PENDING.
+
 ### 2026-10-11 — Round 3 (**v1.0.1**, build 3): iPad side-panel containment + CI demo-test timing
 
 `patch`. Found by loading the LIVE Pages site headless after the first deploy.

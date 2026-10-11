@@ -7,11 +7,11 @@ open work → [TODO.md](TODO.md); conventions and gates → [CLAUDE.md](CLAUDE.m
 
 | Surface | Version | Note |
 |---|---|---|
-| GitHub Pages — https://careylzh.github.io/bjjvisualiser/ | **v1.0.0 (build 2)** ✅ deployed 2026-10-11, version **read back from the live site** | v1.0.1 (iPad panel containment fix) is committed + tagged locally; push `main --tags` to deploy it |
+| GitHub Pages — https://careylzh.github.io/bjjvisualiser/ | **v1.0.0 (build 2)** ✅ deployed 2026-10-11, version **read back from the live site** | v1.0.1 (iPad panel containment fix) and v1.1.0 (plain-language anatomy, laptop/desktop layouts) are committed + tagged locally; push `main --tags` to deploy them |
 | iPhone Safari | — | never opened on a device — **DEVICE PASS PENDING** |
 | iPad Safari | — | never opened on a device — **DEVICE PASS PENDING** (headless WebKit passes) |
 
-## What's live in the tree now — v1.0.1 (build 3)
+## What's live in the tree now — v1.1.0 (build 4)
 - `app/` is the whole site: `index.html`, `styles.css`, `app.js`, `js/viewer.js`,
   `js/panel.js`, `data/knowledge.json` (built), `models/anatomy-rig.{usdz,json}`,
   `version.json`, `vendor/three/`.
