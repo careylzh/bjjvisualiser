@@ -14,7 +14,7 @@ const HIGHLIGHT = new THREE.Color(0xff7a45);
 const PULSE = new THREE.Color(0xff3b1f);
 const TAP_SLOP_PX = 8;
 
-export async function createViewer({ container, rigMeta, modelUrl, onPick, onStatus }) {
+export async function createViewer({ container, rigMeta, modelUrl, onPick, onHover, onStatus }) {
   const status = (s, m) => onStatus?.(s, m);
   status("loading", "Loading the anatomy rig…");
 
@@ -316,6 +316,27 @@ export async function createViewer({ container, rigMeta, modelUrl, onPick, onSta
     onPick?.({ region: info.region, side: info.side, prim: info.name, joint: info.joint });
   });
   renderer.domElement.addEventListener("pointercancel", () => { down = null; });
+
+  // Mouse hover (desktop/laptop): pointer cursor + onHover(region) so the app can label what a
+  // click would select. Touch never hovers, so phones and iPads are unaffected. One raycast per frame max.
+  let hoverEvt = null, hoverKey = "";
+  renderer.domElement.addEventListener("pointermove", (e) => {
+    if (e.pointerType !== "mouse" || e.buttons) return;
+    if (!hoverEvt) requestAnimationFrame(() => {
+      const ev = hoverEvt; hoverEvt = null;
+      const r = renderer.domElement.getBoundingClientRect();
+      ndc.set(((ev.clientX - r.left) / r.width) * 2 - 1, -((ev.clientY - r.top) / r.height) * 2 + 1);
+      ray.setFromCamera(ndc, camera);
+      const h = ray.intersectObjects(prims, false)[0];
+      const info = h ? primInfo.get(h.object) : null;
+      renderer.domElement.style.cursor = info ? "pointer" : "";
+      const key = info ? `${info.region}/${info.side ?? ""}` : "";
+      if (key !== hoverKey || info) onHover?.(info ? { region: info.region, side: info.side, x: ev.clientX - r.left, y: ev.clientY - r.top } : null);
+      hoverKey = key;
+    });
+    hoverEvt = e;
+  });
+  renderer.domElement.addEventListener("pointerleave", () => { hoverKey = ""; renderer.domElement.style.cursor = ""; onHover?.(null); });
 
   // --- loop -------------------------------------------------------------------------------
   let raf = null;

@@ -18,7 +18,8 @@
         "internal jugular veins",
         "carotid sinus baroreceptors"
       ],
-      "mechanism": "Bilateral compression of the carotid arteries and jugular veins between the attacker's biceps and forearm (elbow crease centred under the chin), with the second hand behind the head driving the head forward into the crook; cerebral hypoperfusion plus baroreceptor-mediated vasodilation causes unconsciousness in roughly 9-10 s if held"
+      "mechanism": "Bilateral compression of the carotid arteries and jugular veins between the attacker's biceps and forearm (elbow crease centred under the chin), with the second hand behind the head driving the head forward into the crook; cerebral hypoperfusion plus baroreceptor-mediated vasodilation causes unconsciousness in roughly 9-10 s if held",
+      "plain": "Squeezes the arteries and veins on both sides of the neck between your biceps and forearm, cutting blood flow to the brain — a blood choke, not a windpipe choke. Held, it puts them to sleep in about ten seconds."
     },
     "secondary_targets": [
       {
@@ -26,7 +27,8 @@
         "structures": [
           "occiput"
         ],
-        "mechanism": "Second hand/forearm behind the head pushes it forward into the choking arm"
+        "mechanism": "Second hand/forearm behind the head pushes it forward into the choking arm",
+        "plain": "Your other hand behind their head pushes it forward into the choking arm."
       }
     ],
     "grip_regions": [
@@ -62,7 +64,7 @@
       "nogi": true,
       "note": "Legal in every IBJJF division (not listed in the 6.2.3-M illegal-moves table). 6.2.3-I: strangling without the gi using one or both hands around the neck, or pressing the windpipe with the thumb, is a severe foul (DQ); 6.2.3-J: blocking nose/mouth with the hands is a severe foul."
     },
-    "summary": "Arm encircles the neck from behind, hand on own biceps, other hand behind the head; squeeze to occlude both carotids. The highest-percentage submission in BJJ and MMA.",
+    "summary": "Arm encircles the neck from behind, hand on own biceps, other hand behind the head; squeeze to shut off the arteries on both sides of the neck. The highest-percentage submission in BJJ and MMA.",
     "sources": [
       {
         "ref": "ribeiro2008",
@@ -116,7 +118,8 @@
         "carotid arteries",
         "trachea / larynx (standard low-elbow version)"
       ],
-      "mechanism": "Forearm/wrist blade is drawn up and across the front of the neck while the attacker's chest and the opponent's own shoulder close the other side; the high-elbow version angles the forearm onto the carotids (blood choke), the standard version compresses the trachea as well (air + blood)"
+      "mechanism": "Forearm/wrist blade is drawn up and across the front of the neck while the attacker's chest and the opponent's own shoulder close the other side; the high-elbow version angles the forearm onto the carotids (blood choke), the standard version compresses the trachea as well (air + blood)",
+      "plain": "Your forearm pulls up across the front of the neck while your chest and their own shoulder close the other side. The high-elbow version squeezes the arteries on the side of the neck (blood choke); the standard version also crushes the windpipe (air and blood)."
     },
     "secondary_targets": [
       {
@@ -124,7 +127,8 @@
         "structures": [
           "cervical spine (flexion)"
         ],
-        "mechanism": "Head is pulled down into forward flexion by the front headlock before the squeeze"
+        "mechanism": "Head is pulled down into forward flexion by the front headlock before the squeeze",
+        "plain": "The front headlock bends their head and neck forward and down before you squeeze."
       }
     ],
     "grip_regions": [
@@ -220,7 +224,8 @@
         "carotid artery (one side)",
         "trachea"
       ],
-      "mechanism": "One of the opponent's arms is trapped inside the headlock; the forearm compresses one carotid/trachea while the opponent's own trapped shoulder closes the other side, similar to an arm triangle mechanism"
+      "mechanism": "One of the opponent's arms is trapped inside the headlock; the forearm compresses one carotid/trachea while the opponent's own trapped shoulder closes the other side, similar to an arm triangle mechanism",
+      "plain": "With one of their arms trapped inside, your forearm squeezes one side of the neck (artery or windpipe) while their own shoulder squeezes the other side — like an arm triangle."
     },
     "secondary_targets": [
       {
@@ -228,7 +233,8 @@
         "structures": [
           "trapped shoulder / deltoid"
         ],
-        "mechanism": "Opponent's own shoulder is driven into the neck"
+        "mechanism": "Opponent's own shoulder is driven into the neck",
+        "plain": "Their own trapped shoulder is driven into the side of their neck."
       }
     ],
     "grip_regions": [
@@ -306,7 +312,8 @@
         "carotid arteries (bilateral)",
         "jugular veins"
       ],
-      "mechanism": "Head and one arm are enclosed in a figure-four of the attacker's legs; the thigh/hamstring compresses one carotid and the opponent's own trapped shoulder compresses the other as the legs squeeze and the head is pulled down"
+      "mechanism": "Head and one arm are enclosed in a figure-four of the attacker's legs; the thigh/hamstring compresses one carotid and the opponent's own trapped shoulder compresses the other as the legs squeeze and the head is pulled down",
+      "plain": "Your legs lock around their head and one arm: your thigh squeezes the artery on one side of the neck and their own trapped shoulder squeezes the other, cutting blood flow to the brain."
     },
     "secondary_targets": [
       {
@@ -314,14 +321,16 @@
         "structures": [
           "cervical spine"
         ],
-        "mechanism": "Pulling the head into flexion tightens the choke (a crank element if the choke is not on)"
+        "mechanism": "Pulling the head into flexion tightens the choke (a crank element if the choke is not on)",
+        "plain": "Pulling their head down bends the neck forward and tightens the choke — it becomes a neck crank if the choke is not on."
       },
       {
         "region": "shoulder",
         "structures": [
           "trapped arm / shoulder"
         ],
-        "mechanism": "Arm is pulled across the neck to close the far side"
+        "mechanism": "Arm is pulled across the neck to close the far side",
+        "plain": "Their trapped arm is pulled across the neck to close the far side."
       }
     ],
     "grip_regions": [
@@ -368,7 +377,7 @@
       "nogi": true,
       "note": "Row 7 'Triangle (pulling head)' illegal only for 4-12 and 13-15 y.o.; the triangle itself is legal in all divisions. Row 1 'stretching legs apart' is unrelated."
     },
-    "summary": "Legs form a figure-four around the opponent's neck and one arm; squeeze the knees and pull the head to occlude both carotids.",
+    "summary": "Legs form a figure-four around the opponent's neck and one arm; squeeze the knees and pull the head to shut off the arteries on both sides of the neck.",
     "sources": [
       {
         "ref": "ribeiro2008",
@@ -419,7 +428,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "Attacker's arm wraps the neck while the opponent's own arm/shoulder is pinned across the other side; attacker's shoulder and biceps compress one carotid, the trapped shoulder compresses the other"
+      "mechanism": "Attacker's arm wraps the neck while the opponent's own arm/shoulder is pinned across the other side; attacker's shoulder and biceps compress one carotid, the trapped shoulder compresses the other",
+      "plain": "Your arm wraps the neck and pins their own arm and shoulder against it: your shoulder and biceps squeeze the artery on one side of the neck, their trapped shoulder squeezes the other — a blood choke."
     },
     "secondary_targets": [
       {
@@ -427,7 +437,8 @@
         "structures": [
           "trapped shoulder"
         ],
-        "mechanism": "Driven into the neck"
+        "mechanism": "Driven into the neck",
+        "plain": "Their own shoulder is driven into the side of their neck."
       }
     ],
     "grip_regions": [
@@ -509,7 +520,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "Arm-triangle variant: choking arm threads under the opponent's near arm, across the front of the neck and on top of the far arm, gripping own biceps; forearm compresses one carotid and the trapped shoulder the other"
+      "mechanism": "Arm-triangle variant: choking arm threads under the opponent's near arm, across the front of the neck and on top of the far arm, gripping own biceps; forearm compresses one carotid and the trapped shoulder the other",
+      "plain": "A type of arm triangle: your arm threads under their near arm and across the front of the neck; your forearm squeezes the artery on one side and their trapped shoulder the other."
     },
     "secondary_targets": [
       {
@@ -517,7 +529,8 @@
         "structures": [
           "near shoulder (trapped)"
         ],
-        "mechanism": "Pinned into the neck by the attacker's chest"
+        "mechanism": "Pinned into the neck by the attacker's chest",
+        "plain": "Their near shoulder is pinned into their own neck by your chest."
       }
     ],
     "grip_regions": [
@@ -597,7 +610,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "From the front headlock, choking arm passes under the neck and outside the near arm, gripping own biceps; the attacker rolls the opponent onto the trapped shoulder so shoulder and biceps close both carotids"
+      "mechanism": "From the front headlock, choking arm passes under the neck and outside the near arm, gripping own biceps; the attacker rolls the opponent onto the trapped shoulder so shoulder and biceps close both carotids",
+      "plain": "From the front headlock, your arm goes under the neck and around their arm; rolling them onto the trapped shoulder lets that shoulder and your biceps squeeze the arteries on both sides of the neck."
     },
     "secondary_targets": [
       {
@@ -605,7 +619,8 @@
         "structures": [
           "trapped shoulder"
         ],
-        "mechanism": "Opponent is rolled onto the trapped shoulder (gator roll) to tighten"
+        "mechanism": "Opponent is rolled onto the trapped shoulder (gator roll) to tighten",
+        "plain": "Rolling them onto their trapped shoulder (the gator roll) tightens the choke."
       }
     ],
     "grip_regions": [
@@ -676,7 +691,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "From north-south the attacker's arm wraps the neck, elbow on the mat, and the attacker's biceps/shoulder and chest drop onto the neck; carotids are compressed between the arm and the attacker's torso — a body-weight blood choke rather than a squeeze"
+      "mechanism": "From north-south the attacker's arm wraps the neck, elbow on the mat, and the attacker's biceps/shoulder and chest drop onto the neck; carotids are compressed between the arm and the attacker's torso — a body-weight blood choke rather than a squeeze",
+      "plain": "Your arm wraps the neck and your biceps, shoulder and chest sink onto it, squeezing the arteries on the side of the neck between your arm and your body — a body-weight blood choke rather than an arm squeeze."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -746,7 +762,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "Both hands grip deep in opposite collars so the forearms cross in an X across the neck; pulling the elbows down/in drives the radial edges of the forearms and the collar into both carotids"
+      "mechanism": "Both hands grip deep in opposite collars so the forearms cross in an X across the neck; pulling the elbows down/in drives the radial edges of the forearms and the collar into both carotids",
+      "plain": "Your hands grip deep in opposite collars so your forearms cross over the neck; pulling the elbows down drives the thumb-side edge of your forearms and the collar into the arteries on both sides of the neck."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -786,7 +803,7 @@
       "nogi": false,
       "note": "Gi only (requires collars). Legal in all divisions. 6.2.2-S: using an untied belt to assist a choke is a penalty."
     },
-    "summary": "Classic gi strangle: cross grips on the collars, pull the elbows to the ribs to compress the carotids with the collar and forearms.",
+    "summary": "Classic gi strangle: cross grips on the collars, pull the elbows to the ribs so the collar and forearms squeeze the arteries on both sides of the neck.",
     "sources": [
       {
         "ref": "ribeiro2008",
@@ -827,7 +844,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "From behind, one hand slides the far lapel across the front of the throat while the other hand pulls the near lapel down; the collar tightens like a noose across both carotids"
+      "mechanism": "From behind, one hand slides the far lapel across the front of the throat while the other hand pulls the near lapel down; the collar tightens like a noose across both carotids",
+      "plain": "From behind, one hand slides their lapel across the front of the throat while the other pulls the other lapel down, so the collar tightens like a noose over the arteries on both sides of the neck."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -893,7 +911,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "Deep collar grip across the neck from the back while the other hand controls the far pant leg; the attacker extends the body like drawing a bow so the collar cuts across both carotids with full-body leverage"
+      "mechanism": "Deep collar grip across the neck from the back while the other hand controls the far pant leg; the attacker extends the body like drawing a bow so the collar cuts across both carotids with full-body leverage",
+      "plain": "A deep collar grip across the neck is pulled tight as you stretch your body out like drawing a bow, so the collar cuts across the arteries on both sides of the neck with whole-body leverage."
     },
     "secondary_targets": [
       {
@@ -901,7 +920,8 @@
         "structures": [
           "pant leg / far leg"
         ],
-        "mechanism": "Leg is pulled to stretch the opponent and prevent them turning"
+        "mechanism": "Leg is pulled to stretch the opponent and prevent them turning",
+        "plain": "Pulling their far leg by the trousers stretches them out and stops them turning to escape."
       }
     ],
     "grip_regions": [
@@ -968,7 +988,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "Against a turtled opponent the attacker takes a deep collar grip across the neck, drops chest weight on the upper back and walks the feet around the head like a clock hand; the collar and the attacker's weight compress the carotids"
+      "mechanism": "Against a turtled opponent the attacker takes a deep collar grip across the neck, drops chest weight on the upper back and walks the feet around the head like a clock hand; the collar and the attacker's weight compress the carotids",
+      "plain": "A deep collar grip across the neck plus your chest weight on their upper back, as you walk around their head, squeezes the arteries on the side of the neck with the collar."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1029,7 +1050,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "A shallow cross-collar grip is looped over the opponent's head as the head is snapped down; the forearm passes over the neck and the free hand behind the head closes the loop so the collar cuts into both carotids"
+      "mechanism": "A shallow cross-collar grip is looped over the opponent's head as the head is snapped down; the forearm passes over the neck and the free hand behind the head closes the loop so the collar cuts into both carotids",
+      "plain": "A collar grip is looped over their lowered head; your forearm goes over the neck and your free hand behind the head closes the loop so the collar cuts into the arteries on both sides of the neck."
     },
     "secondary_targets": [
       {
@@ -1037,7 +1059,8 @@
         "structures": [
           "occiput"
         ],
-        "mechanism": "Head is pushed down and under the looping arm"
+        "mechanism": "Head is pushed down and under the looping arm",
+        "plain": "Their head is pushed down and under your looping arm."
       }
     ],
     "grip_regions": [
@@ -1078,7 +1101,7 @@
       "nogi": false,
       "note": "Gi only; legal in all divisions."
     },
-    "summary": "Collar grip looped over the opponent's lowered head; the arm wraps and rolls to tighten the lapel across the carotids.",
+    "summary": "Collar grip looped over the opponent's lowered head; the arm wraps and rolls to tighten the lapel across the arteries on the side of the neck.",
     "sources": [
       {
         "ref": "evolve-loop-choke",
@@ -1110,7 +1133,8 @@
         "carotid arteries",
         "trachea"
       ],
-      "mechanism": "One arm wraps behind the head and grips inside the other sleeve; the free forearm/fist passes across the front of the neck and the two arms scissor, compressing carotids and (depending on placement) the trachea"
+      "mechanism": "One arm wraps behind the head and grips inside the other sleeve; the free forearm/fist passes across the front of the neck and the two arms scissor, compressing carotids and (depending on placement) the trachea",
+      "plain": "One arm goes behind their head gripping your other sleeve; your free forearm crosses the front of the neck and the two arms scissor together, squeezing the arteries on the side of the neck and, depending on placement, the windpipe."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1191,7 +1215,8 @@
         "carotid arteries (bilateral)",
         "trachea"
       ],
-      "mechanism": "Stacked collar grips (one palm up, one palm down like holding a bat); the attacker spins toward north-south, driving chest weight so the forearms and collar close across both carotids and the windpipe"
+      "mechanism": "Stacked collar grips (one palm up, one palm down like holding a bat); the attacker spins toward north-south, driving chest weight so the forearms and collar close across both carotids and the windpipe",
+      "plain": "With stacked collar grips like holding a bat, you spin toward their head and drive your chest weight so your forearms and the collar close across the arteries on both sides of the neck and the windpipe."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1253,7 +1278,8 @@
         "carotid artery (near side)",
         "trachea"
       ],
-      "mechanism": "One hand feeds and pulls the far collar from under the head; the other forearm drops like a blade across the front/side of the neck and drives down into the mat, compressing carotid and windpipe against the lapel"
+      "mechanism": "One hand feeds and pulls the far collar from under the head; the other forearm drops like a blade across the front/side of the neck and drives down into the mat, compressing carotid and windpipe against the lapel",
+      "plain": "One hand pulls their far collar from behind the head while your other forearm cuts down across the front and side of the neck like a blade, squeezing the artery and the windpipe against the lapel."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1319,7 +1345,8 @@
         "carotid arteries",
         "cervical spine (flexion component)"
       ],
-      "mechanism": "From the front headlock the attacker locks hands around head and near arm, sits beside the opponent and throws one leg over the back of the neck and the other over the back; extending the legs drives the head down onto the choking wrist, compressing the carotids while forcing cervical flexion"
+      "mechanism": "From the front headlock the attacker locks hands around head and near arm, sits beside the opponent and throws one leg over the back of the neck and the other over the back; extending the legs drives the head down onto the choking wrist, compressing the carotids while forcing cervical flexion",
+      "plain": "With your arms locked around their head and arm, your legs go over their neck and back; straightening your legs drives their head down onto your wrist, squeezing the arteries on the side of the neck while bending the neck forward."
     },
     "secondary_targets": [
       {
@@ -1327,7 +1354,8 @@
         "structures": [
           "cervical spine"
         ],
-        "mechanism": "Leg over the neck forces forward flexion (crank component)"
+        "mechanism": "Leg over the neck forces forward flexion (crank component)",
+        "plain": "Your leg over the back of the neck forces it to bend forward — a neck crank element."
       }
     ],
     "grip_regions": [
@@ -1359,7 +1387,7 @@
       "nogi": true,
       "note": "Classified as a choke with spinal lock (row 2): legal from 16 y.o./white; illegal 4-15. Note the IJF (judo) banned the gi variant in 2022."
     },
-    "summary": "Front-headlock choke-crank where the legs go over the neck and back and the body extends; both a strangle and a neck flexion.",
+    "summary": "Front-headlock choke-crank where the legs go over the neck and back and the body extends; both a strangle and a forward neck crank.",
     "sources": [
       {
         "ref": "lowkick-peruvian",
@@ -1399,7 +1427,8 @@
         "carotid arteries",
         "cervical spine (flexion component)"
       ],
-      "mechanism": "From a failed D'Arce the arm goes over the neck with the hand on the far shoulder, the other hand locks the grip; the attacker drops to the hip and folds the head down, compressing the carotids between forearm and the opponent's trapped shoulder while flexing the neck"
+      "mechanism": "From a failed D'Arce the arm goes over the neck with the hand on the far shoulder, the other hand locks the grip; the attacker drops to the hip and folds the head down, compressing the carotids between forearm and the opponent's trapped shoulder while flexing the neck",
+      "plain": "Your forearm goes over the neck to their far shoulder and you fold their head down: the arteries on the side of the neck are squeezed between your forearm and their own trapped shoulder while the neck is bent forward."
     },
     "secondary_targets": [
       {
@@ -1407,7 +1436,8 @@
         "structures": [
           "cervical spine"
         ],
-        "mechanism": "Forward flexion of the head (crank component)"
+        "mechanism": "Forward flexion of the head (crank component)",
+        "plain": "Folding the head down bends the neck forward — a neck crank element."
       }
     ],
     "grip_regions": [
@@ -1477,7 +1507,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "Counter to a guillotine: the attacker passes to side control on the opposite side of the opponent's head while the opponent keeps the guillotine grip; the attacker's shoulder drives into one side of the neck and the opponent's own trapped arm closes the other — a shoulder-compression arm triangle"
+      "mechanism": "Counter to a guillotine: the attacker passes to side control on the opposite side of the opponent's head while the opponent keeps the guillotine grip; the attacker's shoulder drives into one side of the neck and the opponent's own trapped arm closes the other — a shoulder-compression arm triangle",
+      "plain": "When they hold a guillotine after you pass, your shoulder drives into one side of their neck and their own trapped arm closes the other — a shoulder-pressure arm triangle."
     },
     "secondary_targets": [
       {
@@ -1485,7 +1516,8 @@
         "structures": [
           "opponent's choking arm / shoulder"
         ],
-        "mechanism": "Their own arm becomes the far-side compression"
+        "mechanism": "Their own arm becomes the far-side compression",
+        "plain": "Their own choking arm becomes the pressure on the far side of their neck."
       }
     ],
     "grip_regions": [
@@ -1541,7 +1573,8 @@
       "structures": [
         "carotid arteries (bilateral)"
       ],
-      "mechanism": "From bottom side control the defender throws the far leg over the top player's head/neck and locks the same-side arm under the knee (figure-four of arm and leg); the head and one arm are trapped so the thigh and the opponent's shoulder compress both carotids, as in a triangle"
+      "mechanism": "From bottom side control the defender throws the far leg over the top player's head/neck and locks the same-side arm under the knee (figure-four of arm and leg); the head and one arm are trapped so the thigh and the opponent's shoulder compress both carotids, as in a triangle",
+      "plain": "From underneath, your leg goes over their head and your arm locks under your knee, trapping their head and one arm; your thigh and their own shoulder squeeze the arteries on both sides of the neck, as in a triangle."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1604,7 +1637,8 @@
         "trachea / larynx",
         "carotid arteries"
       ],
-      "mechanism": "From rubber guard / omoplata setup the shin or instep is placed across the front of the throat; pulling the head down onto the shin compresses the windpipe and carotids"
+      "mechanism": "From rubber guard / omoplata setup the shin or instep is placed across the front of the throat; pulling the head down onto the shin compresses the windpipe and carotids",
+      "plain": "Your shin or the top of your foot goes across the front of their throat; pulling their head down onto the shin crushes the windpipe and squeezes the arteries on the side of the neck."
     },
     "secondary_targets": [
       {
@@ -1612,7 +1646,8 @@
         "structures": [
           "occiput"
         ],
-        "mechanism": "Hands pull the head down onto the shin"
+        "mechanism": "Hands pull the head down onto the shin",
+        "plain": "Your hands pull the back of their head down onto your shin."
       }
     ],
     "grip_regions": [
@@ -1689,7 +1724,8 @@
       "structures": [
         "carotid arteries"
       ],
-      "mechanism": "From the back-control crucifix (one of the opponent's arms trapped between the attacker's legs, the other controlled by the attacker's arm) the free arm wraps the neck, or feeds a lapel, and the attacker extends to strangle"
+      "mechanism": "From the back-control crucifix (one of the opponent's arms trapped between the attacker's legs, the other controlled by the attacker's arm) the free arm wraps the neck, or feeds a lapel, and the attacker extends to strangle",
+      "plain": "With both their arms trapped (one between your legs, one by your arm), your free arm wraps the neck or feeds a lapel and you lean back to strangle."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1752,7 +1788,8 @@
         "carotid arteries",
         "mandible / jaw (pressure)"
       ],
-      "mechanism": "Variation of the rear naked choke when the arm cannot reach the biceps: the choking hand is gripped by the other hand (palm-to-palm or wrist) and the forearm is pulled into the side of the neck while the head is pinned; compresses the carotids but frequently loads the jaw and cervical spine"
+      "mechanism": "Variation of the rear naked choke when the arm cannot reach the biceps: the choking hand is gripped by the other hand (palm-to-palm or wrist) and the forearm is pulled into the side of the neck while the head is pinned; compresses the carotids but frequently loads the jaw and cervical spine",
+      "plain": "A rear choke with your hands locked together instead of the biceps grip: your forearm is pulled into the side of the neck and squeezes the arteries, but it often presses on the jaw and cranks the neck too."
     },
     "secondary_targets": [
       {
@@ -1761,7 +1798,8 @@
           "mandible",
           "cervical spine"
         ],
-        "mechanism": "Forearm across jaw and pulling adds a crank element"
+        "mechanism": "Forearm across jaw and pulling adds a crank element",
+        "plain": "Your forearm across the jaw, and pulling, add a neck crank element."
       }
     ],
     "grip_regions": [
@@ -1822,7 +1860,8 @@
         "cervical spine (C-spine facet joints, posterior ligaments)",
         "nuchal ligament"
       ],
-      "mechanism": "From inside the closed guard the top player clasps both hands behind the opponent's head and pulls it into forced forward flexion toward the chest while driving the hips forward"
+      "mechanism": "From inside the closed guard the top player clasps both hands behind the opponent's head and pulls it into forced forward flexion toward the chest while driving the hips forward",
+      "plain": "From inside their guard you clasp both hands behind their head and pull it forward towards their chest, forcibly bending the neck forward — a neck crank, not a choke."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1847,7 +1886,7 @@
       "nogi": false,
       "note": "Row 22 'Spinal lock without choke': illegal in every division (kids through adult brown/black no-gi)."
     },
-    "summary": "Pulling the opponent's head forward from inside their guard; a cervical flexion crank banned in IBJJF at every level.",
+    "summary": "Pulling the opponent's head forward from inside their guard; a forward neck crank banned in IBJJF at every level.",
     "sources": [
       {
         "ref": "jitsuiq-can-opener",
@@ -1888,7 +1927,8 @@
         "cervical spine",
         "cervical facet joints and ligaments"
       ],
-      "mechanism": "Arms clasp the head from north-south or kesa gatame and lift/rotate it against the fixed shoulders, forcing cervical flexion or lateral flexion without any carotid compression"
+      "mechanism": "Arms clasp the head from north-south or kesa gatame and lift/rotate it against the fixed shoulders, forcing cervical flexion or lateral flexion without any carotid compression",
+      "plain": "Your arms clasp their head and lift or twist it while their shoulders are pinned, bending the neck forward or sideways — a neck crank with no choke on the arteries."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1955,7 +1995,8 @@
         "cervical spine",
         "cervical facet joints"
       ],
-      "mechanism": "Opponent's arms are held out (one between the attacker's legs, one under the arm) while the attacker, facing away, sits back and forces the head into flexion/extension against the trapped shoulders"
+      "mechanism": "Opponent's arms are held out (one between the attacker's legs, one under the arm) while the attacker, facing away, sits back and forces the head into flexion/extension against the trapped shoulders",
+      "plain": "With both their arms trapped and spread, you sit back and force the head to bend forward or back against their pinned shoulders — a neck crank."
     },
     "secondary_targets": [
       {
@@ -1963,7 +2004,8 @@
         "structures": [
           "both shoulders"
         ],
-        "mechanism": "Arms are spread to immobilise the shoulder girdle"
+        "mechanism": "Arms are spread to immobilise the shoulder girdle",
+        "plain": "Spreading both arms locks their shoulders in place."
       }
     ],
     "grip_regions": [
@@ -2027,7 +2069,8 @@
         "upper thoracic spine",
         "cervical facet joints and ligaments"
       ],
-      "mechanism": "Hips are fixed by a leg hook (truck position) while the attacker pulls the opponent's head laterally toward the opposite shoulder with the opponent's arm trapped behind their own head; produces lateral flexion plus rotation of the cervical/thoracic spine"
+      "mechanism": "Hips are fixed by a leg hook (truck position) while the attacker pulls the opponent's head laterally toward the opposite shoulder with the opponent's arm trapped behind their own head; produces lateral flexion plus rotation of the cervical/thoracic spine",
+      "plain": "With their hips pinned by your leg, you pull their head sideways toward the opposite shoulder, bending and twisting the neck and upper spine sideways at the same time."
     },
     "secondary_targets": [
       {
@@ -2035,14 +2078,16 @@
         "structures": [
           "lumbar spine / obliques"
         ],
-        "mechanism": "Lateral flexion and rotation through the whole spine"
+        "mechanism": "Lateral flexion and rotation through the whole spine",
+        "plain": "The sideways bend and twist runs through the whole spine, down to the lower back and the sides of the belly."
       },
       {
         "region": "shoulder",
         "structures": [
           "trapped arm"
         ],
-        "mechanism": "Arm pinned behind the head"
+        "mechanism": "Arm pinned behind the head",
+        "plain": "Their arm is pinned behind their own head."
       }
     ],
     "grip_regions": [
@@ -2120,7 +2165,8 @@
         "lumbar spine (facet joints, anterior longitudinal ligament)",
         "hip flexors"
       ],
-      "mechanism": "Opponent face-down; attacker holds both legs under the arms and sits back on the lumbar region, forcing lumbar hyperextension"
+      "mechanism": "Opponent face-down; attacker holds both legs under the arms and sits back on the lumbar region, forcing lumbar hyperextension",
+      "plain": "With them face-down, you hold both legs under your arms and sit back on their lower back, bending the lower back backwards past its limit."
     },
     "secondary_targets": [
       {
@@ -2128,7 +2174,8 @@
         "structures": [
           "hip joints"
         ],
-        "mechanism": "Hip hyperextension"
+        "mechanism": "Hip hyperextension",
+        "plain": "The hips are also bent backwards past their limit."
       }
     ],
     "grip_regions": [
@@ -2154,7 +2201,7 @@
       "nogi": false,
       "note": "Row 22 'Spinal lock without choke': illegal in every division."
     },
-    "summary": "Pro-wrestling-derived lumbar hyperextension lock; a pure spinal lock and illegal under IBJJF rules.",
+    "summary": "Pro-wrestling-derived lock that bends the lower back backwards; a pure spinal lock and illegal under IBJJF rules.",
     "sources": [
       {
         "ref": "wikipedia-spinal-lock",
@@ -2192,7 +2239,8 @@
         "kidneys",
         "abdominal wall"
       ],
-      "mechanism": "Bottom player locks the ankles and squeezes the knees/thighs around the torso, compressing the lower ribs and flank"
+      "mechanism": "Bottom player locks the ankles and squeezes the knees/thighs around the torso, compressing the lower ribs and flank",
+      "plain": "From closed guard you lock your ankles and squeeze your knees and thighs around their body, crushing the lower ribs and the side of the belly."
     },
     "secondary_targets": [
       {
@@ -2200,7 +2248,8 @@
         "structures": [
           "lower ribcage"
         ],
-        "mechanism": "Rib compression"
+        "mechanism": "Rib compression",
+        "plain": "Squeezes the ribs."
       }
     ],
     "grip_regions": [
@@ -2256,7 +2305,8 @@
         "face / mandible",
         "cervical spine (rotation)"
       ],
-      "mechanism": "Attacker's forearm or shoulder is driven across the opponent's jaw/face, turning the head away from the attacker; where the head goes the spine follows, so hip movement and bridging are shut down"
+      "mechanism": "Attacker's forearm or shoulder is driven across the opponent's jaw/face, turning the head away from the attacker; where the head goes the spine follows, so hip movement and bridging are shut down",
+      "plain": "Your forearm or shoulder drives across their jaw and face, turning the head away from you; where the head goes the spine follows, so they cannot bridge or move their hips."
     },
     "secondary_targets": [
       {
@@ -2264,7 +2314,8 @@
         "structures": [
           "cervical spine"
         ],
-        "mechanism": "Forced rotation/lateral flexion"
+        "mechanism": "Forced rotation/lateral flexion",
+        "plain": "Forces the neck to twist and bend to the side."
       }
     ],
     "grip_regions": [
@@ -2336,7 +2387,8 @@
         "head / neck (encircled)",
         "cervical spine"
       ],
-      "mechanism": "One arm encircles the head and neck while the other controls the near arm; the attacker's hip and ribs pin the chest, leaving the opponent flat with the head immobilised"
+      "mechanism": "One arm encircles the head and neck while the other controls the near arm; the attacker's hip and ribs pin the chest, leaving the opponent flat with the head immobilised",
+      "plain": "One arm wraps their head and neck, the other traps their near arm, and your hip and ribs pin their chest, keeping them flat with the head locked in place."
     },
     "secondary_targets": [
       {
@@ -2344,14 +2396,16 @@
         "structures": [
           "ribcage / sternum"
         ],
-        "mechanism": "Hip and body weight on the chest"
+        "mechanism": "Hip and body weight on the chest",
+        "plain": "Your hip and body weight sit on their chest."
       },
       {
         "region": "upper_arm",
         "structures": [
           "near arm"
         ],
-        "mechanism": "Arm trapped under the attacker's armpit"
+        "mechanism": "Arm trapped under the attacker's armpit",
+        "plain": "Their near arm is trapped under your armpit."
       }
     ],
     "grip_regions": [
@@ -2419,7 +2473,8 @@
         "mandible / chin",
         "cervical spine"
       ],
-      "mechanism": "Hand cups the chin from the front headlock (or from side control) so the head cannot turn or lift; the elbow is kept tight to block posture, setting up guillotines, D'Arce and back takes"
+      "mechanism": "Hand cups the chin from the front headlock (or from side control) so the head cannot turn or lift; the elbow is kept tight to block posture, setting up guillotines, D'Arce and back takes",
+      "plain": "Your hand cups their chin from the front headlock or side control so the head cannot turn or lift; your tight elbow stops them posturing up."
     },
     "secondary_targets": [
       {
@@ -2427,7 +2482,8 @@
         "structures": [
           "cervical spine"
         ],
-        "mechanism": "Head held in flexion"
+        "mechanism": "Head held in flexion",
+        "plain": "Holds their head bent forward and down."
       }
     ],
     "grip_regions": [
@@ -2498,7 +2554,8 @@
         "neck / cervical spine",
         "head"
       ],
-      "mechanism": "Attacker wraps the opponent's head and one arm from the front after a sprawl or snap-down, chest weight on the back of the neck forcing flexion; controls the head to prevent shots and set up guillotine, anaconda, D'Arce and back takes"
+      "mechanism": "Attacker wraps the opponent's head and one arm from the front after a sprawl or snap-down, chest weight on the back of the neck forcing flexion; controls the head to prevent shots and set up guillotine, anaconda, D'Arce and back takes",
+      "plain": "You wrap their head and one arm from the front and put chest weight on the back of the neck, bending it forward so they cannot shoot or posture up."
     },
     "secondary_targets": [
       {
@@ -2506,7 +2563,8 @@
         "structures": [
           "near arm / triceps"
         ],
-        "mechanism": "Arm controlled at the elbow/triceps"
+        "mechanism": "Arm controlled at the elbow/triceps",
+        "plain": "Their arm is controlled at the elbow and back of the upper arm."
       }
     ],
     "grip_regions": [
@@ -2579,7 +2637,8 @@
         "posterior neck / trapezius",
         "cervical spine (flexion)"
       ],
-      "mechanism": "Hand cups the back of the neck with the forearm on the chest; pulling down forces the opponent's head and posture forward, enabling snap-downs, duck-unders and shots"
+      "mechanism": "Hand cups the back of the neck with the forearm on the chest; pulling down forces the opponent's head and posture forward, enabling snap-downs, duck-unders and shots",
+      "plain": "Your hand cups the back of their neck with your forearm on their chest; pulling down drags their head and posture forward."
     },
     "secondary_targets": [
       {
@@ -2587,7 +2646,8 @@
         "structures": [
           "occiput"
         ],
-        "mechanism": "Head pulled down"
+        "mechanism": "Head pulled down",
+        "plain": "Pulls their head down."
       }
     ],
     "grip_regions": [
@@ -2648,7 +2708,8 @@
         "upper arm / shoulder girdle",
         "torso"
       ],
-      "mechanism": "Attacker's arm wraps over the opponent's arm and clamps it to the ribs, controlling the shoulder and torso; used to stop underhooks, break posture in guard and set up chokes"
+      "mechanism": "Attacker's arm wraps over the opponent's arm and clamps it to the ribs, controlling the shoulder and torso; used to stop underhooks, break posture in guard and set up chokes",
+      "plain": "Your arm wraps over their arm and clamps it to their ribs, controlling the shoulder and upper body."
     },
     "secondary_targets": [
       {
@@ -2656,7 +2717,8 @@
         "structures": [
           "ribcage"
         ],
-        "mechanism": "Arm clamped against the torso"
+        "mechanism": "Arm clamped against the torso",
+        "plain": "Their arm is clamped against their own body."
       }
     ],
     "grip_regions": [
@@ -2723,7 +2785,8 @@
       "structures": [
         "upper torso / shoulder girdle"
       ],
-      "mechanism": "One arm over the opponent's shoulder and the other under the opposite armpit, hands clasped on the chest; locks the attacker's chest to the opponent's back and controls the upper body, the standard precursor to the rear naked choke"
+      "mechanism": "One arm over the opponent's shoulder and the other under the opposite armpit, hands clasped on the chest; locks the attacker's chest to the opponent's back and controls the upper body, the standard precursor to the rear naked choke",
+      "plain": "One arm over their shoulder and one under the opposite armpit, hands clasped on their chest, locks your chest to their back and controls the upper body."
     },
     "secondary_targets": [
       {
@@ -2731,7 +2794,8 @@
         "structures": [
           "shoulders"
         ],
-        "mechanism": "Shoulder line controlled"
+        "mechanism": "Shoulder line controlled",
+        "plain": "Controls the line of both shoulders."
       }
     ],
     "grip_regions": [
@@ -2802,7 +2866,8 @@
         "both arms / shoulders (spread)",
         "upper back"
       ],
-      "mechanism": "From the back/turtle, one of the opponent's arms is trapped between the attacker's legs and the other by the attacker's arm, leaving both arms unable to defend the neck"
+      "mechanism": "From the back/turtle, one of the opponent's arms is trapped between the attacker's legs and the other by the attacker's arm, leaving both arms unable to defend the neck",
+      "plain": "From the back or turtle, one of their arms is trapped between your legs and the other by your arm, so neither arm can defend the neck."
     },
     "secondary_targets": [
       {
@@ -2810,7 +2875,8 @@
         "structures": [
           "neck exposed for chokes"
         ],
-        "mechanism": "Neck is defenceless"
+        "mechanism": "Neck is defenceless",
+        "plain": "Leaves the neck open to chokes."
       }
     ],
     "grip_regions": [
@@ -2869,7 +2935,8 @@
         "lower ribs",
         "diaphragm"
       ],
-      "mechanism": "Top player places the knee or shin on the opponent's belly, chest or ribs with the other foot posted; body weight drives through the knee, restricting breathing and movement while the attacker stays mobile"
+      "mechanism": "Top player places the knee or shin on the opponent's belly, chest or ribs with the other foot posted; body weight drives through the knee, restricting breathing and movement while the attacker stays mobile",
+      "plain": "Your knee or shin drives your body weight into their belly, chest or ribs with your other foot posted, making it hard to breathe and move while you stay mobile."
     },
     "secondary_targets": [
       {
@@ -2877,7 +2944,8 @@
         "structures": [
           "ribcage"
         ],
-        "mechanism": "Knee can ride up onto the chest"
+        "mechanism": "Knee can ride up onto the chest",
+        "plain": "Your knee can ride up onto the chest."
       }
     ],
     "grip_regions": [
@@ -2945,7 +3013,8 @@
         "sternum / ribcage",
         "diaphragm"
       ],
-      "mechanism": "Attacker's chest is driven across the opponent's chest with hips low and weight off the knees, compressing the ribcage and limiting breathing; combined with cross-face and underhook to immobilise the shoulders"
+      "mechanism": "Attacker's chest is driven across the opponent's chest with hips low and weight off the knees, compressing the ribcage and limiting breathing; combined with cross-face and underhook to immobilise the shoulders",
+      "plain": "Your chest drives across theirs with your hips low and weight off your knees, crushing the ribs and making it hard to breathe."
     },
     "secondary_targets": [
       {
@@ -2953,14 +3022,16 @@
         "structures": [
           "face"
         ],
-        "mechanism": "Cross-face often added"
+        "mechanism": "Cross-face often added",
+        "plain": "A cross-face is often added."
       },
       {
         "region": "shoulder",
         "structures": [
           "far shoulder"
         ],
-        "mechanism": "Underhook pins the far shoulder"
+        "mechanism": "Underhook pins the far shoulder",
+        "plain": "An underhook pins their far shoulder."
       }
     ],
     "grip_regions": [
@@ -3034,7 +3105,8 @@
         "trachea / larynx",
         "hyoid"
       ],
-      "mechanism": "Direct squeezing of the throat with one or both hands, thumb pressure on the windpipe, or covering the nose/mouth; closes the airway rather than the carotids"
+      "mechanism": "Direct squeezing of the throat with one or both hands, thumb pressure on the windpipe, or covering the nose/mouth; closes the airway rather than the carotids",
+      "plain": "Squeezing the throat directly with the hands or thumbs on the windpipe, or covering the nose and mouth; it cuts off the air rather than squeezing the arteries on the side of the neck."
     },
     "secondary_targets": [],
     "grip_regions": [

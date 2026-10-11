@@ -4,6 +4,8 @@
 import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
+// @ts-ignore — plain ESM helper shared with the build gate
+import { jargonHits } from "../tools/knowledge/plain-language.mjs";
 
 const root = path.resolve(__dirname, "..");
 const read = (p: string) => JSON.parse(readFileSync(path.join(root, p), "utf8"));
@@ -102,5 +104,39 @@ describe("rig metadata", () => {
       const ok = dofByArt[art]?.has(dm.axis) || (["extension", "hyperextension"].includes(dm.axis) && (dofByArt[art]?.has("hyperextension") || dofByArt[art]?.has("extension")));
       expect(ok, `${t.id}: ${art}.${dm.axis}`).toBe(true);
     }
+  });
+});
+
+describe("plain language (user feedback 2026-10-12: written for the average practitioner)", () => {
+  const fieldsOf = (t: any) => [
+    ["primary_target.plain", t.primary_target.plain],
+    ...(t.secondary_targets ?? []).map((s: any, i: number) => [`secondary_targets[${i}].plain`, s.plain]),
+    ["summary", t.summary],
+    ...t.positions.map((p: any) => [`note ${p.position}`, p.note])
+  ];
+  it("every target has a plain-language explanation", () => {
+    for (const t of techniques) {
+      expect(typeof t.primary_target.plain, t.id).toBe("string");
+      for (const s of t.secondary_targets ?? []) expect(typeof s.plain, `${t.id} › ${s.region}`).toBe("string");
+    }
+    for (const r of regions) expect(typeof r.plain, r.id).toBe("string");
+  });
+  it("no medical jargon in anything shown before 'Anatomy detail'", () => {
+    const hits: string[] = [];
+    for (const t of techniques) for (const [f, text] of fieldsOf(t)) for (const [w] of jargonHits(text)) hits.push(`${t.id} › ${f}: ${w}`);
+    for (const r of regions) for (const [w] of jargonHits(r.plain)) hits.push(`region ${r.id}: ${w}`);
+    expect(hits).toEqual([]);
+  });
+  it("the jargon gate actually catches clinical wording (and leaves gym words alone)", () => {
+    expect(jargonHits("olecranon locks in the fossa").length).toBeGreaterThan(0);
+    expect(jargonHits("compresses both carotid arteries").length).toBeGreaterThan(0);
+    expect(jargonHits("forced external rotation of the humerus").length).toBeGreaterThan(0);
+    expect(jargonHits("Bends the elbow the wrong way (hyperextension), stretching the ligaments; tears the ACL and MCL; pulls on the ankle tendon and the shoulder blade, lats and toes")).toEqual([]);
+  });
+  it("the armbar reads in gym words and keeps its precise mechanism for the detail view", () => {
+    const a = byId.armbar_closed_guard;
+    expect(a.primary_target.plain).toMatch(/elbow/i);
+    expect(a.primary_target.plain).toMatch(/hyperext/i);
+    expect(a.primary_target.mechanism).toMatch(/olecranon/i);
   });
 });

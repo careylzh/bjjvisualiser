@@ -5,6 +5,7 @@
 // position, an invalid belt, or a demo motion the rig cannot perform FAILS the build.
 import { readFile, readdir, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
+import { jargonHits } from "./plain-language.mjs";
 
 const root = path.resolve(import.meta.dirname, "..", "..");
 const K = (p) => path.join(root, "knowledge", p);
@@ -31,6 +32,10 @@ motionNames.add("hyperextension");
 
 const errors = [];
 const warnings = [];
+for (const r of regionsDoc.regions) {
+  if (!(typeof r.plain === "string" && r.plain.length > 10)) errors.push(`regions.json › ${r.id}: plain required`);
+  for (const [w, hint] of jargonHits(r.plain)) errors.push(`regions.json › ${r.id}: plain uses jargon '${w}' — say ${hint}`);
+}
 const techniques = [];
 const seen = new Map();
 
@@ -49,6 +54,16 @@ for (const file of files) {
     must(t.primary_target && regionIds.has(t.primary_target.region), `primary_target.region '${t.primary_target?.region}' unknown`);
     must(typeof t.primary_target?.mechanism === "string" && t.primary_target.mechanism.length > 10, "primary_target.mechanism required");
     for (const s of t.secondary_targets ?? []) must(regionIds.has(s.region), `secondary target region '${s.region}' unknown`);
+    // Plain language: every target needs a gym-words explanation; jargon stays in mechanism/structures.
+    const plainCheck = (label, text) => { for (const [w, hint] of jargonHits(text)) errors.push(`${where}: ${label} uses jargon '${w}' — say ${hint}`); };
+    must(typeof t.primary_target?.plain === "string" && t.primary_target.plain.length > 10, "primary_target.plain (plain-language explanation) required");
+    plainCheck("primary_target.plain", t.primary_target?.plain);
+    (t.secondary_targets ?? []).forEach((s, i) => {
+      must(typeof s.plain === "string" && s.plain.length > 10, `secondary_targets[${i}].plain required`);
+      plainCheck(`secondary_targets[${i}].plain`, s.plain);
+    });
+    plainCheck("summary", t.summary);
+    for (const p of t.positions ?? []) plainCheck(`position note (${p.position})`, p.note);
     for (const g of t.grip_regions ?? []) must(regionIds.has(g), `grip region '${g}' unknown`);
     must(Array.isArray(t.positions) && t.positions.length > 0, "at least one position required");
     const seenPos = new Set();

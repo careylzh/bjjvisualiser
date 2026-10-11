@@ -1,7 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
 
-// Three surfaces the app must work on: a phone (bottom sheet), an iPad in Safari-like
-// dimensions (side panel), and a desktop browser. WebKit is included so Safari-specific
+// Surfaces the app must work on: a phone (bottom sheet), an iPad in Safari-like dimensions
+// (side panel), and laptop/desktop browsers at 1280, 1366 and 1920 px wide. WebKit is included so Safari-specific
 // breakage (import maps, dvh, pointer events) is caught before it reaches the user's iPad.
 export default defineConfig({
   testDir: "./e2e",
@@ -18,6 +18,8 @@ export default defineConfig({
     { name: "phone-chromium", use: { ...devices["Pixel 7"] } },
     { name: "ipad-chromium", use: { ...devices["Desktop Chrome"], viewport: { width: 1024, height: 768 }, hasTouch: true } },
     { name: "desktop-chromium", use: { ...devices["Desktop Chrome"] } },
+    { name: "laptop-chromium", use: { ...devices["Desktop Chrome"], viewport: { width: 1366, height: 768 } } },
+    { name: "desktop-wide-chromium", use: { ...devices["Desktop Chrome"], viewport: { width: 1920, height: 1080 } } },
     { name: "ipad-webkit", use: { ...devices["iPad Pro 11"] } }
   ]
 });

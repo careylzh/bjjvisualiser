@@ -4,7 +4,7 @@ name: CI
 # exactly what a green local run means — no more, no less.
 #   knowledge — the hand-curated entries validate (schema, sources, regions, rig DOF names)
 #   unit      — vitest: knowledge facts pinned as regressions + legacy pipeline tests
-#   e2e       — Playwright on phone Chromium, iPad Chromium, desktop Chromium and iPad WebKit
+#   e2e       — Playwright on phone, iPad (Chromium + WebKit), desktop, laptop and wide-desktop Chromium
 on:
   push:
     branches: [main]
@@ -34,7 +34,7 @@ jobs:
         run: npm test
       - name: Install Playwright browsers
         run: npx playwright install --with-deps chromium webkit
-      - name: End-to-end (phone, iPad, desktop, WebKit)
+      - name: End-to-end (phone, iPad, laptop, desktop, WebKit)
         run: npm run test:e2e
       - uses: actions/upload-artifact@v4
         if: failure()

@@ -93,3 +93,51 @@ test("phone layout uses a bottom sheet; tablet layout uses a side panel", async 
   const canvasH = await page.locator("#viewport canvas").evaluate((c) => c.clientHeight);
   expect(canvasH).toBeLessThanOrEqual(viewport!.height);
 });
+
+test("technique cards lead with plain language; the clinical anatomy is collapsed", async ({ page }) => {
+  await loaded(page);
+  await page.locator('#regionList button[data-region="elbow"]').click();
+  const armbar = page.locator('article[data-technique="armbar_closed_guard"]');
+  await expect(armbar.locator(".mech")).toContainText("How it works");
+  await expect(armbar.locator(".mech")).not.toContainText(/olecranon|humeroulnar|capsule/i);
+  await expect(page.locator("#panelRegion .region-head .anatomy")).not.toContainText(/humeroulnar|collateral/i);
+  const detail = armbar.locator("details.anatomy-detail");
+  await expect(detail.locator("p").first()).toBeHidden();
+  await detail.locator("summary").click();
+  await expect(detail.locator("p").first()).toContainText(/olecranon/i);
+  // Joint sliders speak gym words too.
+  await page.locator('.tab[data-tab="joint"]').click();
+  await expect(page.locator(".dof label").first()).toContainText("bend");
+  await expect(page.locator(".dof")).not.toContainText(/pronation|supination|AAOS/);
+});
+
+test("laptop and desktop: the panel grows with the screen, AR is hidden, the mouse gets hover labels", async ({ page, viewport }, info) => {
+  test.skip((viewport?.width ?? 0) < 1024 || /ipad|phone/.test(info.project.name), "laptop/desktop projects only");
+  await loaded(page);
+  await expect(page.locator("#arLink")).toBeHidden(); // Quick Look is iOS/iPadOS only
+  const panelW = await page.locator("#panel").evaluate((n) => n.getBoundingClientRect().width);
+  expect(panelW).toBeGreaterThanOrEqual(380);
+  expect(panelW).toBeLessThanOrEqual(viewport!.width * 0.45);
+  await page.locator('#regionList button[data-region="shoulder"]').click();
+  const cols = await page.locator("#panelRegion .card-list").evaluate((n) => getComputedStyle(n).gridTemplateColumns.split(" ").length);
+  expect(cols).toBe(viewport!.width >= 1440 ? 2 : 1);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  // Escape returns to the region list.
+  await page.keyboard.press("Escape");
+  await expect(page.locator("#panelHome")).toBeVisible();
+  // Hovering a joint with the mouse names it before the click.
+  const project = () => page.evaluate(() => (window as any).__bjj.viewer.__debug?.project?.("Elbow_L") ?? null);
+  let pt = await project();
+  for (let i = 0; i < 20; i++) {
+    await page.waitForTimeout(150);
+    const next = await project();
+    if (pt && next && Math.abs(next.x - pt.x) < 0.5 && Math.abs(next.y - pt.y) < 0.5) { pt = next; break; }
+    pt = next;
+  }
+  test.skip(!pt, "viewer has no debug projector");
+  const box = await page.locator("#viewport canvas").boundingBox();
+  await page.mouse.move(box!.x + pt.x - 20, box!.y + pt.y - 20);
+  await page.mouse.move(box!.x + pt.x, box!.y + pt.y, { steps: 4 });
+  await expect(page.locator("#hoverLabel")).toBeVisible();
+  await expect(page.locator("#hoverLabel")).toContainText(/Elbow/);
+});

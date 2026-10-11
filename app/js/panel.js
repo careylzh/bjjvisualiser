@@ -17,6 +17,19 @@ const el = (tag, attrs = {}, ...children) => {
   return n;
 };
 const pretty = (s) => (s ?? "").replaceAll("_", " ");
+// Gym words for the rig's DOF names. The rig keeps the anatomical names (they are identity, see
+// CLAUDE.md invariant 2); only the label the practitioner reads changes.
+const MOTION_LABEL = {
+  flexion: "bend", extension: "straighten back", hyperextension: "straighten past (hyperextend)",
+  lateral_flexion: "side bend", rotation: "twist",
+  abduction: "out to the side", adduction: "across the body",
+  internal_rotation: "twist inward", external_rotation: "twist outward",
+  pronation: "palm down", supination: "palm up",
+  ulnar_deviation: "tilt to pinky side", radial_deviation: "tilt to thumb side",
+  plantarflexion: "point the toes", dorsiflexion: "toes up",
+  inversion: "sole turns in", eversion: "sole turns out"
+};
+const motion = (m) => MOTION_LABEL[m] ?? pretty(m);
 
 export function createPanel({ dom, knowledge, viewer }) {
   const regions = new Map(knowledge.regions.map((r) => [r.id, r]));
@@ -137,13 +150,22 @@ export function createPanel({ dom, knowledge, viewer }) {
         !isPrimary && !gripOnly ? el("span", { class: "badge" }, `secondary target · primary: ${regions.get(t.primary_target.region)?.label}`) : null,
         gripOnly ? el("span", { class: "badge" }, `grip here · attacks the ${regions.get(t.primary_target.region)?.label.toLowerCase()}`) : null,
         t.confidence === "low" ? el("span", { class: "badge conf-low" }, "low confidence") : null),
-      el("p", { class: "mech" }, el("b", {}, gripOnly ? "Grip: " : "Mechanism: "), gripOnly ? `${t.primary_target.mechanism}` : target.mechanism,
-        target.structures?.length ? el("span", { class: "muted" }, ` — ${target.structures.join(", ")}`) : null),
+      el("p", { class: "mech" }, el("b", {}, gripOnly ? `Grip here to attack the ${regions.get(t.primary_target.region)?.label.toLowerCase()}: ` : "How it works: "),
+        gripOnly ? t.primary_target.plain : target.plain),
+      anatomyDetail(gripOnly ? t.primary_target : target),
       t.summary ? el("p", { class: "summary" }, t.summary) : null,
       el("div", { class: "badges" }, ...posBadges),
       notes.length ? el("ul", { class: "pos-notes" }, ...notes) : null,
       t.ibjjf?.note ? el("p", { class: "small muted" }, "Rules: " + t.ibjjf.note) : null,
       actions);
+  }
+
+  // The precise anatomy (sourced mechanism + named structures) stays one tap away for anyone who wants it.
+  function anatomyDetail(target) {
+    return el("details", { class: "anatomy-detail" },
+      el("summary", {}, "Anatomy detail"),
+      el("p", {}, target.mechanism),
+      target.structures?.length ? el("p", { class: "muted" }, "Structures: " + target.structures.join(", ")) : null);
   }
 
   function jointPanel(regionId) {
@@ -153,13 +175,13 @@ export function createPanel({ dom, knowledge, viewer }) {
     const side = viewer.hasSide(articulation) ? (selection?.side ?? "L") : null;
     const vals = viewer.getJointAngles(articulation, side);
     const box = el("div", { class: "dof" },
-      el("p", { class: "muted small" }, `Joint: ${pretty(articulation)}${side ? ` (${side === "L" ? "left" : "right"})` : ""}. Ranges are AAOS normative values; sliders stop at the anatomical limit — a submission goes past it.`));
+      el("p", { class: "muted small" }, `Joint: ${pretty(articulation)}${side ? ` (${side === "L" ? "left" : "right"})` : ""}. Each slider stops at a healthy joint's normal limit. A submission forces the joint past it.`));
     dofs.forEach((d, i) => {
       const out = el("span", { class: "val" }, `${Math.round(vals[i])}°`);
       const input = el("input", { class: "range", type: "range", min: d.range[0], max: d.range[1], step: 1, value: vals[i], "data-dof": d.motion,
         oninput: (e) => { const v = Number(e.target.value); viewer.setJointAngle(articulation, side, i, v); out.textContent = `${v}°`; } });
-      box.append(el("label", {}, el("span", {}, `${pretty(d.motion)} / ${pretty(d.opposite)}`), out, input,
-        el("span", { class: "ends" }, el("span", {}, `${pretty(d.opposite)} ${Math.abs(d.range[0])}°`), el("span", {}, `${pretty(d.motion)} ${d.range[1]}°`))));
+      box.append(el("label", {}, el("span", { title: `${pretty(d.motion)} / ${pretty(d.opposite)}` }, `${motion(d.motion)} / ${motion(d.opposite)}`), out, input,
+        el("span", { class: "ends" }, el("span", {}, `${motion(d.opposite)} ${Math.abs(d.range[0])}°`), el("span", {}, `${motion(d.motion)} ${d.range[1]}°`))));
     });
     box.append(el("div", { class: "card-actions" }, el("button", { type: "button", class: "btn", onclick: () => { viewer.resetPose(); renderRegion(); } }, "Reset pose")));
     return box;
@@ -176,13 +198,14 @@ export function createPanel({ dom, knowledge, viewer }) {
     dom.panelRegion.replaceChildren(
       el("div", { class: "region-head" },
         el("button", { type: "button", class: "ghost back", "aria-label": "Back to regions", onclick: () => select(null) }, "←"),
-        el("div", {}, el("h2", {}, r.label, selection.side ? ` (${selection.side === "L" ? "left" : "right"})` : ""), el("p", { class: "anatomy" }, r.anatomy)),
+        el("div", {}, el("h2", {}, r.label, selection.side ? ` (${selection.side === "L" ? "left" : "right"})` : ""), el("p", { class: "anatomy" }, r.plain),
+          el("details", { class: "anatomy-detail" }, el("summary", {}, "Anatomy detail"), el("p", {}, r.anatomy))),
         selection.side ? el("div", { class: "segmented side-toggle", role: "group", "aria-label": "Side" },
           ...["L", "R"].map((sd) => el("button", { type: "button", class: selection.side === sd ? "is-active" : "", "data-side": sd, onclick: () => select(r.id, sd) }, sd))) : null),
       el("div", { class: "tabs", role: "tablist" }, ...tabs.map(([id, label, n]) =>
         el("button", { type: "button", role: "tab", class: `tab ${tab === id ? "is-active" : ""}`, "data-tab": id, "aria-selected": tab === id, onclick: () => { tab = id; renderRegion(); } },
           label, n != null ? el("span", { class: "n" }, n) : null))),
-      ...list);
+      el("div", { class: "card-list" }, ...list));
   }
 
   // ---- selection -----------------------------------------------------------------------

@@ -25,7 +25,7 @@ npm ci
 npm run build          # build:knowledge (validate + bundle → app/data/knowledge.json) + build:web (static guard)
 scripts/version.sh verify
 npm test               # vitest: knowledge facts pinned as regressions + legacy tests
-npm run test:e2e       # Playwright: phone-chromium, ipad-chromium, desktop-chromium, ipad-webkit
+npm run test:e2e       # Playwright: phone, iPad (chromium + webkit), desktop 1280, laptop 1366, desktop-wide 1920
 npm run shots          # headless screenshots → .shots/*.png — LOOK at them
 npm run build:rig      # only after editing tools/rig/build_anatomy_rig.py (needs python3+pxr, usdzip)
 npm run dev            # http://localhost:5173 (python http.server over app/)
@@ -55,8 +55,13 @@ npm run dev            # http://localhost:5173 (python http.server over app/)
    D-3) and every entry follows them.
 6. **The figure is the defender; `grip_regions` is where the attacker holds.** Tapping a
    wrist must surface the kimura/americana as "grip here".
-7. **Phone AND iPad Safari.** Under 760 px the panel is a bottom sheet; above, a side panel.
-   `ipad-webkit` is a required Playwright project, not optional.
+7. **Phone AND iPad Safari AND laptop/desktop.** Under 760 px the panel is a bottom sheet; above,
+   a side panel that widens at 1024 px and goes two-column at 1440 px. `ipad-webkit` is a required
+   Playwright project, not optional; mouse hover/keyboard affordances must never be the only way in.
+8. **Plain language first.** The app is for the average practitioner. Region `plain`, target
+   `plain`, `summary` and position notes use gym words (knee, lats, shoulder blade, ankle tendon,
+   "hyperextends the elbow"); the build rejects the jargon list in `tools/knowledge/plain-language.mjs`.
+   Precise anatomy stays in `anatomy` / `mechanism` / `structures`, shown under "Anatomy detail".
 
 ## Conventions
 - **Versioning is SEMANTIC: `v[major].[minor].[patch]` + build number, ONE version across

@@ -20,7 +20,8 @@
         "common flexor tendon origin",
         "olecranon / olecranon fossa"
       ],
-      "mechanism": "Elbow hyperextension: the attacker's hips act as the fulcrum below the elbow while the wrist is pulled to the chest; forearm kept neutral/thumb-up so the olecranon locks in the fossa and the medial elbow complex (UCL, flexor origin, anterior capsule) is loaded in tension"
+      "mechanism": "Elbow hyperextension: the attacker's hips act as the fulcrum below the elbow while the wrist is pulled to the chest; forearm kept neutral/thumb-up so the olecranon locks in the fossa and the medial elbow complex (UCL, flexor origin, anterior capsule) is loaded in tension",
+      "plain": "Your hips act as a lever under their elbow while you pull the wrist to your chest, bending the elbow the wrong way (hyperextension). With their thumb pointing up, the tip of the elbow locks out and the ligaments, tendons and joint lining on the inside and front of the elbow are stretched."
     },
     "secondary_targets": [
       {
@@ -28,7 +29,8 @@
         "structures": [
           "glenohumeral joint"
         ],
-        "mechanism": "Arm is pulled across and up; knees pinch the upper arm, limiting rotation"
+        "mechanism": "Arm is pulled across and up; knees pinch the upper arm, limiting rotation",
+        "plain": "The arm is pulled across and up while your knees pinch the upper arm, so the shoulder cannot turn to escape."
       }
     ],
     "grip_regions": [
@@ -110,7 +112,8 @@
         "ulnar collateral ligament",
         "common flexor tendon origin"
       ],
-      "mechanism": "Elbow hyperextension over the attacker's hips/pelvis with the wrist pinned to the chest and the forearm neutral; knees squeezed to immobilise the humerus"
+      "mechanism": "Elbow hyperextension over the attacker's hips/pelvis with the wrist pinned to the chest and the forearm neutral; knees squeezed to immobilise the humerus",
+      "plain": "Their wrist is pinned to your chest and the elbow is bent the wrong way over your hips (hyperextension), with their thumb pointing up; your knees squeeze the upper arm so it cannot move. This stretches the ligaments and tendons on the inside and front of the elbow."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -202,7 +205,8 @@
         "anterior capsule",
         "ulnar collateral ligament"
       ],
-      "mechanism": "Elbow hyperextension: the far arm is isolated under the attacker's armpit or across the chest, the attacker steps/spins over the head and extends the elbow over the hips or the thigh"
+      "mechanism": "Elbow hyperextension: the far arm is isolated under the attacker's armpit or across the chest, the attacker steps/spins over the head and extends the elbow over the hips or the thigh",
+      "plain": "The far arm is trapped under your armpit or across your chest, then you step over the head and straighten the elbow past its limit over your hips or thigh (hyperextension), stretching the joint and ligaments on the inside and front of the elbow."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -281,7 +285,8 @@
         "anterior capsule",
         "ulnar collateral ligament"
       ],
-      "mechanism": "Elbow hyperextension: from the back the attacker traps the arm (often with a kimura or wrist grip), swings a leg over the head and falls to the side to extend the elbow over the hips"
+      "mechanism": "Elbow hyperextension: from the back the attacker traps the arm (often with a kimura or wrist grip), swings a leg over the head and falls to the side to extend the elbow over the hips",
+      "plain": "From the back you trap the arm, swing a leg over the head and fall to the side, bending the elbow the wrong way over your hips (hyperextension) and stretching the joint and ligaments on the inside and front of the elbow."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -351,7 +356,8 @@
         "anterior capsule",
         "ulnar collateral ligament"
       ],
-      "mechanism": "Elbow hyperextension: the sleeve grip pulls the arm while the foot on the biceps pushes the upper arm, pre-extending the elbow; the attacker angles the hips and throws the leg over the head to finish"
+      "mechanism": "Elbow hyperextension: the sleeve grip pulls the arm while the foot on the biceps pushes the upper arm, pre-extending the elbow; the attacker angles the hips and throws the leg over the head to finish",
+      "plain": "The sleeve grip pulls the arm while your foot on their biceps pushes it, so the elbow is already straight; you angle your hips and swing the leg over the head to bend the elbow the wrong way (hyperextension), stretching the joint and ligaments on the inside and front of the elbow."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -415,7 +421,8 @@
         "anterior capsule",
         "ulnar collateral ligament"
       ],
-      "mechanism": "Elbow hyperextension: from standing the attacker controls the arm (and collar/neck in no-gi), places a shin on the opponent's hip/midsection, jumps and swings the other leg over the head, landing in the cross armlock"
+      "mechanism": "Elbow hyperextension: from standing the attacker controls the arm (and collar/neck in no-gi), places a shin on the opponent's hip/midsection, jumps and swings the other leg over the head, landing in the cross armlock",
+      "plain": "You jump from standing into the same armbar: the arm ends up across your hips and the elbow is bent the wrong way (hyperextension), stretching the joint and ligaments on the inside and front of the elbow."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -480,7 +487,8 @@
         "anterior capsule",
         "ulnar collateral ligament"
       ],
-      "mechanism": "Elbow hyperextension using the legs: the arm trapped between the attacker's thighs is straightened and the attacker bridges the hips forward against the elbow while the legs are triangled to remove slack"
+      "mechanism": "Elbow hyperextension using the legs: the arm trapped between the attacker's thighs is straightened and the attacker bridges the hips forward against the elbow while the legs are triangled to remove slack",
+      "plain": "The arm trapped between your thighs is straightened and you push your hips forward against the elbow, bending it the wrong way (hyperextension) with your legs instead of your hands, stretching the joint and ligaments on the inside and front of the elbow."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -540,7 +548,8 @@
         "anterior capsule",
         "ulnar collateral ligament"
       ],
-      "mechanism": "Elbow hyperextension: the attacker grips both arms, falls backward with feet on the hips (tomoe-nage), lifts and rotates the opponent over, and lands with the extended arm across the hips"
+      "mechanism": "Elbow hyperextension: the attacker grips both arms, falls backward with feet on the hips (tomoe-nage), lifts and rotates the opponent over, and lands with the extended arm across the hips",
+      "plain": "After the sacrifice throw you land with their straight arm across your hips, so the elbow is bent the wrong way (hyperextension), stretching the joint and ligaments on the inside and front of the elbow."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -597,7 +606,8 @@
         "anterior capsule",
         "ulnar collateral ligament"
       ],
-      "mechanism": "Elbow hyperextension with the arm clamped across the attacker's chest/shoulder: the elbow is rolled to point up (shoulder internally rotated, thumb down), the attacker's shoulder or forearm acts as the fulcrum under the elbow, and the hands/chest pull the wrist down so the joint 'cuts' over the fulcrum"
+      "mechanism": "Elbow hyperextension with the arm clamped across the attacker's chest/shoulder: the elbow is rolled to point up (shoulder internally rotated, thumb down), the attacker's shoulder or forearm acts as the fulcrum under the elbow, and the hands/chest pull the wrist down so the joint 'cuts' over the fulcrum",
+      "plain": "Their arm is clamped across your chest with the elbow turned to point up (thumb down); your shoulder or forearm sits under the elbow as the pivot while you pull the wrist down, bending the elbow the wrong way (hyperextension) and stretching the joint and ligaments on the inside and front of the elbow."
     },
     "secondary_targets": [
       {
@@ -605,7 +615,8 @@
         "structures": [
           "glenohumeral joint"
         ],
-        "mechanism": "Shoulder line is controlled and internally rotated to expose the elbow"
+        "mechanism": "Shoulder line is controlled and internally rotated to expose the elbow",
+        "plain": "Their shoulder is held and rolled inward (thumb down) so the elbow points up and is exposed."
       }
     ],
     "grip_regions": [
@@ -681,7 +692,8 @@
         "anterior capsule",
         "ulnar collateral ligament"
       ],
-      "mechanism": "Elbow hyperextension against a fulcrum formed by the attacker's shoulder, neck or forearm: the opponent's wrist is trapped (under the armpit or on the shoulder) and the elbow is lifted/pressed with the elbow tightly controlled so it cannot rotate out"
+      "mechanism": "Elbow hyperextension against a fulcrum formed by the attacker's shoulder, neck or forearm: the opponent's wrist is trapped (under the armpit or on the shoulder) and the elbow is lifted/pressed with the elbow tightly controlled so it cannot rotate out",
+      "plain": "Their wrist is trapped under your armpit or on your shoulder and the elbow is pressed over your shoulder, neck or forearm as the pivot, bending it the wrong way (hyperextension); holding the elbow tight stops them turning out of it. This stretches the joint and ligaments on the inside and front of the elbow."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -753,7 +765,8 @@
         "rotator cuff (infraspinatus, teres minor, subscapularis)",
         "acromioclavicular ligaments"
       ],
-      "mechanism": "Forced internal (medial) rotation plus extension of the humerus with the elbow flexed ~90 deg, driving the hand up behind the back; a figure-four grip (one hand on the wrist, the other through and gripping your own wrist) uses the forearm as a lever"
+      "mechanism": "Forced internal (medial) rotation plus extension of the humerus with the elbow flexed ~90 deg, driving the hand up behind the back; a figure-four grip (one hand on the wrist, the other through and gripping your own wrist) uses the forearm as a lever",
+      "plain": "With the elbow bent at a right angle, the figure-four grip uses their forearm as a lever to drive the hand up behind their back, twisting the shoulder joint inward and backward. This stretches the back of the shoulder joint and the rotator cuff, and can strain the joint on top of the shoulder where the collarbone meets the shoulder blade."
     },
     "secondary_targets": [
       {
@@ -762,14 +775,16 @@
           "humeroulnar joint",
           "medial collateral ligament"
         ],
-        "mechanism": "If the elbow is allowed to open, torque is transmitted to the elbow (double wristlock origin)"
+        "mechanism": "If the elbow is allowed to open, torque is transmitted to the elbow (double wristlock origin)",
+        "plain": "If they let the elbow straighten, the twist moves into the elbow and strains the ligaments on its inside."
       },
       {
         "region": "wrist",
         "structures": [
           "radiocarpal joint"
         ],
-        "mechanism": "The wrist grip can bend the wrist as a finishing adjunct"
+        "mechanism": "The wrist grip can bend the wrist as a finishing adjunct",
+        "plain": "The hand on their wrist can also bend the wrist as an extra finish."
       }
     ],
     "grip_regions": [
@@ -915,7 +930,8 @@
         "middle glenohumeral ligament",
         "subscapularis"
       ],
-      "mechanism": "Forced external rotation of the humerus with the shoulder abducted ~90 deg and the elbow flexed ~90 deg: the wrist is pinned to the mat and the elbow is lifted/dragged toward the hip ('paintbrush'), loading the anterior capsule and anterior IGHL - the apprehension position"
+      "mechanism": "Forced external rotation of the humerus with the shoulder abducted ~90 deg and the elbow flexed ~90 deg: the wrist is pinned to the mat and the elbow is lifted/dragged toward the hip ('paintbrush'), loading the anterior capsule and anterior IGHL - the apprehension position",
+      "plain": "With the arm out to the side and the elbow bent at a right angle, you pin the wrist to the mat and lift or slide the elbow toward their hip (the 'paintbrush'), twisting the shoulder joint backwards (palm-up direction). This stretches the ligaments and joint lining at the front of the shoulder - the position where shoulders dislocate forward."
     },
     "secondary_targets": [
       {
@@ -923,7 +939,8 @@
         "structures": [
           "humeroulnar joint"
         ],
-        "mechanism": "Elbow is flexed and used as the lever; some torque reaches the elbow if the wrist slides"
+        "mechanism": "Elbow is flexed and used as the lever; some torque reaches the elbow if the wrist slides",
+        "plain": "The bent elbow is the lever; if the wrist slides, some of the twist goes into the elbow."
       }
     ],
     "grip_regions": [
@@ -1034,7 +1051,8 @@
         "rotator cuff",
         "scapulothoracic joint ('omoplata' = shoulder blade)"
       ],
-      "mechanism": "Forced internal rotation (and extension) of the humerus using the leg: the attacker's hamstring/leg is clamped over the back of the shoulder with the forearm trapped behind it, the attacker sits up and drives forward and down so the hand is pushed up the back"
+      "mechanism": "Forced internal rotation (and extension) of the humerus using the leg: the attacker's hamstring/leg is clamped over the back of the shoulder with the forearm trapped behind it, the attacker sits up and drives forward and down so the hand is pushed up the back",
+      "plain": "Your leg wraps over the back of their shoulder with their forearm trapped behind it; you sit up and lean forward and down so their hand is pushed up their back, twisting the shoulder joint inward and backward. This stretches the back of the shoulder joint and the rotator cuff."
     },
     "secondary_targets": [
       {
@@ -1042,7 +1060,8 @@
         "structures": [
           "humeroulnar joint"
         ],
-        "mechanism": "Elbow is bent and trapped; pressure may reach it if the arm is straightened"
+        "mechanism": "Elbow is bent and trapped; pressure may reach it if the arm is straightened",
+        "plain": "The elbow is bent and trapped; it can take pressure if the arm is straightened."
       }
     ],
     "grip_regions": [
@@ -1161,7 +1180,8 @@
         "posterior capsule / posterior IGHL",
         "rotator cuff"
       ],
-      "mechanism": "Forced internal rotation: the opponent's elbow is clamped between the attacker's thighs (triangle-like), the attacker threads an arm through the bent arm (reverse-kimura frame seated in the elbow crook) and pushes the wrist outward and upward while turning the torso toward the trapped shoulder"
+      "mechanism": "Forced internal rotation: the opponent's elbow is clamped between the attacker's thighs (triangle-like), the attacker threads an arm through the bent arm (reverse-kimura frame seated in the elbow crook) and pushes the wrist outward and upward while turning the torso toward the trapped shoulder",
+      "plain": "Their elbow is clamped between your thighs and your arm is threaded through the bend of their elbow; you push their wrist out and up while turning your body toward the trapped shoulder, twisting the shoulder joint inward. This stretches the back of the shoulder joint and the rotator cuff."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1240,7 +1260,8 @@
         "posterior capsule / posterior IGHL",
         "rotator cuff"
       ],
-      "mechanism": "Forced internal rotation: starting from a kimura (figure-four) grip, the attacker swings a leg over the opponent's shoulder line so the shin/calf becomes the frame, transfers the grip to the own thigh/shin and rotates the captured arm toward the attacker's head with hip and leg torque"
+      "mechanism": "Forced internal rotation: starting from a kimura (figure-four) grip, the attacker swings a leg over the opponent's shoulder line so the shin/calf becomes the frame, transfers the grip to the own thigh/shin and rotates the captured arm toward the attacker's head with hip and leg torque",
+      "plain": "From a kimura grip you swing a leg over their shoulder so your shin or calf becomes the frame, move your grip to your own leg and use your hips and leg to rotate their arm toward your head, twisting the shoulder joint inward. This stretches the back of the shoulder joint and the rotator cuff."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1319,7 +1340,8 @@
         "posterior capsule / posterior IGHL",
         "rotator cuff"
       ],
-      "mechanism": "Forced internal rotation/hyper-rotation with the arm trapped: one leg drapes over the opponent's back and hooks the arm near the elbow (arm held above the hips and under the armpit), the attacker's thigh and ribs control the arm and hip pressure drives into the shoulder"
+      "mechanism": "Forced internal rotation/hyper-rotation with the arm trapped: one leg drapes over the opponent's back and hooks the arm near the elbow (arm held above the hips and under the armpit), the attacker's thigh and ribs control the arm and hip pressure drives into the shoulder",
+      "plain": "One leg drapes over their back and hooks the arm near the elbow; your thigh and ribs hold the arm and your hips drive into the shoulder, twisting the shoulder joint inward past its limit. This stretches the back of the shoulder joint and the rotator cuff."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1387,7 +1409,8 @@
         "posterior capsule / posterior IGHL",
         "rotator cuff"
       ],
-      "mechanism": "Forced internal rotation of the trapped arm, as in the omoplata, re-secured when the opponent is slipping out of the standard finish (the arm is re-clamped and the shoulder re-torqued from a modified leg/hip configuration)"
+      "mechanism": "Forced internal rotation of the trapped arm, as in the omoplata, re-secured when the opponent is slipping out of the standard finish (the arm is re-clamped and the shoulder re-torqued from a modified leg/hip configuration)",
+      "plain": "The same inward twist of the shoulder as the omoplata: when they are slipping out, you re-clamp the arm with a changed leg and hip position and twist the shoulder again. This stretches the back of the shoulder joint and the rotator cuff."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1447,7 +1470,8 @@
         "posterior capsule / posterior IGHL",
         "rotator cuff"
       ],
-      "mechanism": "Forced internal rotation with the arm driven behind the back by the legs: the arm captured between the thighs is bent, and the attacker rotates the hips away from the trapped arm (opposite direction to a standard omoplata), while wrist control stops the opponent spinning out"
+      "mechanism": "Forced internal rotation with the arm driven behind the back by the legs: the arm captured between the thighs is bent, and the attacker rotates the hips away from the trapped arm (opposite direction to a standard omoplata), while wrist control stops the opponent spinning out",
+      "plain": "The arm trapped between your thighs is bent and your legs drive it up their back as you turn your hips away from it (the opposite way to an omoplata), twisting the shoulder joint inward; holding the wrist stops them rolling out. This stretches the back of the shoulder joint and the rotator cuff."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1512,7 +1536,8 @@
         "posterior capsule / posterior IGHL",
         "rotator cuff"
       ],
-      "mechanism": "Forced internal rotation and extension: the arm is bent behind the opponent's back and the hand is driven up toward the neck/scapula, placing pressure on the shoulder"
+      "mechanism": "Forced internal rotation and extension: the arm is bent behind the opponent's back and the hand is driven up toward the neck/scapula, placing pressure on the shoulder",
+      "plain": "Their arm is bent behind their back and the hand is pushed up toward the neck or shoulder blade, twisting the shoulder joint inward and backward and stretching the back of the shoulder joint and the rotator cuff."
     },
     "secondary_targets": [
       {
@@ -1520,7 +1545,8 @@
         "structures": [
           "humeroulnar joint"
         ],
-        "mechanism": "Elbow is flexed and used as the lever; a 'twisting hammerlock' adds elbow torque"
+        "mechanism": "Elbow is flexed and used as the lever; a 'twisting hammerlock' adds elbow torque",
+        "plain": "The bent elbow is the lever; a 'twisting hammerlock' adds a twist on the elbow too."
       }
     ],
     "grip_regions": [
@@ -1584,7 +1610,8 @@
         "posterior capsule / posterior IGHL",
         "rotator cuff"
       ],
-      "mechanism": "Forced internal rotation with the elbow clamped: a figure-four grip on the wrist with the opponent's elbow pinned tightly to the attacker's chest/hip, then the wrist is rotated toward the opponent's back ('paintbrush') so all torque goes to the shoulder"
+      "mechanism": "Forced internal rotation with the elbow clamped: a figure-four grip on the wrist with the opponent's elbow pinned tightly to the attacker's chest/hip, then the wrist is rotated toward the opponent's back ('paintbrush') so all torque goes to the shoulder",
+      "plain": "With a figure-four grip on the wrist and their elbow pinned tight to your chest or hip, you rotate the wrist toward their back (the 'paintbrush') so all of the twist goes into the shoulder, twisting the shoulder joint inward and stretching the back of the shoulder joint and the rotator cuff."
     },
     "secondary_targets": [
       {
@@ -1592,7 +1619,8 @@
         "structures": [
           "humeroulnar joint"
         ],
-        "mechanism": "Elbow is trapped and compressed against the chest; some descriptions say it attacks elbow and shoulder together"
+        "mechanism": "Elbow is trapped and compressed against the chest; some descriptions say it attacks elbow and shoulder together",
+        "plain": "The elbow is trapped and squeezed against your chest; some descriptions say this attacks the elbow and shoulder at the same time."
       }
     ],
     "grip_regions": [
@@ -1653,7 +1681,8 @@
         "distal biceps tendon",
         "humerus (muscle compressed against bone)"
       ],
-      "mechanism": "Compression: a bony fulcrum (shin, forearm/radius, or wrist) is wedged deep into the antecubital fossa and the forearm is forcibly flexed over it, crushing the biceps/brachialis and distal biceps tendon against the humerus"
+      "mechanism": "Compression: a bony fulcrum (shin, forearm/radius, or wrist) is wedged deep into the antecubital fossa and the forearm is forcibly flexed over it, crushing the biceps/brachialis and distal biceps tendon against the humerus",
+      "plain": "A hard edge - your shin, forearm bone or wrist - is jammed deep into the bend of their elbow and their forearm is folded over it, crushing the biceps, the muscle under it and the biceps tendon against the upper-arm bone."
     },
     "secondary_targets": [
       {
@@ -1662,7 +1691,8 @@
           "humeroulnar joint",
           "joint capsule"
         ],
-        "mechanism": "The fulcrum inside the bent elbow distracts/separates the joint (why judo treats it as an armlock)"
+        "mechanism": "The fulcrum inside the bent elbow distracts/separates the joint (why judo treats it as an armlock)",
+        "plain": "The wedge in the bend of the elbow levers the joint apart, which is why judo counts it as an armlock."
       }
     ],
     "grip_regions": [
@@ -1766,7 +1796,8 @@
         "extensor tendons",
         "distal radius"
       ],
-      "mechanism": "Forced palmar flexion of the wrist past its end range: the hand is pushed toward the inner forearm while the forearm/elbow is immobilised (elbow and shoulder must be controlled so the opponent cannot roll the arm out)"
+      "mechanism": "Forced palmar flexion of the wrist past its end range: the hand is pushed toward the inner forearm while the forearm/elbow is immobilised (elbow and shoulder must be controlled so the opponent cannot roll the arm out)",
+      "plain": "Their hand is bent toward the inside of the forearm past its limit while you pin the elbow and shoulder so they cannot roll the arm out. This stretches the ligaments and tendons on the back of the wrist."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -1861,7 +1892,8 @@
         "flexor tendons",
         "carpal bones"
       ],
-      "mechanism": "Forced dorsiflexion/hyperextension: the knuckles are driven back toward the forearm, usually by pinning the palm flat and driving weight through the straight arm, or by bending the hand back against a trapped forearm"
+      "mechanism": "Forced dorsiflexion/hyperextension: the knuckles are driven back toward the forearm, usually by pinning the palm flat and driving weight through the straight arm, or by bending the hand back against a trapped forearm",
+      "plain": "Their knuckles are driven back toward the forearm, bending the wrist back past its limit - usually by pinning the palm flat and driving weight through their straight arm. This stretches the ligaments and tendons on the palm side of the wrist."
     },
     "secondary_targets": [
       {
@@ -1869,7 +1901,8 @@
         "structures": [
           "metacarpophalangeal joints"
         ],
-        "mechanism": "Often combined with finger extension - illegal if fingers are bent backwards (IBJJF row 24)"
+        "mechanism": "Often combined with finger extension - illegal if fingers are bent backwards (IBJJF row 24)",
+        "plain": "Often combined with bending the fingers back - illegal under IBJJF rules if the fingers are bent backwards."
       }
     ],
     "grip_regions": [
@@ -1951,7 +1984,8 @@
         "radiocarpal joint",
         "proximal radioulnar joint (via the forearm)"
       ],
-      "mechanism": "Forced supination or pronation beyond end range: the wrist itself does not rotate, so the twist is transmitted to the distal and proximal radioulnar joints and, with the elbow straightened, to the shoulder; usually combined with flexion (kote-gaeshi) or pronation with the elbow bent (nikyo/sankyo)"
+      "mechanism": "Forced supination or pronation beyond end range: the wrist itself does not rotate, so the twist is transmitted to the distal and proximal radioulnar joints and, with the elbow straightened, to the shoulder; usually combined with flexion (kote-gaeshi) or pronation with the elbow bent (nikyo/sankyo)",
+      "plain": "The hand is twisted palm-up or palm-down past its limit. The wrist itself does not twist, so the strain goes into the joints between the two forearm bones (at the wrist and near the elbow) and the cartilage on the little-finger side of the wrist; with the elbow straight it carries on into the shoulder."
     },
     "secondary_targets": [
       {
@@ -1960,14 +1994,16 @@
           "interosseous membrane",
           "radius/ulna"
         ],
-        "mechanism": "Torsion of the forearm bones"
+        "mechanism": "Torsion of the forearm bones",
+        "plain": "The two forearm bones are twisted against each other."
       },
       {
         "region": "shoulder",
         "structures": [
           "glenohumeral joint"
         ],
-        "mechanism": "With a straight elbow the rotation ends at the shoulder"
+        "mechanism": "With a straight elbow the rotation ends at the shoulder",
+        "plain": "With a straight elbow the twist ends at the shoulder."
       }
     ],
     "grip_regions": [
@@ -1984,12 +2020,12 @@
       {
         "position": "back_control",
         "attacker_role": "top",
-        "note": "Sankyo-style pronating wristlock from rear mount (Kesting)"
+        "note": "Sankyo-style palm-down twisting wristlock from rear mount (Kesting)"
       },
       {
         "position": "closed_guard",
         "attacker_role": "bottom",
-        "note": "Supinating twist on a hand that grips your collar/lapel (gi) or posts on the chest"
+        "note": "Palm-up twist on a hand that grips your collar/lapel (gi) or posts on the chest"
       },
       {
         "position": "side_control",
@@ -2008,7 +2044,7 @@
       "nogi": true,
       "note": "Wrist lock row 10: legal from adult blue belt; prohibited for all juvenile and white-belt divisions"
     },
-    "summary": "Twist the hand into full supination or pronation while the elbow is pinned so the forearm joints, not the wrist, take the torque.",
+    "summary": "Twist the hand fully palm-up or palm-down while the elbow is pinned so the forearm joints, not the wrist, take the torque.",
     "sources": [
       {
         "ref": "wikipedia-wristlock",
@@ -2047,7 +2083,8 @@
         "volar plates",
         "collateral ligaments of the fingers"
       ],
-      "mechanism": "Hyperextension (or lateral deviation) of one or more fingers against the volar plate and collateral ligaments"
+      "mechanism": "Hyperextension (or lateral deviation) of one or more fingers against the volar plate and collateral ligaments",
+      "plain": "One or more fingers are bent backwards (or sideways) past their limit, stretching the ligaments on the palm side and edges of the finger joints."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -2104,7 +2141,8 @@
         "humerus / triceps",
         "glenohumeral joint (posture via the shoulder)"
       ],
-      "mechanism": "Both of the attacker's hands control one arm: far hand on the wrist, near hand under the armpit or on the triceps/elbow, body behind the arm with the shoulder above the opponent's, breaking posture and removing the arm from the fight"
+      "mechanism": "Both of the attacker's hands control one arm: far hand on the wrist, near hand under the armpit or on the triceps/elbow, body behind the arm with the shoulder above the opponent's, breaking posture and removing the arm from the fight",
+      "plain": "Both your hands control one of their arms - one on the wrist, one under the armpit or on the back of the upper arm - with your body behind the arm and your shoulder above theirs. Nothing is hurt: it breaks their posture and takes that arm out of the fight."
     },
     "secondary_targets": [
       {
@@ -2112,7 +2150,8 @@
         "structures": [
           "wrist"
         ],
-        "mechanism": "Wrist grip pins the hand to the attacker's hip"
+        "mechanism": "Wrist grip pins the hand to the attacker's hip",
+        "plain": "Your grip pins their hand to your hip."
       }
     ],
     "grip_regions": [
@@ -2187,7 +2226,8 @@
         "distal forearm / wrist",
         "sleeve cuff (gi)"
       ],
-      "mechanism": "Gripping the wrist (or sleeve cuff) to deny posts, grips and frames; the hand is pinned to the mat or the attacker's body so the elbow and shoulder can be attacked"
+      "mechanism": "Gripping the wrist (or sleeve cuff) to deny posts, grips and frames; the hand is pinned to the mat or the attacker's body so the elbow and shoulder can be attacked",
+      "plain": "Holding the wrist (or sleeve cuff) stops them posting, gripping or framing, and pins the hand to the mat or your body so you can attack the elbow and shoulder."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -2269,7 +2309,8 @@
         "triceps / distal humerus",
         "wrist"
       ],
-      "mechanism": "Same-side wrist grip plus a cup on the triceps; the arm is pulled across the attacker's body so the opponent's back is exposed, usually leading to a rear clinch or back take"
+      "mechanism": "Same-side wrist grip plus a cup on the triceps; the arm is pulled across the attacker's body so the opponent's back is exposed, usually leading to a rear clinch or back take",
+      "plain": "You grip their wrist on the same side and cup the back of the upper arm, then pull the arm across your body so their back is exposed. It is a control, not a submission - it leads to a back take."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -2347,7 +2388,8 @@
         "humerus / shoulder (arm folded across the face)",
         "wrist"
       ],
-      "mechanism": "One of the opponent's arms is folded across their own face/neck and pinned: in no-gi the attacker grips the wrist deep behind the head from the opposite side; in gi the opponent's own lapel is fed over the arm; chest pressure keeps them flat"
+      "mechanism": "One of the opponent's arms is folded across their own face/neck and pinned: in no-gi the attacker grips the wrist deep behind the head from the opposite side; in gi the opponent's own lapel is fed over the arm; chest pressure keeps them flat",
+      "plain": "One of their arms is folded across their own face and neck and pinned there - you hold the wrist from behind the head, or in the gi their own lapel is fed over the arm - while your chest keeps them flat."
     },
     "secondary_targets": [
       {
@@ -2355,7 +2397,8 @@
         "structures": [
           "face / neck"
         ],
-        "mechanism": "The trapped forearm lies across the face, limiting head movement"
+        "mechanism": "The trapped forearm lies across the face, limiting head movement",
+        "plain": "Their own forearm lies across their face, so they cannot move the head much."
       },
       {
         "region": "neck",
@@ -2363,21 +2406,24 @@
           "opponent's own arm wrapped across the neck",
           "shoulder"
         ],
-        "mechanism": "The opponent's arm is pulled across their own throat and pinned there with a 2-on-1 / kimura-style grip from behind the head; the trapped arm immobilises the head and shoulders and exposes the back"
+        "mechanism": "The opponent's arm is pulled across their own throat and pinned there with a 2-on-1 / kimura-style grip from behind the head; the trapped arm immobilises the head and shoulders and exposes the back",
+        "plain": "Their arm is pulled across their own throat and held from behind the head, which pins the head and shoulders and opens up their back."
       },
       {
         "region": "shoulder",
         "structures": [
           "glenohumeral joint (internal rotation)"
         ],
-        "mechanism": "Arm wrapped across the body"
+        "mechanism": "Arm wrapped across the body",
+        "plain": "The arm is wrapped across their body, turning the shoulder inward."
       },
       {
         "region": "wrist",
         "structures": [
           "wrist"
         ],
-        "mechanism": "Wrist gripped behind the neck"
+        "mechanism": "Wrist gripped behind the neck",
+        "plain": "You hold their wrist behind their neck."
       }
     ],
     "grip_regions": [
@@ -2457,7 +2503,8 @@
         "upper arm / axilla",
         "glenohumeral joint (posture)"
       ],
-      "mechanism": "The attacker's arm goes over the opponent's arm and encircles it (or the upper body), lifting the armpit and shoulder; from the guard it clamps the arm to the attacker's ribs to deny posture and set up omoplata, kimura, reverse armbar or triangle"
+      "mechanism": "The attacker's arm goes over the opponent's arm and encircles it (or the upper body), lifting the armpit and shoulder; from the guard it clamps the arm to the attacker's ribs to deny posture and set up omoplata, kimura, reverse armbar or triangle",
+      "plain": "Your arm goes over their arm and wraps it (or their upper body), lifting their armpit and shoulder; from guard it clamps their arm to your ribs so they cannot posture up, setting up the omoplata, kimura, reverse armbar or triangle."
     },
     "secondary_targets": [],
     "grip_regions": [
@@ -2536,7 +2583,8 @@
         "axilla / shoulder girdle",
         "latissimus and lats region"
       ],
-      "mechanism": "The attacker's arm goes under the opponent's arm and the hand grips the back/shoulder blade, lifting the shoulder and controlling the torso; it elevates the opponent's arm away from their body and gives access to the back and to takedowns"
+      "mechanism": "The attacker's arm goes under the opponent's arm and the hand grips the back/shoulder blade, lifting the shoulder and controlling the torso; it elevates the opponent's arm away from their body and gives access to the back and to takedowns",
+      "plain": "Your arm goes under their arm and your hand grips their back or shoulder blade, lifting the shoulder and lifting their arm away from their body so you control the upper body and can get to the back or a takedown."
     },
     "secondary_targets": [
       {
@@ -2545,7 +2593,8 @@
           "torso / axilla (armpit)",
           "shoulder girdle"
         ],
-        "mechanism": "Attacker's arm passes under the opponent's arm and controls the back or shoulder, lifting the opponent's elbow and taking control of the upper torso to direct their weight"
+        "mechanism": "Attacker's arm passes under the opponent's arm and controls the back or shoulder, lifting the opponent's elbow and taking control of the upper torso to direct their weight",
+        "plain": "Your arm under theirs controls their back or shoulder, lifting their elbow so you can steer their upper body and weight."
       }
     ],
     "grip_regions": [
@@ -2651,7 +2700,8 @@
         "wrist / forearm (figure-four grip)",
         "glenohumeral joint (threat of internal rotation)"
       ],
-      "mechanism": "The figure-four kimura grip is held as a 'giant handle': it immobilises the arm, threatens the shoulder lock, and is used to sweep, pass, take the back, or transition between kimura positions (side control, north-south, near-side, T-kimura, back)"
+      "mechanism": "The figure-four kimura grip is held as a 'giant handle': it immobilises the arm, threatens the shoulder lock, and is used to sweep, pass, take the back, or transition between kimura positions (side control, north-south, near-side, T-kimura, back)",
+      "plain": "The figure-four kimura grip is held as a big handle: it locks up the arm, keeps the shoulder lock threatened and lets you sweep, pass, take the back or move between kimura positions."
     },
     "secondary_targets": [
       {
@@ -2659,7 +2709,8 @@
         "structures": [
           "glenohumeral joint"
         ],
-        "mechanism": "Latent kimura threat"
+        "mechanism": "Latent kimura threat",
+        "plain": "The kimura on the shoulder is always one move away."
       }
     ],
     "grip_regions": [
@@ -2748,7 +2799,8 @@
         "far upper arm / shoulder girdle",
         "near arm (trapped against the attacker's hip)"
       ],
-      "mechanism": "The cross-face arm turns the head away while the other arm underhooks the far arm, or the far arm is trapped under the attacker's armpit; the near arm is pinned between the attacker's hip and the opponent's body, isolating both arms for americana, kimura and armbar"
+      "mechanism": "The cross-face arm turns the head away while the other arm underhooks the far arm, or the far arm is trapped under the attacker's armpit; the near arm is pinned between the attacker's hip and the opponent's body, isolating both arms for americana, kimura and armbar",
+      "plain": "Your cross-face turns their head away while your other arm underhooks or traps their far arm under your armpit; their near arm is pinned between your hip and their body, so both arms are isolated for the americana, kimura or armbar."
     },
     "secondary_targets": [
       {
@@ -2756,7 +2808,8 @@
         "structures": [
           "face / jaw"
         ],
-        "mechanism": "Cross-face turns the head to kill the bridge"
+        "mechanism": "Cross-face turns the head to kill the bridge",
+        "plain": "The cross-face turns their head away so they cannot bridge."
       }
     ],
     "grip_regions": [
@@ -2830,7 +2883,8 @@
         "upper arm / shoulder girdle",
         "elbow (pinned against the attacker's thigh)"
       ],
-      "mechanism": "From high mount the attacker's legs form an 'S': one knee behind the head, the other shin across the chest, so the opponent's arm is trapped against the thigh and the elbow cannot retreat; the near knee blocks the head, separating the arm from the body for the armbar, baratoplata or monoplata"
+      "mechanism": "From high mount the attacker's legs form an 'S': one knee behind the head, the other shin across the chest, so the opponent's arm is trapped against the thigh and the elbow cannot retreat; the near knee blocks the head, separating the arm from the body for the armbar, baratoplata or monoplata",
+      "plain": "From high mount your legs make an 'S' - one knee behind their head, the other shin across their chest - so their arm is trapped against your thigh and the elbow cannot pull back, separating the arm from their body for the armbar, baratoplata or monoplata."
     },
     "secondary_targets": [
       {
@@ -2838,7 +2892,8 @@
         "structures": [
           "ribcage"
         ],
-        "mechanism": "Shin across the chest pins the torso"
+        "mechanism": "Shin across the chest pins the torso",
+        "plain": "Your shin across their chest pins their upper body."
       }
     ],
     "grip_regions": [
@@ -2917,7 +2972,8 @@
         "biceps brachii / anterior upper arm",
         "sleeve cuff (wrist)"
       ],
-      "mechanism": "Four-finger or hook grips on both sleeves with the feet pressing the biceps (aim for the crook of the arm) create push-pull tension that controls posture, base and distance and pre-extends the arms for armbar, triangle and omoplata"
+      "mechanism": "Four-finger or hook grips on both sleeves with the feet pressing the biceps (aim for the crook of the arm) create push-pull tension that controls posture, base and distance and pre-extends the arms for armbar, triangle and omoplata",
+      "plain": "You grip both sleeves and press your feet into their biceps (aim for the bend of the arm); the push-pull controls their posture, base and distance and keeps their arms straight, setting up the armbar, triangle and omoplata."
     },
     "secondary_targets": [
       {
@@ -2925,7 +2981,8 @@
         "structures": [
           "sleeve cuff"
         ],
-        "mechanism": "Sleeve grip near the wrist"
+        "mechanism": "Sleeve grip near the wrist",
+        "plain": "Your sleeve grip sits near the wrist."
       }
     ],
     "grip_regions": [
@@ -3000,7 +3057,8 @@
         "axilla (foot hooked in the armpit)",
         "shoulder girdle (posture)"
       ],
-      "mechanism": "With a sleeve grip, the leg spirals outside and around the opponent's arm so the shin lies across the biceps and the foot hooks into the armpit or back; the trapped arm cannot post or grip and the shoulder is pulled down, breaking posture"
+      "mechanism": "With a sleeve grip, the leg spirals outside and around the opponent's arm so the shin lies across the biceps and the foot hooks into the armpit or back; the trapped arm cannot post or grip and the shoulder is pulled down, breaking posture",
+      "plain": "With a sleeve grip, your leg wraps around the outside of their arm so your shin lies across the biceps and your foot hooks into the armpit or back; the trapped arm cannot post or grip and their shoulder is pulled down, breaking posture."
     },
     "secondary_targets": [
       {
@@ -3008,7 +3066,8 @@
         "structures": [
           "sleeve cuff"
         ],
-        "mechanism": "Same-side sleeve grip is pulled constantly"
+        "mechanism": "Same-side sleeve grip is pulled constantly",
+        "plain": "You keep pulling on the same-side sleeve."
       }
     ],
     "grip_regions": [
@@ -3076,7 +3135,8 @@
         "upper arm / elbow (clamped between the attacker's thighs)",
         "far arm (controlled by the attacker's arms/seatbelt)"
       ],
-      "mechanism": "One of the opponent's arms is isolated between the attacker's thighs (often triangled) while the other is controlled with the hands, spreading the arms like a cross; the trapped arm can be armbarred, keylocked or rotated with the legs, and the free hands attack the neck"
+      "mechanism": "One of the opponent's arms is isolated between the attacker's thighs (often triangled) while the other is controlled with the hands, spreading the arms like a cross; the trapped arm can be armbarred, keylocked or rotated with the legs, and the free hands attack the neck",
+      "plain": "One of their arms is trapped between your thighs (often with your legs locked) and the other is held by your hands, spreading their arms out like a cross; the trapped arm can be armbarred, keylocked or twisted with your legs, and your free hands can attack the neck."
     },
     "secondary_targets": [
       {
@@ -3084,7 +3144,8 @@
         "structures": [
           "carotid / trachea"
         ],
-        "mechanism": "Chokes become available with both of the opponent's arms occupied"
+        "mechanism": "Chokes become available with both of the opponent's arms occupied",
+        "plain": "With both their arms tied up, chokes on the neck - on the arteries or the windpipe - are open."
       }
     ],
     "grip_regions": [

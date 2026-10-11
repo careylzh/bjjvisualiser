@@ -22,6 +22,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; } /* .ghost etc. set display, which would otherwise beat the attribute */
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); overscroll-behavior: none; }
 body { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
 button, select, a.ghost { font: inherit; }
@@ -96,7 +97,7 @@ button, select, a.ghost { font: inherit; }
 .muted { color: var(--muted); }
 .small { font-size: 0.8rem; }
 .region-list { list-style: none; margin: 10px 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }
-.region-list button { width: 100%; display: flex; justify-content: space-between; align-items: center; background: var(--bg-elev); border: 1px solid var(--line); color: var(--text); border-radius: 10px; padding: 10px 12px; cursor: pointer; }
+.region-list button { width: 100%; text-align: left; display: flex; gap: 8px; justify-content: space-between; align-items: center; background: var(--bg-elev); border: 1px solid var(--line); color: var(--text); border-radius: 10px; padding: 10px 12px; cursor: pointer; }
 .region-list .count { color: var(--muted); font-size: 0.8rem; }
 
 .region-head { display: flex; align-items: flex-start; gap: 10px; margin: 2px 0 8px; }
@@ -157,5 +158,42 @@ button, select, a.ghost { font: inherit; }
   .brand h1 { font-size: 1.3rem; }
 }
 @media (min-width: 1100px) { .region-list { grid-template-columns: repeat(3, 1fr); } }
+
+/* "Anatomy detail": the precise, sourced anatomy, one tap away from the plain-language text. */
+.anatomy-detail { margin: 4px 0 2px; font-size: 0.8rem; color: var(--muted); }
+.anatomy-detail summary { cursor: pointer; width: fit-content; color: var(--blue); font-size: 0.78rem; list-style-position: inside; }
+.anatomy-detail p { margin: 4px 0 0; }
+
+/* Mouse hover label (desktop/laptop only; touch never fires it). */
+.hover-label { position: absolute; top: 0; left: 0; pointer-events: none; padding: 3px 9px; border-radius: 999px;
+  background: rgba(16, 20, 24, 0.9); border: 1px solid var(--accent); color: var(--text); font-size: 0.8rem; white-space: nowrap; z-index: 2; }
+
+/* Keyboard and mouse affordances. */
+:is(button, a, select, summary, input):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (hover: hover) and (pointer: fine) {
+  .ghost:hover, .chip:hover, .tab:hover, .btn:hover, .segmented button:hover, .region-list button:hover { border-color: #4a5868; background: #1f262f; }
+  .btn.primary:hover { background: #ff8f62; border-color: #ff8f62; }
+  .card:hover { border-color: #36414d; }
+}
+
+/* Laptop (≥1024 px): a panel that grows with the screen instead of a fixed iPad-width column. */
+@media (min-width: 1024px) {
+  .stage { grid-template-columns: 1fr clamp(380px, 32vw, 560px); }
+  .filters { padding-top: 6px; }
+}
+/* Desktop monitors (≥1440 px): wider panel, technique cards in two columns, larger type. */
+@media (min-width: 1440px) {
+  :root { font-size: 16px; --pad: 18px; }
+  .stage { grid-template-columns: 1fr clamp(560px, 38vw, 900px); }
+  .card-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; align-items: start; }
+  .card-list > .card { margin-bottom: 0; }
+  .card-list > .empty, .card-list > .dof { grid-column: 1 / -1; }
+  .region-list { grid-template-columns: repeat(4, 1fr); }
+}
+/* Short laptop screens (e.g. 1366×768): reclaim vertical space for the figure. */
+@media (min-width: 1024px) and (max-height: 820px) {
+  .top-bar { padding-top: 6px; padding-bottom: 2px; }
+  .filters { padding-bottom: 6px; }
+}
 
 @media (prefers-reduced-motion: reduce) { .panel { transition: none; } }

@@ -1,4 +1,5 @@
-// shots.mjs — reproducible screenshots of the app on a phone (Chromium) and an iPad (WebKit).
+// shots.mjs — reproducible screenshots of the app on a phone (Chromium), an iPad (WebKit),
+// a 13" laptop and a wide desktop monitor (Chromium).
 // Headless: no window opens. Output: .shots/*.png (gitignored). `npm run shots`.
 import { chromium, webkit, devices } from "@playwright/test";
 import { spawn } from "node:child_process";
@@ -32,6 +33,8 @@ async function shoot(browserType, device, name) {
 try {
   await shoot(chromium, devices["Pixel 7"], "phone");
   await shoot(webkit, devices["iPad Pro 11"], "ipad");
+  await shoot(chromium, { ...devices["Desktop Chrome"], viewport: { width: 1366, height: 768 } }, "laptop");
+  await shoot(chromium, { ...devices["Desktop Chrome"], viewport: { width: 1920, height: 1080 } }, "desktop");
 } finally {
   srv.kill();
 }

@@ -20,7 +20,8 @@
         "superficial deltoid ligament (tibionavicular, tibiospring bands)",
         "tibialis anterior / EDL / EHL (stretched)"
       ],
-      "mechanism": "Attacker's forearm blade is wedged across the Achilles just above the heel and the foot is clamped in the armpit; arching the hips forward drives a posterior-to-anterior force that forces the tibiotalar joint into maximal plantarflexion while the Achilles is compressed against the radius."
+      "mechanism": "Attacker's forearm blade is wedged across the Achilles just above the heel and the foot is clamped in the armpit; arching the hips forward drives a posterior-to-anterior force that forces the tibiotalar joint into maximal plantarflexion while the Achilles is compressed against the radius.",
+      "plain": "Your forearm is a wedge across the Achilles just above the heel and the foot is clamped in your armpit; arching your hips forward bends the foot down past its limit (toes forced to point) while the Achilles tendon is crushed against your forearm bone."
     },
     "secondary_targets": [
       {
@@ -29,14 +30,16 @@
           "ATFL",
           "CFL (lateral ankle ligaments)"
         ],
-        "mechanism": "If the foot is allowed to invert during the finish, the lateral ankle ligaments load like a rolled ankle (Hasegawa 2026)."
+        "mechanism": "If the foot is allowed to invert during the finish, the lateral ankle ligaments load like a rolled ankle (Hasegawa 2026).",
+        "plain": "If the sole is allowed to roll inward during the finish, the ligaments on the outside of the ankle are loaded like a rolled ankle."
       },
       {
         "region": "knee",
         "structures": [
           "tibiofemoral joint"
         ],
-        "mechanism": "The attacker's inside foot on the hip and knee pinch below the knee isolate the leg; turning toward the free leg (illegal below brown) adds knee torsion."
+        "mechanism": "The attacker's inside foot on the hip and knee pinch below the knee isolate the leg; turning toward the free leg (illegal below brown) adds knee torsion.",
+        "plain": "Your legs isolate their leg at the knee; turning toward their free leg (illegal below brown) adds a twist to the knee."
       }
     ],
     "grip_regions": [
@@ -88,7 +91,7 @@
       "nogi": true,
       "note": "Legal for all adult belts (banned 4–15). Until brown belt the attacker may NOT turn in the direction of the foot not under attack (table row 16); knee-reaping configurations remain illegal in gi."
     },
-    "summary": "The one leg lock every white belt may compete with: wedge the forearm under the Achilles, hug the foot in the armpit, and extend the hips to hyper-plantarflex the ankle.",
+    "summary": "The one leg lock every white belt may compete with: wedge the forearm under the Achilles, hug the foot in the armpit, and extend the hips to bend the foot down past its limit.",
     "sources": [
       {
         "ref": "hasegawa2026",
@@ -141,7 +144,8 @@
         "medial collateral ligament / posteromedial corner (POL)",
         "posterior horn of medial meniscus"
       ],
-      "mechanism": "The heel (calcaneal tuberosity) is cupped in the crook of the elbow/wrist blade and twisted laterally outward while the attacker's legs pin the femur and knee line; because the hip and femur are fixed, the torque becomes maximal INTERNAL rotation of the tibia on the femur. The foot ends plantarflexed, inverted and supinated (toe-hold-like)."
+      "mechanism": "The heel (calcaneal tuberosity) is cupped in the crook of the elbow/wrist blade and twisted laterally outward while the attacker's legs pin the femur and knee line; because the hip and femur are fixed, the torque becomes maximal INTERNAL rotation of the tibia on the femur. The foot ends plantarflexed, inverted and supinated (toe-hold-like).",
+      "plain": "The heel is cupped in your elbow and twisted outward while your legs pin their thigh and knee. Because the thigh cannot turn, the shin bone is twisted INWARD on it (internal rotation), and the twist lands in the knee ligaments (ACL, PCL, MCL) and knee cartilage; the foot ends pointed and rolled in, like a toe hold."
     },
     "secondary_targets": [
       {
@@ -151,7 +155,8 @@
           "CFL",
           "subtalar joint"
         ],
-        "mechanism": "Inversion/supination loads the lateral ankle ligaments first; in outside hooks the ankle absorbs some torque before the knee (Piekarski)."
+        "mechanism": "Inversion/supination loads the lateral ankle ligaments first; in outside hooks the ankle absorbs some torque before the knee (Piekarski).",
+        "plain": "Rolling the sole inward loads the ligaments on the outside of the ankle first, so in an outside heel hook the ankle takes some of the twist before the knee."
       },
       {
         "region": "foot",
@@ -159,7 +164,8 @@
           "calcaneus",
           "peroneal tendons"
         ],
-        "mechanism": "Heel is the lever; peroneals may be compressed in the fibular groove."
+        "mechanism": "Heel is the lever; peroneals may be compressed in the fibular groove.",
+        "plain": "The heel is the lever; the tendons running behind the outside ankle bone can get crushed."
       }
     ],
     "grip_regions": [
@@ -256,7 +262,8 @@
         "anterior horn of medial meniscus",
         "cruciate ligaments"
       ],
-      "mechanism": "Attacker's body is on the inside of the leg line (inside sankaku / saddle); the heel is trapped against the attacker's side and rotated toward the opponent's midline while the knees pinch the femur. With the femur fixed, the tibia is driven into maximal EXTERNAL rotation; the foot ends dorsiflexed and everted. Because the thick deltoid ligament limits eversion, the ankle absorbs almost nothing and the full torque reaches the knee quickly."
+      "mechanism": "Attacker's body is on the inside of the leg line (inside sankaku / saddle); the heel is trapped against the attacker's side and rotated toward the opponent's midline while the knees pinch the femur. With the femur fixed, the tibia is driven into maximal EXTERNAL rotation; the foot ends dorsiflexed and everted. Because the thick deltoid ligament limits eversion, the ankle absorbs almost nothing and the full torque reaches the knee quickly.",
+      "plain": "From the saddle the heel is trapped against your side and turned toward their centre line while your knees pinch their thigh, so the shin bone is twisted OUTWARD on the thigh (external rotation). The ankle can barely give in that direction, so almost the whole twist goes quickly into the knee ligaments on the outside-back of the knee (LCL), then the MCL, ACL/PCL and knee cartilage."
     },
     "secondary_targets": [
       {
@@ -265,14 +272,16 @@
           "deltoid ligament",
           "medial malleolus (avulsion)"
         ],
-        "mechanism": "Eversion is resisted by the deltoid; it tends to avulse bone rather than tear (Piekarski)."
+        "mechanism": "Eversion is resisted by the deltoid; it tends to avulse bone rather than tear (Piekarski).",
+        "plain": "The strong ligament on the inside of the ankle resists the foot turning out; when it gives, it tends to pull off a chip of the inside ankle bone rather than tear."
       },
       {
         "region": "hips",
         "structures": [
           "hip joint"
         ],
-        "mechanism": "Attacker's inside leg wedges across the hip line so the opponent cannot turn to follow the rotation."
+        "mechanism": "Attacker's inside leg wedges across the hip line so the opponent cannot turn to follow the rotation.",
+        "plain": "Your inside leg wedges across their hip line so they cannot turn their body to follow the twist."
       }
     ],
     "grip_regions": [
@@ -377,7 +386,8 @@
         "cruciate ligaments",
         "menisci"
       ],
-      "mechanism": "An ashi garami in which the attacker's hips face AWAY from the opponent and the outside hip sits on the trapped leg; inside leg hooks behind the knee, outside leg crosses the thigh, knees pinch. The foot is pulled to the chest with toes on the attacker's centreline and the body rotated – an inside-heel-hook (external tibial rotation) finish with the opponent unable to turn in."
+      "mechanism": "An ashi garami in which the attacker's hips face AWAY from the opponent and the outside hip sits on the trapped leg; inside leg hooks behind the knee, outside leg crosses the thigh, knees pinch. The foot is pulled to the chest with toes on the attacker's centreline and the body rotated – an inside-heel-hook (external tibial rotation) finish with the opponent unable to turn in.",
+      "plain": "With your back to them and your hip heavy on their trapped leg, you hug the foot to your chest and turn: an inside heel hook that twists the shin bone OUTWARD on the thigh, loading the ligaments on the outside-back of the knee (LCL), the ACL/PCL and knee cartilage, while they cannot turn in to escape."
     },
     "secondary_targets": [
       {
@@ -385,7 +395,8 @@
         "structures": [
           "hip joint / pelvis"
         ],
-        "mechanism": "Attacker's hip sits low on the knee, pinning the hip line so the opponent cannot 'boot-scoot' or spin to relieve pressure."
+        "mechanism": "Attacker's hip sits low on the knee, pinning the hip line so the opponent cannot 'boot-scoot' or spin to relieve pressure.",
+        "plain": "Your hip sits low on their knee and pins their hip line so they cannot scoot or spin to take the pressure off."
       }
     ],
     "grip_regions": [
@@ -460,7 +471,8 @@
         "MCL, oblique popliteal ligament",
         "hamstring and gastrocnemius (stretched)"
       ],
-      "mechanism": "The leg is trapped between the attacker's thighs with the opponent's kneecap against the attacker's hip and the foot pinned at the chest/armpit; hip extension applies a force vector perpendicular to the knee in an anterior-to-posterior direction, driving the tibiofemoral joint into supraphysiologic hyperextension (normal range only ~5–10°). In practice varus/valgus and torsion are added."
+      "mechanism": "The leg is trapped between the attacker's thighs with the opponent's kneecap against the attacker's hip and the foot pinned at the chest/armpit; hip extension applies a force vector perpendicular to the knee in an anterior-to-posterior direction, driving the tibiofemoral joint into supraphysiologic hyperextension (normal range only ~5–10°). In practice varus/valgus and torsion are added.",
+      "plain": "Their leg is trapped between your thighs with the kneecap on your hip and the foot pinned at your chest; arching your hips bends the knee backwards past straight (a normal knee only goes about 5–10° past straight), tearing the ligaments at the back of the knee and the ACL/PCL. In practice some twist and sideways bending get added."
     },
     "secondary_targets": [
       {
@@ -469,7 +481,8 @@
           "Achilles tendon",
           "talocrural joint"
         ],
-        "mechanism": "Foot is often hugged in an Achilles-lock grip; pulling the heel adds plantarflexion."
+        "mechanism": "Foot is often hugged in an Achilles-lock grip; pulling the heel adds plantarflexion.",
+        "plain": "The foot is often hugged in a straight-ankle-lock grip; pulling the heel also forces the toes to point, adding an ankle lock."
       },
       {
         "region": "hips",
@@ -477,7 +490,8 @@
           "hip flexors",
           "hamstrings"
         ],
-        "mechanism": "Posture of the trapped hip is controlled by the attacker's legs; Suloev stretch variants load hamstring/hip first."
+        "mechanism": "Posture of the trapped hip is controlled by the attacker's legs; Suloev stretch variants load hamstring/hip first.",
+        "plain": "Your legs control their trapped hip; in stretch versions (Suloev stretch) the hamstrings and hip go first."
       }
     ],
     "grip_regions": [
@@ -516,7 +530,7 @@
       {
         "position": "saddle",
         "attacker_role": "bottom",
-        "note": "Lateral kneebar: lie flat and extend the trapped leg from inside sankaku (Sweet Science of Fighting position B2)."
+        "note": "Sideways kneebar: lie flat and straighten the trapped leg from inside sankaku (Sweet Science of Fighting position B2)."
       },
       {
         "position": "x_guard",
@@ -535,7 +549,7 @@
       "nogi": true,
       "note": "Table row 14: illegal for 4–17, white, blue, purple; legal brown/black gi and no-gi."
     },
-    "summary": "An armbar on the leg: pinch the thigh, hug the foot, hips through the kneecap – the knee hyperextends and the posterior capsule and cruciates give way.",
+    "summary": "An armbar on the leg: pinch the thigh, hug the foot, hips through the kneecap – the knee hyperextends and the ligaments at the back of the knee and the ACL/PCL give way.",
     "sources": [
       {
         "ref": "hasegawa2026",
@@ -591,7 +605,8 @@
         "calcaneofibular ligament (CFL)",
         "peroneal tendons (peroneus brevis in the fibular groove)"
       ],
-      "mechanism": "Figure-four (kimura-style) grip: one hand over the toes/outside of the foot, the other arm under the shin gripping the wrist. The foot is folded down and in – plantarflexion + inversion + supination of the tibiotalar and subtalar joints – with a fulcrum across the Achilles/medial ankle; the same position as a severe rolled ankle."
+      "mechanism": "Figure-four (kimura-style) grip: one hand over the toes/outside of the foot, the other arm under the shin gripping the wrist. The foot is folded down and in – plantarflexion + inversion + supination of the tibiotalar and subtalar joints – with a fulcrum across the Achilles/medial ankle; the same position as a severe rolled ankle.",
+      "plain": "A kimura-style figure-four grip on the foot folds it down and in – toes pointed and the sole rolled inward – over a fulcrum across the Achilles and inside of the ankle. It is the same position as a bad rolled ankle, loading the ligaments and tendons on the outside of the ankle."
     },
     "secondary_targets": [
       {
@@ -599,7 +614,8 @@
         "structures": [
           "tibiofemoral joint (internal rotation restraints: ACL, posteromedial corner)"
         ],
-        "mechanism": "Once the foot reaches end-range, the torque transfers as maximal internal rotation at the knee (Hasegawa 2026)."
+        "mechanism": "Once the foot reaches end-range, the torque transfers as maximal internal rotation at the knee (Hasegawa 2026).",
+        "plain": "Once the foot can turn no further, the twist carries into the knee, turning the shin bone inward and loading the ACL and the inside-back of the knee."
       },
       {
         "region": "foot",
@@ -607,7 +623,8 @@
           "metatarsals",
           "midfoot"
         ],
-        "mechanism": "Grip on the toes levers the forefoot; 'outward pressure on the foot' (forcing eversion) is a separate illegal variant below adult brown/black no-gi."
+        "mechanism": "Grip on the toes levers the forefoot; 'outward pressure on the foot' (forcing eversion) is a separate illegal variant below adult brown/black no-gi.",
+        "plain": "The grip on the toes levers the front of the foot; pushing the foot OUTWARD instead is a separate variant, illegal below adult brown/black no-gi."
       }
     ],
     "grip_regions": [
@@ -654,7 +671,7 @@
       "nogi": true,
       "note": "Row 15: brown/black only (gi and no-gi). Row 20: applying OUTWARD pressure on the foot is illegal everywhere except Adult brown/black no-gi."
     },
-    "summary": "Kimura grip on the foot: turn the toes toward the opponent's buttock so the ankle folds down-and-in; the lateral ankle ligaments and then the knee take the torque.",
+    "summary": "Kimura grip on the foot: turn the toes toward the opponent's buttock so the ankle folds down-and-in; the ligaments on the outside of the ankle and then the knee take the twist.",
     "sources": [
       {
         "ref": "hasegawa2026",
@@ -705,7 +722,8 @@
         "popliteal fossa neurovascular bundle (tibial nerve, popliteal vessels)",
         "proximal tibiofibular region"
       ],
-      "mechanism": "A rigid wedge (attacker's shin or forearm) is placed deep behind the knee and the opponent's heel is pulled toward the buttock; forced knee flexion over the fulcrum compresses the calf musculature and posterior knee against the wedge, with hip extension adding force."
+      "mechanism": "A rigid wedge (attacker's shin or forearm) is placed deep behind the knee and the opponent's heel is pulled toward the buttock; forced knee flexion over the fulcrum compresses the calf musculature and posterior knee against the wedge, with hip extension adding force.",
+      "plain": "Your shin or forearm is wedged deep behind their knee and the heel is pulled to the buttock; folding the knee over that wedge crushes the calf muscles and the back of the knee against it, and arching your hips adds force."
     },
     "secondary_targets": [
       {
@@ -715,7 +733,8 @@
           "posterior capsule",
           "cruciate ligaments"
         ],
-        "mechanism": "Continued pressure hyperflexes and levers the joint open (the 'knee separator'); Wikipedia and Digitsu note potential joint separation / ACL-PCL stress."
+        "mechanism": "Continued pressure hyperflexes and levers the joint open (the 'knee separator'); Wikipedia and Digitsu note potential joint separation / ACL-PCL stress.",
+        "plain": "Keep going and the knee is bent past its limit and pried open around the wedge (the 'knee separator'), which can stress the ACL and PCL."
       }
     ],
     "grip_regions": [
@@ -815,7 +834,8 @@
         "lateral ankle ligaments (ATFL, CFL)",
         "midfoot"
       ],
-      "mechanism": "The opponent's foot is pushing on the attacker's hip/abdomen; the attacker wraps one forearm under the Achilles and heel (rear-naked-choke style), clasps the other hand over the top of the foot and pins the dorsum against the belly with the toes pointing inward, then rotates the torso toward the foot and drives the hips forward – forcing plantarflexion + inversion, a toe-hold-type torque."
+      "mechanism": "The opponent's foot is pushing on the attacker's hip/abdomen; the attacker wraps one forearm under the Achilles and heel (rear-naked-choke style), clasps the other hand over the top of the foot and pins the dorsum against the belly with the toes pointing inward, then rotates the torso toward the foot and drives the hips forward – forcing plantarflexion + inversion, a toe-hold-type torque.",
+      "plain": "With their foot pushing on your hip, you wrap the heel rear-naked-choke style, pin the top of the foot to your belly with the toes turned in, then turn toward the foot and drive your hips forward: the toes are pointed and the sole rolled inward, a toe-hold twist on the ankle and the ligaments on the outside of the ankle."
     },
     "secondary_targets": [
       {
@@ -823,7 +843,8 @@
         "structures": [
           "tibiofemoral rotation restraints"
         ],
-        "mechanism": "Residual torque passes to the knee once the foot is at end range, as with any twisting foot lock."
+        "mechanism": "Residual torque passes to the knee once the foot is at end range, as with any twisting foot lock.",
+        "plain": "Once the foot can turn no further, the leftover twist passes into the knee, as with any twisting foot lock."
       }
     ],
     "grip_regions": [
@@ -906,7 +927,8 @@
         "talocrural joint",
         "knee rotational restraints (medial side per Evolve; posterolateral per the inside-heel-hook anatomy)"
       ],
-      "mechanism": "From a straight-ashi/ankle-lock type hold where the heel is hidden, the elbow goes under the foot and an RNC-style grip is taken on the attacker's own shoulders; the foot is turned outward and the heel inward so the ankle is held in outward rotation, then a linear (ankle) and rotational (knee) force is applied – 'essentially an inside heel hook twisting the leg outward' (Kesting)."
+      "mechanism": "From a straight-ashi/ankle-lock type hold where the heel is hidden, the elbow goes under the foot and an RNC-style grip is taken on the attacker's own shoulders; the foot is turned outward and the heel inward so the ankle is held in outward rotation, then a linear (ankle) and rotational (knee) force is applied – 'essentially an inside heel hook twisting the leg outward' (Kesting).",
+      "plain": "From an ankle-lock hold with the heel hidden, your elbow goes under the foot and you lock your hands rear-naked-choke style; with the foot turned out and the heel turned in, you pull (loading the ankle and the ligaments on the inside of the ankle) and twist (loading the knee) – 'essentially an inside heel hook twisting the leg outward' (Kesting)."
     },
     "secondary_targets": [
       {
@@ -914,14 +936,16 @@
         "structures": [
           "tibiofemoral joint ligaments"
         ],
-        "mechanism": "Rotational finish transfers torque to the knee like an inverted heel hook (Evolve)."
+        "mechanism": "Rotational finish transfers torque to the knee like an inverted heel hook (Evolve).",
+        "plain": "The twisting finish carries into the knee ligaments like an inverted heel hook."
       },
       {
         "region": "foot",
         "structures": [
           "ankle mortise, malleoli"
         ],
-        "mechanism": "Kesting warns of broken ankle bones."
+        "mechanism": "Kesting warns of broken ankle bones.",
+        "plain": "Kesting warns it can break the ankle bones."
       }
     ],
     "grip_regions": [
@@ -990,7 +1014,8 @@
         "Achilles tendon and talocrural joint of the top leg",
         "hip adductors / lumbar spine (pro-wrestling version)"
       ],
-      "mechanism": "From inside sankaku, the far (top) leg is pulled over and held with a straight-ankle-lock grip while the arm is woven between the legs into a gable grip; driving the hips in while on the side applies a combined kneebar on the trapped leg, Achilles compression and straight ankle lock on the top foot (Seph Smith / Harriott description)."
+      "mechanism": "From inside sankaku, the far (top) leg is pulled over and held with a straight-ankle-lock grip while the arm is woven between the legs into a gable grip; driving the hips in while on the side applies a combined kneebar on the trapped leg, Achilles compression and straight ankle lock on the top foot (Seph Smith / Harriott description).",
+      "plain": "From the saddle, their top leg is pulled over and held in a straight-ankle-lock grip while your arm weaves between their legs into a gable grip; driving your hips in on your side hits three things at once: a kneebar on the trapped leg, plus an Achilles crush and straight ankle lock on the top foot."
     },
     "secondary_targets": [
       {
@@ -999,7 +1024,8 @@
           "Achilles tendon",
           "tibiotalar joint"
         ],
-        "mechanism": "The top foot is plantarflexed over the forearm."
+        "mechanism": "The top foot is plantarflexed over the forearm.",
+        "plain": "The top foot is bent down (toes forced to point) over your forearm."
       },
       {
         "region": "hips",
@@ -1007,7 +1033,8 @@
           "hip joint",
           "adductors"
         ],
-        "mechanism": "Legs are figure-foured and splayed; the wrestling origin (half Boston crab + sharpshooter) loads hips and lower back."
+        "mechanism": "Legs are figure-foured and splayed; the wrestling origin (half Boston crab + sharpshooter) loads hips and lower back.",
+        "plain": "Their legs are tangled and spread apart; the pro-wrestling original loads the hips and lower back."
       }
     ],
     "grip_regions": [
@@ -1076,7 +1103,8 @@
         "tibiofemoral rotational restraints (collaterals, cruciates, menisci)",
         "hip joint (femoral rotation)"
       ],
-      "mechanism": "The opponent's leg is folded into a Z (hip flexed, knee bent, foot turned) – typically after they bend and turn the leg to defend an inside heel hook. The ankle is trapped to the attacker's body, the knee line pinned, and the attacker rotates the whole body around the bent leg so torque loads the knee and hip rather than the foot."
+      "mechanism": "The opponent's leg is folded into a Z (hip flexed, knee bent, foot turned) – typically after they bend and turn the leg to defend an inside heel hook. The ankle is trapped to the attacker's body, the knee line pinned, and the attacker rotates the whole body around the bent leg so torque loads the knee and hip rather than the foot.",
+      "plain": "Their leg is folded into a Z (hip and knee bent, foot turned), usually while they defend an inside heel hook. You trap the ankle to your body, pin the knee, and turn your whole body around the bent leg so the twist goes into the knee ligaments and cartilage and the hip, not the foot."
     },
     "secondary_targets": [
       {
@@ -1084,14 +1112,16 @@
         "structures": [
           "hip capsule / femoral rotation"
         ],
-        "mechanism": "Rotation with the knee flexed also torques the femur in the acetabulum."
+        "mechanism": "Rotation with the knee flexed also torques the femur in the acetabulum.",
+        "plain": "Turning with the knee bent also twists the thigh bone in the hip socket."
       },
       {
         "region": "ankle",
         "structures": [
           "talocrural joint"
         ],
-        "mechanism": "Ankle is only an anchor; pushing on the foot is explicitly NOT the finish."
+        "mechanism": "Ankle is only an anchor; pushing on the foot is explicitly NOT the finish.",
+        "plain": "The ankle is only an anchor; pushing on the foot is NOT the finish."
       }
     ],
     "grip_regions": [
@@ -1157,7 +1187,8 @@
         "hip joint capsule (forced abduction)",
         "pubic symphysis / groin"
       ],
-      "mechanism": "One leg is anchored with a lockdown/leg lace and driven away while the other leg is pulled toward the attacker's chest (gable or S-grip behind the knee or on the ankle); squeezing the knees together and extending the hips forces the two legs apart into extreme hip abduction – a splits the opponent cannot resist."
+      "mechanism": "One leg is anchored with a lockdown/leg lace and driven away while the other leg is pulled toward the attacker's chest (gable or S-grip behind the knee or on the ankle); squeezing the knees together and extending the hips forces the two legs apart into extreme hip abduction – a splits the opponent cannot resist.",
+      "plain": "One leg is pinned with a lockdown and pushed away while you pull the other to your chest; squeezing your knees together and arching your hips forces their legs wide apart into splits they cannot resist, stretching the groin / inner thigh, the top of the hamstrings and the hip joint."
     },
     "secondary_targets": [
       {
@@ -1166,7 +1197,8 @@
           "hamstrings",
           "adductor origins"
         ],
-        "mechanism": "Muscle strain/tear can precede the tap in flexible opponents."
+        "mechanism": "Muscle strain/tear can precede the tap in flexible opponents.",
+        "plain": "In flexible opponents the hamstring or groin muscles can strain or tear before they tap."
       }
     ],
     "grip_regions": [
@@ -1242,7 +1274,8 @@
         "proximal hamstrings",
         "hip joint (abduction + extension)"
       ],
-      "mechanism": "From the dogfight reached via the lockdown, the underhook arm threads deep under the opponent's far thigh and the hands clasp; the attacker falls to that shoulder, pulls the far leg across the chest and extends the hips/arches the back so the legs are split apart. Popularised by Eddie Bravo / 10th Planet (used on Royler Gracie at Metamoris III)."
+      "mechanism": "From the dogfight reached via the lockdown, the underhook arm threads deep under the opponent's far thigh and the hands clasp; the attacker falls to that shoulder, pulls the far leg across the chest and extends the hips/arches the back so the legs are split apart. Popularised by Eddie Bravo / 10th Planet (used on Royler Gracie at Metamoris III).",
+      "plain": "From the dogfight, your arm threads deep under their far thigh and your hands lock; you fall to that shoulder, pull the far leg across your chest and arch, splitting their legs apart and stretching the groin / inner thigh, the top of the hamstrings and the hip."
     },
     "secondary_targets": [
       {
@@ -1251,7 +1284,8 @@
           "hamstrings",
           "adductor origins"
         ],
-        "mechanism": "Stretch injury before the tap in flexible people."
+        "mechanism": "Stretch injury before the tap in flexible people.",
+        "plain": "In flexible people the hamstrings or groin can be strained before the tap."
       }
     ],
     "grip_regions": [
@@ -1323,7 +1357,8 @@
         "collateral ligaments",
         "menisci"
       ],
-      "mechanism": "IBJJF definition: the attacker's thigh goes behind the opponent's leg, the calf passes over the body above the knee with the foot beyond the vertical midline, pressing the knee from outside-in while the attacked foot is trapped (between hip and armpit, by a grip, or by being weight-bearing). With the foot fixed the knee cannot rotate to follow a twist, so any rotation (heel hook, or even a bad spin-out) is isolated at the knee – which is why the IBJJF bans it outside Adult brown/black no-gi."
+      "mechanism": "IBJJF definition: the attacker's thigh goes behind the opponent's leg, the calf passes over the body above the knee with the foot beyond the vertical midline, pressing the knee from outside-in while the attacked foot is trapped (between hip and armpit, by a grip, or by being weight-bearing). With the foot fixed the knee cannot rotate to follow a twist, so any rotation (heel hook, or even a bad spin-out) is isolated at the knee – which is why the IBJJF bans it outside Adult brown/black no-gi.",
+      "plain": "Your thigh goes behind their leg and your calf crosses their body above the knee, pressing the knee from the outside in while their foot is trapped. With the foot fixed the knee cannot turn to follow a twist, so any twist – a heel hook, or even a bad spin-out – lands only on the knee ligaments and cartilage, which is why the IBJJF bans it outside adult brown/black no-gi."
     },
     "secondary_targets": [
       {
@@ -1331,7 +1366,8 @@
         "structures": [
           "hip joint"
         ],
-        "mechanism": "The reap destroys leg alignment and base; opponent cannot stand until untangled (Kesting & Biernacki)."
+        "mechanism": "The reap destroys leg alignment and base; opponent cannot stand until untangled (Kesting & Biernacki).",
+        "plain": "The reap wrecks their leg alignment and base; they cannot stand up until they untangle."
       }
     ],
     "grip_regions": [
@@ -1418,7 +1454,8 @@
         "knee line (femoral condyles pinched between the attacker's thighs)",
         "hip (outside foot on the hip)"
       ],
-      "mechanism": "Outside heel on the opponent's hip, inside leg hooks under/around the thigh, knees pinched and heels retracted so the trapped knee stays inside the attacker's knee line; initially both legs are controlled ('double trouble') to deny base. Open-circuit (ankles not crossed) – the 'jab' of leg locks."
+      "mechanism": "Outside heel on the opponent's hip, inside leg hooks under/around the thigh, knees pinched and heels retracted so the trapped knee stays inside the attacker's knee line; initially both legs are controlled ('double trouble') to deny base. Open-circuit (ankles not crossed) – the 'jab' of leg locks.",
+      "plain": "Your outside heel is on their hip, your inside leg hooks around their thigh and your knees pinch with heels pulled back, so their knee stays trapped inside your knees; at first you control both legs to take away their base. An open hold (ankles not crossed) – the 'jab' of leg locks."
     },
     "secondary_targets": [
       {
@@ -1426,14 +1463,16 @@
         "structures": [
           "hip joint"
         ],
-        "mechanism": "Foot on the hip controls distance and prevents the opponent from following into a pass."
+        "mechanism": "Foot on the hip controls distance and prevents the opponent from following into a pass.",
+        "plain": "Your foot on their hip controls distance and stops them following you into a pass."
       },
       {
         "region": "ankle",
         "structures": [
           "Achilles / heel"
         ],
-        "mechanism": "Foot clamped in the armpit for the straight ankle lock or outside heel hook."
+        "mechanism": "Foot clamped in the armpit for the straight ankle lock or outside heel hook.",
+        "plain": "Their foot is clamped in your armpit, ready for the straight ankle lock or outside heel hook."
       }
     ],
     "grip_regions": [
@@ -1511,7 +1550,8 @@
         "femur (pinched)",
         "hip line"
       ],
-      "mechanism": "The trapped leg is switched across the attacker's body (cross ashi) or the inside leg steps over it and the ankles cross with the outside foot on top (outside ashi, closed circuit). Hips are pulled close to the opponent, the top knee flares as a frame, and the attacker constantly bridges ('bridge wedge') so the knee is immobilised and the opponent cannot pull the leg out."
+      "mechanism": "The trapped leg is switched across the attacker's body (cross ashi) or the inside leg steps over it and the ankles cross with the outside foot on top (outside ashi, closed circuit). Hips are pulled close to the opponent, the top knee flares as a frame, and the attacker constantly bridges ('bridge wedge') so the knee is immobilised and the opponent cannot pull the leg out.",
+      "plain": "Their trapped leg goes across your body (cross ashi), or your inside leg steps over it and your ankles cross with the outside foot on top (outside ashi). Hips in tight, top knee flared as a frame and always bridging, so their knee is pinned and they cannot pull the leg out."
     },
     "secondary_targets": [
       {
@@ -1519,7 +1559,8 @@
         "structures": [
           "hip joint / pelvis"
         ],
-        "mechanism": "Hip is wedged so the opponent cannot turn into the rotation; from cross ashi the leg-drag pass is also available."
+        "mechanism": "Hip is wedged so the opponent cannot turn into the rotation; from cross ashi the leg-drag pass is also available.",
+        "plain": "Their hip is wedged so they cannot turn into the twist; from cross ashi the leg-drag pass is also there."
       }
     ],
     "grip_regions": [
@@ -1598,7 +1639,8 @@
         "hip line (inside leg across the hip)",
         "free leg (controlled by the arms)"
       ],
-      "mechanism": "Attacker's legs form a triangle (a '4') around the trapped leg: inside leg threads across the hip line and hooks the far thigh/hip, outside leg locks over the inside ankle; knees pinch just below the opponent's knee and the outside leg extends as a frame that immobilises the hip and manages distance. Being 'inside' – the attacker's legs between the opponent's – is the principle Danaher's system is built on; the free leg is tied up with the arms so it cannot be used to base or push."
+      "mechanism": "Attacker's legs form a triangle (a '4') around the trapped leg: inside leg threads across the hip line and hooks the far thigh/hip, outside leg locks over the inside ankle; knees pinch just below the opponent's knee and the outside leg extends as a frame that immobilises the hip and manages distance. Being 'inside' – the attacker's legs between the opponent's – is the principle Danaher's system is built on; the free leg is tied up with the arms so it cannot be used to base or push.",
+      "plain": "Your legs make a triangle around one of their legs: the inside leg crosses their hips and hooks the far side, the outside leg locks over your own ankle, and your knees pinch just below their knee. Your outside leg pins the hip and keeps distance, while your arms tie up their free leg so they cannot post or push – you are 'inside', with your legs between theirs."
     },
     "secondary_targets": [
       {
@@ -1606,14 +1648,16 @@
         "structures": [
           "hip joint"
         ],
-        "mechanism": "Hip control prevents turning in; also sets up back takes."
+        "mechanism": "Hip control prevents turning in; also sets up back takes.",
+        "plain": "Controlling the hip stops them turning in, and sets up back takes."
       },
       {
         "region": "knee",
         "structures": [
           "tibiofemoral joint"
         ],
-        "mechanism": "Inside heel hook, lateral kneebar, Z-lock, Texas cloverleaf and toe hold are launched from here."
+        "mechanism": "Inside heel hook, lateral kneebar, Z-lock, Texas cloverleaf and toe hold are launched from here.",
+        "plain": "The inside heel hook, sideways kneebar, Z-lock, Texas cloverleaf and toe hold all start from here."
       }
     ],
     "grip_regions": [
@@ -1695,7 +1739,8 @@
         "knee line of both players' inside legs",
         "hips"
       ],
-      "mechanism": "Both players' inside legs are intertwined with feet crossed and knees up – a closed-circuit entanglement controlling the opponent's hip and knee that gives each player identical access to the inside (reverse) heel hook, straight ankle lock and toe hold. Dropping the inside knee toward the mat and triangling (80/20) hides your own knee line so only you keep the heel hook."
+      "mechanism": "Both players' inside legs are intertwined with feet crossed and knees up – a closed-circuit entanglement controlling the opponent's hip and knee that gives each player identical access to the inside (reverse) heel hook, straight ankle lock and toe hold. Dropping the inside knee toward the mat and triangling (80/20) hides your own knee line so only you keep the heel hook.",
+      "plain": "Both players' inside legs are tangled with feet crossed and knees up, each controlling the other's hip and knee, so both have the same shot at the inside heel hook, straight ankle lock and toe hold. Dropping your inside knee to the mat and triangling (80/20) hides your knee so only you keep the heel hook."
     },
     "secondary_targets": [
       {
@@ -1703,7 +1748,8 @@
         "structures": [
           "hip joint"
         ],
-        "mechanism": "In gi the position is mostly used for sweeps and back takes; the IBJJF penalises lapel/belt grips held here without progression (6.2.1 F) and awards no advantages for sweeps starting and ending in 50/50 (5.7.5)."
+        "mechanism": "In gi the position is mostly used for sweeps and back takes; the IBJJF penalises lapel/belt grips held here without progression (6.2.1 F) and awards no advantages for sweeps starting and ending in 50/50 (5.7.5).",
+        "plain": "In gi it is mostly for sweeps and back takes; the IBJJF penalises lapel/belt grips held here without progress and gives no advantage for sweeps that start and end in 50/50."
       }
     ],
     "grip_regions": [
@@ -1769,7 +1815,8 @@
         "opponent's hip / lower torso (framed by the shin)",
         "opponent's trapped thigh and knee (hooked by the bottom leg)"
       ],
-      "mechanism": "Bottom player in half guard keeps the trapped leg hooked with the bottom leg while the top shin lies diagonally across the opponent's hip/torso (foot on the hip or thigh, knee toward their shoulder); the shin is a frame that manages distance, blocks smash/over-under pressure and the crossface, and lets the bottom player push-pull to win the underhook."
+      "mechanism": "Bottom player in half guard keeps the trapped leg hooked with the bottom leg while the top shin lies diagonally across the opponent's hip/torso (foot on the hip or thigh, knee toward their shoulder); the shin is a frame that manages distance, blocks smash/over-under pressure and the crossface, and lets the bottom player push-pull to win the underhook.",
+      "plain": "In half guard your bottom leg keeps their leg hooked while your top shin lies diagonally across their hip and belly as a frame – it keeps distance, blocks the smash and the crossface, and lets you push and pull to win the underhook."
     },
     "secondary_targets": [
       {
@@ -1777,14 +1824,16 @@
         "structures": [
           "opponent's trapped thigh"
         ],
-        "mechanism": "Bottom leg hooks or clamps the thigh so the leg cannot be freed (Z-guard: feet locked, knee pressuring the hip)."
+        "mechanism": "Bottom leg hooks or clamps the thigh so the leg cannot be freed (Z-guard: feet locked, knee pressuring the hip).",
+        "plain": "Your bottom leg hooks or clamps their thigh so they cannot free the leg."
       },
       {
         "region": "chest",
         "structures": [
           "torso"
         ],
-        "mechanism": "Arm frames (crossface block / underhook) complete the barrier."
+        "mechanism": "Arm frames (crossface block / underhook) complete the barrier.",
+        "plain": "Your arm frames (blocking the crossface, or the underhook) complete the barrier."
       }
     ],
     "grip_regions": [
@@ -1849,7 +1898,8 @@
         "opponent's trapped thigh, knee and shin (between the bottom player's legs)",
         "hip"
       ],
-      "mechanism": "The bottom player's legs entangle one of the top player's legs so it cannot be freed to pass; the bottom player gets onto the hip and takes an underhook (arm under the opponent's arm on the trapped-leg side) with the head connected to the body, which stops the crossface flattening them and enables the dogfight, back take or wrestle-up. The top player's goals are the reverse: kill the underhook, win the crossface, flatten and free the leg."
+      "mechanism": "The bottom player's legs entangle one of the top player's legs so it cannot be freed to pass; the bottom player gets onto the hip and takes an underhook (arm under the opponent's arm on the trapped-leg side) with the head connected to the body, which stops the crossface flattening them and enables the dogfight, back take or wrestle-up. The top player's goals are the reverse: kill the underhook, win the crossface, flatten and free the leg.",
+      "plain": "Your legs trap one of their legs so they cannot free it to pass; you get on your side and win the underhook with your head tight to their body, which stops the crossface flattening you and opens the dogfight, back take or wrestle-up. On top the goal is the reverse: kill the underhook, win the crossface, flatten them and free the leg."
     },
     "secondary_targets": [
       {
@@ -1857,14 +1907,16 @@
         "structures": [
           "opponent's axilla / upper arm"
         ],
-        "mechanism": "The underhook controls the near shoulder; losing it exposes the bottom player to the crossface."
+        "mechanism": "The underhook controls the near shoulder; losing it exposes the bottom player to the crossface.",
+        "plain": "The underhook controls their near shoulder from the armpit; lose it and you get crossfaced."
       },
       {
         "region": "shin_calf",
         "structures": [
           "opponent's lower leg"
         ],
-        "mechanism": "Lockdown variant (niju-garami) figure-fours the leg and drives the foot upward, stretching the hip and limiting passing."
+        "mechanism": "Lockdown variant (niju-garami) figure-fours the leg and drives the foot upward, stretching the hip and limiting passing.",
+        "plain": "The lockdown figure-fours their leg and drives the foot up, stretching their hip and making passing hard."
       }
     ],
     "grip_regions": [
@@ -1944,7 +1996,8 @@
         "near hip",
         "far hip (hand/belt grip)"
       ],
-      "mechanism": "Grip the ankle or pant cuff and pull the leg across your body to the opposite hip while stepping the hips forward; the dragged thigh is pinned against the passer's hip/thigh and the knee stapled to the mat, the near knee slides tight to the opponent's hip to stop shrimping, the free hand controls the far hip or belt, and the chest drops onto the torso at an angle toward the back. Misdirection: legs go one way, body goes the other."
+      "mechanism": "Grip the ankle or pant cuff and pull the leg across your body to the opposite hip while stepping the hips forward; the dragged thigh is pinned against the passer's hip/thigh and the knee stapled to the mat, the near knee slides tight to the opponent's hip to stop shrimping, the free hand controls the far hip or belt, and the chest drops onto the torso at an angle toward the back. Misdirection: legs go one way, body goes the other.",
+      "plain": "Grab the ankle or trouser cuff and pull the leg across your body to your other hip while stepping forward: their thigh is pinned against your hip and the knee stapled to the mat, your near knee stays tight to their hip so they cannot shrimp, your free hand holds the far hip or belt and your chest drops on at an angle toward their back. Legs go one way, body the other."
     },
     "secondary_targets": [
       {
@@ -1952,14 +2005,16 @@
         "structures": [
           "pelvis / far hip"
         ],
-        "mechanism": "Far-hip control prevents turning away to turtle or re-guarding; sets up back takes."
+        "mechanism": "Far-hip control prevents turning away to turtle or re-guarding; sets up back takes.",
+        "plain": "Holding the far hip stops them turning away to turtle or recover guard, and sets up back takes."
       },
       {
         "region": "knee",
         "structures": [
           "dragged knee"
         ],
-        "mechanism": "Knee stapled to the mat with hand/thigh pressure."
+        "mechanism": "Knee stapled to the mat with hand/thigh pressure.",
+        "plain": "Their knee is stapled to the mat with your hand or thigh."
       }
     ],
     "grip_regions": [
@@ -2034,7 +2089,8 @@
         "opponent's bottom thigh (sliced by the passer's shin/knee)",
         "hip (blocked)"
       ],
-      "mechanism": "The passer drops the lead knee across the opponent's bottom thigh and slices it diagonally toward the mat and far hip, flattening the bottom leg and blocking the hip escape; the trailing leg posts wide and windshield-wipes free of hooks; upper body wins the underhook (or crossface/collar) first so the back is not exposed, driving chest-to-shoulder until the knee clears into side control."
+      "mechanism": "The passer drops the lead knee across the opponent's bottom thigh and slices it diagonally toward the mat and far hip, flattening the bottom leg and blocking the hip escape; the trailing leg posts wide and windshield-wipes free of hooks; upper body wins the underhook (or crossface/collar) first so the back is not exposed, driving chest-to-shoulder until the knee clears into side control.",
+      "plain": "Drop your lead knee across their bottom thigh and slice it diagonally to the mat toward their far hip, flattening the leg and blocking the hip escape while your back leg posts wide and wipes free of hooks. Win the underhook (or crossface/collar) first so you do not give up your back, then drive chest-to-shoulder until the knee clears into side control."
     },
     "secondary_targets": [
       {
@@ -2042,14 +2098,16 @@
         "structures": [
           "near hip"
         ],
-        "mechanism": "Knee pins the hip line so the bottom player cannot shrimp or turn in."
+        "mechanism": "Knee pins the hip line so the bottom player cannot shrimp or turn in.",
+        "plain": "Your knee pins their hip line so they cannot shrimp or turn in."
       },
       {
         "region": "shoulder",
         "structures": [
           "near shoulder / arm (underhook or sleeve control)"
         ],
-        "mechanism": "Without the underhook the knee cut gives up the back (Gracie Barra)."
+        "mechanism": "Without the underhook the knee cut gives up the back (Gracie Barra).",
+        "plain": "Without the underhook the knee cut gives up your back (Gracie Barra)."
       }
     ],
     "grip_regions": [
@@ -2124,7 +2182,8 @@
         "near hip / pelvis (blocked by knee, hand or hip-to-hip pressure)",
         "lumbar-pelvic motion (bridging and shrimping)"
       ],
-      "mechanism": "Top player lies chest-to-chest across the face-up opponent with hips low and driving forward; the near-side hip is blocked (knee tight to the hip, hand on the hip, or hip-to-hip) while the crossface turns the head and the underhook controls the far shoulder – together denying the bridge and the hip escape (shrimp)."
+      "mechanism": "Top player lies chest-to-chest across the face-up opponent with hips low and driving forward; the near-side hip is blocked (knee tight to the hip, hand on the hip, or hip-to-hip) while the crossface turns the head and the underhook controls the far shoulder – together denying the bridge and the hip escape (shrimp).",
+      "plain": "Lie chest to chest across them with your hips low and driving forward; block their near hip (knee tight, hand on the hip, or hip to hip) while the crossface turns their head and the underhook holds the far shoulder – together these take away the bridge and the shrimp."
     },
     "secondary_targets": [
       {
@@ -2132,14 +2191,16 @@
         "structures": [
           "head/neck (crossface)"
         ],
-        "mechanism": "Crossface turns the head so the spine follows."
+        "mechanism": "Crossface turns the head so the spine follows.",
+        "plain": "The crossface turns their head so the spine follows."
       },
       {
         "region": "shoulder",
         "structures": [
           "far shoulder (underhook)"
         ],
-        "mechanism": "Underhook pins the far shoulder."
+        "mechanism": "Underhook pins the far shoulder.",
+        "plain": "The underhook pins their far shoulder."
       }
     ],
     "grip_regions": [
@@ -2213,7 +2274,8 @@
         "opponent's thighs and lower legs (entangled)",
         "hips (pinned to the mat)"
       ],
-      "mechanism": "From mount the top player loops each leg over and under the opponent's legs, crossing at the ankle or calf so the two legs interlock; the hooks anchor the opponent's legs to the mat and the top player drives the hips forward with core engaged, making bridging and shrimping far harder."
+      "mechanism": "From mount the top player loops each leg over and under the opponent's legs, crossing at the ankle or calf so the two legs interlock; the hooks anchor the opponent's legs to the mat and the top player drives the hips forward with core engaged, making bridging and shrimping far harder.",
+      "plain": "From mount, wrap each of your legs over and under theirs and cross at the ankle or calf so your legs lock around theirs; this anchors their legs to the mat and, with your hips driving forward, makes bridging and shrimping much harder."
     },
     "secondary_targets": [
       {
@@ -2221,14 +2283,16 @@
         "structures": [
           "hip flexors / pelvis"
         ],
-        "mechanism": "Stretching the hooks out spreads and extends the hips; a leg-lock variant from the grapevine is described (bjjee) but not an IBJJF-named technique."
+        "mechanism": "Stretching the hooks out spreads and extends the hips; a leg-lock variant from the grapevine is described (bjjee) but not an IBJJF-named technique.",
+        "plain": "Stretching the hooks out spreads and straightens their hips; a leg-lock version from the grapevine has been described, but it is not an IBJJF-named move."
       },
       {
         "region": "ankle",
         "structures": [
           "ankle / calf (hook point)"
         ],
-        "mechanism": "Hooks are set at ankle or calf."
+        "mechanism": "Hooks are set at ankle or calf.",
+        "plain": "The hooks sit at their ankles or calves."
       }
     ],
     "grip_regions": [
@@ -2293,7 +2357,8 @@
         "abdomen / lower ribs (compressed)",
         "pelvis and hips (shin across the hip line)"
       ],
-      "mechanism": "From side control the top player rises and places the knee/shin across the opponent's abdomen or chest with the other leg posted wide for balance; body weight through the knee compresses the torso (pain, compressive asphyxia) and the shin across the hips blocks turning, while the position stays mobile enough to switch to mount or back."
+      "mechanism": "From side control the top player rises and places the knee/shin across the opponent's abdomen or chest with the other leg posted wide for balance; body weight through the knee compresses the torso (pain, compressive asphyxia) and the shin across the hips blocks turning, while the position stays mobile enough to switch to mount or back.",
+      "plain": "From side control you come up and put your knee and shin across their belly or chest with the other leg posted wide; your weight through the knee crushes the belly (painful, and it makes breathing hard), the shin across the hips stops them turning, and you stay mobile enough to switch to mount or the back."
     },
     "secondary_targets": [
       {
@@ -2301,14 +2366,16 @@
         "structures": [
           "hip joint / pelvis"
         ],
-        "mechanism": "Shin and posted foot pin the hip line; collar/hip grips hold the opponent flat."
+        "mechanism": "Shin and posted foot pin the hip line; collar/hip grips hold the opponent flat.",
+        "plain": "Your shin and posted foot pin their hip line; collar or hip grips keep them flat."
       },
       {
         "region": "chest",
         "structures": [
           "ribs"
         ],
-        "mechanism": "High placement compresses the ribs."
+        "mechanism": "High placement compresses the ribs.",
+        "plain": "Placed high, the knee crushes the ribs."
       }
     ],
     "grip_regions": [
@@ -2376,7 +2443,8 @@
         "opponent's near leg (figure-four lockdown / leg lace)",
         "hips"
       ],
-      "mechanism": "From a back-control or turtle variation one leg is isolated and threaded between the opponent's legs and locked with a lockdown or leg lace, pinning the near leg while the attacker controls the far leg or upper body; primarily a control position giving direct access to the calf slicer, banana split, twister and back takes."
+      "mechanism": "From a back-control or turtle variation one leg is isolated and threaded between the opponent's legs and locked with a lockdown or leg lace, pinning the near leg while the attacker controls the far leg or upper body; primarily a control position giving direct access to the calf slicer, banana split, twister and back takes.",
+      "plain": "From the back or turtle, your leg threads between theirs and locks their near leg with a lockdown or leg lace while you control their far leg or upper body; mainly a control position with direct access to the calf slicer, banana split, twister and back takes."
     },
     "secondary_targets": [
       {
@@ -2384,14 +2452,16 @@
         "structures": [
           "hip joint"
         ],
-        "mechanism": "Hip isolation is what makes the banana split possible."
+        "mechanism": "Hip isolation is what makes the banana split possible.",
+        "plain": "Isolating the hip is what makes the banana split possible."
       },
       {
         "region": "shin_calf",
         "structures": [
           "calf"
         ],
-        "mechanism": "Shin already behind the knee for the calf slicer."
+        "mechanism": "Shin already behind the knee for the calf slicer.",
+        "plain": "Your shin is already behind their knee for the calf slicer."
       }
     ],
     "grip_regions": [
@@ -2465,7 +2535,8 @@
         "opponent's trapped lower leg / ankle (figure-foured)",
         "hip flexors of the trapped side (stretched when the foot is driven up)"
       ],
-      "mechanism": "Bottom half guard with a figure-four leg configuration: the outside leg hooks over the trapped leg, the inside leg hooks under it, and the longer leg drives the opponent's foot upward and away, extending their hip, breaking posture and limiting passing; it feeds the whip-up, dogfight, electric chair, calf slicer and banana split."
+      "mechanism": "Bottom half guard with a figure-four leg configuration: the outside leg hooks over the trapped leg, the inside leg hooks under it, and the longer leg drives the opponent's foot upward and away, extending their hip, breaking posture and limiting passing; it feeds the whip-up, dogfight, electric chair, calf slicer and banana split.",
+      "plain": "From bottom half guard your legs figure-four their trapped leg (outside leg over, inside leg under) and your longer leg drives their foot up and away, stretching their hip back, breaking their posture and making passing hard; it feeds the whip-up, dogfight, electric chair, calf slicer and banana split."
     },
     "secondary_targets": [
       {
@@ -2473,7 +2544,8 @@
         "structures": [
           "hip joint"
         ],
-        "mechanism": "Stretching the leg back extends the opponent's hip and pulls them flat."
+        "mechanism": "Stretching the leg back extends the opponent's hip and pulls them flat.",
+        "plain": "Stretching the leg back straightens their hip and pulls them flat."
       }
     ],
     "grip_regions": [

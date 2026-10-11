@@ -77,3 +77,10 @@ plata-family and several controls rest on coaching sites. See
 `knowledge/` · `tools/knowledge/build.mjs` · `tests/knowledge.test.ts` (facts pinned as
 regressions — extend it when you fix a fact) · `docs/reference/SOURCES.md` ·
 `docs/decisions/` · `CLAUDE.md`.
+
+## Plain language (since 2026-10-12)
+Every `primary_target` and `secondary_targets[]` item carries a `plain` sentence in gym words
+(knee, lats, shoulder blade, ankle tendon, "bends the elbow the wrong way (hyperextension)") that
+makes the SAME claim as `mechanism`, simplified. `summary` and position notes follow the same rule.
+The build rejects the jargon list in `tools/knowledge/plain-language.mjs`; `mechanism` and
+`structures` stay precise and are shown under "Anatomy detail".
