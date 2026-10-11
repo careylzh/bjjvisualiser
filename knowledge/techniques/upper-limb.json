@@ -1,0 +1,3136 @@
+[
+  {
+    "id": "armbar_closed_guard",
+    "name": "Armbar from closed guard",
+    "aliases": [
+      "Juji-gatame",
+      "Ude-hishigi-juji-gatame",
+      "Cross armlock",
+      "Straight armbar",
+      "Armlock"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior joint capsule",
+        "ulnar (medial) collateral ligament - anterior band",
+        "common flexor tendon origin",
+        "olecranon / olecranon fossa"
+      ],
+      "mechanism": "Elbow hyperextension: the attacker's hips act as the fulcrum below the elbow while the wrist is pulled to the chest; forearm kept neutral/thumb-up so the olecranon locks in the fossa and the medial elbow complex (UCL, flexor origin, anterior capsule) is loaded in tension"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "glenohumeral joint"
+        ],
+        "mechanism": "Arm is pulled across and up; knees pinch the upper arm, limiting rotation"
+      }
+    ],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "head",
+      "neck"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Break posture, control the wrist/sleeve, angle the hips, leg over the head, squeeze knees and lift hips"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": "Same finish from open guard once an arm is isolated"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Not on the IBJJF prohibited-techniques table (Rules Book v6.1 p. 29); legal in every division including kids"
+    },
+    "summary": "The classic cross armlock from the guard: pull the arm across your centreline, swing a leg over the head, pinch the knees and raise the hips to hyperextend the elbow.",
+    "sources": [
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "Juji-gatame section",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      },
+      {
+        "ref": "almeida2017",
+        "locator": "pp. 209-211",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5608741"
+      },
+      {
+        "ref": "gracie2001",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions (black belt) chapter",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29, table 'Technical Fouls - Illegal Moves'",
+        "url": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Which structure fails first is debated: the 2017 MRI case series found UCL and common flexor tendon injury; a cadaver study reported second-hand (Sherdog) found anterior capsule rupture first."
+  },
+  {
+    "id": "armbar_mount",
+    "name": "Armbar from mount / S-mount / technical mount",
+    "aliases": [
+      "Mounted armbar",
+      "Juji-gatame from mount",
+      "S-mount armbar"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior joint capsule",
+        "ulnar collateral ligament",
+        "common flexor tendon origin"
+      ],
+      "mechanism": "Elbow hyperextension over the attacker's hips/pelvis with the wrist pinned to the chest and the forearm neutral; knees squeezed to immobilise the humerus"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "head",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Isolate one arm (often when the opponent pushes the chest), step to S-mount, swing the leg over the head and sit back"
+      },
+      {
+        "position": "s_mount",
+        "attacker_role": "top",
+        "note": "The S-mount pins the arm against the attacker's thigh and blocks the head with the knee before the finish"
+      },
+      {
+        "position": "technical_mount",
+        "attacker_role": "top",
+        "note": "Technical mount gives direct access to the far/top arm for the armbar"
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "Near-arm armbar when the opponent pushes the knee"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "From mount the attacker climbs to S-mount, traps the arm against the thigh, swings the leg over the head and sits back for the hyperextension.",
+    "sources": [
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "Juji-gatame section",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      },
+      {
+        "ref": "jitsuiq-smount",
+        "locator": "",
+        "url": "https://jitsuiq.com/positions/mount/s-mount.html"
+      },
+      {
+        "ref": "evolve-s-mount",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/how-to-perform-the-s-mount-in-bjj/"
+      },
+      {
+        "ref": "bjjee-smount",
+        "locator": "",
+        "url": "https://www.bjjee.com/articles/how-to-effectively-use-the-s-mount-in-bjj/"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions (black belt) chapter",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "armbar_side_control",
+    "name": "Armbar from side control (far-arm / spinning armbar)",
+    "aliases": [
+      "Far-side armbar",
+      "Spinning armbar",
+      "Arm bar from across-side position",
+      "Kesa-gatame armbar"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior capsule",
+        "ulnar collateral ligament"
+      ],
+      "mechanism": "Elbow hyperextension: the far arm is isolated under the attacker's armpit or across the chest, the attacker steps/spins over the head and extends the elbow over the hips or the thigh"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Trap the far arm (e.g., when the opponent pushes on the hip/face), step over the head and spin to the armbar; Theory & Technique lists 'Arm bar from across-side position'"
+      },
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": "Arm isolated while circling to north-south"
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "Spinning armbar on the far arm"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Top-side armlock: isolate the far arm, step over the head and fall back into the cross armlock.",
+    "sources": [
+      {
+        "ref": "gracie2001",
+        "locator": "entry 'Arm bar from across-side position' (LibraryThing contents listing)",
+        "url": ""
+      },
+      {
+        "ref": "kesting-two-armbars-side",
+        "locator": "",
+        "url": "https://www.grapplearts.com/two-powerful-armbars-from-side-control/"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions (black belt) chapter",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "armbar_back",
+    "name": "Armbar from back control",
+    "aliases": [
+      "Back armbar",
+      "Armbar from the back"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior capsule",
+        "ulnar collateral ligament"
+      ],
+      "mechanism": "Elbow hyperextension: from the back the attacker traps the arm (often with a kimura or wrist grip), swings a leg over the head and falls to the side to extend the elbow over the hips"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "shoulder",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "When the opponent defends the choke with the hands, trap the top arm and rotate to the armbar; Kesting lists armbars from 'kimura control from the back'"
+      },
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "See armbar_crucifix"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "A choke-defence counter from the back: control the arm, throw the leg over the head and extend the elbow.",
+    "sources": [
+      {
+        "ref": "kesting-kimura-cheatsheet-2025",
+        "locator": "section 'Kimura Control from the back'",
+        "url": "https://www.grapplearts.com/wp-content/uploads/2025/10/The-Kimura-Position-Cheatsheet.pdf"
+      },
+      {
+        "ref": "garcia2011",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "digitsu-gift-wrap",
+        "locator": "attacks list: 'armbar from back'",
+        "url": "https://digitsu.com/t/gift-wrap"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Garcia 2011 covers finishing from the back but exact pages were not verified."
+  },
+  {
+    "id": "armbar_spider_guard",
+    "name": "Armbar from spider guard",
+    "aliases": [
+      "Spider guard armbar",
+      "Sleeve-grip armbar"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior capsule",
+        "ulnar collateral ligament"
+      ],
+      "mechanism": "Elbow hyperextension: the sleeve grip pulls the arm while the foot on the biceps pushes the upper arm, pre-extending the elbow; the attacker angles the hips and throws the leg over the head to finish"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "spider_guard",
+        "attacker_role": "bottom",
+        "note": "Pull the sleeve, push the biceps with the foot, move the other foot to the hip, swing the leg over the head (gi)"
+      },
+      {
+        "position": "lasso_guard",
+        "attacker_role": "bottom",
+        "note": "Lasso isolates the arm for the same finish"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Spider/lasso grips require the gi sleeve; no-gi equivalents use wrist control"
+    },
+    "summary": "Gi-specific armbar: the sleeve-and-foot-on-biceps tension already straightens the arm, so the attacker only has to angle and swing the leg over the head.",
+    "sources": [
+      {
+        "ref": "digitsu-spider-armbar",
+        "locator": "",
+        "url": "https://digitsu.com/t/spider-guard-armbar"
+      },
+      {
+        "ref": "jitsuiq-spider",
+        "locator": "",
+        "url": "https://jitsuiq.com/positions/guard/spider-guard.html"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "flying_armbar",
+    "name": "Flying armbar",
+    "aliases": [
+      "Tobi-juji-gatame",
+      "Jumping armbar"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior capsule",
+        "ulnar collateral ligament"
+      ],
+      "mechanism": "Elbow hyperextension: from standing the attacker controls the arm (and collar/neck in no-gi), places a shin on the opponent's hip/midsection, jumps and swings the other leg over the head, landing in the cross armlock"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "neck",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Usually against a collar tie or a stiff arm; high risk if the opponent does not support the weight"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "blue",
+      "gi": true,
+      "nogi": true,
+      "note": "The armbar itself is legal, but IBJJF Rules Book v6.1 item 6.2.2 W penalises jumping to closed guard 'including any and all attacks initiated by jumping guard, such as ... Flying Triangles and Flying Armbars' in all under-15 divisions and all white-belt age groups"
+    },
+    "summary": "A standing jump into the cross armlock; spectacular but risky, and effectively banned for white belts and under-15s under IBJJF rules.",
+    "sources": [
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "Flying armbar (tobi-juji-gatame)",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      },
+      {
+        "ref": "evolve-flying-armbar",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/how-to-do-a-bjj-flying-armbar/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "item 6.2.2 W, p. 28",
+        "url": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "armbar_crucifix",
+    "name": "Armbar from the crucifix (leg-trapped arm)",
+    "aliases": [
+      "Crucifix armbar",
+      "Leg armbar from crucifix"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior capsule",
+        "ulnar collateral ligament"
+      ],
+      "mechanism": "Elbow hyperextension using the legs: the arm trapped between the attacker's thighs is straightened and the attacker bridges the hips forward against the elbow while the legs are triangled to remove slack"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "upper_arm",
+      "forearm",
+      "wrist",
+      "shoulder",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "Bottom-leg triangle version, or top-leg triangle after the opponent turns the arm (hitchhiker)"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "With one arm captured between the legs in the crucifix, the attacker extends the elbow with a hip bridge instead of the hands.",
+    "sources": [
+      {
+        "ref": "kesting-crucifix-2019",
+        "locator": "",
+        "url": "https://www.grapplearts.com/submissions-from-crucifix-position/"
+      },
+      {
+        "ref": "lowkick-crucifix",
+        "locator": "",
+        "url": "https://www.lowkickmma.com/bjj-crucifix-explained/"
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "helicopter_armbar",
+    "name": "Helicopter armbar",
+    "aliases": [
+      "Tomoe-nage armbar",
+      "Flying scissor armbar"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior capsule",
+        "ulnar collateral ligament"
+      ],
+      "mechanism": "Elbow hyperextension: the attacker grips both arms, falls backward with feet on the hips (tomoe-nage), lifts and rotates the opponent over, and lands with the extended arm across the hips"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Entered from a double-arm grip or double sleeve grip while standing"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Not a jumping-guard entry, so not covered by 6.2.2 W; slamming the opponent on landing would be a slam (prohibited at all levels)"
+    },
+    "summary": "A sacrifice-throw armbar: sit back under the opponent with feet on their hips, spin them over and come up in the armlock.",
+    "sources": [
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "Helicopter armbar",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Only a Wikipedia description was located; no textbook locator."
+  },
+  {
+    "id": "reverse_armbar_closed_guard",
+    "name": "Reverse armbar from closed guard",
+    "aliases": [
+      "Cutting armbar",
+      "Arm crush",
+      "Razor lock",
+      "Ude-gatame",
+      "Pressing armbar",
+      "Straight armbar"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior capsule",
+        "ulnar collateral ligament"
+      ],
+      "mechanism": "Elbow hyperextension with the arm clamped across the attacker's chest/shoulder: the elbow is rolled to point up (shoulder internally rotated, thumb down), the attacker's shoulder or forearm acts as the fulcrum under the elbow, and the hands/chest pull the wrist down so the joint 'cuts' over the fulcrum"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "glenohumeral joint"
+        ],
+        "mechanism": "Shoulder line is controlled and internally rotated to expose the elbow"
+      }
+    ],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Overhook/clamp the arm to your chest, roll the elbow up and 'cut' with the shoulder; doubles as a sweep set-up"
+      },
+      {
+        "position": "butterfly_guard",
+        "attacker_role": "bottom",
+        "note": "Same finish from butterfly guard (Biernacki)"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Hage shows entries from half guard"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Instead of a leg over the head, the elbow is straightened against your own shoulder or forearm with the arm trapped across your chest.",
+    "sources": [
+      {
+        "ref": "kesting-reverse-armbar-2016",
+        "locator": "",
+        "url": "https://www.grapplearts.com/reverse-armbar-closed-guard/"
+      },
+      {
+        "ref": "bjjmore-reverse-armlock-hage",
+        "locator": "",
+        "url": "https://bjjmore.com/reverse-armlock-magid-hage/"
+      },
+      {
+        "ref": "bjjmore-ude-gatame",
+        "locator": "",
+        "url": "https://bjjmore.com/master-the-move-straight-armbar-ude-gatame/"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Judo names vary: ude-gatame (arm lock with hands) / waki-gatame (armpit) are near equivalents."
+  },
+  {
+    "id": "reverse_armbar_top",
+    "name": "Reverse / straight armbar from side control and passing",
+    "aliases": [
+      "Straight armlock from side control",
+      "Inverted armbar",
+      "Ude-gatame from top",
+      "Underhook armbar"
+    ],
+    "category": "joint_lock",
+    "subcategory": "elbow_lock",
+    "primary_target": {
+      "region": "elbow",
+      "structures": [
+        "humeroulnar joint",
+        "anterior capsule",
+        "ulnar collateral ligament"
+      ],
+      "mechanism": "Elbow hyperextension against a fulcrum formed by the attacker's shoulder, neck or forearm: the opponent's wrist is trapped (under the armpit or on the shoulder) and the elbow is lifted/pressed with the elbow tightly controlled so it cannot rotate out"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Against a stiff frame or the near arm pushing on the hip; works in combination with the figure-four (americana/kimura) grips"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Against the frame/underhook attempt while passing"
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "When the opponent pushes the knee with a straight arm"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "A top-position straight armlock on a framing arm: pin the wrist, control the elbow tightly and press the joint over your shoulder/forearm.",
+    "sources": [
+      {
+        "ref": "kesting-two-armbars-side",
+        "locator": "",
+        "url": "https://www.grapplearts.com/two-powerful-armbars-from-side-control/"
+      },
+      {
+        "ref": "bjjmore-reverse-armlock-hage",
+        "locator": "entries 'from guard, half, and passing'",
+        "url": "https://bjjmore.com/reverse-armlock-magid-hage/"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "No textbook locator found for the side-control version."
+  },
+  {
+    "id": "kimura",
+    "name": "Kimura",
+    "aliases": [
+      "Gyaku ude-garami",
+      "Double wristlock",
+      "Reverse keylock",
+      "Chicken wing (wrestling)",
+      "Figure-four armlock (medial)"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior band of the inferior glenohumeral ligament / posterior capsule",
+        "rotator cuff (infraspinatus, teres minor, subscapularis)",
+        "acromioclavicular ligaments"
+      ],
+      "mechanism": "Forced internal (medial) rotation plus extension of the humerus with the elbow flexed ~90 deg, driving the hand up behind the back; a figure-four grip (one hand on the wrist, the other through and gripping your own wrist) uses the forearm as a lever"
+    },
+    "secondary_targets": [
+      {
+        "region": "elbow",
+        "structures": [
+          "humeroulnar joint",
+          "medial collateral ligament"
+        ],
+        "mechanism": "If the elbow is allowed to open, torque is transmitted to the elbow (double wristlock origin)"
+      },
+      {
+        "region": "wrist",
+        "structures": [
+          "radiocarpal joint"
+        ],
+        "mechanism": "The wrist grip can bend the wrist as a finishing adjunct"
+      }
+    ],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Far-arm kimura; most commonly taught; circle to north-south to finish"
+      },
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": "Kesting: strongest finishing position; opponent turned on side, arm driven behind the back in a triangle-shaped motion"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Sit up, trap the posting arm with the figure-four, fall to the side and swing the arm behind the back; doubles as a sweep"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Attack the far arm when the opponent frames on your face or reaches for the back"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Kimura grip from half guard bottom feeds sweeps, back takes and the finish"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Topside kimura control vs turtle; roll the opponent over to finish"
+      },
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Kimura control from the back (especially no-gi)"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "When the opponent turns or frames"
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": ""
+      },
+      {
+        "position": "standing",
+        "attacker_role": "either",
+        "note": "Standing kimuras; classic counter to a single-leg takedown (kimura grip on the attacker's wrist)"
+      },
+      {
+        "position": "butterfly_guard",
+        "attacker_role": "bottom",
+        "note": ""
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Not on the prohibited table; legal in all divisions"
+    },
+    "summary": "Figure-four bent-arm shoulder lock that rotates the arm inward and up behind the back; Masahiko Kimura used it to beat Helio Gracie in 1951.",
+    "sources": [
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "Ude-garami / double wristlock section",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      },
+      {
+        "ref": "kesting-kimura-cheatsheet-2025",
+        "locator": "12 kimura positions",
+        "url": "https://www.grapplearts.com/wp-content/uploads/2025/10/The-Kimura-Position-Cheatsheet.pdf"
+      },
+      {
+        "ref": "bjjmore-danaher-kimura",
+        "locator": "",
+        "url": "https://bjjmore.com/enter-the-system-kimura/"
+      },
+      {
+        "ref": "jitsuiq-kimura",
+        "locator": "positions list",
+        "url": "https://jitsuiq.com/submissions/locks/joint-locks/kimura.html"
+      },
+      {
+        "ref": "massimini2012",
+        "locator": "posterior-band IGHL elongation at 90 deg abduction + internal rotation",
+        "url": "https://doi.org/10.1186/1749-799X-7-29"
+      },
+      {
+        "ref": "gracie2001",
+        "locator": "entry 'The kimura lock'",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions (black belt) chapter",
+        "url": ""
+      },
+      {
+        "ref": "bjjee-single-leg-kimura",
+        "locator": "",
+        "url": "https://www.bjjee.com/articles/counter-the-single-leg-with-this-kimura-lock-reversal/"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Anatomical loading: internal rotation tensions the posterior capsule/posterior IGHL and the external rotators; the frequently quoted 'subscapularis' target is actually the muscle being shortened, not stretched."
+  },
+  {
+    "id": "americana",
+    "name": "Americana",
+    "aliases": [
+      "Keylock",
+      "Ude-garami",
+      "Paintbrush",
+      "Bent armlock",
+      "Top shoulder lock",
+      "V1 armlock",
+      "Figure-four armlock (lateral)"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "anterior band of the inferior glenohumeral ligament",
+        "anterior joint capsule",
+        "middle glenohumeral ligament",
+        "subscapularis"
+      ],
+      "mechanism": "Forced external rotation of the humerus with the shoulder abducted ~90 deg and the elbow flexed ~90 deg: the wrist is pinned to the mat and the elbow is lifted/dragged toward the hip ('paintbrush'), loading the anterior capsule and anterior IGHL - the apprehension position"
+    },
+    "secondary_targets": [
+      {
+        "region": "elbow",
+        "structures": [
+          "humeroulnar joint"
+        ],
+        "mechanism": "Elbow is flexed and used as the lever; some torque reaches the elbow if the wrist slides"
+      }
+    ],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "elbow"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "external_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Near-arm keylock when the opponent pushes with the far hand or frames; pin wrist, thread the other hand under the elbow, grip your own wrist"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Drive the wrist to the mat with body weight, then lift the elbow"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Far-arm americana while passing"
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": ""
+      },
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": ""
+      },
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "Americana/keylock on the hand-controlled arm"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": ""
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Not on the IBJJF prohibited table; legal in every division. (Some other federations restrict it for children - not IBJJF.)"
+    },
+    "summary": "Figure-four lock where the forearm points up: pin the wrist, lift the elbow and rotate the shoulder outward.",
+    "sources": [
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "Ude-garami / top shoulder lock section",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      },
+      {
+        "ref": "jitsuiq-americana",
+        "locator": "positions list",
+        "url": "https://jitsuiq.com/submissions/locks/joint-locks/americana.html"
+      },
+      {
+        "ref": "massimini2012",
+        "locator": "anterior-band IGHL max elongation at 90 deg abduction + max external rotation",
+        "url": "https://doi.org/10.1186/1749-799X-7-29"
+      },
+      {
+        "ref": "turkel1981",
+        "locator": "pp. 1208-1218",
+        "url": "https://www.qxmd.com/r/7287791"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions (black belt) chapter",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 table",
+        "url": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Name origin (Rolls Gracie / Bob Anderson) is disputed; the term appears in a 1951 Brazilian newspaper."
+  },
+  {
+    "id": "omoplata",
+    "name": "Omoplata",
+    "aliases": [
+      "Ashi-sankaku-garami",
+      "Coil lock (catch wrestling)",
+      "Shoulder lock with the legs"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior capsule / posterior band of the inferior glenohumeral ligament",
+        "rotator cuff",
+        "scapulothoracic joint ('omoplata' = shoulder blade)"
+      ],
+      "mechanism": "Forced internal rotation (and extension) of the humerus using the leg: the attacker's hamstring/leg is clamped over the back of the shoulder with the forearm trapped behind it, the attacker sits up and drives forward and down so the hand is pushed up the back"
+    },
+    "secondary_targets": [
+      {
+        "region": "elbow",
+        "structures": [
+          "humeroulnar joint"
+        ],
+        "mechanism": "Elbow is bent and trapped; pressure may reach it if the arm is straightened"
+      }
+    ],
+    "grip_regions": [
+      "upper_arm",
+      "shoulder",
+      "forearm",
+      "hips",
+      "abdomen"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Classic entry when the opponent posts/grips; break posture, bring the leg over the shoulder, pivot 90-180 deg, sit up, control the hip/belt to stop the forward roll"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": ""
+      },
+      {
+        "position": "spider_guard",
+        "attacker_role": "bottom",
+        "note": "Foot-on-biceps leg swings over the shoulder (gi)"
+      },
+      {
+        "position": "lasso_guard",
+        "attacker_role": "bottom",
+        "note": "The lasso converts directly into the omoplata by swinging the free leg over"
+      },
+      {
+        "position": "rubber_guard",
+        "attacker_role": "bottom",
+        "note": "Bravo's rubber guard flowchart lists the omoplata from Mission Control / New York"
+      },
+      {
+        "position": "de_la_riva",
+        "attacker_role": "bottom",
+        "note": ""
+      },
+      {
+        "position": "single_leg_x",
+        "attacker_role": "bottom",
+        "note": ""
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Mounted omoplata/step-over on a trapped arm"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Prohibited in the 4-12 and 13-15 age divisions (IBJJF table row 6); legal from 16 years, all belts"
+    },
+    "summary": "A kimura done with the leg: the leg wraps over the shoulder, trapping the arm behind the back, and the attacker sits up and leans forward.",
+    "sources": [
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "Omoplata / ashi-sankaku-garami",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      },
+      {
+        "ref": "digitsu-omoplata",
+        "locator": "",
+        "url": "https://digitsu.com/a/omoplata-essentials-everything-you-need-to-know"
+      },
+      {
+        "ref": "digitsu-lasso",
+        "locator": "attacks: omoplata",
+        "url": "https://digitsu.com/t/lasso-guard"
+      },
+      {
+        "ref": "wikipedia-rubber-guard",
+        "locator": "attacks list",
+        "url": "https://en.wikipedia.org/wiki/Rubber_guard"
+      },
+      {
+        "ref": "bravo2006",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 table, row 6",
+        "url": "https://ibjjf.com/books-videos"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Guard (purple belt) / Submissions chapters",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Kids' prohibition verified against the rendered table on 2026-10-11."
+  },
+  {
+    "id": "baratoplata",
+    "name": "Baratoplata",
+    "aliases": [
+      "Barata-plata"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior capsule / posterior IGHL",
+        "rotator cuff"
+      ],
+      "mechanism": "Forced internal rotation: the opponent's elbow is clamped between the attacker's thighs (triangle-like), the attacker threads an arm through the bent arm (reverse-kimura frame seated in the elbow crook) and pushes the wrist outward and upward while turning the torso toward the trapped shoulder"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "elbow",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Reverse-kimura grip, wrist pinned to the belly, elbow trapped by the thighs, angle the hips"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "From a defended mounted armbar: thread the arm through the elbow and lock the figure-four"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Against an extended frame, step over the head"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": "From armbar/triangle control"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "A shoulder lock, not on the prohibited table; Caio Terra won the 2015 IBJJF No-Gi Worlds final with it"
+    },
+    "summary": "Rafael 'Barata' Freitas' shoulder lock: elbow pinned between the thighs, your arm threaded through the crook, wrist pushed out and up.",
+    "sources": [
+      {
+        "ref": "digitsu-baratoplata",
+        "locator": "",
+        "url": "https://digitsu.com/t/baratoplata"
+      },
+      {
+        "ref": "evolve-tarikoplata-baratoplata",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/bjj-shoulder-locks-understanding-the-differences-between-tarikoplata-and-baratoplata/"
+      },
+      {
+        "ref": "kesting-omoplata-variations-2013",
+        "locator": "",
+        "url": "https://grapplearts.com/tag/marceloplata"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Sources disagree on the precise direction of the finishing torque (rotate torso vs push arm away); Freitas originally developed it as a bicep slicer and converted it to a shoulder lock for rules compliance."
+  },
+  {
+    "id": "tarikoplata",
+    "name": "Tarikoplata",
+    "aliases": [
+      "Tariko-plata",
+      "Kimura-omoplata hybrid"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior capsule / posterior IGHL",
+        "rotator cuff"
+      ],
+      "mechanism": "Forced internal rotation: starting from a kimura (figure-four) grip, the attacker swings a leg over the opponent's shoulder line so the shin/calf becomes the frame, transfers the grip to the own thigh/shin and rotates the captured arm toward the attacker's head with hip and leg torque"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Knee-shield/Z-guard with underhook to isolate the arm, then swing the leg over"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "From a stalled kimura or omoplata"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "When the kimura is defended by gripping the belt/gi, step the leg over the head/shoulder"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Same transition from a defended kimura/armbar"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Shoulder lock, not on the prohibited table"
+    },
+    "summary": "Tarik Hopstock's kimura finished with a leg over the shoulder for extra leverage; the elbow is pulled inward toward your core (opposite of the baratoplata's push).",
+    "sources": [
+      {
+        "ref": "digitsu-tarikoplata",
+        "locator": "",
+        "url": "https://digitsu.com/t/tarikoplata"
+      },
+      {
+        "ref": "bjjheroes-tarikoplata",
+        "locator": "",
+        "url": "https://www.bjjheroes.com/?p=10447"
+      },
+      {
+        "ref": "evolve-tarikoplata-baratoplata",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/bjj-shoulder-locks-understanding-the-differences-between-tarikoplata-and-baratoplata/"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "monoplata",
+    "name": "Monoplata",
+    "aliases": [
+      "Mounted omoplata variation",
+      "Reverse shoulder lock (Gracie Barra usage)"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior capsule / posterior IGHL",
+        "rotator cuff"
+      ],
+      "mechanism": "Forced internal rotation/hyper-rotation with the arm trapped: one leg drapes over the opponent's back and hooks the arm near the elbow (arm held above the hips and under the armpit), the attacker's thigh and ribs control the arm and hip pressure drives into the shoulder"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "upper_arm",
+      "elbow",
+      "forearm",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "From 3/4 mount when the opponent turns to take an underhook; separate the arm, lean and swing the leg to trap it"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Reaction to the underhook pummel"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "From triangle control when the opponent hides the arm; hip-bump into the monoplata"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Shoulder lock, not on the prohibited table"
+    },
+    "summary": "An omoplata-style shoulder lock applied with one leg from on top (3/4 mount), popularised by Marcelo Garcia; converts to an armbar if the arm straightens.",
+    "sources": [
+      {
+        "ref": "evolve-monoplata",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/heres-how-to-perform-the-monoplata/"
+      },
+      {
+        "ref": "garcia2011",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Sources differ on which leg traps the arm; terminology also varies (some schools call a reverse omoplata 'monoplata')."
+  },
+  {
+    "id": "marceloplata",
+    "name": "Marceloplata",
+    "aliases": [
+      "Marcelo Garcia omoplata variation"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior capsule / posterior IGHL",
+        "rotator cuff"
+      ],
+      "mechanism": "Forced internal rotation of the trapped arm, as in the omoplata, re-secured when the opponent is slipping out of the standard finish (the arm is re-clamped and the shoulder re-torqued from a modified leg/hip configuration)"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "upper_arm",
+      "shoulder",
+      "forearm",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Follow-up when a regular omoplata is almost finished but the opponent is escaping"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": ""
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Shoulder lock, not on the prohibited table"
+    },
+    "summary": "A Marcelo Garcia omoplata follow-up used when the opponent is slipping out of the standard omoplata.",
+    "sources": [
+      {
+        "ref": "kesting-omoplata-variations-2013",
+        "locator": "",
+        "url": "https://grapplearts.com/tag/marceloplata"
+      }
+    ],
+    "confidence": "low",
+    "notes": "Only a Grapplearts tag page (video tutorial) was located; written mechanics are not described in text, so the exact leg/grip configuration is unverified."
+  },
+  {
+    "id": "reverse_omoplata_crucifix",
+    "name": "Shoulder lock from the crucifix (reverse omoplata / leg kimura)",
+    "aliases": [
+      "Reverse omoplata",
+      "Crucifix kimura with the legs",
+      "Leg-applied kimura"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior capsule / posterior IGHL",
+        "rotator cuff"
+      ],
+      "mechanism": "Forced internal rotation with the arm driven behind the back by the legs: the arm captured between the thighs is bent, and the attacker rotates the hips away from the trapped arm (opposite direction to a standard omoplata), while wrist control stops the opponent spinning out"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "upper_arm",
+      "forearm",
+      "wrist",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "Force the 'arm down' position, then kimura-style lock applied with the legs"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Crucifix is usually entered from turtle/arm drag"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Shoulder lock, not on the prohibited table"
+    },
+    "summary": "With the arm isolated between your legs in the crucifix, rotate the hips to bend the arm up the back like a leg-driven kimura.",
+    "sources": [
+      {
+        "ref": "digitsu-reverse-omoplata",
+        "locator": "",
+        "url": "https://digitsu.com/t/reverse-omoplata"
+      },
+      {
+        "ref": "kesting-crucifix-2019",
+        "locator": "Biernacki 'arm down' kimura-style armlock with the legs",
+        "url": "https://www.grapplearts.com/submissions-from-crucifix-position/"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "hammerlock",
+    "name": "Hammerlock / chicken wing",
+    "aliases": [
+      "Chicken wing",
+      "Hammer lock",
+      "Behind-the-back armlock"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior capsule / posterior IGHL",
+        "rotator cuff"
+      ],
+      "mechanism": "Forced internal rotation and extension: the arm is bent behind the opponent's back and the hand is driven up toward the neck/scapula, placing pressure on the shoulder"
+    },
+    "secondary_targets": [
+      {
+        "region": "elbow",
+        "structures": [
+          "humeroulnar joint"
+        ],
+        "mechanism": "Elbow is flexed and used as the lever; a 'twisting hammerlock' adds elbow torque"
+      }
+    ],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Arm levered behind the back from the top of turtle"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Classic standing control/pin from behind"
+      },
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Arm driven up the back"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Not on the IBJJF prohibited table; in BJJ it usually appears as a kimura/'chicken wing' finish rather than a stand-alone technique"
+    },
+    "summary": "Arm bent behind the back and hand pushed up toward the neck; the oldest documented armlock, now mostly a wrestling/control idea or kimura variant.",
+    "sources": [
+      {
+        "ref": "wikipedia-armlock",
+        "locator": "Hammerlock section (cites Chapman, Wrestling Tough, 2005)",
+        "url": "https://en.wikipedia.org/wiki/Armlock"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "No BJJ textbook locator; the 1928 NCAA rulebook banned the twisting hammerlock in wrestling, but it is not listed by the IBJJF."
+  },
+  {
+    "id": "mir_lock",
+    "name": "Mir lock",
+    "aliases": [
+      "Mir-lock",
+      "Overhook kimura variant",
+      "Reverse keylock from kesa"
+    ],
+    "category": "joint_lock",
+    "subcategory": "shoulder_lock",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "glenohumeral joint",
+        "posterior capsule / posterior IGHL",
+        "rotator cuff"
+      ],
+      "mechanism": "Forced internal rotation with the elbow clamped: a figure-four grip on the wrist with the opponent's elbow pinned tightly to the attacker's chest/hip, then the wrist is rotated toward the opponent's back ('paintbrush') so all torque goes to the shoulder"
+    },
+    "secondary_targets": [
+      {
+        "region": "elbow",
+        "structures": [
+          "humeroulnar joint"
+        ],
+        "mechanism": "Elbow is trapped and compressed against the chest; some descriptions say it attacks elbow and shoulder together"
+      }
+    ],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "elbow",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Named for Frank Mir's finish of Pete Williams (UFC 36, 2002); overhook the arm, sit up and lock the figure-four as the opponent pulls away"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Digitsu describes it from kesa-gatame / combat base with hip pressure"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "A shoulder lock, not on the prohibited table (it is NOT a wrist lock, so no blue-belt restriction)"
+    },
+    "summary": "A tight kimura/keylock hybrid with the elbow trapped against your body and the wrist rotated toward the opponent's back.",
+    "sources": [
+      {
+        "ref": "digitsu-mir-lock",
+        "locator": "",
+        "url": "https://digitsu.com/t/mir-lock"
+      }
+    ],
+    "confidence": "low",
+    "notes": "Sources conflict: some call it a kimura variant, some an americana variant with elbow/shoulder together. The task brief grouped it with supination wrist locks; the located sources describe a shoulder lock. Origin (Mir vs Williams UFC 36) not verified in the sources retrieved."
+  },
+  {
+    "id": "bicep_slicer",
+    "name": "Bicep slicer",
+    "aliases": [
+      "Biceps crusher",
+      "Biceps lock",
+      "Short-arm scissors (catch wrestling)",
+      "Bicep cutter"
+    ],
+    "category": "compression",
+    "subcategory": "muscle_slicer",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "biceps brachii and brachialis muscle bellies",
+        "distal biceps tendon",
+        "humerus (muscle compressed against bone)"
+      ],
+      "mechanism": "Compression: a bony fulcrum (shin, forearm/radius, or wrist) is wedged deep into the antecubital fossa and the forearm is forcibly flexed over it, crushing the biceps/brachialis and distal biceps tendon against the humerus"
+    },
+    "secondary_targets": [
+      {
+        "region": "elbow",
+        "structures": [
+          "humeroulnar joint",
+          "joint capsule"
+        ],
+        "mechanism": "The fulcrum inside the bent elbow distracts/separates the joint (why judo treats it as an armlock)"
+      }
+    ],
+    "grip_regions": [
+      "forearm",
+      "wrist",
+      "upper_arm",
+      "elbow"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "compression",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Thread the arm inside the elbow, control the wrist, open the guard and fold the arm over your forearm"
+      },
+      {
+        "position": "lasso_guard",
+        "attacker_role": "bottom",
+        "note": "Shin across the elbow crease provides the fulcrum"
+      },
+      {
+        "position": "rubber_guard",
+        "attacker_role": "bottom",
+        "note": "Shin-in-elbow slicers appear in 10th Planet material"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "After a defended mounted armbar: leg over the forearm, lock a triangle and squeeze"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "From a defended kimura, go deeper into the figure-four with the forearm as the blade"
+      },
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "Pin the near arm with the inside leg and drive the hips"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": true,
+      "nogi": true,
+      "note": "IBJJF Rules Book v6.1 p. 29 table row 12: prohibited for all kids/juvenile divisions and for adult white, blue and purple belts; permitted for adult brown and black belts (gi and no-gi)"
+    },
+    "summary": "Fold the opponent's arm over your shin or forearm wedged in the crook of the elbow and squeeze the biceps against the bone.",
+    "sources": [
+      {
+        "ref": "wikipedia-compression-lock",
+        "locator": "Biceps slicer section",
+        "url": "https://en.wikipedia.org/wiki/Compression_lock"
+      },
+      {
+        "ref": "bjjworld-bicep-slicer",
+        "locator": "",
+        "url": "https://bjj-world.com/bjj-biceps-slicer-submission/"
+      },
+      {
+        "ref": "jitsuiq-bicep-slicer",
+        "locator": "",
+        "url": "https://jitsuiq.com/submissions/locks/compression-locks/bicep-slicer.html"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 table, row 12",
+        "url": "https://ibjjf.com/books-videos"
+      },
+      {
+        "ref": "bravo2006",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Legality verified against the rendered IBJJF table (2026-10-11). Rubber guard position cited to Bravo without a page locator."
+  },
+  {
+    "id": "wristlock_flexion",
+    "name": "Wrist lock - flexion (gooseneck)",
+    "aliases": [
+      "Gooseneck",
+      "Tekubi-gatame",
+      "Mao de vaca",
+      "Hyperflexing wristlock",
+      "Cow's hand"
+    ],
+    "category": "joint_lock",
+    "subcategory": "wrist_lock",
+    "primary_target": {
+      "region": "wrist",
+      "structures": [
+        "radiocarpal joint",
+        "midcarpal joint",
+        "dorsal radiocarpal ligament / dorsal capsule",
+        "extensor tendons",
+        "distal radius"
+      ],
+      "mechanism": "Forced palmar flexion of the wrist past its end range: the hand is pushed toward the inner forearm while the forearm/elbow is immobilised (elbow and shoulder must be controlled so the opponent cannot roll the arm out)"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "hand",
+      "wrist",
+      "forearm"
+    ],
+    "demo_motion": {
+      "joint": "wrist",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Against a hand posted on the chest or a collar/lapel grip: cup the triceps, fold the hand with your chest/hands and drive the hips forward"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Fold the wrist of a hand pushing on the chest/hip"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "From a kimura grip: hands control the wrist, biceps the elbow, ribs the shoulder (Kesting)"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": "'Sitting on the shoulder' after an omoplata sweep: belly and hand control the wrist, calf/hamstring clamp the shoulder"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Against a gi collar grip the trapped wrist is folded (gi only); rarely finishes standing"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "blue",
+      "gi": true,
+      "nogi": true,
+      "note": "IBJJF Rules Book v6.1 p. 29 table row 10 'Wrist lock': prohibited for 4-12, 13-15, 16-17 (all ranks) and all white-belt divisions; permitted for adult blue belt and above (gi and no-gi)"
+    },
+    "summary": "Bend the hand toward the inside of the forearm while the elbow and shoulder are pinned - the 'gooseneck'.",
+    "sources": [
+      {
+        "ref": "wikipedia-wristlock",
+        "locator": "Hyperflexing wristlock section",
+        "url": "https://en.wikipedia.org/wiki/Wristlock"
+      },
+      {
+        "ref": "kesting-wristlocks-2023",
+        "locator": "",
+        "url": "https://www.grapplearts.com/wristlocks-in-bjj/"
+      },
+      {
+        "ref": "kesting-omoplata-wristlock",
+        "locator": "",
+        "url": "https://www.grapplearts.com/technique-2-omoplata-to-wristlock/"
+      },
+      {
+        "ref": "evolve-wristlocks",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/heres-what-you-need-to-know-about-wrist-locks-in-bjj/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 table, row 10",
+        "url": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Legality verified against the rendered IBJJF table (2026-10-11); earlier blog claims of purple/brown thresholds are wrong for the current rules. A wristlock 'from spider guard' was requested but no source describing it was found, so it is omitted."
+  },
+  {
+    "id": "wristlock_extension",
+    "name": "Wrist lock - hyperextension",
+    "aliases": [
+      "Hyperextending wristlock",
+      "Reverse wristlock",
+      "Stiff-arm wristlock"
+    ],
+    "category": "joint_lock",
+    "subcategory": "wrist_lock",
+    "primary_target": {
+      "region": "wrist",
+      "structures": [
+        "radiocarpal joint",
+        "palmar (volar) radiocarpal ligaments",
+        "flexor tendons",
+        "carpal bones"
+      ],
+      "mechanism": "Forced dorsiflexion/hyperextension: the knuckles are driven back toward the forearm, usually by pinning the palm flat and driving weight through the straight arm, or by bending the hand back against a trapped forearm"
+    },
+    "secondary_targets": [
+      {
+        "region": "hand",
+        "structures": [
+          "metacarpophalangeal joints"
+        ],
+        "mechanism": "Often combined with finger extension - illegal if fingers are bent backwards (IBJJF row 24)"
+      }
+    ],
+    "grip_regions": [
+      "hand",
+      "wrist",
+      "forearm"
+    ],
+    "demo_motion": {
+      "joint": "wrist",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Against a stiff arm posted on the chest: pin the hand flat to your chest and sit up/drive the hips"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Pin a framing hand flat to your shoulder/chest and press"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": ""
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Counter when the opponent grabs your wrist: grab four fingers/hand and turn the hand back (Evolve)"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "blue",
+      "gi": true,
+      "nogi": true,
+      "note": "Wrist lock row 10: legal from adult blue belt. Bending the fingers backwards (row 24) is prohibited at every level, so the hand must be controlled as a whole"
+    },
+    "summary": "Pin the palm and drive the knuckles back toward the forearm; weak on its own, strong against a stiff-arm frame.",
+    "sources": [
+      {
+        "ref": "wikipedia-wristlock",
+        "locator": "Hyperextending wristlock section",
+        "url": "https://en.wikipedia.org/wiki/Wristlock"
+      },
+      {
+        "ref": "evolve-wristlocks",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/heres-what-you-need-to-know-about-wrist-locks-in-bjj/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 table, rows 10 and 24",
+        "url": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "wristlock_rotational",
+    "name": "Wrist lock - rotational (supination / pronation)",
+    "aliases": [
+      "Kote-gaeshi (supinating)",
+      "Kote-mawashi / nikyo (pronating)",
+      "Sankyo",
+      "Kote-hineri",
+      "Rotational wristlock"
+    ],
+    "category": "joint_lock",
+    "subcategory": "wrist_lock",
+    "primary_target": {
+      "region": "wrist",
+      "structures": [
+        "distal radioulnar joint",
+        "triangular fibrocartilage complex (TFCC)",
+        "radiocarpal joint",
+        "proximal radioulnar joint (via the forearm)"
+      ],
+      "mechanism": "Forced supination or pronation beyond end range: the wrist itself does not rotate, so the twist is transmitted to the distal and proximal radioulnar joints and, with the elbow straightened, to the shoulder; usually combined with flexion (kote-gaeshi) or pronation with the elbow bent (nikyo/sankyo)"
+    },
+    "secondary_targets": [
+      {
+        "region": "forearm",
+        "structures": [
+          "interosseous membrane",
+          "radius/ulna"
+        ],
+        "mechanism": "Torsion of the forearm bones"
+      },
+      {
+        "region": "shoulder",
+        "structures": [
+          "glenohumeral joint"
+        ],
+        "mechanism": "With a straight elbow the rotation ends at the shoulder"
+      }
+    ],
+    "grip_regions": [
+      "hand",
+      "wrist",
+      "forearm"
+    ],
+    "demo_motion": {
+      "joint": "forearm",
+      "axis": "supination",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Sankyo-style pronating wristlock from rear mount (Kesting)"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Supinating twist on a hand that grips your collar/lapel (gi) or posts on the chest"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "From the kimura grip, rotate the hand rather than the shoulder"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Kote-gaeshi style takedown-wristlock; low percentage in competition because elbow/shoulder are free"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "blue",
+      "gi": true,
+      "nogi": true,
+      "note": "Wrist lock row 10: legal from adult blue belt; prohibited for all juvenile and white-belt divisions"
+    },
+    "summary": "Twist the hand into full supination or pronation while the elbow is pinned so the forearm joints, not the wrist, take the torque.",
+    "sources": [
+      {
+        "ref": "wikipedia-wristlock",
+        "locator": "Rotational, supinating and pronating wristlock sections",
+        "url": "https://en.wikipedia.org/wiki/Wristlock"
+      },
+      {
+        "ref": "kesting-wristlocks-2023",
+        "locator": "sankyo from rear mount; kimura-grip finish",
+        "url": "https://www.grapplearts.com/wristlocks-in-bjj/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 table, row 10",
+        "url": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "The brief's 'supination/Mir lock' label does not match located sources: the Mir lock is documented as a shoulder lock (see mir_lock)."
+  },
+  {
+    "id": "finger_lock",
+    "name": "Finger lock / small-joint manipulation",
+    "aliases": [
+      "Small joint manipulation",
+      "Bending fingers backwards",
+      "Finger bend"
+    ],
+    "category": "joint_lock",
+    "subcategory": "wrist_lock",
+    "primary_target": {
+      "region": "hand",
+      "structures": [
+        "metacarpophalangeal joints",
+        "proximal/distal interphalangeal joints",
+        "volar plates",
+        "collateral ligaments of the fingers"
+      ],
+      "mechanism": "Hyperextension (or lateral deviation) of one or more fingers against the volar plate and collateral ligaments"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "hand"
+    ],
+    "demo_motion": {
+      "joint": "wrist",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "other",
+        "attacker_role": "either",
+        "note": "Any grip-fighting situation; shown here only so the hand region surfaces the rule"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "never",
+      "gi": true,
+      "nogi": true,
+      "note": "IBJJF Rules Book v6.1 p. 29 table row 24 'Bending fingers backwards' is prohibited in every division, gi and no-gi. Grabbing fewer than four fingers to break a grip is also restricted (item 6.2.2 H concerns fingers inside the sleeve/pant opening)"
+    },
+    "summary": "Bending fingers back is banned at all belts under IBJJF rules; wrist locks on the whole hand are legal from blue belt.",
+    "sources": [
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 table, row 24",
+        "url": "https://ibjjf.com/books-videos"
+      },
+      {
+        "ref": "wikipedia-wristlock",
+        "locator": "note on combining hyperextending wristlocks with fingerlocks",
+        "url": "https://en.wikipedia.org/wiki/Wristlock"
+      }
+    ],
+    "confidence": "high",
+    "notes": "Included as a legality marker rather than a taught technique."
+  },
+  {
+    "id": "two_on_one_russian_tie",
+    "name": "Two-on-one (Russian tie)",
+    "aliases": [
+      "2-on-1",
+      "Russian tie",
+      "Russian 2-on-1",
+      "Two-on-one arm control"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "humerus / triceps",
+        "glenohumeral joint (posture via the shoulder)"
+      ],
+      "mechanism": "Both of the attacker's hands control one arm: far hand on the wrist, near hand under the armpit or on the triceps/elbow, body behind the arm with the shoulder above the opponent's, breaking posture and removing the arm from the fight"
+    },
+    "secondary_targets": [
+      {
+        "region": "wrist",
+        "structures": [
+          "wrist"
+        ],
+        "mechanism": "Wrist grip pins the hand to the attacker's hip"
+      }
+    ],
+    "grip_regions": [
+      "wrist",
+      "upper_arm",
+      "elbow",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Wrestling tie leading to sumi-gaeshi, arm drag, blast double, drop ouchi, back take or ude-garami"
+      },
+      {
+        "position": "butterfly_guard",
+        "attacker_role": "bottom",
+        "note": "Marcelo Garcia's seated 2-on-1 to arm drag/back take or omoplata"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": "Seated guard 2-on-1 grip"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Two hands on one arm from the outside: a wrestling tie that kills the opponent's posture and leads to arm drags, back takes and shoulder locks.",
+    "sources": [
+      {
+        "ref": "evolve-russian-tie",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/an-introduction-to-the-russian-tie-in-bjj/"
+      },
+      {
+        "ref": "garcia2011",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "gracie-danaher2003",
+        "locator": "Ch. 5 Clinch Phase",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Garcia 2011 and Mastering Jujitsu page numbers not verified."
+  },
+  {
+    "id": "wrist_control",
+    "name": "Wrist control",
+    "aliases": [
+      "Wrist grip",
+      "Hand fighting",
+      "Pistol grip (gi sleeve)",
+      "C-grip"
+    ],
+    "category": "control",
+    "subcategory": "grip",
+    "primary_target": {
+      "region": "wrist",
+      "structures": [
+        "distal forearm / wrist",
+        "sleeve cuff (gi)"
+      ],
+      "mechanism": "Gripping the wrist (or sleeve cuff) to deny posts, grips and frames; the hand is pinned to the mat or the attacker's body so the elbow and shoulder can be attacked"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "hand",
+      "forearm"
+    ],
+    "demo_motion": {
+      "joint": "wrist",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Grip fighting: control the wrist to set up arm drags, snap-downs and 2-on-1s"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Wrist + collar tie to set up the armbar and kimura"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Pin the near wrist to the mat/hip to open americana/kimura"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Pin a wrist to the mat for the americana or to isolate for the armbar"
+      },
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Control the defending hand/wrist to open the choke"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Gripping inside the sleeve/pant cuff with the fingers is a penalty (item 6.2.2 H)"
+    },
+    "summary": "The most basic arm control: hold the wrist to remove the hand from play and expose the elbow and shoulder.",
+    "sources": [
+      {
+        "ref": "evolve-grip-fighting",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/heres-what-you-need-to-know-about-grip-fighting-in-no-gi-bjj/"
+      },
+      {
+        "ref": "bjjee-roy-dean-wrist-control",
+        "locator": "",
+        "url": "https://www.bjjee.com/articles/roy-dean-shows-a-simple-yet-powerful-wrist-control/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "item 6.2.2 H",
+        "url": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "arm_drag",
+    "name": "Arm drag",
+    "aliases": [
+      "Armdrag",
+      "Tricep drag"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "triceps / distal humerus",
+        "wrist"
+      ],
+      "mechanism": "Same-side wrist grip plus a cup on the triceps; the arm is pulled across the attacker's body so the opponent's back is exposed, usually leading to a rear clinch or back take"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "wrist",
+      "upper_arm",
+      "elbow"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "adduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Grip the wrist, cup the triceps, step offline and swing the arm past you to the rear clinch"
+      },
+      {
+        "position": "butterfly_guard",
+        "attacker_role": "bottom",
+        "note": "Marcelo Garcia's signature: cup the triceps, hook outside, pull forward and shift the hips to take the back (or sweep)"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": "Seated guard arm drag"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Arm drag entry to the crucifix"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Pull the arm across your body by the wrist and triceps to get behind the opponent.",
+    "sources": [
+      {
+        "ref": "kesting-marcelo-2016",
+        "locator": "",
+        "url": "https://www.grapplearts.com/10-key-tactics-marcelo-garcia/"
+      },
+      {
+        "ref": "garcia2011",
+        "locator": "arm drag chapters (publisher description)",
+        "url": ""
+      },
+      {
+        "ref": "gracie-danaher2003",
+        "locator": "Ch. 5 Clinch Phase",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "gift_wrap",
+    "name": "Gift wrap",
+    "aliases": [
+      "Gift-wrap control",
+      "Arm-across-face control",
+      "Arm-across-the-neck control"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "humerus / shoulder (arm folded across the face)",
+        "wrist"
+      ],
+      "mechanism": "One of the opponent's arms is folded across their own face/neck and pinned: in no-gi the attacker grips the wrist deep behind the head from the opposite side; in gi the opponent's own lapel is fed over the arm; chest pressure keeps them flat"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "face / neck"
+        ],
+        "mechanism": "The trapped forearm lies across the face, limiting head movement"
+      },
+      {
+        "region": "neck",
+        "structures": [
+          "opponent's own arm wrapped across the neck",
+          "shoulder"
+        ],
+        "mechanism": "The opponent's arm is pulled across their own throat and pinned there with a 2-on-1 / kimura-style grip from behind the head; the trapped arm immobilises the head and shoulders and exposes the back"
+      },
+      {
+        "region": "shoulder",
+        "structures": [
+          "glenohumeral joint (internal rotation)"
+        ],
+        "mechanism": "Arm wrapped across the body"
+      },
+      {
+        "region": "wrist",
+        "structures": [
+          "wrist"
+        ],
+        "mechanism": "Wrist gripped behind the neck"
+      }
+    ],
+    "grip_regions": [
+      "forearm",
+      "head",
+      "neck",
+      "wrist"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "adduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "From mount/technical mount; leads to back take, armbar or chokes"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Feed the near arm across the face and pin it"
+      },
+      {
+        "position": "technical_mount",
+        "attacker_role": "top",
+        "note": "Standard follow-up from the gift wrap"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Seen in top half guard and 3/4 mount"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Control only; pressing the forearm into the face is legal but hands blocking nose/mouth airflow is a severe foul (6.2.3 J)"
+    },
+    "summary": "Fold the opponent's arm across their own face and hold the wrist from the other side; a Rickson-era control leading to the back, crucifix or armbar.",
+    "sources": [
+      {
+        "ref": "digitsu-gift-wrap",
+        "locator": "",
+        "url": "https://digitsu.com/t/gift-wrap"
+      },
+      {
+        "ref": "evolve-gift-wrap",
+        "locator": "",
+        "url": "https://evolve-university.com/blog/how-to-use-the-gift-wrap-to-improve-your-bjj/"
+      },
+      {
+        "ref": "jitsuiq-gift-wrap",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Attribution to Rickson Gracie is from secondary blogs, not verified in a textbook. Merged with the torso-control entry from the neck/torso research set."
+  },
+  {
+    "id": "overhook_whizzer",
+    "name": "Overhook / whizzer",
+    "aliases": [
+      "Whizzer",
+      "Overhook",
+      "Wizzer",
+      "Over-tie"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "upper arm / axilla",
+        "glenohumeral joint (posture)"
+      ],
+      "mechanism": "The attacker's arm goes over the opponent's arm and encircles it (or the upper body), lifting the armpit and shoulder; from the guard it clamps the arm to the attacker's ribs to deny posture and set up omoplata, kimura, reverse armbar or triangle"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "upper_arm",
+      "shoulder",
+      "forearm"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Whizzer vs underhook/single-leg attempts"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Overhook guard: kimura/omoplata/reverse armbar/triangle set-ups"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Whizzer to counter the bottom player's underhook"
+      },
+      {
+        "position": "butterfly_guard",
+        "attacker_role": "bottom",
+        "note": "Overhook + wrist control sweeps"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Arm over the opponent's arm, lifting the shoulder; the standard answer to an underhook and a rich attacking grip from guard.",
+    "sources": [
+      {
+        "ref": "wikipedia-overhook",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Overhook"
+      },
+      {
+        "ref": "gracie-danaher2003",
+        "locator": "Ch. 5 Clinch Phase",
+        "url": ""
+      },
+      {
+        "ref": "kesting-reverse-armbar-2016",
+        "locator": "overhook clamp for the reverse armbar",
+        "url": "https://www.grapplearts.com/reverse-armbar-closed-guard/"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "underhook",
+    "name": "Underhook",
+    "aliases": [
+      "Under-tie",
+      "Single underhook",
+      "Double underhooks",
+      "Torso underhook"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "axilla / shoulder girdle",
+        "latissimus and lats region"
+      ],
+      "mechanism": "The attacker's arm goes under the opponent's arm and the hand grips the back/shoulder blade, lifting the shoulder and controlling the torso; it elevates the opponent's arm away from their body and gives access to the back and to takedowns"
+    },
+    "secondary_targets": [
+      {
+        "region": "chest",
+        "structures": [
+          "torso / axilla (armpit)",
+          "shoulder girdle"
+        ],
+        "mechanism": "Attacker's arm passes under the opponent's arm and controls the back or shoulder, lifting the opponent's elbow and taking control of the upper torso to direct their weight"
+      }
+    ],
+    "grip_regions": [
+      "abdomen",
+      "chest",
+      "shoulder",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "abduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Clinch control for takedowns and back takes; too deep an underhook concedes a whizzer"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Underhook from half guard for the dogfight/back take"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Cross-face + underhook flattens the bottom player"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Far-side underhook pins the far arm/shoulder"
+      },
+      {
+        "position": "butterfly_guard",
+        "attacker_role": "bottom",
+        "note": "Underhook + butterfly hook sweep"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "either",
+        "note": "The bottom player's underhook is the key to half-guard sweeps; the top player's underhook plus cross-face is the key to passing"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "bottom",
+        "note": "Underhook to stand up / wrestle up"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Arm under the opponent's arm with the hand on their back - the foundational clinch and half-guard control.",
+    "sources": [
+      {
+        "ref": "wikipedia-overhook",
+        "locator": "relation of overhooks to underhooks; cites Evolve 'Understanding Underhooks And Overhooks'",
+        "url": "https://en.wikipedia.org/wiki/Overhook"
+      },
+      {
+        "ref": "gracie-danaher2003",
+        "locator": "Ch. 5 Clinch Phase",
+        "url": ""
+      },
+      {
+        "ref": "kesting-kimura-cheatsheet-2025",
+        "locator": "half guard top/bottom sections",
+        "url": "https://www.grapplearts.com/wp-content/uploads/2025/10/The-Kimura-Position-Cheatsheet.pdf"
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 5 Clinch Phase",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Guard chapter (half guard)",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Merged with the torso-control entry from the neck/torso research set."
+  },
+  {
+    "id": "kimura_grip_control",
+    "name": "Kimura grip as a control position",
+    "aliases": [
+      "Kimura trap",
+      "Kimura control",
+      "Figure-four grip control",
+      "T-kimura",
+      "Dorsal kimura"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "forearm",
+      "structures": [
+        "wrist / forearm (figure-four grip)",
+        "glenohumeral joint (threat of internal rotation)"
+      ],
+      "mechanism": "The figure-four kimura grip is held as a 'giant handle': it immobilises the arm, threatens the shoulder lock, and is used to sweep, pass, take the back, or transition between kimura positions (side control, north-south, near-side, T-kimura, back)"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "glenohumeral joint"
+        ],
+        "mechanism": "Latent kimura threat"
+      }
+    ],
+    "grip_regions": [
+      "wrist",
+      "forearm",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Kimura grip to sweep/back take; 'kimura trap' systems (Avellan)"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Kimura sweep when the lock is defended"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Kimura-based guard passing and pinning"
+      },
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": ""
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Topside kimura control vs turtle to roll the opponent"
+      },
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Kimura control from the back"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "either",
+        "note": "Kimura grip on a single-leg attempt"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Treat the kimura grip as a position, not just a finish: it controls the arm and moves the opponent between side, north-south, back and sweeps.",
+    "sources": [
+      {
+        "ref": "kesting-kimura-cheatsheet-2025",
+        "locator": "'The Kimura is a Position'",
+        "url": "https://www.grapplearts.com/wp-content/uploads/2025/10/The-Kimura-Position-Cheatsheet.pdf"
+      },
+      {
+        "ref": "bjjmore-danaher-kimura",
+        "locator": "",
+        "url": "https://bjjmore.com/enter-the-system-kimura/"
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "side_control_far_arm_isolation",
+    "name": "Side control arm isolation (cross-face + far-arm trap)",
+    "aliases": [
+      "Cross-face and underhook",
+      "Far-arm trap",
+      "Arm-in side control",
+      "Kesa-gatame arm trap"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "far upper arm / shoulder girdle",
+        "near arm (trapped against the attacker's hip)"
+      ],
+      "mechanism": "The cross-face arm turns the head away while the other arm underhooks the far arm, or the far arm is trapped under the attacker's armpit; the near arm is pinned between the attacker's hip and the opponent's body, isolating both arms for americana, kimura and armbar"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "face / jaw"
+        ],
+        "mechanism": "Cross-face turns the head to kill the bridge"
+      }
+    ],
+    "grip_regions": [
+      "upper_arm",
+      "shoulder",
+      "head",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Standard side control pin; first stage of the far-arm kimura/armbar"
+      },
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": "Arms trapped under the armpits"
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "Far arm pinned by the hand on the collar/shoulder"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal; the forearm may press the face but the hands must not block nose/mouth airflow (6.2.3 J)"
+    },
+    "summary": "Before any top-side arm attack the far arm is isolated under the armpit or with an underhook while the cross-face controls the head.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Side control sections (Survival / Submissions chapters)",
+        "url": ""
+      },
+      {
+        "ref": "kesting-two-armbars-side",
+        "locator": "",
+        "url": "https://www.grapplearts.com/two-powerful-armbars-from-side-control/"
+      },
+      {
+        "ref": "kesting-kimura-cheatsheet-2025",
+        "locator": "Side Control Kimura",
+        "url": "https://www.grapplearts.com/wp-content/uploads/2025/10/The-Kimura-Position-Cheatsheet.pdf"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Ribeiro page numbers not verified."
+  },
+  {
+    "id": "s_mount_arm_isolation",
+    "name": "S-mount arm isolation",
+    "aliases": [
+      "S-mount",
+      "High mount arm trap",
+      "Technical mount arm trap"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "upper arm / shoulder girdle",
+        "elbow (pinned against the attacker's thigh)"
+      ],
+      "mechanism": "From high mount the attacker's legs form an 'S': one knee behind the head, the other shin across the chest, so the opponent's arm is trapped against the thigh and the elbow cannot retreat; the near knee blocks the head, separating the arm from the body for the armbar, baratoplata or monoplata"
+    },
+    "secondary_targets": [
+      {
+        "region": "chest",
+        "structures": [
+          "ribcage"
+        ],
+        "mechanism": "Shin across the chest pins the torso"
+      }
+    ],
+    "grip_regions": [
+      "upper_arm",
+      "elbow",
+      "head",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "abduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "s_mount",
+        "attacker_role": "top",
+        "note": "Primary position"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Transition from high mount when the opponent pushes the chest/hips"
+      },
+      {
+        "position": "technical_mount",
+        "attacker_role": "top",
+        "note": "Closely related arm trap"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Mount points are not awarded if the leg trapping the arm extends beyond the opponent's shoulder line (IBJJF 3.4 note); the control itself is legal"
+    },
+    "summary": "The asymmetrical high mount that pins one arm against your thigh and blocks the head with your knee - the launch pad for mounted armbars.",
+    "sources": [
+      {
+        "ref": "jitsuiq-smount",
+        "locator": "",
+        "url": "https://jitsuiq.com/positions/mount/s-mount.html"
+      },
+      {
+        "ref": "evolve-s-mount",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/how-to-perform-the-s-mount-in-bjj/"
+      },
+      {
+        "ref": "bjjee-smount",
+        "locator": "",
+        "url": "https://www.bjjee.com/articles/how-to-effectively-use-the-s-mount-in-bjj/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "mount scoring note (leg trapping the arm not beyond the shoulder)",
+        "url": "https://ibjjf.com/books-videos"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "spider_guard_bicep_control",
+    "name": "Spider guard (foot-on-biceps control)",
+    "aliases": [
+      "Spider guard",
+      "Foot on bicep",
+      "Sleeve-and-biceps control"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "biceps brachii / anterior upper arm",
+        "sleeve cuff (wrist)"
+      ],
+      "mechanism": "Four-finger or hook grips on both sleeves with the feet pressing the biceps (aim for the crook of the arm) create push-pull tension that controls posture, base and distance and pre-extends the arms for armbar, triangle and omoplata"
+    },
+    "secondary_targets": [
+      {
+        "region": "wrist",
+        "structures": [
+          "sleeve cuff"
+        ],
+        "mechanism": "Sleeve grip near the wrist"
+      }
+    ],
+    "grip_regions": [
+      "upper_arm",
+      "wrist",
+      "forearm",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "elbow",
+      "axis": "extension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "spider_guard",
+        "attacker_role": "bottom",
+        "note": "Primary position (gi)"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": "Entered from seated/open guard sleeve grips"
+      },
+      {
+        "position": "lasso_guard",
+        "attacker_role": "bottom",
+        "note": "One foot on the biceps, the other leg lassoed"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Requires the gi sleeve"
+    },
+    "summary": "Sleeve grips plus feet on the biceps: the gi open guard that keeps the arms straight and the opponent's posture broken.",
+    "sources": [
+      {
+        "ref": "jitsuiq-spider",
+        "locator": "",
+        "url": "https://jitsuiq.com/positions/guard/spider-guard.html"
+      },
+      {
+        "ref": "digitsu-spider-armbar",
+        "locator": "",
+        "url": "https://digitsu.com/t/spider-guard-armbar"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Guard (purple belt) chapter",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "lasso_guard_control",
+    "name": "Lasso guard (lasso hook)",
+    "aliases": [
+      "Lasso",
+      "Lasso hook",
+      "Deep lasso / shallow lasso"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "biceps / upper arm",
+        "axilla (foot hooked in the armpit)",
+        "shoulder girdle (posture)"
+      ],
+      "mechanism": "With a sleeve grip, the leg spirals outside and around the opponent's arm so the shin lies across the biceps and the foot hooks into the armpit or back; the trapped arm cannot post or grip and the shoulder is pulled down, breaking posture"
+    },
+    "secondary_targets": [
+      {
+        "region": "wrist",
+        "structures": [
+          "sleeve cuff"
+        ],
+        "mechanism": "Same-side sleeve grip is pulled constantly"
+      }
+    ],
+    "grip_regions": [
+      "upper_arm",
+      "shoulder",
+      "wrist",
+      "forearm"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "lasso_guard",
+        "attacker_role": "bottom",
+        "note": "Primary position; attacks: omoplata, triangle, sweeps, bicep slicer, back take"
+      },
+      {
+        "position": "spider_guard",
+        "attacker_role": "bottom",
+        "note": "Combined spider-lasso"
+      },
+      {
+        "position": "de_la_riva",
+        "attacker_role": "bottom",
+        "note": "Lasso + DLR hook"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Gi only (sleeve-dependent). Bicep slicer finishes from the lasso remain brown-belt-only"
+    },
+    "summary": "A leg wrapped around the arm with the shin on the biceps: harder to strip than spider guard and a direct door to the omoplata.",
+    "sources": [
+      {
+        "ref": "digitsu-lasso",
+        "locator": "",
+        "url": "https://digitsu.com/t/lasso-guard"
+      },
+      {
+        "ref": "bjjworld-bicep-slicer",
+        "locator": "lasso-guard slicer entry",
+        "url": "https://bjj-world.com/bjj-biceps-slicer-submission/"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "crucifix_arm_control",
+    "name": "Crucifix (arm trapped between the legs)",
+    "aliases": [
+      "Crucifix position",
+      "Leg-trapped arm"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "upper_arm",
+      "structures": [
+        "upper arm / elbow (clamped between the attacker's thighs)",
+        "far arm (controlled by the attacker's arms/seatbelt)"
+      ],
+      "mechanism": "One of the opponent's arms is isolated between the attacker's thighs (often triangled) while the other is controlled with the hands, spreading the arms like a cross; the trapped arm can be armbarred, keylocked or rotated with the legs, and the free hands attack the neck"
+    },
+    "secondary_targets": [
+      {
+        "region": "neck",
+        "structures": [
+          "carotid / trachea"
+        ],
+        "mechanism": "Chokes become available with both of the opponent's arms occupied"
+      }
+    ],
+    "grip_regions": [
+      "upper_arm",
+      "elbow",
+      "forearm",
+      "wrist",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "shoulder",
+      "axis": "abduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "Primary position"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Entered from side-ride on turtle or from an arm drag; lock the thighs on the arm and lift with the outside leg"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Control is legal; bicep-slicer finishes from here are brown-belt-only"
+    },
+    "summary": "Both of the opponent's arms are tied up - one by your legs, one by your arms - so that nothing can defend the chokes and leg-armlocks that follow.",
+    "sources": [
+      {
+        "ref": "kesting-crucifix-2019",
+        "locator": "",
+        "url": "https://www.grapplearts.com/submissions-from-crucifix-position/"
+      },
+      {
+        "ref": "lowkick-crucifix",
+        "locator": "",
+        "url": "https://www.lowkickmma.com/bjj-crucifix-explained/"
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  }
+]

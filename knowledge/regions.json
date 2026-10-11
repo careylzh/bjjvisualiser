@@ -1,0 +1,21 @@
+{
+  "_comment": "Tappable body regions. ids are side-agnostic; the figure has L/R prims that map to the same id. 'joint' names the rig articulation whose DOF the viewer shows when this region is tapped.",
+  "regions": [
+    { "id": "head",      "label": "Head",            "joint": "neck",     "anatomy": "Skull, jaw, face. Cranks lever the head to load the cervical spine; chokes are set up by head position (chin strap, cross-face)." },
+    { "id": "neck",      "label": "Neck",            "joint": "neck",     "anatomy": "Cervical spine (C1–C7), carotid arteries and jugular veins (blood chokes), trachea (air chokes)." },
+    { "id": "shoulder",  "label": "Shoulder",        "joint": "shoulder", "anatomy": "Glenohumeral joint, rotator cuff, anterior capsule. Rotational locks (kimura, americana, omoplata) attack it." },
+    { "id": "upper_arm", "label": "Upper arm",       "joint": "shoulder", "anatomy": "Humerus, biceps brachii and brachialis — the bicep slicer compresses these against a fulcrum." },
+    { "id": "elbow",     "label": "Elbow",           "joint": "elbow",    "anatomy": "Humeroulnar joint, ulnar collateral ligament, anterior capsule. Hyperextension locks (armbar) attack it." },
+    { "id": "forearm",   "label": "Forearm",         "joint": "elbow",    "anatomy": "Radius/ulna, pronation–supination. Common grip point for kimura, americana and wrist locks." },
+    { "id": "wrist",     "label": "Wrist",           "joint": "wrist",    "anatomy": "Radiocarpal joint and carpal ligaments. Wrist locks flex, extend or rotate it past range." },
+    { "id": "hand",      "label": "Hand",            "joint": "wrist",    "anatomy": "Carpals/metacarpals and fingers. Grip-fighting target; finger locks are illegal in IBJJF." },
+    { "id": "chest",     "label": "Chest",           "joint": "chest",    "anatomy": "Thoracic spine, rib cage, sternum. Chest-to-chest pressure and the mount/side-control pins load it." },
+    { "id": "abdomen",   "label": "Abdomen / spine", "joint": "spine",    "anatomy": "Lumbar spine, abdominal wall. Spinal locks (twister) and knee-on-belly pressure target it." },
+    { "id": "hips",      "label": "Hips",            "joint": "hip",      "anatomy": "Pelvis, hip joints, adductors/groin. Hip control is the heart of pins and guard; the banana split attacks the adductors." },
+    { "id": "thigh",     "label": "Thigh",           "joint": "hip",      "anatomy": "Femur, quadriceps, hamstrings. Leg-entanglement controls (inside position, knee line) live here." },
+    { "id": "knee",      "label": "Knee",            "joint": "knee",     "anatomy": "Tibiofemoral joint; ACL/PCL, MCL/LCL, menisci. Heel hooks rotate it; kneebars hyperextend it." },
+    { "id": "shin_calf", "label": "Shin / calf",     "joint": "knee",     "anatomy": "Tibia/fibula, gastrocnemius and soleus. Calf slicers compress the calf against a fulcrum." },
+    { "id": "ankle",     "label": "Ankle",           "joint": "ankle",    "anatomy": "Talocrural and subtalar joints, Achilles tendon. Straight ankle locks and toe holds attack it." },
+    { "id": "foot",      "label": "Foot",            "joint": "ankle",    "anatomy": "Tarsals, metatarsals, toes. The grip point for toe holds and heel hooks." }
+  ]
+}

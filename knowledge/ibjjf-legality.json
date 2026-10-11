@@ -1,0 +1,43 @@
+{
+  "rulebook": {
+    "title": "IBJJF Rules Book / General Competition Guidelines / Competition Format Manual",
+    "edition": "Version 6.1, June 2024 (cover 'JUN.2024'; page footers 'VERSION 6.1 2024'; ibjjf.com/rules labels the same file 'Rule Book (v6.0)'; closing page reads 'VERSION 6.2'). Checked ibjjf.com/rules and ibjjf.com/books-videos on 2026-10-11: no newer edition listed. Companion 'Technical Fouls & Illegal Moves' poster dated 2024-01-01.",
+    "url": "https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf",
+    "landing_page": "https://ibjjf.com/rules",
+    "poster_url": "https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcE1WIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e13c15f6e568323ecea8ef21a102b726067a4540/20240101_GolpesProibidos_EN.pdf",
+    "locator": "Article 6.2.3 (M), 'TABLE: Technical Fouls – Illegal Moves', p. 29; knee-reaping definition p. 32; 50/50 trapped-foot note p. 33; jumping closed guard 6.2.2 (W)"
+  },
+  "age_caveat": "The table is organised by age division, not just belt: columns are 4–12, 13–15, 16–17 (all ranks, grouped with Adult–Master 7 white belts), Adult–Master 7 blue/purple, Adult–Master 7 brown/black (gi, plus Master no-gi), and Adult brown/black NO-GI — so heel hooks, knee reaping, knee-twisting locks and outward toe-hold pressure are legal ONLY in the Adult (not Master 30+) brown/black no-gi division, and 16–17-year-olds are restricted like white belts regardless of rank.",
+  "legend": "Values are the lowest adult belt at which the technique is legal (white|blue|purple|brown|black), or 'never'. 'gi' = adult gi divisions; 'nogi' = adult no-gi divisions (Master no-gi follows the gi column).",
+  "rows": [
+    {"technique_class": "straight ankle lock (straight foot lock / Achilles lock)", "gi": "white", "nogi": "white", "note": "Table row 3: banned only for 4–12 and 13–15. The only leg lock legal for adult white belts. See row 16 for the direction restriction."},
+    {"technique_class": "straight foot lock, turning in the direction of the foot NOT under attack (toward the free leg)", "gi": "brown", "nogi": "brown", "note": "Row 16: illegal for 16–17, white, blue and purple; legal for brown/black in gi and no-gi."},
+    {"technique_class": "toe hold", "gi": "brown", "nogi": "brown", "note": "Row 15. Estima lock is not named in the rulebook; it is a twisting foot lock and is treated by coaches as toe-hold class."},
+    {"technique_class": "toe hold, applying outward pressure on the foot", "gi": "never", "nogi": "brown", "note": "Row 20: illegal everywhere except Adult brown/black no-gi."},
+    {"technique_class": "kneebar", "gi": "brown", "nogi": "brown", "note": "Row 14."},
+    {"technique_class": "calf slicer", "gi": "brown", "nogi": "brown", "note": "Row 13."},
+    {"technique_class": "bicep slicer", "gi": "brown", "nogi": "brown", "note": "Row 12."},
+    {"technique_class": "heel hook (inside or outside)", "gi": "never", "nogi": "brown", "note": "Row 17: illegal in all gi divisions and all Master no-gi; legal only Adult brown/black no-gi (introduced 2021). Aoki lock has heel-hook mechanics and falls here."},
+    {"technique_class": "locks twisting the knees (knee torsion e.g. Z-lock, rotational entanglement finishes)", "gi": "never", "nogi": "brown", "note": "Row 18: same column pattern as heel hook."},
+    {"technique_class": "knee reaping (reaping position / inside ashi / 'leg knot')", "gi": "never", "nogi": "brown", "note": "Row 19; definition p. 32: thigh behind opponent's leg, calf across the body above the knee, foot past the vertical midline, pressure on the knee from outside-in while the attacked foot is trapped (between hip and armpit, by a grip, OR weight-bearing on the ground). Crossing the midline = severe foul (DQ); if either athlete has a submission hold it is a severe foul. For purple and below, if a legal crossed-leg seated position becomes a reap because one athlete stands, the referee stops and resets; for brown/black the fight is not interrupted."},
+    {"technique_class": "submission techniques stretching the legs apart (banana split, electric chair, crotch ripper)", "gi": "white", "nogi": "white", "note": "Row 1: banned ONLY for 4–12-year-olds; legal in every adult belt in gi and no-gi."},
+    {"technique_class": "choke with spinal lock", "gi": "white", "nogi": "white", "note": "Row 2: banned 4–12 and 13–15 only."},
+    {"technique_class": "spinal lock without choke (neck crank, twister, can-opener-type cranks)", "gi": "never", "nogi": "never", "note": "Row 22: illegal in all divisions. Under-12 referees must additionally protect the spine (1.3.8)."},
+    {"technique_class": "Ezekiel / forearm choke using the sleeve", "gi": "white", "nogi": "white", "note": "Row 4: banned 4–12 and 13–15 only. (Gi-specific move; no-gi Ezekiel is not separately listed.)"},
+    {"technique_class": "frontal guillotine choke", "gi": "white", "nogi": "white", "note": "Row 5: banned 4–12 and 13–15 only."},
+    {"technique_class": "omoplata", "gi": "white", "nogi": "white", "note": "Row 6: banned 4–12 and 13–15 only."},
+    {"technique_class": "triangle pulling the head", "gi": "white", "nogi": "white", "note": "Row 7: banned 4–12 and 13–15 only."},
+    {"technique_class": "arm triangle", "gi": "white", "nogi": "white", "note": "Row 8: banned 4–12 and 13–15 only."},
+    {"technique_class": "lock inside the closed guard with legs compressing kidneys or ribs (body triangle / closed-guard squeeze)", "gi": "blue", "nogi": "blue", "note": "Row 9: banned 4–12, 13–15, 16–17 and adult white."},
+    {"technique_class": "wrist lock", "gi": "blue", "nogi": "blue", "note": "Row 10: banned 4–12, 13–15, 16–17 and adult white."},
+    {"technique_class": "single-leg takedown with attacker's head outside the opponent's body", "gi": "blue", "nogi": "blue", "note": "Row 11: prohibited through adult white but marked (**) 'athlete will not be penalized'; referee intervenes."},
+    {"technique_class": "slam", "gi": "never", "nogi": "never", "note": "Row 21: all divisions."},
+    {"technique_class": "scissor takedown (kani basami)", "gi": "never", "nogi": "never", "note": "Row 23: all divisions."},
+    {"technique_class": "bending fingers backwards", "gi": "never", "nogi": "never", "note": "Row 24: all divisions."},
+    {"technique_class": "grabbing the belt and throwing an attacker onto his head while defending a head-outside single leg", "gi": "never", "nogi": "never", "note": "Row 25 / 6.2.3 (K): all divisions."},
+    {"technique_class": "suplex landing the opponent on head or neck", "gi": "never", "nogi": "never", "note": "Row 26 / 6.2.3 (L): suplex itself allowed if head/neck are not driven into the mat."},
+    {"technique_class": "strangling with hands around the neck or thumb on the windpipe (no gi material)", "gi": "never", "nogi": "never", "note": "6.2.3 (I)–(J): severe foul in all divisions; blocking nose/mouth with hands also a severe foul."},
+    {"technique_class": "jumping to closed guard on a standing opponent", "gi": "blue", "nogi": "blue", "note": "6.2.2 (W): serious foul for under-15 (all belts) and ALL white belt age groups; legal from blue."},
+    {"technique_class": "foot in the lapel behind the opponent's neck", "gi": "never", "nogi": "n/a", "note": "6.2.2 (R): serious foul (gi only)."}
+  ]
+}

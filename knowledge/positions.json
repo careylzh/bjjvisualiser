@@ -1,0 +1,42 @@
+{
+  "_comment": "Position taxonomy used by every technique entry. 'group' drives the filter chips in the app.",
+  "positions": [
+    { "id": "standing",          "label": "Standing",              "group": "standing" },
+    { "id": "closed_guard",      "label": "Closed guard",          "group": "guard" },
+    { "id": "open_guard",        "label": "Open guard",            "group": "guard" },
+    { "id": "half_guard",        "label": "Half guard",            "group": "guard" },
+    { "id": "deep_half",         "label": "Deep half guard",       "group": "guard" },
+    { "id": "butterfly_guard",   "label": "Butterfly guard",       "group": "guard" },
+    { "id": "spider_guard",      "label": "Spider guard",          "group": "guard" },
+    { "id": "lasso_guard",       "label": "Lasso guard",           "group": "guard" },
+    { "id": "de_la_riva",        "label": "De la Riva guard",      "group": "guard" },
+    { "id": "reverse_de_la_riva","label": "Reverse De la Riva",    "group": "guard" },
+    { "id": "x_guard",           "label": "X-guard",               "group": "guard" },
+    { "id": "single_leg_x",      "label": "Single-leg X",          "group": "leg_entanglement" },
+    { "id": "rubber_guard",      "label": "Rubber guard",          "group": "guard" },
+    { "id": "ashi_garami",       "label": "Ashi garami (straight ashi)", "group": "leg_entanglement" },
+    { "id": "outside_ashi",      "label": "Outside ashi",          "group": "leg_entanglement" },
+    { "id": "fifty_fifty",       "label": "50/50",                 "group": "leg_entanglement" },
+    { "id": "saddle",            "label": "Saddle (inside sankaku / 4-11)", "group": "leg_entanglement" },
+    { "id": "mount",             "label": "Mount",                 "group": "top" },
+    { "id": "s_mount",           "label": "S-mount",               "group": "top" },
+    { "id": "technical_mount",   "label": "Technical mount",       "group": "top" },
+    { "id": "side_control",      "label": "Side control",          "group": "top" },
+    { "id": "north_south",       "label": "North–south",           "group": "top" },
+    { "id": "knee_on_belly",     "label": "Knee on belly",         "group": "top" },
+    { "id": "back_control",      "label": "Back control",          "group": "back" },
+    { "id": "turtle",            "label": "Turtle",                "group": "back" },
+    { "id": "crucifix",          "label": "Crucifix",              "group": "back" },
+    { "id": "leg_drag",          "label": "Leg drag",              "group": "top" },
+    { "id": "front_headlock",    "label": "Front headlock",        "group": "standing" },
+    { "id": "other",             "label": "Other",                 "group": "other" }
+  ],
+  "groups": [
+    { "id": "guard",            "label": "Guard" },
+    { "id": "top",              "label": "Top pins" },
+    { "id": "back",             "label": "Back & turtle" },
+    { "id": "leg_entanglement", "label": "Leg entanglements" },
+    { "id": "standing",         "label": "Standing" },
+    { "id": "other",            "label": "Other" }
+  ]
+}

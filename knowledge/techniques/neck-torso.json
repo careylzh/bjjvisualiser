@@ -1,0 +1,3083 @@
+[
+  {
+    "id": "rear_naked_choke",
+    "name": "Rear naked choke",
+    "aliases": [
+      "RNC",
+      "Hadaka jime",
+      "Mata leão",
+      "Lion killer",
+      "Sleeper hold"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "common carotid arteries (bilateral)",
+        "internal jugular veins",
+        "carotid sinus baroreceptors"
+      ],
+      "mechanism": "Bilateral compression of the carotid arteries and jugular veins between the attacker's biceps and forearm (elbow crease centred under the chin), with the second hand behind the head driving the head forward into the crook; cerebral hypoperfusion plus baroreceptor-mediated vasodilation causes unconsciousness in roughly 9-10 s if held"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "occiput"
+        ],
+        "mechanism": "Second hand/forearm behind the head pushes it forward into the choking arm"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Classic finish from hooks + seat belt; Ribeiro teaches it as the primary back attack"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "From the back of turtle before hooks are in"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Standing rear clinch / self-defence"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal in every IBJJF division (not listed in the 6.2.3-M illegal-moves table). 6.2.3-I: strangling without the gi using one or both hands around the neck, or pressing the windpipe with the thumb, is a severe foul (DQ); 6.2.3-J: blocking nose/mouth with the hands is a severe foul."
+    },
+    "summary": "Arm encircles the neck from behind, hand on own biceps, other hand behind the head; squeeze to occlude both carotids. The highest-percentage submission in BJJ and MMA.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (back attacks)",
+        "url": ""
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 6-8 (ground fighting, winning from the top)",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-chokehold",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Chokehold"
+      },
+      {
+        "ref": "mitchell2012",
+        "locator": "J Appl Physiol 112(3):396-402",
+        "url": ""
+      },
+      {
+        "ref": "combatsportslaw2019",
+        "locator": "",
+        "url": "https://combatsportslaw.com/2019/09/11/study-the-science-behind-the-rear-naked-choke/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "Art. 6.2.3 I-J, M",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Physiology literature (Mitchell 2012; Int J Neurosci review) says carotid compression, jugular compression and carotid baroreceptor stimulation all contribute; it is not purely arterial occlusion."
+  },
+  {
+    "id": "guillotine_choke",
+    "name": "Guillotine choke",
+    "aliases": [
+      "Mae hadaka jime",
+      "Front naked choke",
+      "High-elbow guillotine",
+      "Marcelotine",
+      "Chin-strap guillotine"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries",
+        "trachea / larynx (standard low-elbow version)"
+      ],
+      "mechanism": "Forearm/wrist blade is drawn up and across the front of the neck while the attacker's chest and the opponent's own shoulder close the other side; the high-elbow version angles the forearm onto the carotids (blood choke), the standard version compresses the trachea as well (air + blood)"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "cervical spine (flexion)"
+        ],
+        "mechanism": "Head is pulled down into forward flexion by the front headlock before the squeeze"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "front_headlock",
+        "attacker_role": "either",
+        "note": "From a sprawl / snap-down; Danaher's front headlock system treats it as the primary finish"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Pull guard with the head trapped; squeeze while legs control posture"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Counter to a low shot or a head-down clinch"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Marcelotine / arm-in entries when opponent's head drops"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Row 5 'Frontal guillotine choke' is illegal for 4-12 and 13-15 y.o. only; legal from 16 y.o./white belt in gi and no-gi. Row 2 'Choke with spinal lock' (crank-heavy guillotines) is legal from 16 y.o. too."
+    },
+    "summary": "Front headlock choke: wrap the neck from the front, grip your own hand or biceps, and squeeze upward while controlling the opponent's posture. Marcelo Garcia and Danaher popularised the high-elbow variant.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (guard attacks)",
+        "url": ""
+      },
+      {
+        "ref": "garcia2011",
+        "locator": "guillotine section",
+        "url": ""
+      },
+      {
+        "ref": "danaher-fhl",
+        "locator": "",
+        "url": "https://bjjmore.com/front-headlock-system/"
+      },
+      {
+        "ref": "digitsu-guillotine",
+        "locator": "",
+        "url": "https://digitsu.com/a/guillotine-choke-fundamentals"
+      },
+      {
+        "ref": "grapplezilla-guillotine",
+        "locator": "",
+        "url": "https://grapplezilla.com/?p=2815"
+      },
+      {
+        "ref": "wikipedia-chokehold",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Chokehold"
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "table row 5",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Blood vs air split depends on forearm placement; coaching sources agree the high-elbow version is primarily carotid and the low 'wrist in the throat' version is primarily tracheal."
+  },
+  {
+    "id": "arm_in_guillotine",
+    "name": "Arm-in guillotine",
+    "aliases": [
+      "Arm-in front headlock choke",
+      "Power guillotine"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid artery (one side)",
+        "trachea"
+      ],
+      "mechanism": "One of the opponent's arms is trapped inside the headlock; the forearm compresses one carotid/trachea while the opponent's own trapped shoulder closes the other side, similar to an arm triangle mechanism"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "trapped shoulder / deltoid"
+        ],
+        "mechanism": "Opponent's own shoulder is driven into the neck"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "shoulder",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "front_headlock",
+        "attacker_role": "either",
+        "note": "Arises when the opponent's arm is inside the headlock after a sprawl"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Finish from guard with elbows tight and hips driven in"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Common when the passer's head drops low"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Covered by rows 5 (frontal guillotine) and 8 (arm triangle): illegal under 16 only."
+    },
+    "summary": "A guillotine where the opponent's arm is trapped inside the choke; relies on the opponent's own shoulder to close the far side of the neck.",
+    "sources": [
+      {
+        "ref": "digitsu-guillotine",
+        "locator": "",
+        "url": "https://digitsu.com/a/guillotine-choke-fundamentals"
+      },
+      {
+        "ref": "danaher-fhl",
+        "locator": "",
+        "url": "https://bjjmore.com/front-headlock-system/"
+      },
+      {
+        "ref": "grapplezilla-guillotine",
+        "locator": "",
+        "url": "https://grapplezilla.com/?p=2815"
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "rows 5, 8",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Mechanism description taken from coaching sources, not textbooks."
+  },
+  {
+    "id": "triangle_choke",
+    "name": "Triangle choke",
+    "aliases": [
+      "Sankaku jime",
+      "Front triangle",
+      "Triângulo"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)",
+        "jugular veins"
+      ],
+      "mechanism": "Head and one arm are enclosed in a figure-four of the attacker's legs; the thigh/hamstring compresses one carotid and the opponent's own trapped shoulder compresses the other as the legs squeeze and the head is pulled down"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "cervical spine"
+        ],
+        "mechanism": "Pulling the head into flexion tightens the choke (a crank element if the choke is not on)"
+      },
+      {
+        "region": "shoulder",
+        "structures": [
+          "trapped arm / shoulder"
+        ],
+        "mechanism": "Arm is pulled across the neck to close the far side"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head",
+      "shoulder",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Fundamental guard submission; Ribeiro/Renzo both teach it from closed guard"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": "Spider/lasso/butterfly entries"
+      },
+      {
+        "position": "rubber_guard",
+        "attacker_role": "bottom",
+        "note": "Bravo's rubber guard flows into the triangle"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Mounted triangle / from S-mount"
+      },
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Rear triangle (ushiro sankaku) variant"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Row 7 'Triangle (pulling head)' illegal only for 4-12 and 13-15 y.o.; the triangle itself is legal in all divisions. Row 1 'stretching legs apart' is unrelated."
+    },
+    "summary": "Legs form a figure-four around the opponent's neck and one arm; squeeze the knees and pull the head to occlude both carotids.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (guard)",
+        "url": ""
+      },
+      {
+        "ref": "gracie2001",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 7 Winning From the Bottom Position",
+        "url": ""
+      },
+      {
+        "ref": "bravo2006",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-chokehold",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Chokehold"
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 7",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "arm_triangle",
+    "name": "Arm triangle choke",
+    "aliases": [
+      "Kata gatame",
+      "Head-and-arm choke",
+      "Side choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "Attacker's arm wraps the neck while the opponent's own arm/shoulder is pinned across the other side; attacker's shoulder and biceps compress one carotid, the trapped shoulder compresses the other"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "trapped shoulder"
+        ],
+        "mechanism": "Driven into the neck"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "shoulder",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Trap the arm across, dismount to the side, walk hips toward the head"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Kesa-gatame / head-and-arm pressure finish"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Very common from top half guard when the underhook is beaten"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Less common bottom version"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Row 8 'Arm triangle' is illegal for 4-12 and 13-15 y.o. only."
+    },
+    "summary": "Head-and-arm strangle: one arm around the neck, the opponent's arm trapped against their own neck, finished by squeezing and walking the hips.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (side control / mount)",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-arm-triangle",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Arm_triangle_choke"
+      },
+      {
+        "ref": "evolve-arm-triangle",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/3-arm-triangle-variations-you-need-in-your-bjj-arsenal/"
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 8",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Wikipedia cites a 7.2 s mean time to unconsciousness for the standard version (Stellpflug et al.)."
+  },
+  {
+    "id": "darce_choke",
+    "name": "D'Arce choke",
+    "aliases": [
+      "Brabo choke",
+      "Screw choke",
+      "No-gi brabo"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "Arm-triangle variant: choking arm threads under the opponent's near arm, across the front of the neck and on top of the far arm, gripping own biceps; forearm compresses one carotid and the trapped shoulder the other"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "near shoulder (trapped)"
+        ],
+        "mechanism": "Pinned into the neck by the attacker's chest"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "upper_arm",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "front_headlock",
+        "attacker_role": "top",
+        "note": "From sprawl/turtle when the opponent's arm is inside"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Classic entry when the bottom player's underhook arm is exposed"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "When opponent turns in with the arm extended"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Thread under the near arm from the side"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Treated as an arm triangle (row 8): illegal under 16 only."
+    },
+    "summary": "Arm-in choke threaded under the near arm and over the far arm; named for Joe D'Arce, popularised in no-gi.",
+    "sources": [
+      {
+        "ref": "wikipedia-arm-triangle",
+        "locator": "D'Arce section",
+        "url": "https://en.wikipedia.org/wiki/Arm_triangle_choke"
+      },
+      {
+        "ref": "danaher-fhl",
+        "locator": "",
+        "url": "https://bjjmore.com/front-headlock-system/"
+      },
+      {
+        "ref": "evolve-arm-triangle",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 8",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "anaconda_choke",
+    "name": "Anaconda choke",
+    "aliases": [
+      "Gator roll choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "From the front headlock, choking arm passes under the neck and outside the near arm, gripping own biceps; the attacker rolls the opponent onto the trapped shoulder so shoulder and biceps close both carotids"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "trapped shoulder"
+        ],
+        "mechanism": "Opponent is rolled onto the trapped shoulder (gator roll) to tighten"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "upper_arm",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "front_headlock",
+        "attacker_role": "top",
+        "note": "Primary entry after a sprawl; Danaher dedicates a volume to it"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Against a turtled opponent"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Arm triangle family (row 8): illegal under 16 only."
+    },
+    "summary": "Front-headlock arm triangle with the arm under the neck and outside the opponent's arm, finished by rolling them onto the trapped shoulder.",
+    "sources": [
+      {
+        "ref": "wikipedia-arm-triangle",
+        "locator": "Anaconda section",
+        "url": "https://en.wikipedia.org/wiki/Arm_triangle_choke"
+      },
+      {
+        "ref": "danaher-fhl",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-chokehold",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 8",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "north_south_choke",
+    "name": "North-south choke",
+    "aliases": [
+      "Marcelo Garcia choke",
+      "Kata gatame from north-south"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "From north-south the attacker's arm wraps the neck, elbow on the mat, and the attacker's biceps/shoulder and chest drop onto the neck; carotids are compressed between the arm and the attacker's torso — a body-weight blood choke rather than a squeeze"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "head",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": "Marcelo Garcia's signature; set up when opponent turns in from side control"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Transition from side control as the opponent pushes"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Not in the illegal-moves table; legal in all divisions."
+    },
+    "summary": "Arm around the neck from north-south, finish by sinking the shoulder and walking the hips toward the head rather than squeezing.",
+    "sources": [
+      {
+        "ref": "garcia-ns-choke",
+        "locator": "",
+        "url": "https://bjjmore.com/marcelo-garcia-north-south-choke/"
+      },
+      {
+        "ref": "jits-ns-choke",
+        "locator": "",
+        "url": "https://jits.gg/glossary/north-south-choke"
+      },
+      {
+        "ref": "wikipedia-chokehold",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Chokehold"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Marcelo Garcia's 2011 book does not clearly include this choke; sourced from his instructional descriptions instead."
+  },
+  {
+    "id": "cross_collar_choke",
+    "name": "Cross collar choke",
+    "aliases": [
+      "Juji jime",
+      "Nami juji jime (palms up)",
+      "Gyaku juji jime (over-under)",
+      "Kata juji jime",
+      "Estrangulamento cruzado",
+      "X-choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "Both hands grip deep in opposite collars so the forearms cross in an X across the neck; pulling the elbows down/in drives the radial edges of the forearms and the collar into both carotids"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Roger Gracie's signature; first grip deep behind the neck, drop the head"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "The first submission taught in most gi curricula"
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "Grips set while the opponent frames"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Top half guard variant"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Gi only (requires collars). Legal in all divisions. 6.2.2-S: using an untied belt to assist a choke is a penalty."
+    },
+    "summary": "Classic gi strangle: cross grips on the collars, pull the elbows to the ribs to compress the carotids with the collar and forearms.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (mount / guard)",
+        "url": ""
+      },
+      {
+        "ref": "gracie2001",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "digitsu-cross-collar",
+        "locator": "",
+        "url": "https://app.digitsu.com/t/cross-collar-choke"
+      },
+      {
+        "ref": "wikipedia-chokehold",
+        "locator": "collar chokes",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "sliding_collar_choke",
+    "name": "Sliding collar choke",
+    "aliases": [
+      "Okuri eri jime",
+      "Sliding lapel strangle",
+      "Rear collar choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "From behind, one hand slides the far lapel across the front of the throat while the other hand pulls the near lapel down; the collar tightens like a noose across both carotids"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Primary gi choke from the back; precursor of the bow-and-arrow"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Feed the lapel before the opponent recovers guard"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Gi only; legal in all divisions."
+    },
+    "summary": "One of the Kodokan's twelve shime-waza: slide one lapel across the neck from behind and pull the other down.",
+    "sources": [
+      {
+        "ref": "wikipedia-okuri-eri-jime",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Okuri_eri_jime"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (back)",
+        "url": ""
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "bow_and_arrow_choke",
+    "name": "Bow and arrow choke",
+    "aliases": [
+      "Arco e flecha",
+      "Okuri eri jime (BJJ usage)",
+      "Collar-and-pants choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "Deep collar grip across the neck from the back while the other hand controls the far pant leg; the attacker extends the body like drawing a bow so the collar cuts across both carotids with full-body leverage"
+    },
+    "secondary_targets": [
+      {
+        "region": "thigh",
+        "structures": [
+          "pant leg / far leg"
+        ],
+        "mechanism": "Leg is pulled to stretch the opponent and prevent them turning"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "chest",
+      "thigh",
+      "knee"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "The highest-percentage gi finish from the back; Ribeiro teaches it as the back's main collar attack"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "From the clock-choke setup, pull the leg and roll"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Gi only; legal in all divisions."
+    },
+    "summary": "Back-control collar choke finished by gripping the far leg and extending the body like a bow; the most common gi choke in modern competition.",
+    "sources": [
+      {
+        "ref": "bjjheroes-bow-and-arrow",
+        "locator": "",
+        "url": "https://www.bjjheroes.com/?p=6332"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (back attacks)",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-okuri-eri-jime",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "clock_choke",
+    "name": "Clock choke",
+    "aliases": [
+      "Relógio",
+      "Okuri eri jime from turtle"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "Against a turtled opponent the attacker takes a deep collar grip across the neck, drops chest weight on the upper back and walks the feet around the head like a clock hand; the collar and the attacker's weight compress the carotids"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "chest",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Rear knee blocks the gap between opponent's elbow and knee; walk toward the head"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Gi only; legal in all divisions."
+    },
+    "summary": "Turtle-position lapel choke finished by walking around the opponent's head with body weight on the collar grip.",
+    "sources": [
+      {
+        "ref": "digitsu-clock-choke",
+        "locator": "",
+        "url": "https://digitsu.com/t/clock-choke"
+      },
+      {
+        "ref": "bjjheroes-bow-and-arrow",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (turtle)",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "loop_choke",
+    "name": "Loop choke",
+    "aliases": [
+      "Rodado",
+      "Koshi jime (loose usage)"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "A shallow cross-collar grip is looped over the opponent's head as the head is snapped down; the forearm passes over the neck and the free hand behind the head closes the loop so the collar cuts into both carotids"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "occiput"
+        ],
+        "mechanism": "Head is pushed down and under the looping arm"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "front_headlock",
+        "attacker_role": "either",
+        "note": "After a sprawl or snap-down"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Classic entry when the passer's head is low"
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "bottom",
+        "note": "Against a passer driving forward"
+      },
+      {
+        "position": "butterfly_guard",
+        "attacker_role": "bottom",
+        "note": "Seated guard loop choke"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Gi only; legal in all divisions."
+    },
+    "summary": "Collar grip looped over the opponent's lowered head; the arm wraps and rolls to tighten the lapel across the carotids.",
+    "sources": [
+      {
+        "ref": "evolve-loop-choke",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/how-to-use-the-loop-choke-in-bjj/"
+      },
+      {
+        "ref": "bjjheroes-bow-and-arrow",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Sources are coaching blogs; judo naming is inconsistent."
+  },
+  {
+    "id": "ezekiel_choke",
+    "name": "Ezekiel choke",
+    "aliases": [
+      "Sode guruma jime",
+      "Estrangulamento de Ezequiel",
+      "Forearm choke using the sleeve"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries",
+        "trachea"
+      ],
+      "mechanism": "One arm wraps behind the head and grips inside the other sleeve; the free forearm/fist passes across the front of the neck and the two arms scissor, compressing carotids and (depending on placement) the trachea"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Standard application; Ribeiro covers it in mount submissions"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Legal and effective from inside guard"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Top half guard"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Occasional"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Row 4 'Forearm choke using the sleeve (Ezequiel choke)' is illegal only for 4-12 and 13-15 y.o.; legal from 16/white up. No-gi version (fist-to-forearm) is also legal for adults."
+    },
+    "summary": "Sleeve-gripping forearm scissor choke named after judoka Ezequiel Paraguassu; works from mount or even from inside the guard.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (mount)",
+        "url": ""
+      },
+      {
+        "ref": "digitsu-ezekiel",
+        "locator": "",
+        "url": "https://app.digitsu.com/t/ezekiel-choke"
+      },
+      {
+        "ref": "evolve-ezekiel",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 4",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "baseball_bat_choke",
+    "name": "Baseball bat choke",
+    "aliases": [
+      "Baseball choke",
+      "Kesa gatame collar choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)",
+        "trachea"
+      ],
+      "mechanism": "Stacked collar grips (one palm up, one palm down like holding a bat); the attacker spins toward north-south, driving chest weight so the forearms and collar close across both carotids and the windpipe"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "Classic setup: grips set from KOB, then spin to north-south"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "From kesa-gatame style control"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Bottom variant (Magid Hage)"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Gi only; legal in all divisions."
+    },
+    "summary": "Stacked bat-style collar grips finished by spinning to north-south; famous late-tap choke.",
+    "sources": [
+      {
+        "ref": "digitsu-baseball-bat",
+        "locator": "",
+        "url": "https://digitsu.com/t/baseball-bat-choke"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Single instructional source; textbook locator not found."
+  },
+  {
+    "id": "paper_cutter_choke",
+    "name": "Paper cutter choke",
+    "aliases": [
+      "Bread cutter choke",
+      "Saulo choke (thumb-in variant)",
+      "Lapel guillotine from side"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid artery (near side)",
+        "trachea"
+      ],
+      "mechanism": "One hand feeds and pulls the far collar from under the head; the other forearm drops like a blade across the front/side of the neck and drives down into the mat, compressing carotid and windpipe against the lapel"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "chest",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Side control / kesa gatame; also from north-south transition"
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "Collar grip set from KOB"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": false,
+      "note": "Gi only; legal in all divisions. Coaching sources disagree whether it is primarily blood or air."
+    },
+    "summary": "Side-control lapel choke: pull the collar from behind the head and cut the forearm across the throat.",
+    "sources": [
+      {
+        "ref": "digitsu-paper-cutter",
+        "locator": "",
+        "url": "https://digitsu.com/t/paper-cutter-choke"
+      },
+      {
+        "ref": "evolve-paper-cutter",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (side control)",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Blood vs air classification contested in sources."
+  },
+  {
+    "id": "peruvian_necktie",
+    "name": "Peruvian necktie",
+    "aliases": [
+      "Gerbi choke (gi variant)"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries",
+        "cervical spine (flexion component)"
+      ],
+      "mechanism": "From the front headlock the attacker locks hands around head and near arm, sits beside the opponent and throws one leg over the back of the neck and the other over the back; extending the legs drives the head down onto the choking wrist, compressing the carotids while forcing cervical flexion"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "cervical spine"
+        ],
+        "mechanism": "Leg over the neck forces forward flexion (crank component)"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head",
+      "upper_arm",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "front_headlock",
+        "attacker_role": "top",
+        "note": "Against a turtled/sprawled opponent"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Sit through beside the turtle"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Classified as a choke with spinal lock (row 2): legal from 16 y.o./white; illegal 4-15. Note the IJF (judo) banned the gi variant in 2022."
+    },
+    "summary": "Front-headlock choke-crank where the legs go over the neck and back and the body extends; both a strangle and a neck flexion.",
+    "sources": [
+      {
+        "ref": "lowkick-peruvian",
+        "locator": "",
+        "url": "https://lowkickmma.com/peruvian-necktie"
+      },
+      {
+        "ref": "grapplezilla-peruvian",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 2",
+        "url": ""
+      },
+      {
+        "ref": "bjjee-neck-cranks",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Whether a given application is a 'choke with spinal lock' or a pure crank is a referee judgement."
+  },
+  {
+    "id": "japanese_necktie",
+    "name": "Japanese necktie",
+    "aliases": [
+      "Nihon necktie"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries",
+        "cervical spine (flexion component)"
+      ],
+      "mechanism": "From a failed D'Arce the arm goes over the neck with the hand on the far shoulder, the other hand locks the grip; the attacker drops to the hip and folds the head down, compressing the carotids between forearm and the opponent's trapped shoulder while flexing the neck"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "cervical spine"
+        ],
+        "mechanism": "Forward flexion of the head (crank component)"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "shoulder",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Follow-up when the D'Arce stalls"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Lachlan Giles demonstrates it from top half guard"
+      },
+      {
+        "position": "front_headlock",
+        "attacker_role": "top",
+        "note": "Against a turtled opponent"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Choke with spinal lock (row 2): legal from 16/white, illegal 4-15; widely described as a grey area that depends on the referee."
+    },
+    "summary": "D'Arce cousin finished by folding the opponent's head down over your own forearm; a hybrid choke/crank.",
+    "sources": [
+      {
+        "ref": "evolve-japanese-necktie",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/heres-how-to-do-the-japanese-necktie-in-bjj/"
+      },
+      {
+        "ref": "10p-forum-illegal",
+        "locator": "Eddie Bravo quoted calling it a grey area",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 2",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "von_flue_choke",
+    "name": "Von Flue choke",
+    "aliases": [
+      "Guillotine counter choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "Counter to a guillotine: the attacker passes to side control on the opposite side of the opponent's head while the opponent keeps the guillotine grip; the attacker's shoulder drives into one side of the neck and the opponent's own trapped arm closes the other — a shoulder-compression arm triangle"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "opponent's choking arm / shoulder"
+        ],
+        "mechanism": "Their own arm becomes the far-side compression"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "shoulder",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Only arises when the bottom player holds a guillotine after being passed"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "A shoulder choke (arm-triangle family, row 8): illegal under 16 only."
+    },
+    "summary": "Named after Jason Von Flue; punishes a held guillotine by driving the shoulder into the neck from side control.",
+    "sources": [
+      {
+        "ref": "kesting-vonflue",
+        "locator": "",
+        "url": "https://www.grapplearts.com/how-to-do-the-von-flue-choke/"
+      },
+      {
+        "ref": "evolve-vonflue",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "buggy_choke",
+    "name": "Buggy choke",
+    "aliases": [
+      "Bottom side-control triangle",
+      "Rolling buggy"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries (bilateral)"
+      ],
+      "mechanism": "From bottom side control the defender throws the far leg over the top player's head/neck and locks the same-side arm under the knee (figure-four of arm and leg); the head and one arm are trapped so the thigh and the opponent's shoulder compress both carotids, as in a triangle"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "head",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "bottom",
+        "note": "Attacks the top player's head when they stay chest-to-chest with the far arm exposed"
+      },
+      {
+        "position": "other",
+        "attacker_role": "bottom",
+        "note": "Also hit from bottom of turtle/kesa gatame"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Not in the illegal-moves table; a pure strangle, so legal in all adult divisions. Mostly a no-gi competition technique."
+    },
+    "summary": "Bottom-side-control strangle: leg over the opponent's head, arm locked under the leg, squeeze.",
+    "sources": [
+      {
+        "ref": "naga-buggy",
+        "locator": "",
+        "url": "https://www.nagafighter.com/what-is-the-buggy-choke"
+      },
+      {
+        "ref": "evolve-buggy",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Sources differ on the exact arm/leg path; no textbook treatment (it is a 2010s-era technique)."
+  },
+  {
+    "id": "gogoplata",
+    "name": "Gogoplata",
+    "aliases": [
+      "Kakato jime",
+      "Shin choke",
+      "Locoplata (foot-assisted variant)"
+    ],
+    "category": "choke",
+    "subcategory": "air_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "trachea / larynx",
+        "carotid arteries"
+      ],
+      "mechanism": "From rubber guard / omoplata setup the shin or instep is placed across the front of the throat; pulling the head down onto the shin compresses the windpipe and carotids"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "occiput"
+        ],
+        "mechanism": "Hands pull the head down onto the shin"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "rubber_guard",
+        "attacker_role": "bottom",
+        "note": "Bravo's rubber guard finish; locoplata uses the free foot to push the choking foot"
+      },
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "From a high guard / omoplata position"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Mounted gogoplata variant"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Not listed in the 6.2.3-M table; legal in all adult divisions. 6.2.2-R (foot in the lapel behind the neck) is a separate penalty in the gi."
+    },
+    "summary": "Shin-across-the-throat choke from the rubber guard, popularised by Eddie Bravo and Nick Diaz.",
+    "sources": [
+      {
+        "ref": "bravo2006",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-gogoplata",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Gogoplata"
+      },
+      {
+        "ref": "evolve-gogoplata",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "6.2.2-R, 6.2.3-M",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Primarily tracheal in most descriptions; legality inferred from absence in the official table and fan tables that mark it legal."
+  },
+  {
+    "id": "crucifix_choke",
+    "name": "Crucifix choke",
+    "aliases": [
+      "Jigoku jime",
+      "Hell strangle",
+      "Crucifix lapel/arm choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries"
+      ],
+      "mechanism": "From the back-control crucifix (one of the opponent's arms trapped between the attacker's legs, the other controlled by the attacker's arm) the free arm wraps the neck, or feeds a lapel, and the attacker extends to strangle"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "upper_arm",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "Reached from the turtle / failed single leg; Kesting's 'traditional crucifix'"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Entry position"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Choke from the crucifix is legal at all levels (only the neck-crank 'cattle catch' is prohibited under row 22)."
+    },
+    "summary": "Strangle from the crucifix back-control position with both of the opponent's arms trapped.",
+    "sources": [
+      {
+        "ref": "kesting-crucifix",
+        "locator": "",
+        "url": "https://www.grapplearts.com/a-confusion-of-crucifixes/"
+      },
+      {
+        "ref": "bjjheroes-bow-and-arrow",
+        "locator": "mentions crucifix choke naming",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "short_choke",
+    "name": "Short choke",
+    "aliases": [
+      "Power half choke",
+      "Shallow RNC",
+      "Hand-to-hand rear choke"
+    ],
+    "category": "choke",
+    "subcategory": "blood_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "carotid arteries",
+        "mandible / jaw (pressure)"
+      ],
+      "mechanism": "Variation of the rear naked choke when the arm cannot reach the biceps: the choking hand is gripped by the other hand (palm-to-palm or wrist) and the forearm is pulled into the side of the neck while the head is pinned; compresses the carotids but frequently loads the jaw and cervical spine"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "mandible",
+          "cervical spine"
+        ],
+        "mechanism": "Forearm across jaw and pulling adds a crank element"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "When the opponent hides the chin and denies the full RNC"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "From the back of a turtled opponent"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal as a choke; if the referee judges it a jaw/neck crank without strangle it falls under row 22 (illegal everywhere)."
+    },
+    "summary": "Shallow rear choke with the hands locked instead of the biceps grip; effective but crank-prone.",
+    "sources": [
+      {
+        "ref": "digitsu-short-choke",
+        "locator": "",
+        "url": "https://app.digitsu.com/t/short-choke"
+      },
+      {
+        "ref": "bjjfanatics-neck-cranks",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "low",
+    "notes": "Terminology ('short choke' vs 'power half') is inconsistent across sources; mechanism partly inferred."
+  },
+  {
+    "id": "can_opener",
+    "name": "Can opener",
+    "aliases": [
+      "Neck crank from inside the guard",
+      "Kubi hishigi"
+    ],
+    "category": "crank",
+    "subcategory": "neck_crank",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "cervical spine (C-spine facet joints, posterior ligaments)",
+        "nuchal ligament"
+      ],
+      "mechanism": "From inside the closed guard the top player clasps both hands behind the opponent's head and pulls it into forced forward flexion toward the chest while driving the hips forward"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "head",
+      "neck"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "top",
+        "note": "Historically used to open the guard; now a pure crank"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "never",
+      "gi": false,
+      "nogi": false,
+      "note": "Row 22 'Spinal lock without choke': illegal in every division (kids through adult brown/black no-gi)."
+    },
+    "summary": "Pulling the opponent's head forward from inside their guard; a cervical flexion crank banned in IBJJF at every level.",
+    "sources": [
+      {
+        "ref": "jitsuiq-can-opener",
+        "locator": "",
+        "url": "https://jitsuiq.com/submissions/locks/compression-locks/can-opener.html"
+      },
+      {
+        "ref": "10p-forum-illegal",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 22",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-spinal-lock",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "north_south_neck_crank",
+    "name": "North-south neck crank",
+    "aliases": [
+      "Neck crank from kesa / north-south",
+      "Head crank"
+    ],
+    "category": "crank",
+    "subcategory": "neck_crank",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "cervical spine",
+        "cervical facet joints and ligaments"
+      ],
+      "mechanism": "Arms clasp the head from north-south or kesa gatame and lift/rotate it against the fixed shoulders, forcing cervical flexion or lateral flexion without any carotid compression"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "head",
+      "neck"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "lateral_flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": "Lift the head while the chest pins the torso"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Kesa gatame head crank"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "never",
+      "gi": false,
+      "nogi": false,
+      "note": "Row 22 'Spinal lock without choke': illegal in every division."
+    },
+    "summary": "Lifting or twisting the pinned opponent's head from north-south; illegal in IBJJF, seen in catch wrestling and MMA.",
+    "sources": [
+      {
+        "ref": "jitsuiq-neck-crank",
+        "locator": "",
+        "url": "https://jitsuiq.com/submissions/locks/spinal-locks/neck-crank.html"
+      },
+      {
+        "ref": "bjjfanatics-neck-cranks",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 22",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Generic neck crank; many variants exist."
+  },
+  {
+    "id": "crucifix_neck_crank",
+    "name": "Crucifix neck crank",
+    "aliases": [
+      "Cattle catch",
+      "Stocks",
+      "Reverse crucifix"
+    ],
+    "category": "crank",
+    "subcategory": "neck_crank",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "cervical spine",
+        "cervical facet joints"
+      ],
+      "mechanism": "Opponent's arms are held out (one between the attacker's legs, one under the arm) while the attacker, facing away, sits back and forces the head into flexion/extension against the trapped shoulders"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "both shoulders"
+        ],
+        "mechanism": "Arms are spread to immobilise the shoulder girdle"
+      }
+    ],
+    "grip_regions": [
+      "head",
+      "neck",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "The 'other' crucifix (Kesting); legal only in no-gi submission wrestling / MMA"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "never",
+      "gi": false,
+      "nogi": false,
+      "note": "Row 22 'Spinal lock without choke': illegal in every division. ADCC also forbids the crucifix neck crank."
+    },
+    "summary": "Catch-wrestling crucifix crank with both arms spread; illegal in BJJ competition.",
+    "sources": [
+      {
+        "ref": "kesting-crucifix",
+        "locator": "",
+        "url": "https://www.grapplearts.com/a-confusion-of-crucifixes/"
+      },
+      {
+        "ref": "bjjee-neck-cranks",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 22",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "twister",
+    "name": "Twister",
+    "aliases": [
+      "Wrestler's guillotine",
+      "Spinal twist",
+      "10th Planet twister"
+    ],
+    "category": "crank",
+    "subcategory": "spinal_lock",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "cervical spine",
+        "upper thoracic spine",
+        "cervical facet joints and ligaments"
+      ],
+      "mechanism": "Hips are fixed by a leg hook (truck position) while the attacker pulls the opponent's head laterally toward the opposite shoulder with the opponent's arm trapped behind their own head; produces lateral flexion plus rotation of the cervical/thoracic spine"
+    },
+    "secondary_targets": [
+      {
+        "region": "abdomen",
+        "structures": [
+          "lumbar spine / obliques"
+        ],
+        "mechanism": "Lateral flexion and rotation through the whole spine"
+      },
+      {
+        "region": "shoulder",
+        "structures": [
+          "trapped arm"
+        ],
+        "mechanism": "Arm pinned behind the head"
+      }
+    ],
+    "grip_regions": [
+      "head",
+      "neck",
+      "upper_arm",
+      "thigh"
+    ],
+    "demo_motion": {
+      "joint": "spine",
+      "axis": "lateral_flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "From the 'truck' (one leg hooked) when the back take is incomplete"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Truck entry from the turtle"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "never",
+      "gi": false,
+      "nogi": false,
+      "note": "Row 22 'Spinal lock without choke': illegal in every division. Legal under ADCC/EBI/MMA (Chan Sung Jung vs Garcia, UFC 2011)."
+    },
+    "summary": "Eddie Bravo's spinal lock from the truck: legs pin the hips while the head is pulled sideways; illegal in IBJJF.",
+    "sources": [
+      {
+        "ref": "bravo2006",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-spinal-lock",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Spinal_lock"
+      },
+      {
+        "ref": "evolve-twister",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "jitsuiq-twister",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 22",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "boston_crab",
+    "name": "Boston crab",
+    "aliases": [
+      "Spine crank",
+      "Half crab"
+    ],
+    "category": "crank",
+    "subcategory": "spinal_lock",
+    "primary_target": {
+      "region": "abdomen",
+      "structures": [
+        "lumbar spine (facet joints, anterior longitudinal ligament)",
+        "hip flexors"
+      ],
+      "mechanism": "Opponent face-down; attacker holds both legs under the arms and sits back on the lumbar region, forcing lumbar hyperextension"
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joints"
+        ],
+        "mechanism": "Hip hyperextension"
+      }
+    ],
+    "grip_regions": [
+      "shin_calf",
+      "ankle",
+      "abdomen"
+    ],
+    "demo_motion": {
+      "joint": "spine",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "other",
+        "attacker_role": "top",
+        "note": "Attacker standing/sitting over a prone opponent; arises from leg-entanglement scrambles"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "never",
+      "gi": false,
+      "nogi": false,
+      "note": "Row 22 'Spinal lock without choke': illegal in every division."
+    },
+    "summary": "Pro-wrestling-derived lumbar hyperextension lock; a pure spinal lock and illegal under IBJJF rules.",
+    "sources": [
+      {
+        "ref": "wikipedia-spinal-lock",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Spinal_lock"
+      },
+      {
+        "ref": "bjjee-neck-cranks",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 22",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Rare in BJJ; included for completeness of spinal locks."
+  },
+  {
+    "id": "guard_body_lock_rib_crush",
+    "name": "Closed-guard rib/kidney compression",
+    "aliases": [
+      "Body scissors",
+      "Do-jime",
+      "Leg squeeze in closed guard"
+    ],
+    "category": "compression",
+    "subcategory": "muscle_slicer",
+    "primary_target": {
+      "region": "abdomen",
+      "structures": [
+        "floating ribs",
+        "kidneys",
+        "abdominal wall"
+      ],
+      "mechanism": "Bottom player locks the ankles and squeezes the knees/thighs around the torso, compressing the lower ribs and flank"
+    },
+    "secondary_targets": [
+      {
+        "region": "chest",
+        "structures": [
+          "lower ribcage"
+        ],
+        "mechanism": "Rib compression"
+      }
+    ],
+    "grip_regions": [
+      "abdomen",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "spine",
+      "axis": "compression",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Squeezing the legs as a submission (do-jime in judo)"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "blue",
+      "gi": true,
+      "nogi": true,
+      "note": "Row 9 'Lock inside the closed guard with legs compressing kidneys or ribs': illegal for 4-12, 13-15, 16-17 and adult white belts; legal from blue belt (adult) in gi and no-gi."
+    },
+    "summary": "Squeezing the opponent's ribs with the closed guard; banned in judo and for IBJJF white belts.",
+    "sources": [
+      {
+        "ref": "ibjjf-poster-2024",
+        "locator": "row 9",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "6.2.3-M table",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Mechanism is straightforward; included because it is the only torso-compression entry in the IBJJF table."
+  },
+  {
+    "id": "cross_face",
+    "name": "Cross-face",
+    "aliases": [
+      "Crossface",
+      "Shoulder pressure cross-face"
+    ],
+    "category": "control",
+    "subcategory": "head_control",
+    "primary_target": {
+      "region": "head",
+      "structures": [
+        "face / mandible",
+        "cervical spine (rotation)"
+      ],
+      "mechanism": "Attacker's forearm or shoulder is driven across the opponent's jaw/face, turning the head away from the attacker; where the head goes the spine follows, so hip movement and bridging are shut down"
+    },
+    "secondary_targets": [
+      {
+        "region": "neck",
+        "structures": [
+          "cervical spine"
+        ],
+        "mechanism": "Forced rotation/lateral flexion"
+      }
+    ],
+    "grip_regions": [
+      "head",
+      "neck"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "The standard side-control head control (Ribeiro)"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Cross-face + underhook is the core top half-guard control"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Low mount cross-face"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Wrestling-style cross-face to break down the turtle"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal; must not become a neck crank (row 22) or hand pressure on the windpipe (6.2.3-I)."
+    },
+    "summary": "Forearm/shoulder across the face turns the opponent's head away, killing their ability to turn in or bridge.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Survival / Guard passing chapters (side control pressure)",
+        "url": ""
+      },
+      {
+        "ref": "evolve-crossface",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/how-to-perform-a-crossface-in-bjj/"
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "head_and_arm_control",
+    "name": "Head-and-arm control",
+    "aliases": [
+      "Kesa gatame",
+      "Scarf hold",
+      "Head-and-arm side control"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "head",
+      "structures": [
+        "head / neck (encircled)",
+        "cervical spine"
+      ],
+      "mechanism": "One arm encircles the head and neck while the other controls the near arm; the attacker's hip and ribs pin the chest, leaving the opponent flat with the head immobilised"
+    },
+    "secondary_targets": [
+      {
+        "region": "chest",
+        "structures": [
+          "ribcage / sternum"
+        ],
+        "mechanism": "Hip and body weight on the chest"
+      },
+      {
+        "region": "upper_arm",
+        "structures": [
+          "near arm"
+        ],
+        "mechanism": "Arm trapped under the attacker's armpit"
+      }
+    ],
+    "grip_regions": [
+      "head",
+      "neck",
+      "upper_arm",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Judo kesa gatame; precursor to arm triangle, paper cutter, americana"
+      },
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": "Transition hold"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal pin; side control scores no points but can score an advantage/guard-pass points."
+    },
+    "summary": "Classic scarf hold: arm around the head, near arm trapped, hips pinning the chest.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Survival chapter (side control)",
+        "url": ""
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 8 Winning From the Top Position",
+        "url": ""
+      },
+      {
+        "ref": "evolve-side-control-attacks",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "chin_strap",
+    "name": "Chin strap",
+    "aliases": [
+      "Chin-strap grip",
+      "Front headlock chin control"
+    ],
+    "category": "control",
+    "subcategory": "head_control",
+    "primary_target": {
+      "region": "head",
+      "structures": [
+        "mandible / chin",
+        "cervical spine"
+      ],
+      "mechanism": "Hand cups the chin from the front headlock (or from side control) so the head cannot turn or lift; the elbow is kept tight to block posture, setting up guillotines, D'Arce and back takes"
+    },
+    "secondary_targets": [
+      {
+        "region": "neck",
+        "structures": [
+          "cervical spine"
+        ],
+        "mechanism": "Head held in flexion"
+      }
+    ],
+    "grip_regions": [
+      "head",
+      "neck"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "front_headlock",
+        "attacker_role": "either",
+        "note": "First grip of Danaher's front headlock system"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Chin strap sets up head-and-arm chokes and prevents turning in"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "After a snap-down"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal; hand must not grip the throat/windpipe (6.2.3-I)."
+    },
+    "summary": "Hand under the chin controlling the head from the front headlock; the entry to guillotine family attacks.",
+    "sources": [
+      {
+        "ref": "danaher-fhl",
+        "locator": "",
+        "url": "https://bjjmore.com/front-headlock-system/"
+      },
+      {
+        "ref": "digitsu-chin-strap",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "evolve-front-headlock",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "front_headlock_control",
+    "name": "Front headlock",
+    "aliases": [
+      "Front head-and-arm",
+      "Sprawl control"
+    ],
+    "category": "control",
+    "subcategory": "head_control",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "neck / cervical spine",
+        "head"
+      ],
+      "mechanism": "Attacker wraps the opponent's head and one arm from the front after a sprawl or snap-down, chest weight on the back of the neck forcing flexion; controls the head to prevent shots and set up guillotine, anaconda, D'Arce and back takes"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "near arm / triceps"
+        ],
+        "mechanism": "Arm controlled at the elbow/triceps"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head",
+      "upper_arm"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "front_headlock",
+        "attacker_role": "either",
+        "note": "The position itself"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Against turtle"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "After sprawling on a shot"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal control; pulling the head down with no choke can be ruled a spinal lock (row 22) if applied as a submission."
+    },
+    "summary": "Head-and-arm control from the front, hub of the guillotine/D'Arce/anaconda system.",
+    "sources": [
+      {
+        "ref": "danaher-fhl",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 5 Clinch Phase",
+        "url": ""
+      },
+      {
+        "ref": "evolve-front-headlock",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "collar_tie",
+    "name": "Collar tie",
+    "aliases": [
+      "Neck tie",
+      "Inside collar tie",
+      "Russian tie (arm variant)"
+    ],
+    "category": "control",
+    "subcategory": "head_control",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "posterior neck / trapezius",
+        "cervical spine (flexion)"
+      ],
+      "mechanism": "Hand cups the back of the neck with the forearm on the chest; pulling down forces the opponent's head and posture forward, enabling snap-downs, duck-unders and shots"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "occiput"
+        ],
+        "mechanism": "Head pulled down"
+      }
+    ],
+    "grip_regions": [
+      "neck",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "neck",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Wrestling clinch control; in the gi, the collar grip plays the same role"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal."
+    },
+    "summary": "Hand behind the neck in the standing clinch to break posture and control the head.",
+    "sources": [
+      {
+        "ref": "jitsuiq-collar-tie",
+        "locator": "",
+        "url": "https://jitsuiq.com/grips/body-grips/collar-tie.html"
+      },
+      {
+        "ref": "evolve-collar-tie",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 5 Clinch Phase",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "overhook",
+    "name": "Overhook",
+    "aliases": [
+      "Whizzer",
+      "Overhook control"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "upper arm / shoulder girdle",
+        "torso"
+      ],
+      "mechanism": "Attacker's arm wraps over the opponent's arm and clamps it to the ribs, controlling the shoulder and torso; used to stop underhooks, break posture in guard and set up chokes"
+    },
+    "secondary_targets": [
+      {
+        "region": "chest",
+        "structures": [
+          "ribcage"
+        ],
+        "mechanism": "Arm clamped against the torso"
+      }
+    ],
+    "grip_regions": [
+      "upper_arm",
+      "shoulder",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "closed_guard",
+        "attacker_role": "bottom",
+        "note": "Overhook guard: setups for triangles, omoplata and loop/brabo chokes"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Whizzer counters a single leg or underhook"
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Whizzer to kill the bottom underhook"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal."
+    },
+    "summary": "Arm over the opponent's arm clamping it to the torso; the counter to the underhook.",
+    "sources": [
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 5 Clinch Phase",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Guard chapter",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Primary target is arguably shoulder; listed here because it is a torso control."
+  },
+  {
+    "id": "seat_belt",
+    "name": "Seat belt",
+    "aliases": [
+      "Seatbelt grip",
+      "Harness",
+      "Over-under back grip"
+    ],
+    "category": "control",
+    "subcategory": "grip",
+    "primary_target": {
+      "region": "chest",
+      "structures": [
+        "upper torso / shoulder girdle"
+      ],
+      "mechanism": "One arm over the opponent's shoulder and the other under the opposite armpit, hands clasped on the chest; locks the attacker's chest to the opponent's back and controls the upper body, the standard precursor to the rear naked choke"
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "shoulders"
+        ],
+        "mechanism": "Shoulder line controlled"
+      }
+    ],
+    "grip_regions": [
+      "chest",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Core back-control grip (with hooks)"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Seat belt before inserting hooks"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Rear standing clinch"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal; back control scores 4 points when hooks are in and the position is held 3 s (Art. 4.5)."
+    },
+    "summary": "Over-under chest grip from behind; the foundation of back control.",
+    "sources": [
+      {
+        "ref": "evolve-seat-belt",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/a-beginners-guide-to-the-seat-belt-in-bjj/"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Submissions chapter (back control)",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "Art. 4.5",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "crucifix_control",
+    "name": "Crucifix control",
+    "aliases": [
+      "Crucifix position",
+      "Jigoku jime position"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "shoulder",
+      "structures": [
+        "both arms / shoulders (spread)",
+        "upper back"
+      ],
+      "mechanism": "From the back/turtle, one of the opponent's arms is trapped between the attacker's legs and the other by the attacker's arm, leaving both arms unable to defend the neck"
+    },
+    "secondary_targets": [
+      {
+        "region": "neck",
+        "structures": [
+          "neck exposed for chokes"
+        ],
+        "mechanism": "Neck is defenceless"
+      }
+    ],
+    "grip_regions": [
+      "upper_arm",
+      "shoulder",
+      "forearm"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "crucifix",
+        "attacker_role": "top",
+        "note": "Reached from turtle, failed single leg or fireman's carry"
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Entry"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Position is legal at all levels; only the neck-crank finish is prohibited."
+    },
+    "summary": "Back-side control with the opponent's arms spread by legs and arm; sets up collar and arm chokes.",
+    "sources": [
+      {
+        "ref": "kesting-crucifix",
+        "locator": "",
+        "url": "https://www.grapplearts.com/a-confusion-of-crucifixes/"
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "knee_on_belly",
+    "name": "Knee on belly",
+    "aliases": [
+      "Knee ride",
+      "Knee mount",
+      "Uki gatame"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "abdomen",
+      "structures": [
+        "abdominal wall / solar plexus",
+        "lower ribs",
+        "diaphragm"
+      ],
+      "mechanism": "Top player places the knee or shin on the opponent's belly, chest or ribs with the other foot posted; body weight drives through the knee, restricting breathing and movement while the attacker stays mobile"
+    },
+    "secondary_targets": [
+      {
+        "region": "chest",
+        "structures": [
+          "ribcage"
+        ],
+        "mechanism": "Knee can ride up onto the chest"
+      }
+    ],
+    "grip_regions": [
+      "abdomen",
+      "chest",
+      "neck"
+    ],
+    "demo_motion": {
+      "joint": "spine",
+      "axis": "compression",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "The position itself; transitions from side control"
+      },
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Entry"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal; Art. 4.3: 2 points when the knee/shin closest to the hip is on the belly, chest or ribs, other knee off the ground, held 3 s with the opponent on back or side."
+    },
+    "summary": "Knee driven into the belly with the other foot posted: a mobile 2-point pin that drains the opponent and opens collar chokes.",
+    "sources": [
+      {
+        "ref": "ibjjf2024",
+        "locator": "Art. 4.3 Knee on Belly (2 points)",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "Survival chapter (knee on belly)",
+        "url": ""
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 8",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "chest_to_chest_pressure",
+    "name": "Chest-to-chest side control pressure",
+    "aliases": [
+      "Side control (100 kilos)",
+      "Yoko shiho gatame",
+      "Cross-side pressure"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "chest",
+      "structures": [
+        "sternum / ribcage",
+        "diaphragm"
+      ],
+      "mechanism": "Attacker's chest is driven across the opponent's chest with hips low and weight off the knees, compressing the ribcage and limiting breathing; combined with cross-face and underhook to immobilise the shoulders"
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "face"
+        ],
+        "mechanism": "Cross-face often added"
+      },
+      {
+        "region": "shoulder",
+        "structures": [
+          "far shoulder"
+        ],
+        "mechanism": "Underhook pins the far shoulder"
+      }
+    ],
+    "grip_regions": [
+      "chest",
+      "shoulder",
+      "head",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "spine",
+      "axis": "compression",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Ribeiro's side-control survival chapter is built around escaping this pressure"
+      },
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": "Pressure shifts to the chest/face"
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Low mount chest pressure"
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal; passing to side control scores 3 points (guard pass), side control itself scores none."
+    },
+    "summary": "Heavy chest-on-chest pin from side control; the baseline control every escape chapter begins with.",
+    "sources": [
+      {
+        "ref": "ribeiro2008",
+        "locator": "Survival chapter (side control)",
+        "url": ""
+      },
+      {
+        "ref": "gracie2003",
+        "locator": "Ch. 8 Winning From the Top Position",
+        "url": ""
+      },
+      {
+        "ref": "gracie2001",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "no_gi_hand_strangle",
+    "name": "Hand-on-throat strangle (illegal)",
+    "aliases": [
+      "Throat grab",
+      "Thumb on windpipe",
+      "Nose/mouth smother"
+    ],
+    "category": "choke",
+    "subcategory": "air_choke",
+    "primary_target": {
+      "region": "neck",
+      "structures": [
+        "trachea / larynx",
+        "hyoid"
+      ],
+      "mechanism": "Direct squeezing of the throat with one or both hands, thumb pressure on the windpipe, or covering the nose/mouth; closes the airway rather than the carotids"
+    },
+    "secondary_targets": [],
+    "grip_regions": [
+      "neck",
+      "head"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Self-defence context only"
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": ""
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "never",
+      "gi": false,
+      "nogi": false,
+      "note": "6.2.3-I: strangling without the gi with one or both hands around the neck, or thumb pressure on the windpipe, is a severe foul (DQ); 6.2.3-J: blocking the nose/mouth with the hands is a severe foul."
+    },
+    "summary": "Bare-hand throat strangle or smother; explicitly a disqualifying foul in IBJJF competition.",
+    "sources": [
+      {
+        "ref": "ibjjf2024",
+        "locator": "Art. 6.2.3 I and J",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-chokehold",
+        "locator": "air choke",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Included so the app can show why hand-on-throat is never an option in sport BJJ."
+  }
+]

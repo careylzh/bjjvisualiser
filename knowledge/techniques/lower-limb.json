@@ -1,0 +1,2529 @@
+[
+  {
+    "id": "straight_ankle_lock",
+    "name": "Straight ankle lock",
+    "aliases": [
+      "Achilles lock",
+      "Straight foot lock",
+      "Botinha",
+      "Ashi-hishigi",
+      "Akiresuken-gatame"
+    ],
+    "category": "joint_lock",
+    "subcategory": "ankle_lock",
+    "primary_target": {
+      "region": "ankle",
+      "structures": [
+        "talocrural (tibiotalar) joint",
+        "Achilles tendon (fulcrum, compression)",
+        "anterior ankle capsule",
+        "superficial deltoid ligament (tibionavicular, tibiospring bands)",
+        "tibialis anterior / EDL / EHL (stretched)"
+      ],
+      "mechanism": "Attacker's forearm blade is wedged across the Achilles just above the heel and the foot is clamped in the armpit; arching the hips forward drives a posterior-to-anterior force that forces the tibiotalar joint into maximal plantarflexion while the Achilles is compressed against the radius."
+    },
+    "secondary_targets": [
+      {
+        "region": "foot",
+        "structures": [
+          "ATFL",
+          "CFL (lateral ankle ligaments)"
+        ],
+        "mechanism": "If the foot is allowed to invert during the finish, the lateral ankle ligaments load like a rolled ankle (Hasegawa 2026)."
+      },
+      {
+        "region": "knee",
+        "structures": [
+          "tibiofemoral joint"
+        ],
+        "mechanism": "The attacker's inside foot on the hip and knee pinch below the knee isolate the leg; turning toward the free leg (illegal below brown) adds knee torsion."
+      }
+    ],
+    "grip_regions": [
+      "ankle",
+      "foot",
+      "shin_calf",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "ankle",
+      "axis": "plantarflexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "ashi_garami",
+        "attacker_role": "bottom",
+        "note": "Standard ashi / single-leg X: outside foot on the hip, inside leg hooks the thigh; the 'jab of leglocks' (Kesting & Biernacki)."
+      },
+      {
+        "position": "single_leg_x",
+        "attacker_role": "bottom",
+        "note": "Same entanglement; white belts may only finish turning toward the attacked foot (away from the free leg)."
+      },
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Both players have identical access; common gi entry."
+      },
+      {
+        "position": "outside_ashi",
+        "attacker_role": "bottom",
+        "note": "Cross/outside ashi gives a tighter 'cross ankle lock' (Kesting & Biernacki)."
+      },
+      {
+        "position": "de_la_riva",
+        "attacker_role": "bottom",
+        "note": "Caio Terra-style DLR ankle lock: ankle-lock grip on the near ankle while the DLR hook pushes the knee (cheat sheet position 10)."
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Top player sits back on a trapped leg (back-step) into ashi garami."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal for all adult belts (banned 4–15). Until brown belt the attacker may NOT turn in the direction of the foot not under attack (table row 16); knee-reaping configurations remain illegal in gi."
+    },
+    "summary": "The one leg lock every white belt may compete with: wedge the forearm under the Achilles, hug the foot in the armpit, and extend the hips to hyper-plantarflex the ankle.",
+    "sources": [
+      {
+        "ref": "hasegawa2026",
+        "locator": "pp. 136–137, 'Toe hold/Straight ankle lock', Fig. 4c/4e",
+        "url": "https://hawaiijournalhealth.org/past_issues/hjhsw8506_0132.pdf"
+      },
+      {
+        "ref": "digitsu-sal101",
+        "locator": "",
+        "url": "https://digitsu.com/a/straight-ankle-lock-101"
+      },
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "positions 1, 2, 10",
+        "url": "https://www.grapplearts.com/wp-content/uploads/2017/07/Modern-Leglocks-position-cheat-sheet.pdf"
+      },
+      {
+        "ref": "kesting-aoki2023",
+        "locator": "",
+        "url": "https://www.grapplearts.com/?p=24529"
+      },
+      {
+        "ref": "wikipedia-leglock",
+        "locator": "Ankle locks",
+        "url": "https://en.wikipedia.org/wiki/Leglock"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 rows 3 and 16",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Kesting notes two competing pain mechanisms – foot hyperextension (plantarflexion) vs. Achilles compression – which one dominates depends on grip and anatomy."
+  },
+  {
+    "id": "outside_heel_hook",
+    "name": "Outside heel hook",
+    "aliases": [
+      "Standard heel hook",
+      "Heel hook"
+    ],
+    "category": "joint_lock",
+    "subcategory": "knee_lock",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "anterior cruciate ligament (ACL)",
+        "posterior cruciate ligament (PCL, esp. 90–120° flexion)",
+        "medial collateral ligament / posteromedial corner (POL)",
+        "posterior horn of medial meniscus"
+      ],
+      "mechanism": "The heel (calcaneal tuberosity) is cupped in the crook of the elbow/wrist blade and twisted laterally outward while the attacker's legs pin the femur and knee line; because the hip and femur are fixed, the torque becomes maximal INTERNAL rotation of the tibia on the femur. The foot ends plantarflexed, inverted and supinated (toe-hold-like)."
+    },
+    "secondary_targets": [
+      {
+        "region": "ankle",
+        "structures": [
+          "ATFL",
+          "CFL",
+          "subtalar joint"
+        ],
+        "mechanism": "Inversion/supination loads the lateral ankle ligaments first; in outside hooks the ankle absorbs some torque before the knee (Piekarski)."
+      },
+      {
+        "region": "foot",
+        "structures": [
+          "calcaneus",
+          "peroneal tendons"
+        ],
+        "mechanism": "Heel is the lever; peroneals may be compressed in the fibular groove."
+      }
+    ],
+    "grip_regions": [
+      "foot",
+      "ankle",
+      "shin_calf",
+      "thigh",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "ashi_garami",
+        "attacker_role": "bottom",
+        "note": "Standard ashi / SLX: the basic outside heel hook; less control than closed-circuit positions."
+      },
+      {
+        "position": "outside_ashi",
+        "attacker_role": "bottom",
+        "note": "Double-outside ashi (closed circuit, ankles crossed, outside foot on top) – improved control and power (Kesting & Biernacki position 3)."
+      },
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Available when the opponent's foot turns outward; also from backside 50/50."
+      },
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "Secondary option from inside sankaku if the foot turns out (Digitsu)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": false,
+      "nogi": true,
+      "note": "Illegal in all gi divisions and all Master no-gi divisions; legal only in Adult (not Master) brown/black no-gi since 2021 (table row 17)."
+    },
+    "summary": "Heel cupped in the elbow and rotated away from the opponent's midline while the legs lock the knee line; the twist drives rotational torque straight into the knee ligaments.",
+    "sources": [
+      {
+        "ref": "hasegawa2026",
+        "locator": "pp. 137–138 'Heel Hook', Fig. 5a/5c",
+        "url": "https://hawaiijournalhealth.org/past_issues/hjhsw8506_0132.pdf"
+      },
+      {
+        "ref": "baker2010",
+        "locator": "abstract: knee flexed, valgus, internal rotation force on the tibia → complete ACL rupture + MCL injury",
+        "url": "https://www.springermedizin.de/anterior-cruciate-ligament-rupture-secondary-to-a-heel-hook-a-da/8135590"
+      },
+      {
+        "ref": "bjjee-piekarski-heelhook",
+        "locator": "",
+        "url": "https://www.bjjee.com/articles/whats-more-dangerous-reverse-or-outside-heelhook/"
+      },
+      {
+        "ref": "digitsu-outside-heel-hook",
+        "locator": "",
+        "url": "https://digitsu.com/t/outside-heel-hook"
+      },
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "positions 1, 3",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 17",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Terminology conflict: many coaching sites say the outside heel hook causes 'external rotation at the knee' (describing the heel's travel). The peer-reviewed review (Hasegawa 2026) and Baker's case report describe the anatomical result as tibial INTERNAL rotation, which is what this entry follows. Danaher's 'Enter the System' groups it under ashi garami / outside ashi."
+  },
+  {
+    "id": "inside_heel_hook",
+    "name": "Inside heel hook",
+    "aliases": [
+      "Inverted heel hook",
+      "Reverse heel hook",
+      "Inside heel hook from the saddle"
+    ],
+    "category": "joint_lock",
+    "subcategory": "knee_lock",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "posterolateral corner: LCL, popliteus tendon, popliteofibular ligament, fabellofibular & arcuate ligaments, biceps femoris tendon",
+        "MCL (secondary restraint)",
+        "anterior horn of medial meniscus",
+        "cruciate ligaments"
+      ],
+      "mechanism": "Attacker's body is on the inside of the leg line (inside sankaku / saddle); the heel is trapped against the attacker's side and rotated toward the opponent's midline while the knees pinch the femur. With the femur fixed, the tibia is driven into maximal EXTERNAL rotation; the foot ends dorsiflexed and everted. Because the thick deltoid ligament limits eversion, the ankle absorbs almost nothing and the full torque reaches the knee quickly."
+    },
+    "secondary_targets": [
+      {
+        "region": "ankle",
+        "structures": [
+          "deltoid ligament",
+          "medial malleolus (avulsion)"
+        ],
+        "mechanism": "Eversion is resisted by the deltoid; it tends to avulse bone rather than tear (Piekarski)."
+      },
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint"
+        ],
+        "mechanism": "Attacker's inside leg wedges across the hip line so the opponent cannot turn to follow the rotation."
+      }
+    ],
+    "grip_regions": [
+      "foot",
+      "ankle",
+      "shin_calf",
+      "thigh",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "external_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "Inside sankaku / 411 / honey hole – the signature and strongest finishing position (Kesting & Biernacki position 7; Digitsu)."
+      },
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Closed-circuit 50/50 gives the 'reverse heel hook' to both players; the 80/20 variant hides your own inside knee."
+      },
+      {
+        "position": "outside_ashi",
+        "attacker_role": "bottom",
+        "note": "Cross ashi (topside ashi): leg switched across the body gives the reverse heel hook (cheat sheet position 2)."
+      },
+      {
+        "position": "other",
+        "attacker_role": "bottom",
+        "note": "Backside 50/50 – see separate entry."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": false,
+      "nogi": true,
+      "note": "Illegal in gi at every belt and in all Master divisions; legal only Adult brown/black no-gi (table row 17). The saddle also involves reaping configurations illegal in gi (row 19)."
+    },
+    "summary": "The most feared leg lock: from the saddle, trap the heel against your ribs and turn toward the opponent's knee; the torque isolates at the knee and ligaments can fail before pain registers.",
+    "sources": [
+      {
+        "ref": "hasegawa2026",
+        "locator": "pp. 137–138 'Heel Hook', Fig. 5b/5d",
+        "url": "https://hawaiijournalhealth.org/past_issues/hjhsw8506_0132.pdf"
+      },
+      {
+        "ref": "reed2022",
+        "locator": "",
+        "url": "https://thebjjphysio.substack.com/p/understanding-the-inside-heel-hook"
+      },
+      {
+        "ref": "bjjee-piekarski-heelhook",
+        "locator": "",
+        "url": "https://www.bjjee.com/articles/whats-more-dangerous-reverse-or-outside-heelhook/"
+      },
+      {
+        "ref": "digitsu-inside-heel-hook",
+        "locator": "",
+        "url": "https://digitsu.com/t/inside-heel-hook"
+      },
+      {
+        "ref": "digitsu-cross-ashi",
+        "locator": "",
+        "url": "https://digitsu.com/t/cross-ashi-garami"
+      },
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "positions 2, 4, 5, 7",
+        "url": ""
+      },
+      {
+        "ref": "danaher-leglocks-ets",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 rows 17–19",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Most BJJ blogs label the inside heel hook 'internal rotation' and credit it with ACL/MCL tears; the orthopaedic review assigns it external tibial rotation (posterolateral corner first) and assigns the ACL/MCL pattern to the outside hook. The eversion/deltoid explanation (Reed; Piekarski) is consistent with the review. 'Inverted/reverse heel hook' is the same mechanism entered with the foot in the opposite armpit."
+  },
+  {
+    "id": "backside_5050_heel_hook",
+    "name": "Backside 50/50 heel hook",
+    "aliases": [
+      "Backside 50-50",
+      "Rear 50/50"
+    ],
+    "category": "joint_lock",
+    "subcategory": "knee_lock",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "posterolateral corner (LCL, popliteus, popliteofibular lig.)",
+        "cruciate ligaments",
+        "menisci"
+      ],
+      "mechanism": "An ashi garami in which the attacker's hips face AWAY from the opponent and the outside hip sits on the trapped leg; inside leg hooks behind the knee, outside leg crosses the thigh, knees pinch. The foot is pulled to the chest with toes on the attacker's centreline and the body rotated – an inside-heel-hook (external tibial rotation) finish with the opponent unable to turn in."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint / pelvis"
+        ],
+        "mechanism": "Attacker's hip sits low on the knee, pinning the hip line so the opponent cannot 'boot-scoot' or spin to relieve pressure."
+      }
+    ],
+    "grip_regions": [
+      "foot",
+      "ankle",
+      "knee",
+      "thigh",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "external_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Entered by turning away from a normal 50/50 or from a failed saddle / rolling back take; transitions back to 50/50."
+      },
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "Backside entries from 50/50 are a listed route into the saddle (Digitsu)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": false,
+      "nogi": true,
+      "note": "Heel hook rules apply (row 17): Adult brown/black no-gi only; the leg configuration is also a reap in gi."
+    },
+    "summary": "A 50/50 played with your back to the opponent: hips heavy on their knee, foot hugged to the chest, finished with an inside heel hook they cannot turn away from.",
+    "sources": [
+      {
+        "ref": "digitsu-backside-5050",
+        "locator": "",
+        "url": "https://digitsu.com/t/backside-50-50"
+      },
+      {
+        "ref": "digitsu-outside-heel-hook",
+        "locator": "lists backside 50-50 as a key position",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 17",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Single detailed source for the configuration; popularisation (often credited to Lachlan Giles / Craig Jones) not verified."
+  },
+  {
+    "id": "kneebar",
+    "name": "Kneebar",
+    "aliases": [
+      "Hiza-juji-gatame",
+      "Leg bar",
+      "Knee lock",
+      "Straight knee lock"
+    ],
+    "category": "joint_lock",
+    "subcategory": "knee_lock",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "posteromedial capsule and posterior oblique ligament (>50% of hyperextension resistance)",
+        "posterolateral capsule / fabellofibular ligament",
+        "ACL and PCL (~25%)",
+        "LCL, popliteus tendon, popliteofibular ligament",
+        "MCL, oblique popliteal ligament",
+        "hamstring and gastrocnemius (stretched)"
+      ],
+      "mechanism": "The leg is trapped between the attacker's thighs with the opponent's kneecap against the attacker's hip and the foot pinned at the chest/armpit; hip extension applies a force vector perpendicular to the knee in an anterior-to-posterior direction, driving the tibiofemoral joint into supraphysiologic hyperextension (normal range only ~5–10°). In practice varus/valgus and torsion are added."
+    },
+    "secondary_targets": [
+      {
+        "region": "ankle",
+        "structures": [
+          "Achilles tendon",
+          "talocrural joint"
+        ],
+        "mechanism": "Foot is often hugged in an Achilles-lock grip; pulling the heel adds plantarflexion."
+      },
+      {
+        "region": "hips",
+        "structures": [
+          "hip flexors",
+          "hamstrings"
+        ],
+        "mechanism": "Posture of the trapped hip is controlled by the attacker's legs; Suloev stretch variants load hamstring/hip first."
+      }
+    ],
+    "grip_regions": [
+      "ankle",
+      "foot",
+      "shin_calf",
+      "thigh",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Top player back-steps / spins over the trapped leg when it straightens."
+      },
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Spinning kneebar when the bottom player bridges or pushes the hips (JitsuIQ)."
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Rolling kneebar: hook behind the knee left between your legs and roll under (Digitsu/Koepfer, Humphreys)."
+      },
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Extend the trapped leg across the body from 50/50 or the 90/10."
+      },
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "Lateral kneebar: lie flat and extend the trapped leg from inside sankaku (Sweet Science of Fighting position B2)."
+      },
+      {
+        "position": "x_guard",
+        "attacker_role": "bottom",
+        "note": "Isolate the leg during the sweep; also from single-leg X."
+      },
+      {
+        "position": "other",
+        "attacker_role": "top",
+        "note": "Rear ashi ('kneebar in progress'): sitting on the diaphragm facing the legs after a back-step pass (Kesting & Biernacki position 8)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": true,
+      "nogi": true,
+      "note": "Table row 14: illegal for 4–17, white, blue, purple; legal brown/black gi and no-gi."
+    },
+    "summary": "An armbar on the leg: pinch the thigh, hug the foot, hips through the kneecap – the knee hyperextends and the posterior capsule and cruciates give way.",
+    "sources": [
+      {
+        "ref": "hasegawa2026",
+        "locator": "pp. 135–136 'Knee Bar', Fig. 4a",
+        "url": "https://hawaiijournalhealth.org/past_issues/hjhsw8506_0132.pdf"
+      },
+      {
+        "ref": "wikipedia-leglock",
+        "locator": "Kneebar",
+        "url": "https://en.wikipedia.org/wiki/Leglock"
+      },
+      {
+        "ref": "jitsuiq-kneebar",
+        "locator": "",
+        "url": "https://jitsuiq.com/submissions/locks/joint-locks/kneebar.html"
+      },
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "position 8 (Rear Ashi)",
+        "url": ""
+      },
+      {
+        "ref": "ssof-leglock-positions",
+        "locator": "B2 lateral kneebar, B3 classic kneebar",
+        "url": "https://sweetscienceoffighting.com/leg-lock-positions/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 14",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Hasegawa cites Noyes et al. for the hyperextension-restraint ordering; a case of intra-articular patellar dislocation after a kneebar is reported but rare."
+  },
+  {
+    "id": "toe_hold",
+    "name": "Toe hold",
+    "aliases": [
+      "Figure-four foot lock",
+      "Ashi-dori-garami",
+      "Twisting foot lock",
+      "Mata leão no pé"
+    ],
+    "category": "joint_lock",
+    "subcategory": "ankle_lock",
+    "primary_target": {
+      "region": "ankle",
+      "structures": [
+        "talocrural (tibiotalar) joint",
+        "subtalar joint",
+        "anterior talofibular ligament (ATFL)",
+        "calcaneofibular ligament (CFL)",
+        "peroneal tendons (peroneus brevis in the fibular groove)"
+      ],
+      "mechanism": "Figure-four (kimura-style) grip: one hand over the toes/outside of the foot, the other arm under the shin gripping the wrist. The foot is folded down and in – plantarflexion + inversion + supination of the tibiotalar and subtalar joints – with a fulcrum across the Achilles/medial ankle; the same position as a severe rolled ankle."
+    },
+    "secondary_targets": [
+      {
+        "region": "knee",
+        "structures": [
+          "tibiofemoral joint (internal rotation restraints: ACL, posteromedial corner)"
+        ],
+        "mechanism": "Once the foot reaches end-range, the torque transfers as maximal internal rotation at the knee (Hasegawa 2026)."
+      },
+      {
+        "region": "foot",
+        "structures": [
+          "metatarsals",
+          "midfoot"
+        ],
+        "mechanism": "Grip on the toes levers the forefoot; 'outward pressure on the foot' (forcing eversion) is a separate illegal variant below adult brown/black no-gi."
+      }
+    ],
+    "grip_regions": [
+      "foot",
+      "ankle",
+      "shin_calf",
+      "knee"
+    ],
+    "demo_motion": {
+      "joint": "ankle",
+      "axis": "inversion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Legs intertwined give direct access to the foot (JitsuIQ)."
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Reach back and figure-four the trapped foot while the knee is controlled (JitsuIQ; Evolve)."
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Attack the exposed foot of a turtled opponent (JitsuIQ)."
+      },
+      {
+        "position": "ashi_garami",
+        "attacker_role": "bottom",
+        "note": "Chained from a failed straight ankle lock once angled off the foot; also from outside ashi and inside ashi (Kesting & Biernacki position 6)."
+      },
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "Z-lock and kneebar chains keep the toe hold live (Digitsu Z-lock)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": true,
+      "nogi": true,
+      "note": "Row 15: brown/black only (gi and no-gi). Row 20: applying OUTWARD pressure on the foot is illegal everywhere except Adult brown/black no-gi."
+    },
+    "summary": "Kimura grip on the foot: turn the toes toward the opponent's buttock so the ankle folds down-and-in; the lateral ankle ligaments and then the knee take the torque.",
+    "sources": [
+      {
+        "ref": "hasegawa2026",
+        "locator": "pp. 136–137, Fig. 4b/4d",
+        "url": "https://hawaiijournalhealth.org/past_issues/hjhsw8506_0132.pdf"
+      },
+      {
+        "ref": "jitsuiq-toe-hold",
+        "locator": "",
+        "url": "https://jitsuiq.com/submissions/locks/joint-locks/toe-hold.html"
+      },
+      {
+        "ref": "evolve-toe-hold",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/bjj-101-the-toe-hold/"
+      },
+      {
+        "ref": "wikipedia-leglock",
+        "locator": "Toe hold",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 rows 15 and 20",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Hinz 2021 (cited by Hasegawa) implicates toe holds and straight ankle locks as a major cause of ligamentous ankle injury in BJJ."
+  },
+  {
+    "id": "calf_slicer",
+    "name": "Calf slicer",
+    "aliases": [
+      "Calf crusher",
+      "Calf cutter",
+      "Knee slicer",
+      "Knee separator",
+      "Hiza-hishigi"
+    ],
+    "category": "compression",
+    "subcategory": "muscle_slicer",
+    "primary_target": {
+      "region": "shin_calf",
+      "structures": [
+        "gastrocnemius",
+        "soleus",
+        "popliteal fossa neurovascular bundle (tibial nerve, popliteal vessels)",
+        "proximal tibiofibular region"
+      ],
+      "mechanism": "A rigid wedge (attacker's shin or forearm) is placed deep behind the knee and the opponent's heel is pulled toward the buttock; forced knee flexion over the fulcrum compresses the calf musculature and posterior knee against the wedge, with hip extension adding force."
+    },
+    "secondary_targets": [
+      {
+        "region": "knee",
+        "structures": [
+          "tibiofemoral joint",
+          "posterior capsule",
+          "cruciate ligaments"
+        ],
+        "mechanism": "Continued pressure hyperflexes and levers the joint open (the 'knee separator'); Wikipedia and Digitsu note potential joint separation / ACL-PCL stress."
+      }
+    ],
+    "grip_regions": [
+      "foot",
+      "ankle",
+      "shin_calf",
+      "knee"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "flexion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "other",
+        "attacker_role": "top",
+        "note": "Truck (10th Planet back-control leg entanglement): lockdown on one leg while the other is pulled – the classic entry (Bravo vs Royler, Metamoris III)."
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Back-step over the entangled leg from top half guard / DLR with the shin already behind the knee."
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Lockdown switched to a figure-four from bottom half guard."
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Hook the near leg from behind a turtled opponent with the shin on the calf."
+      },
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "Sit down on the foot with the forearm behind the knee (LowKick)."
+      },
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Listed entry; also as a follow-up to a failed kneebar (Digitsu)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": true,
+      "nogi": true,
+      "note": "Row 13: brown/black only, gi and no-gi."
+    },
+    "summary": "A compression lock, not a joint lock: your shin or forearm behind the knee becomes a blade the calf is folded over when you pull the heel to the buttock.",
+    "sources": [
+      {
+        "ref": "digitsu-calf-slicer",
+        "locator": "",
+        "url": "https://digitsu.com/t/calf-slicer"
+      },
+      {
+        "ref": "lowkick-calf-slicer",
+        "locator": "",
+        "url": "https://lowkickmma.com/calf-slicer-bjj-submission"
+      },
+      {
+        "ref": "wikipedia-leglock",
+        "locator": "Calf crush",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-eddie-bravo",
+        "locator": "Metamoris III vs Royler Gracie",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 13",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Specific muscles (gastrocnemius/soleus) are the author's anatomical gloss – sources say 'calf muscle'. Not covered in the Hasegawa review."
+  },
+  {
+    "id": "estima_lock",
+    "name": "Estima lock",
+    "aliases": [
+      "Estima footlock",
+      "Victor Estima lock"
+    ],
+    "category": "joint_lock",
+    "subcategory": "ankle_lock",
+    "primary_target": {
+      "region": "foot",
+      "structures": [
+        "subtalar joint",
+        "talocrural joint",
+        "lateral ankle ligaments (ATFL, CFL)",
+        "midfoot"
+      ],
+      "mechanism": "The opponent's foot is pushing on the attacker's hip/abdomen; the attacker wraps one forearm under the Achilles and heel (rear-naked-choke style), clasps the other hand over the top of the foot and pins the dorsum against the belly with the toes pointing inward, then rotates the torso toward the foot and drives the hips forward – forcing plantarflexion + inversion, a toe-hold-type torque."
+    },
+    "secondary_targets": [
+      {
+        "region": "knee",
+        "structures": [
+          "tibiofemoral rotation restraints"
+        ],
+        "mechanism": "Residual torque passes to the knee once the foot is at end range, as with any twisting foot lock."
+      }
+    ],
+    "grip_regions": [
+      "foot",
+      "ankle",
+      "shin_calf"
+    ],
+    "demo_motion": {
+      "joint": "ankle",
+      "axis": "inversion",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "open_guard",
+        "attacker_role": "top",
+        "note": "Counter to a foot on the hip/abdomen while knee-cutting or pressure passing (Braulio Estima's demonstration)."
+      },
+      {
+        "position": "reverse_de_la_riva",
+        "attacker_role": "top",
+        "note": "Against the RDLR/foot-on-hip frame."
+      },
+      {
+        "position": "lasso_guard",
+        "attacker_role": "top",
+        "note": "Counter to the lasso hook (Digitsu)."
+      },
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Also from single-leg X and X-guard bottom (Digitsu)."
+      },
+      {
+        "position": "standing",
+        "attacker_role": "standing",
+        "note": "Torreando passing and scrambles when the opponent pushes off with a foot."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": true,
+      "nogi": true,
+      "note": "Not named in the rulebook; its twisting mechanics place it in the toe-hold class (row 15) – brown/black. Victor Estima won the 2011 IBJJF No-Gi Worlds with it."
+    },
+    "summary": "Catch a foot that is pushing on your hip, wrap the heel RNC-style, pin the top of the foot to your belly and turn – a toe hold without a figure-four.",
+    "sources": [
+      {
+        "ref": "digitsu-estima",
+        "locator": "",
+        "url": "https://digitsu.com/t/estima-lock"
+      },
+      {
+        "ref": "evolve-estima",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/everything-you-need-to-know-about-the-estima-lock/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 15 (by class)",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "IBJJF classification inferred from mechanics, not stated in the rulebook."
+  },
+  {
+    "id": "aoki_lock",
+    "name": "Aoki lock",
+    "aliases": [
+      "Shadow-hook heel hook",
+      "Hidden-heel inside heel hook"
+    ],
+    "category": "joint_lock",
+    "subcategory": "knee_lock",
+    "primary_target": {
+      "region": "ankle",
+      "structures": [
+        "medial ankle (deltoid) ligaments",
+        "talocrural joint",
+        "knee rotational restraints (medial side per Evolve; posterolateral per the inside-heel-hook anatomy)"
+      ],
+      "mechanism": "From a straight-ashi/ankle-lock type hold where the heel is hidden, the elbow goes under the foot and an RNC-style grip is taken on the attacker's own shoulders; the foot is turned outward and the heel inward so the ankle is held in outward rotation, then a linear (ankle) and rotational (knee) force is applied – 'essentially an inside heel hook twisting the leg outward' (Kesting)."
+    },
+    "secondary_targets": [
+      {
+        "region": "knee",
+        "structures": [
+          "tibiofemoral joint ligaments"
+        ],
+        "mechanism": "Rotational finish transfers torque to the knee like an inverted heel hook (Evolve)."
+      },
+      {
+        "region": "foot",
+        "structures": [
+          "ankle mortise, malleoli"
+        ],
+        "mechanism": "Kesting warns of broken ankle bones."
+      }
+    ],
+    "grip_regions": [
+      "foot",
+      "ankle",
+      "shin_calf",
+      "thigh"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "external_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "ashi_garami",
+        "attacker_role": "bottom",
+        "note": "Knee outside the opponent's knee, foot under the hamstring, other leg across the glute (Evolve)."
+      },
+      {
+        "position": "single_leg_x",
+        "attacker_role": "bottom",
+        "note": "Same entanglement family; used when heel exposure for a normal heel hook is unavailable."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": false,
+      "nogi": true,
+      "note": "Not named in the rulebook; as a heel hook / knee-twisting lock (rows 17–18) it is illegal in gi and legal only Adult brown/black no-gi."
+    },
+    "summary": "Named for Shinya Aoki: an ankle-lock grip with the elbow under the foot that twists the leg outward, turning a straight foot lock into an inside-heel-hook-type attack.",
+    "sources": [
+      {
+        "ref": "kesting-aoki2023",
+        "locator": "",
+        "url": "https://www.grapplearts.com/?p=24529"
+      },
+      {
+        "ref": "evolve-aoki",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/what-is-the-aoki-lock/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 rows 17–18 (by class)",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Origin story not verified (one low-quality source cites Aoki vs Kawajiri, Dream 15). Mikey Musumeci submitted Aoki with it at ONE Fight Night 15 (2023). Exact ligament pattern is extrapolated from the inside heel hook."
+  },
+  {
+    "id": "texas_cloverleaf",
+    "name": "Texas cloverleaf",
+    "aliases": [
+      "Cloverleaf",
+      "Clover leaf"
+    ],
+    "category": "joint_lock",
+    "subcategory": "knee_lock",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "tibiofemoral joint (hyperextension/rotation restraints of the trapped leg)",
+        "Achilles tendon and talocrural joint of the top leg",
+        "hip adductors / lumbar spine (pro-wrestling version)"
+      ],
+      "mechanism": "From inside sankaku, the far (top) leg is pulled over and held with a straight-ankle-lock grip while the arm is woven between the legs into a gable grip; driving the hips in while on the side applies a combined kneebar on the trapped leg, Achilles compression and straight ankle lock on the top foot (Seph Smith / Harriott description)."
+    },
+    "secondary_targets": [
+      {
+        "region": "ankle",
+        "structures": [
+          "Achilles tendon",
+          "tibiotalar joint"
+        ],
+        "mechanism": "The top foot is plantarflexed over the forearm."
+      },
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint",
+          "adductors"
+        ],
+        "mechanism": "Legs are figure-foured and splayed; the wrestling origin (half Boston crab + sharpshooter) loads hips and lower back."
+      }
+    ],
+    "grip_regions": [
+      "ankle",
+      "foot",
+      "shin_calf",
+      "thigh",
+      "knee"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "hyperextension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "Harriott: starts from inside sankaku with a figure-four on the near leg; 'less dangerous than the other inside-sankaku attacks'."
+      },
+      {
+        "position": "other",
+        "attacker_role": "top",
+        "note": "Pro-wrestling origin: applied standing over a prone opponent (After The Mat)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": true,
+      "nogi": true,
+      "note": "Not named in the rulebook; it contains a kneebar and straight foot lock (rows 14, 3) so brown/black; the saddle configuration itself may be a reap (illegal in gi)."
+    },
+    "summary": "A saddle submission that weaves the far leg over and gable-grips it, hitting a kneebar, Achilles crush and ankle lock at once – a pain hold some opponents can tough out.",
+    "sources": [
+      {
+        "ref": "bjjfanatics-harriott-cloverleaf",
+        "locator": "",
+        "url": "https://bjjfanatics.com/blogs/news/add-finishing-power-to-the-cloverleaf-submission-with-charles-harriot"
+      },
+      {
+        "ref": "afterthemat-cloverleaf",
+        "locator": "",
+        "url": "https://afterthemat.com/library/jiu-jitsu/texas-cloverleaf"
+      },
+      {
+        "ref": "digitsu-calf-slicer",
+        "locator": "lists 'Cloverleaf' as an alias of the calf slicer",
+        "url": ""
+      }
+    ],
+    "confidence": "low",
+    "notes": "Sources disagree: Digitsu lists 'cloverleaf' as an alias of the calf slicer, while instructional blogs describe a kneebar + ankle lock compound from inside sankaku; the exact joint loaded is not described by any authoritative source."
+  },
+  {
+    "id": "z_lock",
+    "name": "Z-lock",
+    "aliases": [
+      "Z lock",
+      "Bent-leg rotational lock"
+    ],
+    "category": "joint_lock",
+    "subcategory": "knee_lock",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "tibiofemoral rotational restraints (collaterals, cruciates, menisci)",
+        "hip joint (femoral rotation)"
+      ],
+      "mechanism": "The opponent's leg is folded into a Z (hip flexed, knee bent, foot turned) – typically after they bend and turn the leg to defend an inside heel hook. The ankle is trapped to the attacker's body, the knee line pinned, and the attacker rotates the whole body around the bent leg so torque loads the knee and hip rather than the foot."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip capsule / femoral rotation"
+        ],
+        "mechanism": "Rotation with the knee flexed also torques the femur in the acetabulum."
+      },
+      {
+        "region": "ankle",
+        "structures": [
+          "talocrural joint"
+        ],
+        "mechanism": "Ankle is only an anchor; pushing on the foot is explicitly NOT the finish."
+      }
+    ],
+    "grip_regions": [
+      "ankle",
+      "foot",
+      "knee",
+      "thigh"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "internal_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "outside_ashi",
+        "attacker_role": "bottom",
+        "note": "Cross ashi and related entanglements; systematised by Junny Ocasio (Digitsu)."
+      },
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "Arises when the opponent turns the knee to kill the inside heel hook; kneebar, toe hold and heel hook stay live."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": false,
+      "nogi": true,
+      "note": "Not named in the rulebook; a 'lock twisting the knee' (row 18): illegal in gi, Adult brown/black no-gi only."
+    },
+    "summary": "When the inside-heel-hook defender folds the leg into a Z, trap the ankle and knee line and rotate your whole body – the twist goes into the knee and hip, not the foot.",
+    "sources": [
+      {
+        "ref": "digitsu-zlock",
+        "locator": "",
+        "url": "https://digitsu.com/t/z-lock"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 18 (by class)",
+        "url": ""
+      }
+    ],
+    "confidence": "low",
+    "notes": "Single source; the brief calls it a foot lock but the source describes a knee/hip rotational lock."
+  },
+  {
+    "id": "banana_split",
+    "name": "Banana split",
+    "aliases": [
+      "Crotch ripper",
+      "Leg split",
+      "Groin stretch from the truck"
+    ],
+    "category": "joint_lock",
+    "subcategory": "hip_lock",
+    "primary_target": {
+      "region": "hips",
+      "structures": [
+        "hip adductor group (adductor longus/brevis/magnus, gracilis, pectineus)",
+        "proximal hamstrings",
+        "hip joint capsule (forced abduction)",
+        "pubic symphysis / groin"
+      ],
+      "mechanism": "One leg is anchored with a lockdown/leg lace and driven away while the other leg is pulled toward the attacker's chest (gable or S-grip behind the knee or on the ankle); squeezing the knees together and extending the hips forces the two legs apart into extreme hip abduction – a splits the opponent cannot resist."
+    },
+    "secondary_targets": [
+      {
+        "region": "thigh",
+        "structures": [
+          "hamstrings",
+          "adductor origins"
+        ],
+        "mechanism": "Muscle strain/tear can precede the tap in flexible opponents."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "ankle",
+      "foot",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "hip",
+      "axis": "abduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "other",
+        "attacker_role": "top",
+        "note": "The truck (lockdown from twister side control / back-control variant) is the standard position; electric chair and quarter guard are listed too (Digitsu)."
+      },
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Remove the top hook, lockdown the near leg, grab the far leg and fall back (Evolve)."
+      },
+      {
+        "position": "turtle",
+        "attacker_role": "top",
+        "note": "Bottom hook in, foot over the ankle, grab the feet and fall back; or finish with a calf crush (Evolve)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "'Submission techniques stretching legs apart' (row 1) is banned ONLY for 4–12-year-olds – legal for all adult belts."
+    },
+    "summary": "From the truck, pin one leg with a lockdown and pull the other to your chest: the opponent is forced into the splits and taps to the groin and hamstrings.",
+    "sources": [
+      {
+        "ref": "digitsu-banana-split",
+        "locator": "",
+        "url": "https://digitsu.com/t/banana-split"
+      },
+      {
+        "ref": "evolve-banana-split",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/heres-how-to-use-the-banana-split-in-bjj/"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 1",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Specific adductor muscles are the author's anatomical gloss; sources say 'groin and hamstrings'. Some sources also classify it loosely as a 'spinal lock'; the IBJJF treats leg-splitting as its own class."
+  },
+  {
+    "id": "electric_chair",
+    "name": "Electric chair",
+    "aliases": [
+      "Electric chair submission (10th Planet)",
+      "Lockdown groin stretch"
+    ],
+    "category": "joint_lock",
+    "subcategory": "hip_lock",
+    "primary_target": {
+      "region": "hips",
+      "structures": [
+        "hip adductors",
+        "groin / inner thigh",
+        "proximal hamstrings",
+        "hip joint (abduction + extension)"
+      ],
+      "mechanism": "From the dogfight reached via the lockdown, the underhook arm threads deep under the opponent's far thigh and the hands clasp; the attacker falls to that shoulder, pulls the far leg across the chest and extends the hips/arches the back so the legs are split apart. Popularised by Eddie Bravo / 10th Planet (used on Royler Gracie at Metamoris III)."
+    },
+    "secondary_targets": [
+      {
+        "region": "thigh",
+        "structures": [
+          "hamstrings",
+          "adductor origins"
+        ],
+        "mechanism": "Stretch injury before the tap in flexible people."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "hips",
+      "shin_calf"
+    ],
+    "demo_motion": {
+      "joint": "hip",
+      "axis": "abduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Lockdown half guard → whip-up → dogfight → electric chair; doubles as a sweep entry; follow-ups are twister, banana split and vaporizer (Digitsu)."
+      },
+      {
+        "position": "other",
+        "attacker_role": "bottom",
+        "note": "Dogfight position."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Leg-splitting submissions (row 1) are banned only for 4–12; legal for all adult belts."
+    },
+    "summary": "From the lockdown dogfight, thread an arm under the far thigh, fall to the shoulder and arch – a sweep that becomes a groin stretch if they do not roll.",
+    "sources": [
+      {
+        "ref": "digitsu-electric-chair",
+        "locator": "",
+        "url": "https://digitsu.com/t/electric-chair"
+      },
+      {
+        "ref": "wikipedia-eddie-bravo",
+        "locator": "Metamoris III",
+        "url": "https://en.wikipedia.org/wiki/Eddie_Bravo"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 1",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Eddie Bravo's 'Mastering the Rubber Guard' (2006) covers the lockdown/electric chair system but no page locator was found."
+  },
+  {
+    "id": "knee_reap_position",
+    "name": "Knee reap (reaping position / inside ashi)",
+    "aliases": [
+      "Reap",
+      "Inside ashi garami",
+      "Leg knot",
+      "Game over position",
+      "Sambo knot"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "tibiofemoral joint rotational restraints",
+        "collateral ligaments",
+        "menisci"
+      ],
+      "mechanism": "IBJJF definition: the attacker's thigh goes behind the opponent's leg, the calf passes over the body above the knee with the foot beyond the vertical midline, pressing the knee from outside-in while the attacked foot is trapped (between hip and armpit, by a grip, or by being weight-bearing). With the foot fixed the knee cannot rotate to follow a twist, so any rotation (heel hook, or even a bad spin-out) is isolated at the knee – which is why the IBJJF bans it outside Adult brown/black no-gi."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint"
+        ],
+        "mechanism": "The reap destroys leg alignment and base; opponent cannot stand until untangled (Kesting & Biernacki)."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "shin_calf",
+      "ankle",
+      "foot",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "knee",
+      "axis": "external_rotation",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "ashi_garami",
+        "attacker_role": "bottom",
+        "note": "Bring the outside leg over the trapped leg and weave it into the other leg (cheat sheet position 6)."
+      },
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "The saddle's inside leg across the hip line is itself a reaping configuration in gi rules (Digitsu)."
+      },
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Turning inside from 50/50 while the opponent stands on the guard foot counts as a trapped-foot reap (rulebook p. 33)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": false,
+      "nogi": true,
+      "note": "Row 19 + definition p. 32: illegal in all gi and Master divisions; legal only Adult brown/black no-gi. Crossing the midline, or any reap while either athlete has a submission hold, is a severe foul (DQ). A scoop grip on the free leg is legal because the leg can still rotate (Ryan)."
+    },
+    "summary": "The leg configuration that makes heel hooks devastating: your leg across their hip line with their foot trapped means the knee alone must absorb any rotation – illegal in gi at every belt.",
+    "sources": [
+      {
+        "ref": "ibjjf2024",
+        "locator": "p. 29 row 19; p. 32 definition; p. 33 50/50",
+        "url": ""
+      },
+      {
+        "ref": "flo-ryan-reaping",
+        "locator": "",
+        "url": "https://www.flograppling.com/articles/6293257-gordon-ryan-demystifies-the-rules-around-reaping"
+      },
+      {
+        "ref": "bjjee-reaping2020",
+        "locator": "",
+        "url": "https://www.bjjee.com/?p=36560"
+      },
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "position 6 'Inside Ashi (aka The Reap)'",
+        "url": ""
+      },
+      {
+        "ref": "ssof-leglock-positions",
+        "locator": "A3 Inside Ashi Garami",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "The IBJJF rulebook gives no explicit medical rationale; the 'knee cannot rotate with the foot trapped' explanation is from Ryan/FloGrappling and Piekarski (DPT) who adds that injury mostly occurs when the defender fights the torque."
+  },
+  {
+    "id": "ashi_garami_control",
+    "name": "Ashi garami / single-leg X control",
+    "aliases": [
+      "Standard ashi",
+      "Straight ashi garami",
+      "Single leg X guard",
+      "SLX"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "knee line (femoral condyles pinched between the attacker's thighs)",
+        "hip (outside foot on the hip)"
+      ],
+      "mechanism": "Outside heel on the opponent's hip, inside leg hooks under/around the thigh, knees pinched and heels retracted so the trapped knee stays inside the attacker's knee line; initially both legs are controlled ('double trouble') to deny base. Open-circuit (ankles not crossed) – the 'jab' of leg locks."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint"
+        ],
+        "mechanism": "Foot on the hip controls distance and prevents the opponent from following into a pass."
+      },
+      {
+        "region": "ankle",
+        "structures": [
+          "Achilles / heel"
+        ],
+        "mechanism": "Foot clamped in the armpit for the straight ankle lock or outside heel hook."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "hips",
+      "ankle",
+      "foot"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "single_leg_x",
+        "attacker_role": "bottom",
+        "note": "Primary; also attacks SLX sweeps."
+      },
+      {
+        "position": "ashi_garami",
+        "attacker_role": "bottom",
+        "note": "Entries from most bottom guards and 'almost all top open-guard positions' (Kesting & Biernacki); upgrades to cross ashi, outside ashi, inside ashi or the 411."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal position; only the straight ankle lock may be finished below brown, and the foot must not cross the midline (reap)."
+    },
+    "summary": "Both legs wrap one of theirs with your foot on their hip and knees pinched – the gateway position for the straight ankle lock and the outside heel hook.",
+    "sources": [
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "position 1",
+        "url": ""
+      },
+      {
+        "ref": "ssof-leglock-positions",
+        "locator": "A1 Basic Ashi Garami",
+        "url": ""
+      },
+      {
+        "ref": "iturriaga-leglocks101",
+        "locator": "knee line; double trouble",
+        "url": "https://bjjcoach.substack.com/p/week-5-leg-locks-101-technique-and"
+      },
+      {
+        "ref": "danaher-leglocks-ets",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "cross_ashi_outside_ashi_control",
+    "name": "Cross ashi / outside ashi control",
+    "aliases": [
+      "Cross ashi garami",
+      "Topside ashi",
+      "Outside ashi",
+      "Double outside ashi (DOA)",
+      "Outside sankaku"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "knee line",
+        "femur (pinched)",
+        "hip line"
+      ],
+      "mechanism": "The trapped leg is switched across the attacker's body (cross ashi) or the inside leg steps over it and the ankles cross with the outside foot on top (outside ashi, closed circuit). Hips are pulled close to the opponent, the top knee flares as a frame, and the attacker constantly bridges ('bridge wedge') so the knee is immobilised and the opponent cannot pull the leg out."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint / pelvis"
+        ],
+        "mechanism": "Hip is wedged so the opponent cannot turn into the rotation; from cross ashi the leg-drag pass is also available."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "shin_calf",
+      "ankle",
+      "foot",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "outside_ashi",
+        "attacker_role": "bottom",
+        "note": "Attacks: outside heel hook, 'cross ankle lock', toe hold, Z-lock; transition to 50/50 or the 411 (Kesting & Biernacki positions 2–3)."
+      },
+      {
+        "position": "leg_drag",
+        "attacker_role": "top",
+        "note": "Abandoning cross ashi flows straight into a leg drag pass."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Position legal provided the foot does not cross the midline / the knee is not pressured from outside-in with the foot trapped (reap, row 19)."
+    },
+    "summary": "Upgrade from standard ashi: cross the ankles over the trapped leg, hips in, knee flared, always bridging – better control and a stronger heel hook.",
+    "sources": [
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "positions 2 and 3",
+        "url": ""
+      },
+      {
+        "ref": "ssof-leglock-positions",
+        "locator": "A2 Double Outside Ashi",
+        "url": ""
+      },
+      {
+        "ref": "digitsu-outside-heel-hook",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "iturriaga-leglocks101",
+        "locator": "cross ashi / outside ashi as safe inside positions",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Naming is inconsistent across schools: Digitsu uses 'cross ashi garami' for the saddle; Kesting/Biernacki use it for the open-circuit topside ashi. This entry follows Kesting/Biernacki."
+  },
+  {
+    "id": "saddle_inside_position_control",
+    "name": "Saddle / inside sankaku control (inside position)",
+    "aliases": [
+      "Inside sankaku",
+      "411",
+      "Honey hole",
+      "Cross ashi garami (Digitsu usage)",
+      "Inside position"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "thigh",
+      "structures": [
+        "femur and knee line of the trapped leg",
+        "hip line (inside leg across the hip)",
+        "free leg (controlled by the arms)"
+      ],
+      "mechanism": "Attacker's legs form a triangle (a '4') around the trapped leg: inside leg threads across the hip line and hooks the far thigh/hip, outside leg locks over the inside ankle; knees pinch just below the opponent's knee and the outside leg extends as a frame that immobilises the hip and manages distance. Being 'inside' – the attacker's legs between the opponent's – is the principle Danaher's system is built on; the free leg is tied up with the arms so it cannot be used to base or push."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint"
+        ],
+        "mechanism": "Hip control prevents turning in; also sets up back takes."
+      },
+      {
+        "region": "knee",
+        "structures": [
+          "tibiofemoral joint"
+        ],
+        "mechanism": "Inside heel hook, lateral kneebar, Z-lock, Texas cloverleaf and toe hold are launched from here."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "hips",
+      "shin_calf",
+      "ankle",
+      "foot"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "saddle",
+        "attacker_role": "bottom",
+        "note": "'Best control and finishing ability of all leglock positions' (Kesting & Biernacki position 7); entries: Imanari roll, K-guard, SLX→saddle, backside 50/50, top-side drop, grounded kani basami."
+      },
+      {
+        "position": "saddle",
+        "attacker_role": "top",
+        "note": "Top-side saddle after a back-step pass; grounded kani basami ('smashed 411') is the saddle with the opponent on top."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "brown",
+      "gi": false,
+      "nogi": true,
+      "note": "In gi the leg-across-the-hip-line configuration is a reap (row 19) and the heel hook is banned; usable only Adult brown/black no-gi (Digitsu, Kesting)."
+    },
+    "summary": "Legs triangled around one leg with your shin across their hips: the inside position that hides your own legs, kills their base and delivers the inside heel hook.",
+    "sources": [
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "positions 7 and 9",
+        "url": ""
+      },
+      {
+        "ref": "digitsu-cross-ashi",
+        "locator": "",
+        "url": "https://digitsu.com/t/cross-ashi-garami"
+      },
+      {
+        "ref": "ssof-leglock-positions",
+        "locator": "B1 Honey Hole / Saddle",
+        "url": ""
+      },
+      {
+        "ref": "iturriaga-leglocks101",
+        "locator": "inside position; knee line",
+        "url": ""
+      },
+      {
+        "ref": "danaher-leglocks-ets",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": "Danaher's own wording on 'inside position' comes via secondary coaching summaries, not a primary text."
+  },
+  {
+    "id": "fifty_fifty_control",
+    "name": "50/50 guard (and 80/20) control",
+    "aliases": [
+      "Fifty-fifty",
+      "50-50",
+      "80/20",
+      "90/10"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "knee",
+      "structures": [
+        "knee line of both players' inside legs",
+        "hips"
+      ],
+      "mechanism": "Both players' inside legs are intertwined with feet crossed and knees up – a closed-circuit entanglement controlling the opponent's hip and knee that gives each player identical access to the inside (reverse) heel hook, straight ankle lock and toe hold. Dropping the inside knee toward the mat and triangling (80/20) hides your own knee line so only you keep the heel hook."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint"
+        ],
+        "mechanism": "In gi the position is mostly used for sweeps and back takes; the IBJJF penalises lapel/belt grips held here without progression (6.2.1 F) and awards no advantages for sweeps starting and ending in 50/50 (5.7.5)."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "shin_calf",
+      "ankle",
+      "foot",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "fifty_fifty",
+        "attacker_role": "either",
+        "note": "Reached in scrambles or by switching the leg over from outside ashi (Kesting & Biernacki position 4–5)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Legal at all belts; white–purple may only finish the straight ankle lock here and turning inside while the opponent stands on the guard foot is a trapped-foot reap (p. 33)."
+    },
+    "summary": "Symmetrical leg entanglement – whatever you can do they can do – unless you hide your inside knee (80/20) and keep the heel hook for yourself.",
+    "sources": [
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "positions 4 and 5",
+        "url": ""
+      },
+      {
+        "ref": "ssof-leglock-positions",
+        "locator": "C1–C3",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "6.2.1 F; 5.7.5; p. 33",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "knee_shield",
+    "name": "Knee shield (half guard)",
+    "aliases": [
+      "Z-guard",
+      "93 guard",
+      "Knee-shield half guard"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "hips",
+      "structures": [
+        "opponent's hip / lower torso (framed by the shin)",
+        "opponent's trapped thigh and knee (hooked by the bottom leg)"
+      ],
+      "mechanism": "Bottom player in half guard keeps the trapped leg hooked with the bottom leg while the top shin lies diagonally across the opponent's hip/torso (foot on the hip or thigh, knee toward their shoulder); the shin is a frame that manages distance, blocks smash/over-under pressure and the crossface, and lets the bottom player push-pull to win the underhook."
+    },
+    "secondary_targets": [
+      {
+        "region": "thigh",
+        "structures": [
+          "opponent's trapped thigh"
+        ],
+        "mechanism": "Bottom leg hooks or clamps the thigh so the leg cannot be freed (Z-guard: feet locked, knee pressuring the hip)."
+      },
+      {
+        "region": "chest",
+        "structures": [
+          "torso"
+        ],
+        "mechanism": "Arm frames (crossface block / underhook) complete the barrier."
+      }
+    ],
+    "grip_regions": [
+      "hips",
+      "thigh",
+      "knee",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Attacks: push sweep, back-take sweep, triangle, armbar, omoplata, kimura; transitions to butterfly, deep half, full guard. Top player counters by collapsing a low knee, smashing the shin flat and circling, or knee-cutting after blocking the outside knee."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Half guard with your top shin across their hip as a frame: keeps the passer's weight off, blocks the crossface and sets up sweeps and the underhook.",
+    "sources": [
+      {
+        "ref": "jitsuiq-knee-shield",
+        "locator": "",
+        "url": "https://jitsuiq.com/positions/guard/knee-shield.html"
+      },
+      {
+        "ref": "wikipedia-half-guard",
+        "locator": "Z guard",
+        "url": "https://en.wikipedia.org/wiki/Half_guard"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Sources differ on whether 'Z-guard' means knee at the hip (Evolve) or shin across the torso (JitsuIQ). Jiu-Jitsu University covers half guard but no page locator was found."
+  },
+  {
+    "id": "half_guard_leg_trap_underhook",
+    "name": "Half guard leg trap with underhook",
+    "aliases": [
+      "Half guard",
+      "Underhook half guard",
+      "Half mount (top)",
+      "Turk ride (wrestling)"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "thigh",
+      "structures": [
+        "opponent's trapped thigh, knee and shin (between the bottom player's legs)",
+        "hip"
+      ],
+      "mechanism": "The bottom player's legs entangle one of the top player's legs so it cannot be freed to pass; the bottom player gets onto the hip and takes an underhook (arm under the opponent's arm on the trapped-leg side) with the head connected to the body, which stops the crossface flattening them and enables the dogfight, back take or wrestle-up. The top player's goals are the reverse: kill the underhook, win the crossface, flatten and free the leg."
+    },
+    "secondary_targets": [
+      {
+        "region": "shoulder",
+        "structures": [
+          "opponent's axilla / upper arm"
+        ],
+        "mechanism": "The underhook controls the near shoulder; losing it exposes the bottom player to the crossface."
+      },
+      {
+        "region": "shin_calf",
+        "structures": [
+          "opponent's lower leg"
+        ],
+        "mechanism": "Lockdown variant (niju-garami) figure-fours the leg and drives the foot upward, stretching the hip and limiting passing."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "shin_calf",
+      "shoulder",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "Underhook → dogfight → back take / wrestle-up; lockdown → whip-up → electric chair (10th Planet)."
+      },
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Top control: crossface + underhook + sprawl pressure to flatten, then free the leg (knee cut)."
+      },
+      {
+        "position": "deep_half",
+        "attacker_role": "bottom",
+        "note": "Variant working under the opponent's hips, mostly for sweeps."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Half guard does not count as an advantage for the top player if it did not originate from a guard pass attempt (5.7.1–5.7.2)."
+    },
+    "summary": "Trap one leg between yours, get on your side and win the underhook – the whole half-guard game runs on who controls that leg and that arm.",
+    "sources": [
+      {
+        "ref": "digitsu-half-guard",
+        "locator": "",
+        "url": "https://digitsu.com/a/half-guard-fundamental-overview"
+      },
+      {
+        "ref": "wikipedia-half-guard",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Half_guard"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "5.7.1–5.7.2",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "The brief's 'underhook on the leg' was interpreted as the half-guard underhook combined with the leg trap; if a leg-underhook (arm under the thigh) was meant, see leg_drag / knee_cut."
+  },
+  {
+    "id": "leg_drag",
+    "name": "Leg drag",
+    "aliases": [
+      "Leg drag pass",
+      "Leg drag position"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "thigh",
+      "structures": [
+        "opponent's dragged leg (shin/thigh pinned across the passer's hip)",
+        "near hip",
+        "far hip (hand/belt grip)"
+      ],
+      "mechanism": "Grip the ankle or pant cuff and pull the leg across your body to the opposite hip while stepping the hips forward; the dragged thigh is pinned against the passer's hip/thigh and the knee stapled to the mat, the near knee slides tight to the opponent's hip to stop shrimping, the free hand controls the far hip or belt, and the chest drops onto the torso at an angle toward the back. Misdirection: legs go one way, body goes the other."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "pelvis / far hip"
+        ],
+        "mechanism": "Far-hip control prevents turning away to turtle or re-guarding; sets up back takes."
+      },
+      {
+        "region": "knee",
+        "structures": [
+          "dragged knee"
+        ],
+        "mechanism": "Knee stapled to the mat with hand/thigh pressure."
+      }
+    ],
+    "grip_regions": [
+      "ankle",
+      "shin_calf",
+      "thigh",
+      "knee",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "hip",
+      "axis": "adduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "leg_drag",
+        "attacker_role": "top",
+        "note": "The passing position itself; finishes to side control, back take or smash pass."
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "top",
+        "note": "Standing pass vs open guard / DLR (Mendes brothers modern version; earlier Tererê, Shaolin)."
+      },
+      {
+        "position": "outside_ashi",
+        "attacker_role": "top",
+        "note": "Cross ashi with the leg across the body converts directly into a leg drag (Kesting & Biernacki)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Drag their leg across your hip, pin the knee, own the far hip and angle toward their back – the pass is really the control after the drag.",
+    "sources": [
+      {
+        "ref": "digitsu-leg-drag",
+        "locator": "",
+        "url": "https://digitsu.com/t/leg-drag-pass"
+      },
+      {
+        "ref": "evolve-leg-drag",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/how-to-perform-the-leg-drag-guard-pass/"
+      },
+      {
+        "ref": "kesting-biernacki-cheatsheet",
+        "locator": "position 2",
+        "url": ""
+      }
+    ],
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "knee_cut",
+    "name": "Knee cut pass",
+    "aliases": [
+      "Knee slice",
+      "Knee slide",
+      "Knee through pass"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "thigh",
+      "structures": [
+        "opponent's bottom thigh (sliced by the passer's shin/knee)",
+        "hip (blocked)"
+      ],
+      "mechanism": "The passer drops the lead knee across the opponent's bottom thigh and slices it diagonally toward the mat and far hip, flattening the bottom leg and blocking the hip escape; the trailing leg posts wide and windshield-wipes free of hooks; upper body wins the underhook (or crossface/collar) first so the back is not exposed, driving chest-to-shoulder until the knee clears into side control."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "near hip"
+        ],
+        "mechanism": "Knee pins the hip line so the bottom player cannot shrimp or turn in."
+      },
+      {
+        "region": "shoulder",
+        "structures": [
+          "near shoulder / arm (underhook or sleeve control)"
+        ],
+        "mechanism": "Without the underhook the knee cut gives up the back (Gracie Barra)."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "hips",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "hip",
+      "axis": "adduction",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "half_guard",
+        "attacker_role": "top",
+        "note": "Classic pass once the underhook is won; Xande Ribeiro's half-guard pass ends with underhook + head control."
+      },
+      {
+        "position": "open_guard",
+        "attacker_role": "top",
+        "note": "From headquarters / combat base vs DLR, RDLR, knee shield; block the outside knee first against the shield."
+      },
+      {
+        "position": "de_la_riva",
+        "attacker_role": "top",
+        "note": "Counter: Estima lock is available if a foot pushes on the hip during the knee cut."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Slice your knee diagonally across their thigh to the mat with the underhook secured – pins the hip and bottom leg and lands in side control.",
+    "sources": [
+      {
+        "ref": "digitsu-knee-cut",
+        "locator": "",
+        "url": "https://digitsu.com/t/knee-cut-pass"
+      },
+      {
+        "ref": "digitsu-half-guard",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Jiu-Jitsu University's guard-passing chapter is cited without page numbers."
+  },
+  {
+    "id": "side_control_hip_control",
+    "name": "Hip control in side control",
+    "aliases": [
+      "Side mount",
+      "Cross side",
+      "Yoko-shiho-gatame family",
+      "Hip block"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "hips",
+      "structures": [
+        "near hip / pelvis (blocked by knee, hand or hip-to-hip pressure)",
+        "lumbar-pelvic motion (bridging and shrimping)"
+      ],
+      "mechanism": "Top player lies chest-to-chest across the face-up opponent with hips low and driving forward; the near-side hip is blocked (knee tight to the hip, hand on the hip, or hip-to-hip) while the crossface turns the head and the underhook controls the far shoulder – together denying the bridge and the hip escape (shrimp)."
+    },
+    "secondary_targets": [
+      {
+        "region": "head",
+        "structures": [
+          "head/neck (crossface)"
+        ],
+        "mechanism": "Crossface turns the head so the spine follows."
+      },
+      {
+        "region": "shoulder",
+        "structures": [
+          "far shoulder (underhook)"
+        ],
+        "mechanism": "Underhook pins the far shoulder."
+      }
+    ],
+    "grip_regions": [
+      "hips",
+      "chest",
+      "head",
+      "shoulder"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "side_control",
+        "attacker_role": "top",
+        "note": "Advance to knee-on-belly or mount when the bottom player reacts; bottom player's priority is to re-entangle a leg (half guard)."
+      },
+      {
+        "position": "north_south",
+        "attacker_role": "top",
+        "note": "Rotational variant that switches hip control for head/shoulder control."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Side control scores no points itself; passing to it scores 3 (4.3)."
+    },
+    "summary": "Chest down, hips heavy, near hip blocked, head crossfaced – side control works by taking away the bridge and the shrimp.",
+    "sources": [
+      {
+        "ref": "digitsu-side-control",
+        "locator": "",
+        "url": "https://digitsu.com/t/side-control"
+      },
+      {
+        "ref": "wikipedia-side-control",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Side_control"
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "White-belt 'survival' side-control section",
+        "url": ""
+      },
+      {
+        "ref": "gracie2001",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Textbook locators not verified."
+  },
+  {
+    "id": "grapevine_hooks_mount",
+    "name": "Grapevine hooks (mount)",
+    "aliases": [
+      "Grapevines",
+      "Grapevining",
+      "Leg hooks from mount"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "thigh",
+      "structures": [
+        "opponent's thighs and lower legs (entangled)",
+        "hips (pinned to the mat)"
+      ],
+      "mechanism": "From mount the top player loops each leg over and under the opponent's legs, crossing at the ankle or calf so the two legs interlock; the hooks anchor the opponent's legs to the mat and the top player drives the hips forward with core engaged, making bridging and shrimping far harder."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip flexors / pelvis"
+        ],
+        "mechanism": "Stretching the hooks out spreads and extends the hips; a leg-lock variant from the grapevine is described (bjjee) but not an IBJJF-named technique."
+      },
+      {
+        "region": "ankle",
+        "structures": [
+          "ankle / calf (hook point)"
+        ],
+        "mechanism": "Hooks are set at ankle or calf."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "shin_calf",
+      "ankle",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "hip",
+      "axis": "extension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "mount",
+        "attacker_role": "top",
+        "note": "Low mount control; loosen the grapevine when attacking the americana in case of a bridge (Evolve). Bottom escape: straighten and kick the trapped leg, turn to half guard."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Mount with your legs woven around theirs: anchors their legs so they cannot bridge or shrimp, at the cost of some mobility.",
+    "sources": [
+      {
+        "ref": "evolve-grapevine",
+        "locator": "",
+        "url": "https://evolve-mma.com/blog/using-the-grapevine-to-build-a-crushing-mount-game-in-bjj-mma/"
+      },
+      {
+        "ref": "wikipedia-mount",
+        "locator": "Grapevining",
+        "url": "https://en.wikipedia.org/wiki/Mount_(grappling)"
+      },
+      {
+        "ref": "gracie2001",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Hip-stretch effect is practitioner knowledge, not stated by the sources."
+  },
+  {
+    "id": "knee_on_belly_hips",
+    "name": "Knee on belly",
+    "aliases": [
+      "Knee on stomach",
+      "Knee ride",
+      "Knee mount",
+      "Uki-gatame"
+    ],
+    "category": "control",
+    "subcategory": "pin",
+    "primary_target": {
+      "region": "abdomen",
+      "structures": [
+        "abdomen / lower ribs (compressed)",
+        "pelvis and hips (shin across the hip line)"
+      ],
+      "mechanism": "From side control the top player rises and places the knee/shin across the opponent's abdomen or chest with the other leg posted wide for balance; body weight through the knee compresses the torso (pain, compressive asphyxia) and the shin across the hips blocks turning, while the position stays mobile enough to switch to mount or back."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint / pelvis"
+        ],
+        "mechanism": "Shin and posted foot pin the hip line; collar/hip grips hold the opponent flat."
+      },
+      {
+        "region": "chest",
+        "structures": [
+          "ribs"
+        ],
+        "mechanism": "High placement compresses the ribs."
+      }
+    ],
+    "grip_regions": [
+      "abdomen",
+      "hips",
+      "chest"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "knee_on_belly",
+        "attacker_role": "top",
+        "note": "Scores 2 points when stabilised 3 s with the knee on the belly/chest and the other foot free (IBJJF 4.4); common follow-up: armbar when the bottom player pushes; calf slicer from a knee ride on the foot."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "2 points (Article 4.4)."
+    },
+    "summary": "Knee across the belly, foot posted, weight down: a mobile pin that hurts, blocks the hips and baits the armbar.",
+    "sources": [
+      {
+        "ref": "wikipedia-knee-on-stomach",
+        "locator": "",
+        "url": "https://en.wikipedia.org/wiki/Knee-on-stomach"
+      },
+      {
+        "ref": "ibjjf2024",
+        "locator": "Article 4.4",
+        "url": ""
+      },
+      {
+        "ref": "ribeiro2008",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "lowkick-calf-slicer",
+        "locator": "knee-ride calf slicer",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  },
+  {
+    "id": "truck_position",
+    "name": "Truck (lockdown back-control entanglement)",
+    "aliases": [
+      "The truck",
+      "Twister side control (10th Planet)",
+      "Lockdown from the back"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "thigh",
+      "structures": [
+        "opponent's near leg (figure-four lockdown / leg lace)",
+        "hips"
+      ],
+      "mechanism": "From a back-control or turtle variation one leg is isolated and threaded between the opponent's legs and locked with a lockdown or leg lace, pinning the near leg while the attacker controls the far leg or upper body; primarily a control position giving direct access to the calf slicer, banana split, twister and back takes."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint"
+        ],
+        "mechanism": "Hip isolation is what makes the banana split possible."
+      },
+      {
+        "region": "shin_calf",
+        "structures": [
+          "calf"
+        ],
+        "mechanism": "Shin already behind the knee for the calf slicer."
+      }
+    ],
+    "grip_regions": [
+      "thigh",
+      "knee",
+      "shin_calf",
+      "ankle",
+      "hips"
+    ],
+    "demo_motion": {
+      "joint": "none",
+      "axis": "none",
+      "direction": 0
+    },
+    "positions": [
+      {
+        "position": "other",
+        "attacker_role": "top",
+        "note": "The truck itself (10th Planet); entered from back control (remove top hook, lockdown near leg) or from turtle."
+      },
+      {
+        "position": "back_control",
+        "attacker_role": "top",
+        "note": "Return to seatbelt back control by releasing the lockdown and re-inserting hooks."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": "Position legal; the twister finish (spinal lock without choke, row 22) is never legal; calf slicer from here is brown+; banana split legal all adult belts."
+    },
+    "summary": "Eddie Bravo's back-control leg entanglement: lock one leg with a lockdown and you own the calf slicer, banana split and twister.",
+    "sources": [
+      {
+        "ref": "digitsu-banana-split",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "digitsu-calf-slicer",
+        "locator": "Truck",
+        "url": ""
+      },
+      {
+        "ref": "evolve-banana-split",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-eddie-bravo",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Bravo's 'Mastering the Rubber Guard' (2006) is the primary text; no locator found."
+  },
+  {
+    "id": "lockdown",
+    "name": "Lockdown (half guard)",
+    "aliases": [
+      "Niju-garami",
+      "10th Planet lockdown"
+    ],
+    "category": "control",
+    "subcategory": "limb_control",
+    "primary_target": {
+      "region": "shin_calf",
+      "structures": [
+        "opponent's trapped lower leg / ankle (figure-foured)",
+        "hip flexors of the trapped side (stretched when the foot is driven up)"
+      ],
+      "mechanism": "Bottom half guard with a figure-four leg configuration: the outside leg hooks over the trapped leg, the inside leg hooks under it, and the longer leg drives the opponent's foot upward and away, extending their hip, breaking posture and limiting passing; it feeds the whip-up, dogfight, electric chair, calf slicer and banana split."
+    },
+    "secondary_targets": [
+      {
+        "region": "hips",
+        "structures": [
+          "hip joint"
+        ],
+        "mechanism": "Stretching the leg back extends the opponent's hip and pulls them flat."
+      }
+    ],
+    "grip_regions": [
+      "shin_calf",
+      "ankle",
+      "thigh",
+      "knee"
+    ],
+    "demo_motion": {
+      "joint": "hip",
+      "axis": "extension",
+      "direction": 1
+    },
+    "positions": [
+      {
+        "position": "half_guard",
+        "attacker_role": "bottom",
+        "note": "10th Planet half-guard system; limited submissions directly, better sweeps/reversals (Wikipedia)."
+      }
+    ],
+    "ibjjf": {
+      "legal_from_belt": "white",
+      "gi": true,
+      "nogi": true,
+      "note": ""
+    },
+    "summary": "Figure-four your legs around their trapped leg and stretch it back – the 10th Planet half guard that launches the electric chair and calf slicer.",
+    "sources": [
+      {
+        "ref": "wikipedia-half-guard",
+        "locator": "Lockdown",
+        "url": "https://en.wikipedia.org/wiki/Half_guard"
+      },
+      {
+        "ref": "digitsu-electric-chair",
+        "locator": "",
+        "url": ""
+      },
+      {
+        "ref": "digitsu-calf-slicer",
+        "locator": "Bottom half guard lockdown",
+        "url": ""
+      },
+      {
+        "ref": "wikipedia-eddie-bravo",
+        "locator": "",
+        "url": ""
+      }
+    ],
+    "confidence": "medium",
+    "notes": ""
+  }
+]
