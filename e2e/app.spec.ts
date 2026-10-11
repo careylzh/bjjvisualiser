@@ -67,12 +67,11 @@ test("the joint tab exposes anatomical DOF sliders and a demo moves the joint", 
   await page.locator('.tab[data-tab="attacks"]').click();
   const demo = page.locator("button[data-demo]").first();
   await demo.click();
-  const moved = await page.evaluate(async () => {
+  // Poll: CI runners render WebGL in software and may deliver only a few animation frames per second.
+  await expect.poll(async () => page.evaluate(() => {
     const { viewer } = (window as any).__bjj;
-    await new Promise((r) => setTimeout(r, 700));
     return viewer.getJointAngles("elbow", "L").some((v: number) => Math.abs(v) > 1) || viewer.getJointAngles("shoulder", "L").some((v: number) => Math.abs(v) > 1);
-  });
-  expect(moved).toBe(true);
+  }), { timeout: 4000, intervals: [100, 200, 300] }).toBe(true);
 });
 
 test("phone layout uses a bottom sheet; tablet layout uses a side panel", async ({ page, viewport }) => {
@@ -88,4 +87,9 @@ test("phone layout uses a bottom sheet; tablet layout uses a side panel", async 
   }
   const scrollW = await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth);
   expect(scrollW).toBe(true);
+  // A long technique list must scroll inside the panel, never stretch the canvas off-screen.
+  await page.locator('#regionList button[data-region="wrist"]').click();
+  await page.waitForTimeout(300);
+  const canvasH = await page.locator("#viewport canvas").evaluate((c) => c.clientHeight);
+  expect(canvasH).toBeLessThanOrEqual(viewport!.height);
 });

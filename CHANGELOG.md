@@ -5,6 +5,21 @@ All notable changes to the BJJ Visualiser. Dates are `YYYY-MM-DD`. Versions foll
 
 ## [Unreleased]
 
+### 2026-10-11 — Round 3 (**v1.0.1**, build 3): iPad side-panel containment + CI demo-test timing
+
+`patch`. Found by loading the LIVE Pages site headless after the first deploy.
+- **iPad/desktop layout: a long technique list stretched the stage row**, so the canvas grew
+  to ~2500 px and the camera focus (centred correctly in canvas space) landed below the fold.
+  The panel now scrolls inside a bounded grid cell (`min-height: 0; overflow: hidden`). A new
+  e2e assertion pins canvas height ≤ viewport height after selecting the wrist.
+- **CI: the "demo moves the joint" test sampled once at 700 ms**; ubuntu runners render WebGL
+  in software and had not delivered a frame yet. It now polls up to 4 s. (The Pages deploy
+  job had succeeded; only the CI gate job failed.)
+- WebKit "ResizeObserver loop" console error silenced by deferring the renderer resize a frame.
+- **Observed:** v1.0.0 live at https://careylzh.github.io/bjjvisualiser/ (version.json,
+  knowledge.json 255 KB, anatomy-rig.usdz 82 KB all 200), loads headless on phone Chromium and
+  iPad WebKit with zero console errors. Real iPhone/iPad still DEVICE PASS PENDING.
+
 ### 2026-10-11 — Round 2 (**v1.0.0**, build 2): REPURPOSE — tap-a-joint BJJ revision app with a rigged anatomy figure and a sourced knowledge base
 
 `major` (product repurpose; the v0.1 note→scene pipeline is archived, not removed).

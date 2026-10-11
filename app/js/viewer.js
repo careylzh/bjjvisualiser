@@ -339,6 +339,11 @@ export async function createViewer({ container, rigMeta, modelUrl, onPick, onSta
   status("loaded", "Tap any joint or body part.");
 
   const __debug = {
+    state() {
+      const c = selected ? regionCentre(selected) : null;
+      return { cam: camera.position.toArray(), target: controls.target.toArray(), centre: c?.toArray() ?? null, aspect: camera.aspect,
+        canvas: [renderer.domElement.clientWidth, renderer.domElement.clientHeight], tweening: !!camTween };
+    },
     // screen-space (CSS px within the canvas) centre of a prim — used by the e2e tap test
     project(primName) {
       const m = prims.find((p) => p.name === primName);

@@ -144,9 +144,13 @@ button, select, a.ghost { font: inherit; }
 
 /* Tablet / desktop (iPad Safari landscape & portrait ≥ 760px): side panel, no sheet */
 @media (min-width: 760px) {
-  .stage { display: grid; grid-template-columns: 1fr minmax(340px, 420px); }
-  .viewport { position: relative; bottom: auto; }
-  .panel { position: relative; height: auto !important; border-radius: 0; border-top: 0; border-left: 1px solid var(--line); box-shadow: none; padding-bottom: 0; }
+  /* The stage row is 1fr of the app grid; the panel must scroll INSIDE it, never stretch it
+     (min-height: 0 + overflow: hidden on every grid/flex child — otherwise a long technique list
+     grows the canvas off-screen and the camera focus lands below the fold). */
+  .stage { display: grid; grid-template-columns: 1fr minmax(340px, 420px); min-height: 0; overflow: hidden; }
+  .viewport { position: relative; bottom: auto; min-height: 0; min-width: 0; }
+  .panel { position: relative; height: auto !important; min-height: 0; overflow: hidden; border-radius: 0; border-top: 0; border-left: 1px solid var(--line); box-shadow: none; padding-bottom: 0; }
+  .panel-scroll { flex: 1 1 auto; }
   .sheet-handle { display: none; }
   .filters { grid-template-columns: 1fr auto; align-items: center; }
   .region-list { grid-template-columns: repeat(2, 1fr); }
