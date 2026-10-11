@@ -1,11 +1,13 @@
+import path from "node:path";
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { basename, join } from "node:path";
 import { generateBlenderPrompt } from "../blender/generateBlenderPrompt";
 import { parseBjjNote } from "../parser/parseBjjNote";
 
-const sampleNotesDir = "data/sample-notes";
-const scenesDir = "data/generated/scenes";
-const promptsDir = "data/generated/blender-prompts";
+const legacyRoot = path.resolve(import.meta.dirname, "..");
+const sampleNotesDir = path.join(legacyRoot, "data/sample-notes");
+const scenesDir = path.join(legacyRoot, "data/generated/scenes");
+const promptsDir = path.join(legacyRoot, "data/generated/blender-prompts");
 
 function outputName(fileName: string) {
   return basename(fileName, ".txt");
@@ -26,7 +28,7 @@ async function main() {
     const name = outputName(noteFile);
     const scenePath = join(scenesDir, `${name}.json`);
     const promptPath = join(promptsDir, `${name}.txt`);
-    const exportTarget = `src/web/public/models/${name}.usdz`;
+    const exportTarget = `legacy/note-to-scene/data/generated/usdz/${name}.usdz`;
 
     await writeFile(scenePath, `${JSON.stringify(scene, null, 2)}\n`);
     await writeFile(

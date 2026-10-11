@@ -3,12 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "description": "Tap-a-joint BJJ revision app: a rigged anatomy figure mapped to submissions and controls by position, with sources.",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "test": "vitest run --dir tests",
-    "generate:sample": "tsx src/scripts/generateSample.ts"
+    "build:knowledge": "node tools/knowledge/build.mjs",
+    "build:rig": "python3 tools/rig/build_anatomy_rig.py",
+    "build:web": "node tools/web/validate-static.mjs",
+    "build": "npm run build:knowledge && npm run build:web",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "dev": "python3 -m http.server 5173 --bind 0.0.0.0 --directory app",
+    "prepare:pages": "node tools/web/prepare-pages.mjs",
+    "legacy:generate": "tsx legacy/note-to-scene/scripts/generateSample.ts",
+    "shots": "node tools/web/shots.mjs",
+    "test:all": "npm run build && npm test && npm run test:e2e"
   },
   "devDependencies": {
+    "@playwright/test": "^1.60.0",
     "@types/node": "^20.12.12",
     "tsx": "^4.19.0",
     "typescript": "^5.6.3",

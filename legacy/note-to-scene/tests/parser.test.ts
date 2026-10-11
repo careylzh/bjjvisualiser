@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { parseBjjNote } from "../src/parser/parseBjjNote";
+import { parseBjjNote } from "../parser/parseBjjNote";
 
 describe("parseBjjNote", () => {
   it("maps triangle choke from closed guard to bottom-player attacker", () => {

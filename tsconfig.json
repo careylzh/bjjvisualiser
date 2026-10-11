@@ -10,6 +10,6 @@
     "noEmit": true,
     "types": ["node", "vitest/globals"]
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"],
-  "exclude": ["node_modules", "src/web"]
+  "include": ["legacy/**/*.ts", "tests/**/*.ts", "e2e/**/*.ts"],
+  "exclude": ["node_modules", "app"]
 }

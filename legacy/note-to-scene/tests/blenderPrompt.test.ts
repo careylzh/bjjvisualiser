@@ -1,12 +1,12 @@
 import { describe, expect, it } from "vitest";
-import { generateBlenderPrompt } from "../src/blender/generateBlenderPrompt";
-import { parseBjjNote } from "../src/parser/parseBjjNote";
+import { generateBlenderPrompt } from "../blender/generateBlenderPrompt";
+import { parseBjjNote } from "../parser/parseBjjNote";
 
 describe("generateBlenderPrompt", () => {
   it("mentions visual rules, stance, actor roles, USDZ export, and body constraints", () => {
     const scene = parseBjjNote("Triangle choke from closed guard");
     const prompt = generateBlenderPrompt(scene, {
-      exportTarget: "src/web/public/models/triangle.usdz"
+      exportTarget: "legacy/note-to-scene/data/generated/usdz/triangle.usdz"
     });
 
     expect(prompt).toContain("two grapplers");

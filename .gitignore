@@ -1,8 +1,8 @@
 node_modules/
 dist/
-src/web/node_modules/
-src/web/dist/
-src/web/.pages/
-src/web/test-results/
+.pages/
+.shots/
+test-results/
+playwright-report/
 .DS_Store
 *.tsbuildinfo
