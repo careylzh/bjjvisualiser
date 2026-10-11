@@ -1,6 +1,6 @@
 {
   "name": "bjj-visualiser",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "description": "Tap-a-joint BJJ revision app: a rigged anatomy figure mapped to submissions and controls by position, with sources.",
