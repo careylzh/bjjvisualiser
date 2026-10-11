@@ -1,111 +1,69 @@
 # BJJ Visualiser
 
-Pipeline for turning short BJJ notes into structured scene JSON, Blender MCP-ready prompts, and USDZ-first web review assets.
+**Tap a joint. Revise the attack.** A phone and iPad web app (GitHub Pages, works offline
+once loaded) that shows a rigged human anatomy figure. Tap any body region and the panel
+lists the Brazilian Jiu-Jitsu **submissions** and **controls** that target or grip it, filtered
+by **position** (closed guard, mount, side control, north–south, back, leg entanglements…)
+and **attacker role** (top/bottom), with the **anatomical mechanism**, **IBJJF legality** by
+belt (gi / no-gi), and the **sources** behind every entry.
 
-Milestone 1 simulates Google Keep by reading `.txt` notes from `data/sample-notes/`.
+The figure is the **defender**: every entry is something you can do *to* that joint.
+Tapping the wrist shows the kimura and americana ("grip here · attacks the shoulder");
+tapping the shoulder shows the omoplata from closed, open, spider, lasso and rubber guard.
+"Show on figure" animates the joint to — and past — its anatomical range so the lock is
+visible. The **Joint** tab exposes every degree of freedom with AAOS normative ranges.
 
-## Commands
+> Submissions are dangerous. Drill under a qualified instructor and tap early. This app is
+> revision material, not instruction.
 
+## What is in the box
+| Part | Where | Owner agent |
+|---|---|---|
+| Knowledge base — 104 techniques, 153 sources, IBJJF Rules Book v6.1 table | `knowledge/` | `knowledge-curator` |
+| Rigged anatomy figure — 21-joint UsdSkel, 29 tappable region meshes, ~83 KB USDZ | `tools/rig/`, `app/models/` | `rig-steward` |
+| The app — plain HTML/CSS/JS modules + vendored three.js r181 | `app/` | — |
+| Gates — knowledge validator, static guard, vitest facts, Playwright (phone/iPad/WebKit) | `tools/`, `tests/`, `e2e/` | `qa-inspector` |
+| Versioning — semver + build, tags | `scripts/version.sh` | `version-steward` |
+
+## Run it
 ```bash
-npm install
-npm test
-npm run build
-npm run generate:sample
+npm ci
+npm run build        # validate + bundle the knowledge base; check the static site
+npm run dev          # http://localhost:5173  (open on your phone via your Mac's LAN IP)
 ```
-
-`npm run generate:sample` reads `data/sample-notes/*.txt` and writes:
-
-- `data/generated/scenes/*.json`
-- `data/generated/blender-prompts/*.txt`
-
-Web viewer:
-
+Verify:
 ```bash
-cd src/web
-npm install
-npm run dev
-npm run build
-npm run prepare:pages
-npm run test:e2e
+npm test             # knowledge facts + legacy tests
+npx playwright install chromium webkit   # once per machine
+npm run test:e2e     # phone, iPad, desktop Chromium + iPad WebKit
+npm run shots        # headless screenshots → .shots/
 ```
-
-Manual browser check:
-
+Regenerate the figure (needs `python3` with the `pxr` module and `usdzip`, both on macOS
+with Apple's USD tools):
 ```bash
-cd src/web
-npm run dev
+npm run build:rig
 ```
 
-Open `http://localhost:5173/`, click `Load USDZ`, and choose
-`src/web/public/models/bjj-fighter-caucasian-white-gi-80kg.usdz`. The model
-should render in the browser viewport, and `Rotate Left`, `Rotate Right`, and
-`Reset View` should respond.
+## On iPhone / iPad
+Open the GitHub Pages URL in Safari. Under 760 px wide the technique panel is a bottom
+sheet (tap or drag the handle); on an iPad it is a side panel. The **AR** button opens the
+same USDZ in AR Quick Look.
 
-If port `5173` is already in use:
+## Deployment
+Every push to `main` runs `.github/workflows/deploy-pages.yml`: it rebuilds the knowledge
+bundle, checks version alignment, runs the unit tests, and deploys `app/` to GitHub Pages.
+Releases are tagged `vX.Y.Z` via `scripts/version.sh` (see `CLAUDE.md` ▸ Conventions).
 
-```bash
-cd src/web
-python3 -m http.server 5174 --bind 0.0.0.0
-```
+## Sources
+Mechanisms cite peer-reviewed anatomy where it exists (e.g. Hasegawa et al. 2026 for leg
+locks, Almeida et al. 2017 for the armbar), legality cites the official IBJJF Rules Book
+(v6.1, June 2024), positions and naming cite the standard textbooks (Ribeiro & Howell
+*Jiu-Jitsu University*; Gracie & Danaher *Mastering Jujitsu*; Gracie & Gracie *Theory and
+Technique*) and established coaching sites. Every entry shows its citations under
+**Sources**; low-confidence entries carry a badge. See `docs/reference/SOURCES.md` and
+`docs/reference/RESEARCH-NOTES-2026-10-11.md` for what is still unresolved.
 
-Open `http://localhost:5174/`.
-
-Playwright browser verification:
-
-```bash
-cd src/web
-npm run test:e2e
-npx playwright test --headed
-npx playwright test --debug
-npx playwright test tests/usdz-viewer.spec.ts --project=chromium
-```
-
-If Playwright browsers are not installed:
-
-```bash
-cd src/web
-npx playwright install
-```
-
-## GitHub Pages Deployment
-
-The viewer is deployed as a static GitHub Pages site from `src/web`.
-
-```bash
-git push origin main
-```
-
-The `.github/workflows/deploy-pages.yml` workflow validates the root pipeline,
-validates the static viewer, prepares `src/web/.pages`, and deploys that
-artifact to GitHub Pages.
-
-Expected public URL:
-
-```txt
-https://careylzh.github.io/bjjvisualiser/
-```
-
-The web viewer runtime is plain static HTML/CSS/JS:
-
-- `src/web/index.html`
-- `src/web/styles.css`
-- `src/web/app.js`
-- vendored Three.js modules in `src/web/vendor/`
-
-It loads USDZ files from `src/web/public/models/` or via drag/drop and
-file-picker upload, renders them in a Three.js scene, and provides orbit
-controls plus horizontal rotate buttons. Generated Blender MCP prompts target
-USDZ exports into the models directory. `npm` in `src/web` is only for local
-static validation and Playwright tests; GitHub Pages can serve the files
-directly.
-
-## Pipeline
-
-```txt
-Google Keep-style text note
--> BJJ semantic parser
--> structured BJJ scene JSON
--> Blender MCP prompt
--> USDZ export
--> GitHub Pages USDZ viewer
-```
+## History
+v0.1 (June 2026) was a note → scene JSON → Blender-prompt pipeline with a static USDZ
+viewer; it is archived under `legacy/note-to-scene/`. The 2026-10-11 repurpose is recorded
+in `docs/decisions/2026-10-11-repurpose-tap-to-revise.md`.
