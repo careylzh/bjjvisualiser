@@ -1,0 +1,915 @@
+{
+  "generator": "tools/rig/build_anatomy_rig.py",
+  "stature_m": 1.75,
+  "up_axis": "Y",
+  "a_pose_abduction_deg": 25.0,
+  "sources": {
+    "proportions": "Drillis R, Contini R. Body Segment Parameters. Report 1166-03, NYU School of Engineering, 1966 (via Winter DA, Biomechanics and Motor Control of Human Movement, 4th ed., 2009, Fig. 4.1).",
+    "range_of_motion": "American Academy of Orthopaedic Surgeons. Joint Motion: Method of Measuring and Recording. Chicago: AAOS, 1965 (via Norkin CC, White DJ. Measurement of Joint Motion: A Guide to Goniometry, 5th ed., 2016)."
+  },
+  "joints": [
+    {
+      "name": "pelvis",
+      "path": "pelvis",
+      "parent": null,
+      "side": null,
+      "articulation": "pelvis",
+      "rest_world": [
+        0.0,
+        0.9275,
+        0.0
+      ],
+      "child": "spine",
+      "dof": []
+    },
+    {
+      "name": "spine",
+      "path": "pelvis/spine",
+      "parent": "pelvis",
+      "side": null,
+      "articulation": "spine",
+      "rest_world": [
+        0.0,
+        1.1025,
+        0.0
+      ],
+      "child": "chest",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -25,
+            60
+          ]
+        },
+        {
+          "motion": "lateral_flexion",
+          "opposite": "lateral_flexion",
+          "axis": "Z",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -25,
+            25
+          ]
+        },
+        {
+          "motion": "rotation",
+          "opposite": "rotation",
+          "axis": "Y",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -15,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chest",
+      "path": "pelvis/spine/chest",
+      "parent": "spine",
+      "side": null,
+      "articulation": "chest",
+      "rest_world": [
+        0.0,
+        1.26,
+        0.0
+      ],
+      "child": "neck",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -20,
+            45
+          ]
+        },
+        {
+          "motion": "lateral_flexion",
+          "opposite": "lateral_flexion",
+          "axis": "Z",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -20,
+            20
+          ]
+        },
+        {
+          "motion": "rotation",
+          "opposite": "rotation",
+          "axis": "Y",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -35,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "name": "neck",
+      "path": "pelvis/spine/chest/neck",
+      "parent": "chest",
+      "side": null,
+      "articulation": "neck",
+      "rest_world": [
+        0.0,
+        1.4315,
+        0.0
+      ],
+      "child": "head",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -60,
+            50
+          ]
+        },
+        {
+          "motion": "lateral_flexion",
+          "opposite": "lateral_flexion",
+          "axis": "Z",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -45,
+            45
+          ]
+        },
+        {
+          "motion": "rotation",
+          "opposite": "rotation",
+          "axis": "Y",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -80,
+            80
+          ]
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "path": "pelvis/spine/chest/neck/head",
+      "parent": "neck",
+      "side": null,
+      "articulation": "head",
+      "rest_world": [
+        0.0,
+        1.5225,
+        0.0
+      ],
+      "child": null,
+      "dof": []
+    },
+    {
+      "name": "shoulder_L",
+      "path": "pelvis/spine/chest/shoulder_L",
+      "parent": "chest",
+      "side": "L",
+      "articulation": "shoulder",
+      "rest_world": [
+        0.1949,
+        1.414,
+        0.0
+      ],
+      "child": "elbow_L",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -60,
+            180
+          ]
+        },
+        {
+          "motion": "abduction",
+          "opposite": "adduction",
+          "axis": "Z",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -50,
+            180
+          ]
+        },
+        {
+          "motion": "internal_rotation",
+          "opposite": "external_rotation",
+          "axis": "LONG",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -90,
+            70
+          ],
+          "demo_setup": {
+            "joint": "elbow",
+            "motion": "flexion",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "elbow_L",
+      "path": "pelvis/spine/chest/shoulder_L/elbow_L",
+      "parent": "shoulder_L",
+      "side": "L",
+      "articulation": "elbow",
+      "rest_world": [
+        0.33246,
+        1.119,
+        0.0
+      ],
+      "child": "wrist_L",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "hyperextension",
+          "axis": "X",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -10,
+            150
+          ]
+        },
+        {
+          "motion": "pronation",
+          "opposite": "supination",
+          "axis": "LONG",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -80,
+            80
+          ],
+          "demo_setup": {
+            "joint": "elbow",
+            "motion": "flexion",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "wrist_L",
+      "path": "pelvis/spine/chest/shoulder_L/elbow_L/wrist_L",
+      "parent": "elbow_L",
+      "side": "L",
+      "articulation": "wrist",
+      "rest_world": [
+        0.44044,
+        0.88744,
+        0.0
+      ],
+      "child": "hand_L",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -70,
+            80
+          ]
+        },
+        {
+          "motion": "ulnar_deviation",
+          "opposite": "radial_deviation",
+          "axis": "Z",
+          "sign": -1,
+          "mirror": true,
+          "range": [
+            -20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hand_L",
+      "path": "pelvis/spine/chest/shoulder_L/elbow_L/wrist_L/hand_L",
+      "parent": "wrist_L",
+      "side": "L",
+      "articulation": "hand",
+      "rest_world": [
+        0.52031,
+        0.71614,
+        0.0
+      ],
+      "child": null,
+      "dof": []
+    },
+    {
+      "name": "shoulder_R",
+      "path": "pelvis/spine/chest/shoulder_R",
+      "parent": "chest",
+      "side": "R",
+      "articulation": "shoulder",
+      "rest_world": [
+        -0.1949,
+        1.414,
+        0.0
+      ],
+      "child": "elbow_R",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -60,
+            180
+          ]
+        },
+        {
+          "motion": "abduction",
+          "opposite": "adduction",
+          "axis": "Z",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -50,
+            180
+          ]
+        },
+        {
+          "motion": "internal_rotation",
+          "opposite": "external_rotation",
+          "axis": "LONG",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -90,
+            70
+          ],
+          "demo_setup": {
+            "joint": "elbow",
+            "motion": "flexion",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "elbow_R",
+      "path": "pelvis/spine/chest/shoulder_R/elbow_R",
+      "parent": "shoulder_R",
+      "side": "R",
+      "articulation": "elbow",
+      "rest_world": [
+        -0.33246,
+        1.119,
+        0.0
+      ],
+      "child": "wrist_R",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "hyperextension",
+          "axis": "X",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -10,
+            150
+          ]
+        },
+        {
+          "motion": "pronation",
+          "opposite": "supination",
+          "axis": "LONG",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -80,
+            80
+          ],
+          "demo_setup": {
+            "joint": "elbow",
+            "motion": "flexion",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "wrist_R",
+      "path": "pelvis/spine/chest/shoulder_R/elbow_R/wrist_R",
+      "parent": "elbow_R",
+      "side": "R",
+      "articulation": "wrist",
+      "rest_world": [
+        -0.44044,
+        0.88744,
+        0.0
+      ],
+      "child": "hand_R",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -70,
+            80
+          ]
+        },
+        {
+          "motion": "ulnar_deviation",
+          "opposite": "radial_deviation",
+          "axis": "Z",
+          "sign": -1,
+          "mirror": true,
+          "range": [
+            -20,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "hand_R",
+      "path": "pelvis/spine/chest/shoulder_R/elbow_R/wrist_R/hand_R",
+      "parent": "wrist_R",
+      "side": "R",
+      "articulation": "hand",
+      "rest_world": [
+        -0.52031,
+        0.71614,
+        0.0
+      ],
+      "child": null,
+      "dof": []
+    },
+    {
+      "name": "hip_L",
+      "path": "pelvis/hip_L",
+      "parent": "pelvis",
+      "side": "L",
+      "articulation": "hip",
+      "rest_world": [
+        0.14707,
+        0.9275,
+        0.0
+      ],
+      "child": "knee_L",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -30,
+            120
+          ]
+        },
+        {
+          "motion": "abduction",
+          "opposite": "adduction",
+          "axis": "Z",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -30,
+            45
+          ]
+        },
+        {
+          "motion": "internal_rotation",
+          "opposite": "external_rotation",
+          "axis": "LONG",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -45,
+            45
+          ],
+          "demo_setup": {
+            "joint": "knee",
+            "motion": "flexion",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "knee_L",
+      "path": "pelvis/hip_L/knee_L",
+      "parent": "hip_L",
+      "side": "L",
+      "articulation": "knee",
+      "rest_world": [
+        0.14707,
+        0.49875,
+        0.0
+      ],
+      "child": "ankle_L",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "hyperextension",
+          "axis": "X",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -10,
+            135
+          ]
+        },
+        {
+          "motion": "internal_rotation",
+          "opposite": "external_rotation",
+          "axis": "LONG",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -10,
+            10
+          ],
+          "demo_setup": {
+            "joint": "knee",
+            "motion": "flexion",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "ankle_L",
+      "path": "pelvis/hip_L/knee_L/ankle_L",
+      "parent": "knee_L",
+      "side": "L",
+      "articulation": "ankle",
+      "rest_world": [
+        0.14707,
+        0.06825,
+        0.0
+      ],
+      "child": "toe_L",
+      "dof": [
+        {
+          "motion": "plantarflexion",
+          "opposite": "dorsiflexion",
+          "axis": "X",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -20,
+            50
+          ]
+        },
+        {
+          "motion": "inversion",
+          "opposite": "eversion",
+          "axis": "Z",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -15,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "name": "toe_L",
+      "path": "pelvis/hip_L/knee_L/ankle_L/toe_L",
+      "parent": "ankle_L",
+      "side": "L",
+      "articulation": "toe",
+      "rest_world": [
+        0.14707,
+        0.02389,
+        0.19152
+      ],
+      "child": null,
+      "dof": []
+    },
+    {
+      "name": "hip_R",
+      "path": "pelvis/hip_R",
+      "parent": "pelvis",
+      "side": "R",
+      "articulation": "hip",
+      "rest_world": [
+        -0.14707,
+        0.9275,
+        0.0
+      ],
+      "child": "knee_R",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "extension",
+          "axis": "X",
+          "sign": -1,
+          "mirror": false,
+          "range": [
+            -30,
+            120
+          ]
+        },
+        {
+          "motion": "abduction",
+          "opposite": "adduction",
+          "axis": "Z",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -30,
+            45
+          ]
+        },
+        {
+          "motion": "internal_rotation",
+          "opposite": "external_rotation",
+          "axis": "LONG",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -45,
+            45
+          ],
+          "demo_setup": {
+            "joint": "knee",
+            "motion": "flexion",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "knee_R",
+      "path": "pelvis/hip_R/knee_R",
+      "parent": "hip_R",
+      "side": "R",
+      "articulation": "knee",
+      "rest_world": [
+        -0.14707,
+        0.49875,
+        0.0
+      ],
+      "child": "ankle_R",
+      "dof": [
+        {
+          "motion": "flexion",
+          "opposite": "hyperextension",
+          "axis": "X",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -10,
+            135
+          ]
+        },
+        {
+          "motion": "internal_rotation",
+          "opposite": "external_rotation",
+          "axis": "LONG",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -10,
+            10
+          ],
+          "demo_setup": {
+            "joint": "knee",
+            "motion": "flexion",
+            "value": 90
+          }
+        }
+      ]
+    },
+    {
+      "name": "ankle_R",
+      "path": "pelvis/hip_R/knee_R/ankle_R",
+      "parent": "knee_R",
+      "side": "R",
+      "articulation": "ankle",
+      "rest_world": [
+        -0.14707,
+        0.06825,
+        0.0
+      ],
+      "child": "toe_R",
+      "dof": [
+        {
+          "motion": "plantarflexion",
+          "opposite": "dorsiflexion",
+          "axis": "X",
+          "sign": 1,
+          "mirror": false,
+          "range": [
+            -20,
+            50
+          ]
+        },
+        {
+          "motion": "inversion",
+          "opposite": "eversion",
+          "axis": "Z",
+          "sign": 1,
+          "mirror": true,
+          "range": [
+            -15,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "name": "toe_R",
+      "path": "pelvis/hip_R/knee_R/ankle_R/toe_R",
+      "parent": "ankle_R",
+      "side": "R",
+      "articulation": "toe",
+      "rest_world": [
+        -0.14707,
+        0.02389,
+        0.19152
+      ],
+      "child": null,
+      "dof": []
+    }
+  ],
+  "prims": {
+    "Head": {
+      "region": "head",
+      "joint": "head",
+      "shape": "segment"
+    },
+    "Neck": {
+      "region": "neck",
+      "joint": "neck",
+      "shape": "segment"
+    },
+    "Chest": {
+      "region": "chest",
+      "joint": "chest",
+      "shape": "segment"
+    },
+    "Abdomen": {
+      "region": "abdomen",
+      "joint": "spine",
+      "shape": "segment"
+    },
+    "Pelvis": {
+      "region": "hips",
+      "joint": "pelvis",
+      "shape": "segment"
+    },
+    "Shoulder_L": {
+      "region": "shoulder",
+      "joint": "shoulder_L",
+      "shape": "joint"
+    },
+    "UpperArm_L": {
+      "region": "upper_arm",
+      "joint": "shoulder_L",
+      "shape": "segment"
+    },
+    "Elbow_L": {
+      "region": "elbow",
+      "joint": "elbow_L",
+      "shape": "joint"
+    },
+    "Forearm_L": {
+      "region": "forearm",
+      "joint": "elbow_L",
+      "shape": "segment"
+    },
+    "Wrist_L": {
+      "region": "wrist",
+      "joint": "wrist_L",
+      "shape": "joint"
+    },
+    "Hand_L": {
+      "region": "hand",
+      "joint": "wrist_L",
+      "shape": "segment"
+    },
+    "Hip_L": {
+      "region": "hips",
+      "joint": "hip_L",
+      "shape": "joint"
+    },
+    "Thigh_L": {
+      "region": "thigh",
+      "joint": "hip_L",
+      "shape": "segment"
+    },
+    "Knee_L": {
+      "region": "knee",
+      "joint": "knee_L",
+      "shape": "joint"
+    },
+    "Shin_L": {
+      "region": "shin_calf",
+      "joint": "knee_L",
+      "shape": "segment"
+    },
+    "Ankle_L": {
+      "region": "ankle",
+      "joint": "ankle_L",
+      "shape": "joint"
+    },
+    "Foot_L": {
+      "region": "foot",
+      "joint": "ankle_L",
+      "shape": "segment"
+    },
+    "Shoulder_R": {
+      "region": "shoulder",
+      "joint": "shoulder_R",
+      "shape": "joint"
+    },
+    "UpperArm_R": {
+      "region": "upper_arm",
+      "joint": "shoulder_R",
+      "shape": "segment"
+    },
+    "Elbow_R": {
+      "region": "elbow",
+      "joint": "elbow_R",
+      "shape": "joint"
+    },
+    "Forearm_R": {
+      "region": "forearm",
+      "joint": "elbow_R",
+      "shape": "segment"
+    },
+    "Wrist_R": {
+      "region": "wrist",
+      "joint": "wrist_R",
+      "shape": "joint"
+    },
+    "Hand_R": {
+      "region": "hand",
+      "joint": "wrist_R",
+      "shape": "segment"
+    },
+    "Hip_R": {
+      "region": "hips",
+      "joint": "hip_R",
+      "shape": "joint"
+    },
+    "Thigh_R": {
+      "region": "thigh",
+      "joint": "hip_R",
+      "shape": "segment"
+    },
+    "Knee_R": {
+      "region": "knee",
+      "joint": "knee_R",
+      "shape": "joint"
+    },
+    "Shin_R": {
+      "region": "shin_calf",
+      "joint": "knee_R",
+      "shape": "segment"
+    },
+    "Ankle_R": {
+      "region": "ankle",
+      "joint": "ankle_R",
+      "shape": "joint"
+    },
+    "Foot_R": {
+      "region": "foot",
+      "joint": "ankle_R",
+      "shape": "segment"
+    }
+  }
+}
