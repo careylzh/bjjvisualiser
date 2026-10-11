@@ -1,0 +1,44 @@
+name: CI
+
+# Gates for every push/PR. They are the same commands CLAUDE.md names, so a green CI means
+# exactly what a green local run means — no more, no less.
+#   knowledge — the hand-curated entries validate (schema, sources, regions, rig DOF names)
+#   unit      — vitest: knowledge facts pinned as regressions + legacy pipeline tests
+#   e2e       — Playwright on phone Chromium, iPad Chromium, desktop Chromium and iPad WebKit
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gates:
+    name: build · unit · e2e
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Knowledge + static gates
+        run: npm run build
+      - name: Version alignment
+        run: scripts/version.sh verify
+      - name: Unit tests
+        run: npm test
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium webkit
+      - name: End-to-end (phone, iPad, desktop, WebKit)
+        run: npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: playwright-report
+          retention-days: 7

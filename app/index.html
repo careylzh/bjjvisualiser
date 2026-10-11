@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#101418" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="Tap a joint on a rigged anatomy figure and revise which Brazilian Jiu-Jitsu submissions and controls attack it, from which positions, with sources." />
+    <title>BJJ Visualiser</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three/build/three.module.js",
+          "three/addons/": "./vendor/three/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app" class="app" data-sheet="peek">
+      <header class="top-bar">
+        <div class="brand">
+          <h1>BJJ Visualiser</h1>
+          <p>Tap a joint. Revise the attack.</p>
+        </div>
+        <div class="top-actions">
+          <button id="resetPoseButton" type="button" class="ghost" title="Reset pose and camera">Reset</button>
+          <a id="arLink" class="ghost ar-link" href="./models/anatomy-rig.usdz" rel="ar" hidden>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" alt="" />
+            AR
+          </a>
+        </div>
+      </header>
+
+      <section class="filters" aria-label="Filters">
+        <div class="chip-row" id="groupChips" role="tablist" aria-label="Position group"></div>
+        <div class="filter-controls">
+          <label class="select-wrap">
+            <span class="sr-only">Position</span>
+            <select id="positionSelect" aria-label="Position">
+              <option value="">Any position</option>
+            </select>
+          </label>
+          <div class="segmented" role="group" aria-label="Attacker role">
+            <button type="button" data-role="" class="is-active">Any role</button>
+            <button type="button" data-role="top">Top</button>
+            <button type="button" data-role="bottom">Bottom</button>
+          </div>
+        </div>
+      </section>
+
+      <main class="stage">
+        <div id="viewport" class="viewport" aria-label="Rigged anatomy figure" data-testid="viewport" data-viewer-status="loading" data-selected-region="">
+          <div class="viewer-overlay" id="viewerOverlay">
+            <p id="viewerStatus" data-testid="viewer-status">Loading the anatomy rig…</p>
+          </div>
+          <div class="side-badge" id="sideBadge" hidden></div>
+        </div>
+
+        <aside class="panel" id="panel" aria-label="Technique panel">
+          <button class="sheet-handle" id="sheetHandle" type="button" aria-label="Expand or collapse the panel">
+            <span></span>
+          </button>
+          <div class="panel-scroll" id="panelScroll">
+            <section id="panelHome" class="panel-home">
+              <h2>Choose a body region</h2>
+              <p class="muted">Tap the figure, or pick a region below. The figure is the <strong>defender</strong>: every entry is something you can do <em>to</em> that joint, filtered by the position you are in.</p>
+              <ul class="region-list" id="regionList"></ul>
+              <p class="muted small">Submissions are dangerous. Drill under a qualified instructor and tap early.</p>
+            </section>
+            <section id="panelRegion" class="panel-region" hidden></section>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="foot">
+        <span id="versionLabel">v—</span>
+        <span>·</span>
+        <span id="kbLabel">—</span>
+        <span>·</span>
+        <a href="https://github.com/careylzh/bjjvisualiser" target="_blank" rel="noopener">source</a>
+      </footer>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
