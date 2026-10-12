@@ -3,15 +3,15 @@
 Current working state + where to look. **Dated history → [CHANGELOG.md](CHANGELOG.md);
 open work → [TODO.md](TODO.md); conventions and gates → [CLAUDE.md](CLAUDE.md).**
 
-## Deployed state (updated 2026-10-11)
+## Deployed state (updated 2026-10-12)
 
 | Surface | Version | Note |
 |---|---|---|
-| GitHub Pages — https://careylzh.github.io/bjjvisualiser/ | **v1.0.0 (build 2)** ✅ deployed 2026-10-11, version **read back from the live site** | v1.0.1 (iPad panel containment fix) and v1.1.0 (plain-language anatomy, laptop/desktop layouts) are committed + tagged locally; push `main --tags` to deploy them |
+| GitHub Pages — https://careylzh.github.io/bjjvisualiser/ | **v1.2.0 (build 5)** pushed 2026-10-12 (simplified phone view, fundamentals-first ordering) | confirm the footer on the live site reads v1.2.0 once the Pages workflow finishes |
 | iPhone Safari | — | never opened on a device — **DEVICE PASS PENDING** |
 | iPad Safari | — | never opened on a device — **DEVICE PASS PENDING** (headless WebKit passes) |
 
-## What's live in the tree now — v1.1.0 (build 4)
+## What's live in the tree now — v1.2.0 (build 5)
 - `app/` is the whole site: `index.html`, `styles.css`, `app.js`, `js/viewer.js`,
   `js/panel.js`, `data/knowledge.json` (built), `models/anatomy-rig.{usdz,json}`,
   `version.json`, `vendor/three/`.

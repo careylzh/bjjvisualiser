@@ -5,6 +5,22 @@ All notable changes to the BJJ Visualiser. Dates are `YYYY-MM-DD`. Versions foll
 
 ## [Unreleased]
 
+### 2026-10-12 — Round 5 (**v1.2.0**, build 5): simplified phone view + fundamentals first
+
+`minor` (schema addition + new app features; includes one fix). Commit `2741cd0`.
+- **Phone (<760 px) simplified view:** each technique is one bullet line (name + positions);
+  the full explanation, anatomy detail, position notes, rules, demo and sources open on tap.
+  Filters fold behind a "Filters" button; tagline, intro and footer counts hidden; region
+  description behind "About the <region>"; half sheet 58% → 50%.
+- **Fundamentals first (schema addition, D-4):** optional editorial `tier`
+  (`fundamental` | `advanced`) on technique entries; every tab sorts fundamentals → untiered →
+  advanced with a "More advanced" divider. 66 of 104 entries tagged as a first pass —
+  **curator/PI review pending**. No facts, sources or legality changed.
+- **Fix:** hiding the filter row shifted the stage into an auto grid row (0 px tall);
+  the app grid now uses named areas.
+- Gates: build, `npm test` (25), `npm run test:e2e` (52 passed, 8 skipped across six projects).
+  Device pass (iPhone/iPad Safari) still PENDING.
+
 ### 2026-10-12 — Round 4 (**v1.1.0**, build 4): plain-language anatomy + laptop/desktop layouts
 
 `minor` (schema addition + new app features; includes one fix). Commit `dd8d5c0`.
