@@ -24,6 +24,7 @@ const belts = new Set(["white", "blue", "purple", "brown", "black", "never"]);
 const roles = new Set(["top", "bottom", "standing", "either"]);
 const categories = new Set(["joint_lock", "choke", "crank", "compression", "control"]);
 const confidences = new Set(["high", "medium", "low"]);
+const tiers = new Set(["fundamental", "advanced"]); // optional, editorial; D-4
 const demoJoints = new Set(["none", ...rig.joints.map((j) => j.articulation)]);
 const motionNames = new Set(["none", "compression"]);
 for (const j of rig.joints) for (const d of j.dof) { motionNames.add(d.motion); motionNames.add(d.opposite); }
@@ -78,6 +79,7 @@ for (const file of files) {
     must(Array.isArray(t.sources) && t.sources.length > 0, "at least one source required — unsourced entries do not ship");
     for (const s of t.sources ?? []) must(sources[s.ref], `source ref '${s.ref}' not in knowledge/sources.json`);
     must(confidences.has(t.confidence), `confidence '${t.confidence}' invalid`);
+    must(t.tier === undefined || tiers.has(t.tier), `tier '${t.tier}' invalid (fundamental | advanced, or omit)`);
     if (t.demo_motion) {
       // Pronation/supination is a forearm motion but lives on the elbow articulation in the rig.
       if (t.demo_motion.joint === "forearm") t.demo_motion.joint = "elbow";

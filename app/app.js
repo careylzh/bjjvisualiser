@@ -10,7 +10,7 @@ const dom = {
   panelHome: $("panelHome"), panelRegion: $("panelRegion"), regionList: $("regionList"),
   panelScroll: $("panelScroll"), sheetHandle: $("sheetHandle"),
   resetPoseButton: $("resetPoseButton"), arLink: $("arLink"), versionLabel: $("versionLabel"), kbLabel: $("kbLabel"),
-  hoverLabel: $("hoverLabel")
+  hoverLabel: $("hoverLabel"), filterToggle: $("filterToggle")
 };
 
 function setStatus(state, message) {

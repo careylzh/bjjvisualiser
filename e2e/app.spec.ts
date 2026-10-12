@@ -1,4 +1,10 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
+
+// Phones show each technique as a collapsed bullet; open it to reach the explanation and buttons.
+async function openCard(card: Locator) {
+  const summary = card.locator(".tech > summary");
+  if (await summary.count()) await summary.click();
+}
 
 async function loaded(page: Page) {
   await page.goto("/");
@@ -24,6 +30,7 @@ test("selecting a region from the list shows its attacks with sources", async ({
   await expect(page.locator("#panelRegion h2")).toContainText("Shoulder");
   const kimura = page.locator('article[data-technique="kimura"]');
   await expect(kimura).toBeVisible();
+  await openCard(kimura);
   await kimura.getByRole("button", { name: /Sources/ }).click();
   await expect(kimura.locator(".sources li").first()).toBeVisible();
 });
@@ -50,6 +57,7 @@ test("tapping the figure selects the region under the pointer", async ({ page })
 test("position and role filters narrow the technique list", async ({ page }) => {
   await loaded(page);
   await page.locator('#regionList button[data-region="shoulder"]').click();
+  if (await page.locator("#filterToggle").isVisible()) await page.locator("#filterToggle").click();
   await page.locator('#groupChips [data-group="top"]').click();
   await page.locator("#positionSelect").selectOption("mount");
   await page.locator('.segmented [data-role="bottom"]').click();
@@ -65,6 +73,7 @@ test("the joint tab exposes anatomical DOF sliders and a demo moves the joint", 
   await page.locator('.tab[data-tab="joint"]').click();
   await expect(page.locator('input.range[data-dof="flexion"]')).toBeVisible();
   await page.locator('.tab[data-tab="attacks"]').click();
+  await openCard(page.locator("#panelRegion article").first());
   const demo = page.locator("button[data-demo]").first();
   await demo.click();
   // Poll: CI runners render WebGL in software and may deliver only a few animation frames per second.
@@ -101,6 +110,7 @@ test("technique cards lead with plain language; the clinical anatomy is collapse
   await expect(armbar.locator(".mech")).toContainText("How it works");
   await expect(armbar.locator(".mech")).not.toContainText(/olecranon|humeroulnar|capsule/i);
   await expect(page.locator("#panelRegion .region-head .anatomy")).not.toContainText(/humeroulnar|collateral/i);
+  await openCard(armbar);
   const detail = armbar.locator("details.anatomy-detail");
   await expect(detail.locator("p").first()).toBeHidden();
   await detail.locator("summary").click();
@@ -140,4 +150,30 @@ test("laptop and desktop: the panel grows with the screen, AR is hidden, the mou
   await page.mouse.move(box!.x + pt.x, box!.y + pt.y, { steps: 4 });
   await expect(page.locator("#hoverLabel")).toBeVisible();
   await expect(page.locator("#hoverLabel")).toContainText(/Elbow/);
+});
+
+test("fundamentals are listed before the fancy techniques", async ({ page }) => {
+  await loaded(page);
+  await page.locator('#regionList button[data-region="elbow"]').click();
+  const ids = await page.locator("#panelRegion article").evaluateAll((ns) => ns.map((n) => n.getAttribute("data-technique")));
+  expect(ids.indexOf("armbar_closed_guard")).toBeLessThan(ids.indexOf("armbar_crucifix"));
+  expect(ids.indexOf("armbar_mount")).toBeLessThan(ids.indexOf("flying_armbar"));
+  await expect(page.locator("#panelRegion .tier-divider")).toHaveCount(1);
+});
+
+test("phone: a simplified view — bullets, explanations collapsed, filters folded away", async ({ page, viewport }) => {
+  test.skip((viewport?.width ?? 0) >= 760, "phone projects only");
+  await loaded(page);
+  await expect(page.locator("#groupChips")).toBeHidden();
+  await page.locator("#filterToggle").click();
+  await expect(page.locator("#groupChips")).toBeVisible();
+  await page.locator("#filterToggle").click();
+  await page.locator('#regionList button[data-region="shoulder"]').click();
+  await expect(page.locator("#panelRegion .region-head .anatomy")).toBeHidden(); // behind "About the shoulder"
+  const kimura = page.locator('article[data-technique="kimura"]');
+  await expect(kimura.locator(".tech-name")).toHaveText("Kimura");
+  await expect(kimura.locator(".mech")).toBeHidden();
+  await openCard(kimura);
+  await expect(kimura.locator(".mech")).toBeVisible();
+  await expect(kimura.locator("button[data-demo]")).toBeVisible();
 });

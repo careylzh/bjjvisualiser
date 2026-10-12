@@ -92,6 +92,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": "Which structure fails first is debated: the 2017 MRI case series found UCL and common flexor tendon injury; a cadaver study reported second-hand (Sherdog) found anterior capsule rupture first."
   },
   {
@@ -185,6 +186,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -267,6 +269,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -338,6 +341,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "fundamental",
     "notes": "Garcia 2011 covers finishing from the back but exact pages were not verified."
   },
   {
@@ -469,6 +473,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -530,6 +535,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -584,6 +590,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Only a Wikipedia description was located; no textbook locator."
   },
   {
@@ -672,6 +679,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Judo names vary: ude-gatame (arm lock with hands) / waki-gatame (armpit) are near equivalents."
   },
   {
@@ -743,6 +751,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "No textbook locator found for the side-control version."
   },
   {
@@ -905,6 +914,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": "Anatomical loading: internal rotation tensions the posterior capsule/posterior IGHL and the external rotators; the frequently quoted 'subscapularis' target is actually the muscle being shortened, not stretched."
   },
   {
@@ -1031,6 +1041,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": "Name origin (Rolls Gracie / Bob Anderson) is disputed; the term appears in a 1951 Brazilian newspaper."
   },
   {
@@ -1163,6 +1174,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": "Kids' prohibition verified against the rendered table on 2026-10-11."
   },
   {
@@ -1242,6 +1254,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Sources disagree on the precise direction of the finishing torque (rotate torso vs push arm away); Freitas originally developed it as a bicep slicer and converted it to a shoulder lock for rules compliance."
   },
   {
@@ -1322,6 +1335,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -1392,6 +1406,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Sources differ on which leg traps the arm; terminology also varies (some schools call a reverse omoplata 'monoplata')."
   },
   {
@@ -1451,6 +1466,7 @@
       }
     ],
     "confidence": "low",
+    "tier": "advanced",
     "notes": "Only a Grapplearts tag page (video tutorial) was located; written mechanics are not described in text, so the exact leg/grip configuration is unverified."
   },
   {
@@ -1517,6 +1533,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -1661,6 +1678,7 @@
       }
     ],
     "confidence": "low",
+    "tier": "advanced",
     "notes": "Sources conflict: some call it a kimura variant, some an americana variant with elbow/shoulder together. The task brief grouped it with supination wrist locks; the located sources describe a shoulder lock. Origin (Mir vs Williams UFC 36) not verified in the sources retrieved."
   },
   {
@@ -1773,6 +1791,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": "Legality verified against the rendered IBJJF table (2026-10-11). Rubber guard position cited to Bravo without a page locator."
   },
   {
@@ -2292,6 +2311,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -2484,6 +2504,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Attribution to Rickson Gracie is from secondary blogs, not verified in a textbook. Merged with the torso-control entry from the neck/torso research set."
   },
   {
@@ -2680,6 +2701,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "fundamental",
     "notes": "Merged with the torso-control entry from the neck/torso research set."
   },
   {
@@ -2780,6 +2802,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -3118,6 +3141,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -3192,6 +3216,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": ""
   }
 ]

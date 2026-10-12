@@ -125,6 +125,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": "Kesting notes two competing pain mechanisms – foot hyperextension (plantarflexion) vs. Achilles compression – which one dominates depends on grip and anatomy."
   },
   {
@@ -448,6 +449,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Single detailed source for the configuration; popularisation (often credited to Lachlan Giles / Craig Jones) not verified."
   },
   {
@@ -815,6 +817,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": "Specific muscles (gastrocnemius/soleus) are the author's anatomical gloss – sources say 'calf muscle'. Not covered in the Hasegawa review."
   },
   {
@@ -909,6 +912,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "IBJJF classification inferred from mechanics, not stated in the rulebook."
   },
   {
@@ -996,6 +1000,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Origin story not verified (one low-quality source cites Aoki vs Kawajiri, Dream 15). Mikey Musumeci submitted Aoki with it at ONE Fight Night 15 (2023). Exact ligament pattern is extrapolated from the inside heel hook."
   },
   {
@@ -1086,6 +1091,7 @@
       }
     ],
     "confidence": "low",
+    "tier": "advanced",
     "notes": "Sources disagree: Digitsu lists 'cloverleaf' as an alias of the calf slicer, while instructional blogs describe a kneebar + ankle lock compound from inside sankaku; the exact joint loaded is not described by any authoritative source."
   },
   {
@@ -1167,6 +1173,7 @@
       }
     ],
     "confidence": "low",
+    "tier": "advanced",
     "notes": "Single source; the brief calls it a foot lock but the source describes a knee/hip rotational lock."
   },
   {
@@ -1255,6 +1262,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Specific adductor muscles are the author's anatomical gloss; sources say 'groin and hamstrings'. Some sources also classify it loosely as a 'spinal lock'; the IBJJF treats leg-splitting as its own class."
   },
   {
@@ -1336,6 +1344,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Eddie Bravo's 'Mastering the Rubber Guard' (2006) covers the lockdown/electric chair system but no page locator was found."
   },
   {
@@ -1435,6 +1444,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": "The IBJJF rulebook gives no explicit medical rationale; the 'knee cannot rotate with the foot trapped' explanation is from Ryan/FloGrappling and Piekarski (DPT) who adds that injury mostly occurs when the defender fights the torque."
   },
   {
@@ -1720,6 +1730,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": "Danaher's own wording on 'inside position' comes via secondary coaching summaries, not a primary text."
   },
   {
@@ -2518,6 +2529,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Bravo's 'Mastering the Rubber Guard' (2006) is the primary text; no locator found."
   },
   {
@@ -2596,6 +2608,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": ""
   }
 ]

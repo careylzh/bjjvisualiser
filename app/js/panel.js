@@ -3,6 +3,7 @@
 // app/data/knowledge.json, which the build gate validated.
 const BELT_LABEL = { white: "white+", blue: "blue+", purple: "purple+", brown: "brown+", black: "black", never: "illegal" };
 const CAT_LABEL = { joint_lock: "joint lock", choke: "choke", crank: "crank", compression: "compression", control: "control" };
+const TIER_RANK = { fundamental: 0, advanced: 2 }; // untiered = 1
 const ROLE_GLYPH = { top: "▲ top", bottom: "▼ bottom", standing: "standing", either: "either" };
 
 const el = (tag, attrs = {}, ...children) => {
@@ -30,6 +31,10 @@ const MOTION_LABEL = {
   inversion: "sole turns in", eversion: "sole turns out"
 };
 const motion = (m) => MOTION_LABEL[m] ?? pretty(m);
+
+// Phones get the compact layout: one bullet per technique, the explanation one tap away.
+// Same breakpoint as the bottom sheet in styles.css.
+const PHONE = window.matchMedia("(max-width: 759px)");
 
 export function createPanel({ dom, knowledge, viewer }) {
   const regions = new Map(knowledge.regions.map((r) => [r.id, r]));
@@ -104,8 +109,12 @@ export function createPanel({ dom, knowledge, viewer }) {
       else if (targets) attacks.push(t);
       else if (grips_) grips.push(t);
     }
+    // Fundamentals first, fancy stuff last (D-4); then the techniques that mainly attack this region.
     const prim = (t) => (t.primary_target.region === regionId ? 0 : 1);
-    attacks.sort((a, b) => prim(a) - prim(b) || a.name.localeCompare(b.name));
+    const byTier = (a, b) => (TIER_RANK[a.tier] ?? 1) - (TIER_RANK[b.tier] ?? 1);
+    attacks.sort((a, b) => byTier(a, b) || prim(a) - prim(b) || a.name.localeCompare(b.name));
+    grips.sort((a, b) => byTier(a, b) || a.name.localeCompare(b.name));
+    controls.sort((a, b) => byTier(a, b) || a.name.localeCompare(b.name));
     return { attacks, grips, controls };
   }
 
@@ -137,13 +146,12 @@ export function createPanel({ dom, knowledge, viewer }) {
       el("button", { type: "button", class: "btn", onclick: (e) => {
         if (!sourcesBox) {
           sourcesBox = el("div", { class: "sources" }, "Sources", el("ul", {}, ...t.sources.map(sourceLine)), t.notes ? el("p", { class: "small" }, "Note: " + t.notes) : null);
-          e.currentTarget.closest(".card").append(sourcesBox);
+          e.currentTarget.parentElement.after(sourcesBox);
         } else { sourcesBox.remove(); sourcesBox = null; }
       } }, `Sources (${t.sources.length})`)
     );
 
-    return el("article", { class: "card", "data-technique": t.id },
-      el("h3", {}, t.name, t.aliases?.length ? el("span", { class: "aliases" }, t.aliases.join(" · ")) : null),
+    const body = [
       el("div", { class: "badges" },
         el("span", { class: "badge cat" }, pretty(t.subcategory) || CAT_LABEL[t.category]),
         el("span", { class: `badge belt-${belt}` }, ruleTxt),
@@ -157,7 +165,21 @@ export function createPanel({ dom, knowledge, viewer }) {
       el("div", { class: "badges" }, ...posBadges),
       notes.length ? el("ul", { class: "pos-notes" }, ...notes) : null,
       t.ibjjf?.note ? el("p", { class: "small muted" }, "Rules: " + t.ibjjf.note) : null,
-      actions);
+      actions];
+    const aliases = t.aliases?.length ? el("span", { class: "aliases" }, t.aliases.join(" · ")) : null;
+    if (!PHONE.matches) return el("article", { class: "card", "data-technique": t.id }, el("h3", {}, t.name, aliases), ...body);
+
+    // Phone: a bullet line (name + where you hit it from); everything else collapses under it.
+    const where = t.positions.filter(positionMatches);
+    const hint = [gripOnly ? `grip → ${regions.get(t.primary_target.region)?.label.toLowerCase()}` : null,
+      ...where.slice(0, 3).map((p) => positions.get(p.position)?.label ?? p.position),
+      where.length > 3 ? `+${where.length - 3}` : null].filter(Boolean).join(" · ");
+    return el("article", { class: "card compact", "data-technique": t.id },
+      el("details", { class: "tech" },
+        el("summary", {},
+          el("span", { class: "tech-name" }, t.name, t.confidence === "low" ? el("span", { class: "badge conf-low" }, "low conf") : null),
+          hint ? el("span", { class: "tech-hint" }, hint) : null),
+        el("div", { class: "tech-body" }, aliases ? el("p", { class: "aliases" }, aliases.textContent) : null, ...body)));
   }
 
   // The precise anatomy (sourced mechanism + named structures) stays one tap away for anyone who wants it.
@@ -194,12 +216,19 @@ export function createPanel({ dom, knowledge, viewer }) {
     const tabs = [["attacks", "Attacks", b.attacks.length], ["grips", "Grips", b.grips.length], ["controls", "Controls", b.controls.length], ["joint", "Joint", null]];
     if (!tabs.some(([id]) => id === tab)) tab = "attacks";
     const list = tab === "joint" ? [jointPanel(r.id)]
-      : (b[tab].length ? b[tab].map((t) => card(t, r.id)) : [el("p", { class: "empty" }, "Nothing sourced for this filter yet. Widen the position or role filter.")]);
+      : (b[tab].length ? b[tab].flatMap((t, i, all) => [
+          t.tier === "advanced" && all[i - 1]?.tier !== "advanced" && i > 0 ? el("p", { class: "tier-divider" }, "More advanced") : null,
+          card(t, r.id)]).filter(Boolean)
+        : [el("p", { class: "empty" }, "Nothing sourced for this filter yet. Widen the position or role filter.")]);
     dom.panelRegion.replaceChildren(
       el("div", { class: "region-head" },
         el("button", { type: "button", class: "ghost back", "aria-label": "Back to regions", onclick: () => select(null) }, "←"),
-        el("div", {}, el("h2", {}, r.label, selection.side ? ` (${selection.side === "L" ? "left" : "right"})` : ""), el("p", { class: "anatomy" }, r.plain),
-          el("details", { class: "anatomy-detail" }, el("summary", {}, "Anatomy detail"), el("p", {}, r.anatomy))),
+        el("div", {}, el("h2", {}, r.label, selection.side ? ` (${selection.side === "L" ? "left" : "right"})` : ""),
+          PHONE.matches
+            ? el("details", { class: "anatomy-detail about" }, el("summary", {}, `About the ${r.label.toLowerCase()}`),
+              el("p", { class: "anatomy" }, r.plain), el("p", {}, r.anatomy))
+            : [el("p", { class: "anatomy" }, r.plain),
+              el("details", { class: "anatomy-detail" }, el("summary", {}, "Anatomy detail"), el("p", {}, r.anatomy))]),
         selection.side ? el("div", { class: "segmented side-toggle", role: "group", "aria-label": "Side" },
           ...["L", "R"].map((sd) => el("button", { type: "button", class: selection.side === sd ? "is-active" : "", "data-side": sd, onclick: () => select(r.id, sd) }, sd))) : null),
       el("div", { class: "tabs", role: "tablist" }, ...tabs.map(([id, label, n]) =>
@@ -226,7 +255,7 @@ export function createPanel({ dom, knowledge, viewer }) {
     }
     rerender();
   }
-  function rerender() { renderHome(); renderRegion(); }
+  function rerender() { renderHome(); renderRegion(); renderFilterToggle(); }
 
   // ---- sheet -----------------------------------------------------------------------------
   const order = ["peek", "half", "full"];
@@ -244,6 +273,19 @@ export function createPanel({ dom, knowledge, viewer }) {
     dom.app.dataset.sheet = order[Math.max(0, Math.min(order.length - 1, i + (dy < 0 ? 1 : -1)))];
     e.preventDefault();
   });
+
+  // ---- phone: filters fold away behind one button ----------------------------------------
+  function renderFilterToggle() {
+    const n = [filter.group, filter.position, filter.role].filter(Boolean).length;
+    dom.filterToggle.textContent = n ? `Filters · ${n}` : "Filters";
+    dom.filterToggle.classList.toggle("is-active", n > 0);
+    dom.filterToggle.setAttribute("aria-expanded", dom.app.dataset.filters === "open");
+  }
+  dom.filterToggle.addEventListener("click", () => {
+    dom.app.dataset.filters = dom.app.dataset.filters === "open" ? "" : "open";
+    renderFilterToggle();
+  });
+  PHONE.addEventListener("change", rerender);
 
   renderGroupChips();
   renderPositionSelect();

@@ -24,6 +24,8 @@ async function shoot(browserType, device, name) {
   await page.locator('#regionList button[data-region="shoulder"]').click();
   await page.waitForTimeout(900);
   await page.screenshot({ path: `${out}/${name}-shoulder.png` });
+  const kimuraBullet = page.locator('article[data-technique="kimura"] .tech > summary');
+  if (await kimuraBullet.count()) await kimuraBullet.click(); // phone: open the bullet first
   await page.locator('article[data-technique="kimura"] button[data-demo]').click();
   await page.waitForTimeout(1200);
   await page.screenshot({ path: `${out}/${name}-kimura-demo.png` });

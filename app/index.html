@@ -26,6 +26,7 @@
           <p>Tap a joint. Revise the attack.</p>
         </div>
         <div class="top-actions">
+          <button id="filterToggle" type="button" class="ghost filter-toggle" aria-controls="filters" aria-expanded="false">Filters</button>
           <button id="resetPoseButton" type="button" class="ghost" title="Reset pose and camera">Reset</button>
           <a id="arLink" class="ghost ar-link" href="./models/anatomy-rig.usdz" rel="ar" hidden>
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" alt="" />
@@ -34,7 +35,7 @@
         </div>
       </header>
 
-      <section class="filters" aria-label="Filters">
+      <section class="filters" id="filters" aria-label="Filters">
         <div class="chip-row" id="groupChips" role="tablist" aria-label="Position group"></div>
         <div class="filter-controls">
           <label class="select-wrap">
@@ -67,7 +68,7 @@
           <div class="panel-scroll" id="panelScroll">
             <section id="panelHome" class="panel-home">
               <h2>Choose a body region</h2>
-              <p class="muted">Tap the figure, or pick a region below. The figure is the <strong>defender</strong>: every entry is something you can do <em>to</em> that joint, filtered by the position you are in.</p>
+              <p class="muted intro">Tap the figure, or pick a region below. The figure is the <strong>defender</strong>: every entry is something you can do <em>to</em> that joint, filtered by the position you are in.</p>
               <ul class="region-list" id="regionList"></ul>
               <p class="muted small">Submissions are dangerous. Drill under a qualified instructor and tap early.</p>
             </section>
@@ -78,8 +79,8 @@
 
       <footer class="foot">
         <span id="versionLabel">v—</span>
-        <span>·</span>
-        <span id="kbLabel">—</span>
+        <span class="kb">·</span>
+        <span id="kbLabel" class="kb">—</span>
         <span>·</span>
         <a href="https://github.com/careylzh/bjjvisualiser" target="_blank" rel="noopener">source</a>
       </footer>

@@ -31,6 +31,7 @@ button, select, a.ghost { font: inherit; }
 .app {
   display: grid;
   grid-template-rows: auto auto 1fr auto;
+  grid-template-areas: "top" "filters" "stage" "foot"; /* named, so a hidden filter row cannot shift the stage */
   height: 100vh;
   height: 100dvh;
   padding-top: var(--sat);
@@ -66,6 +67,7 @@ button, select, a.ghost { font: inherit; }
 .segmented button { border: 0; border-radius: 0; }
 .segmented button + button { border-left: 1px solid var(--line); }
 
+.top-bar { grid-area: top; } .filters { grid-area: filters; } .stage { grid-area: stage; } .foot { grid-area: foot; }
 .stage { position: relative; min-height: 0; }
 .viewport { position: absolute; inset: 0; touch-action: none; background: radial-gradient(120% 90% at 50% 20%, #1a222b 0%, #0e1216 70%); }
 .viewport canvas { display: block; width: 100%; height: 100%; }
@@ -197,3 +199,31 @@ button, select, a.ghost { font: inherit; }
 }
 
 @media (prefers-reduced-motion: reduce) { .panel { transition: none; } }
+
+/* Phone (<760 px): a reminder, not a textbook. The figure gets the space; filters fold behind one
+   button; each technique is one bullet line and its explanation opens on tap (panel.js, PHONE). */
+.filter-toggle { display: none; }
+@media (max-width: 759px) {
+  .brand p, .panel-home .intro, .foot .kb { display: none; }
+  .top-bar { padding-bottom: 4px; }
+  .filter-toggle { display: inline-flex; }
+  .filter-toggle.is-active { background: var(--accent-soft); border-color: var(--accent); color: #ffd9c9; }
+  .app:not([data-filters="open"]) .filters { display: none; }
+  .app[data-sheet="half"] { --sheet-h: 50%; }
+  .region-head { margin-bottom: 4px; }
+  .tabs { margin: 4px 0 6px; }
+
+  .card.compact { background: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; padding: 0; margin: 0; }
+  .card.compact .tech > summary { list-style: none; display: grid; grid-template-columns: auto 1fr auto; column-gap: 10px;
+    align-items: baseline; padding: 11px 2px; cursor: pointer; min-height: 44px; }
+  .card.compact .tech > summary::-webkit-details-marker { display: none; }
+  .card.compact .tech > summary::before { content: "•"; color: var(--accent); font-weight: 700; }
+  .card.compact .tech > summary::after { content: "›"; color: var(--muted); transition: transform 0.15s; }
+  .card.compact .tech[open] > summary::after { transform: rotate(90deg); }
+  .tech-name { font-weight: 600; display: inline-flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+  .tech-hint { grid-column: 2; color: var(--muted); font-size: 0.78rem; }
+  .tech-body { padding: 0 2px 12px 18px; }
+  .tech-body .aliases { margin: 0; color: var(--muted); font-size: 0.78rem; }
+}
+.tier-divider { margin: 12px 0 4px; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+@media (min-width: 1440px) { .card-list > .tier-divider { grid-column: 1 / -1; } }

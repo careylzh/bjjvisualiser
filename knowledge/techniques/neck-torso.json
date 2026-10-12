@@ -98,6 +98,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": "Physiology literature (Mitchell 2012; Int J Neurosci review) says carotid compression, jugular compression and carotid baroreceptor stimulation all contribute; it is not purely arterial occlusion."
   },
   {
@@ -207,6 +208,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": "Blood vs air split depends on forearm placement; coaching sources agree the high-elbow version is primarily carotid and the low 'wrist in the throat' version is primarily tracheal."
   },
   {
@@ -411,6 +413,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -503,6 +506,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": "Wikipedia cites a 7.2 s mean time to unconsciousness for the standard version (Stellpflug et al.)."
   },
   {
@@ -595,6 +599,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -742,6 +747,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "fundamental",
     "notes": "Marcelo Garcia's 2011 book does not clearly include this choke; sourced from his instructional descriptions instead."
   },
   {
@@ -827,6 +833,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -894,6 +901,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -972,6 +980,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -1198,6 +1207,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -1411,6 +1421,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Whether a given application is a 'choke with spinal lock' or a pure crank is a referee judgement."
   },
   {
@@ -1492,6 +1503,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -1557,6 +1569,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -1619,6 +1632,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Sources differ on the exact arm/leg path; no textbook treatment (it is a 2010s-era technique)."
   },
   {
@@ -1707,6 +1721,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Primarily tracheal in most descriptions; legality inferred from absence in the official table and fan tables that mark it legal."
   },
   {
@@ -1770,6 +1785,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -1910,6 +1926,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -2050,6 +2067,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -2148,6 +2166,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -2220,6 +2239,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "advanced",
     "notes": "Rare in BJJ; included for completeness of spinal locks."
   },
   {
@@ -2369,6 +2389,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -2456,6 +2477,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -2691,6 +2713,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -2768,6 +2791,7 @@
       }
     ],
     "confidence": "medium",
+    "tier": "fundamental",
     "notes": "Primary target is arguably shoulder; listed here because it is a torso control."
   },
   {
@@ -2849,6 +2873,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -2916,6 +2941,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "advanced",
     "notes": ""
   },
   {
@@ -2995,6 +3021,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
@@ -3087,6 +3114,7 @@
       }
     ],
     "confidence": "high",
+    "tier": "fundamental",
     "notes": ""
   },
   {
